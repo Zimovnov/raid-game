@@ -11,6 +11,9 @@
 - **PASSED на VPS:** native SQLite/sharp и 5/5 тестов патчей; предварительный запуск/профиль/WebSocket на отдельной SQLite; SHA 362 файлов кода основного и альтернативного вариантов.
 - **PASSED через публичный HTTPS с VPS:** health, HSTS, HTML, JS/CSS и выборочные GLB/PNG совпали с локальными байтами; SHA всех 397 публичных ресурсов проверены на диске. Приватная библиотека патчей без входа возвращает 401.
 - **PASSED через действующий сервер:** HTTPS login/profile/WSS HELLO/logout. Создан и удалён только временный приёмочный аккаунт; содержимое двух существовавших профилей не изменилось. Настоящий рейд с несколькими внешними браузерами и вид патча товарища **NOT RUN**.
+- **PASSED из настоящего браузера на Mac:** публичная страница входа открылась без ошибок консоли; `/health` подтвердил новую сборку и открытый допуск. Прежнее сетевое ограничение отчёта 0.6 в этой проверке не воспроизвелось.
+
+Исходники, runtime-ресурсы, актуальные Blender masters и генераторы опубликованы в [Zimovnov/raid-game](https://github.com/Zimovnov/raid-game), ветка `main`. Секреты, SQLite, приватные фотографии, локальные backups и исторические выпуски не включены.
 
 Журналы хранятся локально в `artifacts/overhaul-release-verify.log`, `overhaul-deploy.log`, `overhaul-production-acceptance.json`, `overhaul-live-login.json`, `overhaul-production-open.log`, `overhaul-vps-patch-tests.log`, `overhaul-rollback-integrity.log`. Каталог журналов не включён в Git; данные профилей и credentials не публикуются.
 
