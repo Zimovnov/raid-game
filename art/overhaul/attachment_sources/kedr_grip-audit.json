@@ -1,0 +1,108 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/kedr_grip.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "pistolgrip__kedr_grip": {
+      "0": {
+        "triangles": 92,
+        "vertices": 184,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0284000001847744,
+            -0.13700000941753387,
+            -0.03800000995397568
+          ],
+          "max": [
+            0.0284000001847744,
+            0.07000001519918442,
+            0.03198748826980591
+          ]
+        }
+      },
+      "1": {
+        "triangles": 52,
+        "vertices": 96,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0284000001847744,
+            -0.13700000941753387,
+            -0.03800000995397568
+          ],
+          "max": [
+            0.0284000001847744,
+            0.07000001519918442,
+            0.03199998661875725
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/kedr_grip-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "pistolgrip__kedr_grip": {
+      "min": [
+        -0.0284000001847744,
+        -0.13700000941753387,
+        -0.03800000995397568
+      ],
+      "max": [
+        0.0284000001847744,
+        0.07000001519918442,
+        0.03198748826980591
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.0284000001847744,
+      -0.032000016421079636,
+      -0.13700000941753387
+    ],
+    "max": [
+      0.0284000001847744,
+      0.03800002112984657,
+      0.07000001519918442
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

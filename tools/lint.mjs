@@ -1,0 +1,6 @@
+import ts from 'typescript';import fs from 'node:fs';
+const file=ts.readConfigFile('tsconfig.json',ts.sys.readFile);if(file.error)throw Error(ts.flattenDiagnosticMessageText(file.error.messageText,'\n'));const config=ts.parseJsonConfigFileContent(file.config,ts.sys,'.');
+const program=ts.createProgram(config.fileNames,{...config.options,noEmit:true});const diagnostics=ts.getPreEmitDiagnostics(program);const problems=[];let count=0;
+for(const source of program.getSourceFiles()){if(!source.fileName.replaceAll('\\','/').includes('/src/')&&!source.fileName.startsWith('src/'))continue;count++;function visit(n){if(ts.isDebuggerStatement(n))problems.push(source.fileName+': debugger statement');if(ts.isCallExpression(n)&&ts.isIdentifier(n.expression)&&['eval','Function'].includes(n.expression.text))problems.push(source.fileName+': dynamic code evaluation');ts.forEachChild(n,visit);}visit(source);}
+for(const d of diagnostics)problems.push(ts.flattenDiagnosticMessageText(d.messageText,'\n'));
+if(!fs.existsSync('package-lock.json'))problems.push('Missing lockfile');if(problems.length){console.error(problems.join('\n'));process.exit(1);}console.log(`Lint: ${count} source modules; TypeScript strict/unused checks; no debugger or executable-string evaluation.`);

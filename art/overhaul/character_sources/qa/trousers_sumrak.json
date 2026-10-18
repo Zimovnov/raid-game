@@ -1,0 +1,484 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/trousers_sumrak.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "trousers_sumrak_pelvis": {
+      "0": {
+        "triangles": 264,
+        "vertices": 468,
+        "objects": 4,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001",
+          "RAID_seam.001",
+          "RAID_zip.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.20200000703334808,
+            -0.07900000363588333,
+            -0.13349999487400055
+          ],
+          "max": [
+            0.20200000703334808,
+            0.08799999952316284,
+            0.13300000131130219
+          ]
+        }
+      },
+      "1": {
+        "triangles": 76,
+        "vertices": 144,
+        "objects": 3,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001",
+          "RAID_zip.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.19380000233650208,
+            -0.07900000363588333,
+            -0.13349999487400055
+          ],
+          "max": [
+            0.19380000233650208,
+            0.0820000022649765,
+            0.13300000131130219
+          ]
+        }
+      }
+    },
+    "trousers_sumrak_shinL": {
+      "0": {
+        "triangles": 288,
+        "vertices": 540,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10790999978780746,
+            -0.3179999887943268,
+            -0.1080000028014183
+          ],
+          "max": [
+            0.10790999978780746,
+            0.07699999958276749,
+            0.10999999940395355
+          ]
+        }
+      },
+      "1": {
+        "triangles": 108,
+        "vertices": 204,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10251449793577194,
+            -0.3179999887943268,
+            -0.1080000028014183
+          ],
+          "max": [
+            0.10251449793577194,
+            0.07699999958276749,
+            0.10999999940395355
+          ]
+        }
+      }
+    },
+    "trousers_sumrak_shinR": {
+      "0": {
+        "triangles": 288,
+        "vertices": 540,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10790999978780746,
+            -0.3179999887943268,
+            -0.1080000028014183
+          ],
+          "max": [
+            0.10790999978780746,
+            0.07699999958276749,
+            0.10999999940395355
+          ]
+        }
+      },
+      "1": {
+        "triangles": 108,
+        "vertices": 204,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10251449793577194,
+            -0.3179999887943268,
+            -0.1080000028014183
+          ],
+          "max": [
+            0.10251449793577194,
+            0.07699999958276749,
+            0.10999999940395355
+          ]
+        }
+      }
+    },
+    "trousers_sumrak_thighL": {
+      "0": {
+        "triangles": 184,
+        "vertices": 336,
+        "objects": 3,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001",
+          "RAID_seam.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.12399999797344208,
+            -0.3499999940395355,
+            -0.1120000034570694
+          ],
+          "max": [
+            0.11118000000715256,
+            0.02199999988079071,
+            0.11999999731779099
+          ]
+        }
+      },
+      "1": {
+        "triangles": 80,
+        "vertices": 156,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.12399999797344208,
+            -0.3499999940395355,
+            -0.1120000034570694
+          ],
+          "max": [
+            0.10562100261449814,
+            0.02199999988079071,
+            0.11999999731779099
+          ]
+        }
+      }
+    },
+    "trousers_sumrak_thighR": {
+      "0": {
+        "triangles": 184,
+        "vertices": 336,
+        "objects": 3,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001",
+          "RAID_seam.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.11118000000715256,
+            -0.3499999940395355,
+            -0.1120000034570694
+          ],
+          "max": [
+            0.12399999797344208,
+            0.02199999988079071,
+            0.11999999731779099
+          ]
+        }
+      },
+      "1": {
+        "triangles": 80,
+        "vertices": 156,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10562100261449814,
+            -0.3499999940395355,
+            -0.1120000034570694
+          ],
+          "max": [
+            0.12399999797344208,
+            0.02199999988079071,
+            0.11999999731779099
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "reinforce_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/trousers_sumrak.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "trousers_sumrak_pelvis": {
+      "min": [
+        -0.20200000703334808,
+        -0.07900000363588333,
+        -0.13349999487400055
+      ],
+      "max": [
+        0.20200000703334808,
+        0.08799999952316284,
+        0.13300000131130219
+      ]
+    },
+    "trousers_sumrak_shinL": {
+      "min": [
+        -0.10790999978780746,
+        -0.3179999887943268,
+        -0.1080000028014183
+      ],
+      "max": [
+        0.10790999978780746,
+        0.07699999958276749,
+        0.10999999940395355
+      ]
+    },
+    "trousers_sumrak_shinR": {
+      "min": [
+        -0.10790999978780746,
+        -0.3179999887943268,
+        -0.1080000028014183
+      ],
+      "max": [
+        0.10790999978780746,
+        0.07699999958276749,
+        0.10999999940395355
+      ]
+    },
+    "trousers_sumrak_thighL": {
+      "min": [
+        -0.12399999797344208,
+        -0.3499999940395355,
+        -0.1120000034570694
+      ],
+      "max": [
+        0.11118000000715256,
+        0.02199999988079071,
+        0.11999999731779099
+      ]
+    },
+    "trousers_sumrak_thighR": {
+      "min": [
+        -0.11118000000715256,
+        -0.3499999940395355,
+        -0.1120000034570694
+      ],
+      "max": [
+        0.12399999797344208,
+        0.02199999988079071,
+        0.11999999731779099
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.20200000703334808,
+      -0.13300000131130219,
+      -0.3499999940395355
+    ],
+    "max": [
+      0.20200000703334808,
+      0.13349999487400055,
+      0.08799999952316284
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

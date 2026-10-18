@@ -1,0 +1,153 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/head_bandana.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "head_bandana_head": {
+      "0": {
+        "triangles": 176,
+        "vertices": 324,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth",
+          "RAID_seam"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.14100000262260437,
+            -0.02747141756117344,
+            -0.12300000339746475
+          ],
+          "max": [
+            0.14100000262260437,
+            0.16919554769992828,
+            0.15399999916553497
+          ]
+        }
+      },
+      "1": {
+        "triangles": 112,
+        "vertices": 216,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth",
+          "RAID_seam"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.13394999504089355,
+            -0.02747141756117344,
+            -0.12300000339746475
+          ],
+          "max": [
+            0.13394999504089355,
+            0.16919554769992828,
+            0.15399999916553497
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "cloth_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/head_bandana.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "head_bandana_head": {
+      "min": [
+        -0.14100000262260437,
+        -0.02747141756117344,
+        -0.12300000339746475
+      ],
+      "max": [
+        0.14100000262260437,
+        0.16919554769992828,
+        0.15399999916553497
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.14100000262260437,
+      -0.15399999916553497,
+      -0.02747141756117344
+    ],
+    "max": [
+      0.14100000262260437,
+      0.12300000339746475,
+      0.16919554769992828
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

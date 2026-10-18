@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/870_wood.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__870_wood": {
+      "0": {
+        "triangles": 256,
+        "vertices": 512,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_wood.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.051500000059604645,
+            -0.17000003159046173,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.051500000059604645,
+            0.03475702926516533,
+            0.25200003385543823
+          ]
+        }
+      },
+      "1": {
+        "triangles": 84,
+        "vertices": 144,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_wood.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.051500000059604645,
+            -0.17000003159046173,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.051500000059604645,
+            0.03499997779726982,
+            0.25099998712539673
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "wood-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/870_wood-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__870_wood": {
+      "min": [
+        -0.051500000059604645,
+        -0.17000003159046173,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.051500000059604645,
+        0.03475702926516533,
+        0.25200003385543823
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.051500000059604645,
+      -0.25200003385543823,
+      -0.17000004649162292
+    ],
+    "max": [
+      0.051500000059604645,
+      0.19000005722045898,
+      0.035000029951334
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

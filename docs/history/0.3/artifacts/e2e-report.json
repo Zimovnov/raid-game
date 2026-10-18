@@ -1,0 +1,7 @@
+{
+  "scope": "Real Chromium + two isolated profiles + actual WebRTC DataChannel, loopback signaling. This is not a physical-device or cross-NAT test.",
+  "browser": "144.0.7559.96",
+  "status": "BLOCKED",
+  "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://localhost:18300/?signal=local\nCall log:\n  - navigating to \"http://localhost:18300/?signal=local\", waiting until \"networkidle\"\n",
+  "checks": []
+}

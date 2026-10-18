@@ -1,0 +1,23 @@
+{
+  "scene": "G17_Roundtrip",
+  "mesh_count": 7,
+  "triangles": 24788,
+  "dimensions_m": [
+    0.03231000155210495,
+    0.20031020045280457,
+    0.13154353573918343
+  ],
+  "materials": [
+    "G17_AtlasPBR.003"
+  ],
+  "hierarchy": {
+    "Roundtrip_G17_GAME_ROOT": null,
+    "Roundtrip_G17_BarrelVisual_LOD0": "Roundtrip_G17_GAME_ROOT",
+    "Roundtrip_G17_Frame_LOD0": "Roundtrip_G17_GAME_ROOT",
+    "Roundtrip_G17_Magazine_LOD0": "Roundtrip_G17_GAME_ROOT",
+    "Roundtrip_G17_Slide_LOD0": "Roundtrip_G17_GAME_ROOT",
+    "Roundtrip_G17_FrontSight_LOD0": "Roundtrip_G17_Slide_LOD0",
+    "Roundtrip_G17_RearSight_LOD0": "Roundtrip_G17_Slide_LOD0",
+    "Roundtrip_G17_Trigger_LOD0": "Roundtrip_G17_GAME_ROOT"
+  }
+}

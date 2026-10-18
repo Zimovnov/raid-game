@@ -1,0 +1,35 @@
+{
+  "scene": "G17_Asset",
+  "frame": 1,
+  "root_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "images": {
+    "BaseColor": {
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    "Normal": {
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    "ORM": {
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    }
+  }
+}

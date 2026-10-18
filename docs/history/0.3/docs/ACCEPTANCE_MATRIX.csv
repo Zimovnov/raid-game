@@ -1,0 +1,172 @@
+﻿ID,Status,Scope,Evidence,Note
+A01,PASS,"Чистая offline-установка Node/lockfile, Linux",artifacts/packaging-test.json,Локальный tarball TypeScript; exit 0.
+A02,PASS,"Строгая проверка src, AST lint и production build",artifacts/verify.log,Все игровые src включены в TypeScript strict; dist создан.
+A03,PASS,"Строгая проверка src, AST lint и production build",artifacts/verify.log,Все игровые src включены в TypeScript strict; dist создан.
+A04,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+A05,PASS,"Node launcher Linux, кириллица и пробелы в пути",artifacts/packaging-test.json,Выбран следующий порт при занятом 18340; macOS/Windows NOT RUN.
+A06,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+A07,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+A08,PASS,Настоящий HTTP-сервер,tests/server.test.mjs; artifacts/verify.log,"Неверный asset получает 404, не HTML; проверен MIME модулей."
+A09,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+A10,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+A11,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+A12,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+B01,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+B02,PASS,Чистая валидация и изолированный DOM,tests/domain.test.mjs; artifacts/ui-test.json,"Нормализация имени, HTML/контроли/длина; DOM-шаблоны экранируют текст."
+B03,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+B04,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+B05,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+B06,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+B07,NOT RUN,Полное приложение на четырёх разрешениях,artifacts/ui-test.json,48 изолированных DOM-проверок PASS; весь клиент и обработчики не запущены.
+B08,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+B09,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+B10,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+B11,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+B12,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+C01,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+C02,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C03,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C04,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C05,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+C06,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+C07,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+C08,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C09,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C10,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C11,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C12,PASS,"Чистый domain: экземпляры, сетка, атомарные экономические операции",tests/domain.test.mjs; tests/ammunition.test.mjs; artifacts/verify.log,Состояние проверено без IndexedDB и пользовательских кликов. Интеграция сохранений отдельно NOT RUN.
+C13,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+C14,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+D01,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D02,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D03,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D04,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D05,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D06,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D07,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D08,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D09,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D10,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D11,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D12,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D13,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D14,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D15,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+D16,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+D17,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+D18,PASS,Production simulation в Node,tests/simulation.test.mjs; tests/ammunition.test.mjs; tests/expansion.test.mjs,"Мuzzle obstruction, изоляция тира, раздельные семейства, спам/отмена перезарядки; не браузерная игра."
+D19,PASS,Production simulation в Node,tests/simulation.test.mjs; tests/ammunition.test.mjs; tests/expansion.test.mjs,"Мuzzle obstruction, изоляция тира, раздельные семейства, спам/отмена перезарядки; не браузерная игра."
+D20,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+D21,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+D22,PASS,Production simulation в Node,tests/simulation.test.mjs; tests/ammunition.test.mjs; tests/expansion.test.mjs,"Мuzzle obstruction, изоляция тира, раздельные семейства, спам/отмена перезарядки; не браузерная игра."
+D23,PASS,Production simulation в Node,tests/simulation.test.mjs; tests/ammunition.test.mjs; tests/expansion.test.mjs,"Мuzzle obstruction, изоляция тира, раздельные семейства, спам/отмена перезарядки; не браузерная игра."
+D24,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+D25,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+D26,PASS,Включённый виртуальный набор: чистый domain и геометрия,tests/domain.test.mjs; tests/expansion.test.mjs; artifacts/content-validation.json,"Не проверенные реальные брендовые сочетания. D15: сериализация дерева, не запись IndexedDB. Полная парная матрица сочетаний NOT RUN."
+E01/city,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E01/factory,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E01/mall,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E01/park,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E01/village,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E02/city,PASS,"Маршрут к двум выходам настоящим контроллером, Node",tests/simulation.test.mjs,"Боты отключены для теста маршрута; управление через тестовые INPUT, не мышь/клавиатура браузера."
+E02/factory,PASS,"Маршрут к двум выходам настоящим контроллером, Node",tests/simulation.test.mjs,"Боты отключены для теста маршрута; управление через тестовые INPUT, не мышь/клавиатура браузера."
+E02/mall,PASS,"Маршрут к двум выходам настоящим контроллером, Node",tests/simulation.test.mjs,"Боты отключены для теста маршрута; управление через тестовые INPUT, не мышь/клавиатура браузера."
+E02/park,PASS,"Маршрут к двум выходам настоящим контроллером, Node",tests/simulation.test.mjs,"Боты отключены для теста маршрута; управление через тестовые INPUT, не мышь/клавиатура браузера."
+E02/village,PASS,"Маршрут к двум выходам настоящим контроллером, Node",tests/simulation.test.mjs,"Боты отключены для теста маршрута; управление через тестовые INPUT, не мышь/клавиатура браузера."
+E03/city,NOT RUN,Полный обход POI/лут-точек персонажем,artifacts/content-validation.json,Навигационные подходы 30/30 найдены; это не проход контроллером до каждого предмета.
+E03/factory,NOT RUN,Полный обход POI/лут-точек персонажем,artifacts/content-validation.json,Навигационные подходы 30/30 найдены; это не проход контроллером до каждого предмета.
+E03/mall,NOT RUN,Полный обход POI/лут-точек персонажем,artifacts/content-validation.json,Навигационные подходы 30/30 найдены; это не проход контроллером до каждого предмета.
+E03/park,NOT RUN,Полный обход POI/лут-точек персонажем,artifacts/content-validation.json,Навигационные подходы 30/30 найдены; это не проход контроллером до каждого предмета.
+E03/village,NOT RUN,Полный обход POI/лут-точек персонажем,artifacts/content-validation.json,Навигационные подходы 30/30 найдены; это не проход контроллером до каждого предмета.
+E04/city,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E04/factory,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E04/mall,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E04/park,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E04/village,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E05/city,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E05/factory,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E05/mall,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E05/park,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E05/village,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E06/city,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E06/factory,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E06/mall,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E06/park,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E06/village,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E07/city,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E07/factory,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E07/mall,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E07/park,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E07/village,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E08/city,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E08/factory,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E08/mall,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E08/park,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E08/village,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E09/city,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E09/factory,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E09/mall,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E09/park,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E09/village,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E10/city,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E10/factory,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E10/mall,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E10/park,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E10/village,NOT RUN,Полный критерий карты,,Требуется полная браузерная проверка соответствующей карты.
+E11/city,NOT RUN,Overview и характерные игровые кадры,artifacts/native-city-overview.png,"Есть нативные диагностические изображения, не полный комплект 3–5 кадров сыгранного уровня."
+E11/factory,NOT RUN,Overview и характерные игровые кадры,artifacts/native-factory-overview.png,"Есть нативные диагностические изображения, не полный комплект 3–5 кадров сыгранного уровня."
+E11/mall,NOT RUN,Overview и характерные игровые кадры,artifacts/native-mall-overview.png,"Есть нативные диагностические изображения, не полный комплект 3–5 кадров сыгранного уровня."
+E11/park,NOT RUN,Overview и характерные игровые кадры,artifacts/native-park-overview.png,"Есть нативные диагностические изображения, не полный комплект 3–5 кадров сыгранного уровня."
+E11/village,NOT RUN,Overview и характерные игровые кадры,artifacts/native-village-overview.png,"Есть нативные диагностические изображения, не полный комплект 3–5 кадров сыгранного уровня."
+E12/city,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E12/factory,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E12/mall,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E12/park,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+E12/village,BLOCKED,Браузерный маршрут/двери/измерение FPS,artifacts/e2e-report.json,Нативный GLES и Node CPU не заменяют браузерный сценарий.
+F01,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F02,PASS,"Production simulation, ограниченные тестовые сцены",tests/simulation.test.mjs; tests/expansion.test.mjs,Память последней видимой точки; единственный труп/остаток боезапаса. Не полный AI-плейтест.
+F03,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F04,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F05,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F06,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F07,PASS,"Production simulation, ограниченные тестовые сцены",tests/simulation.test.mjs; tests/expansion.test.mjs,Память последней видимой точки; единственный труп/остаток боезапаса. Не полный AI-плейтест.
+F08,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F09,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F10,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F11,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F12,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F13,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+F14,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+G01,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G02,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G03,NOT RUN,Версии карты/сборки через реальный канал,tests/protocol.test.mjs,Харнесс с тестовым транспортом отклоняет неверные build/token; реальный канал заблокирован.
+G04,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G05,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G06,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G07,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G08,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G09,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G10,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G11,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G12,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G13,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G14,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G15,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G16,NOT RUN,Общий PeerServer и полная совместимость сигнализации,src/network/transport.ts,Библиотека PeerJS не используется. Реальный сервис и полный протокол не проверены.
+G17,NOT RUN,Два физических устройства / разные сети,,Нет второго физического устройства и отдельной сети; direct/relay не подтверждены.
+G18,NOT RUN,Два физических устройства / разные сети,,Нет второго физического устройства и отдельной сети; direct/relay не подтверждены.
+G19,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+G20,NOT RUN,Четыре игрока,,Реализация ограничена двумя; четверо не рекламируются.
+H01,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H02,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H03,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H04,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H05,PASS,Повторное применение resultId к профилю,tests/domain.test.mjs; artifacts/verify.log,Чистая функция; реальный сбой браузерного хранилища не имитировался.
+H06,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H07,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H08,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H09,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H10,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H11,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.
+H12,NOT RUN,Полный критерий ТЗ,,Полный сценарий не выполнен; отдельное покрытие указано в TEST_REPORT.md.
+H13,BLOCKED,Полная браузерная проверка,artifacts/e2e-report.json; artifacts/rtc-test.json,Навигация запрещена политикой; в отдельном RTC-прогоне ноль ICE-кандидатов. Unit/протокол-проверки не повышают этот статус.

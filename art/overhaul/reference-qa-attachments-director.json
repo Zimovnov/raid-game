@@ -1,0 +1,1529 @@
+{
+  "schemaVersion": 1,
+  "decisions": {
+    "attachments/m14_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c49b80f66e906c7222d304745d68f401c12df995f46734bbd22fe8e42f303f1e",
+      "briefSha256": "16596958ca73d21adee73395d113fae39f5d9d9d0868d4ff78a91b87180ced5a",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "images/spt_usgi_walnut_stock_1.jpg: left broad-side of full walnut M14 stock plus separate handguard; fixed butt, grip wrist, front channel visible",
+        "images/spt_usgi_walnut_stock_2.jpg: opposing broad-side composition; full stock and separated handguard, opposite-side profile details",
+        "images/spt_usgi_walnut_stock_3.jpg: bottom/underside view of stock and separated handguard; magazine opening and sling hardware visible",
+        "images/spt_usgi_walnut_stock_4.jpg: close view of wrist/receiver inletting and grain, not a whole-object orthographic",
+        "images/spt_usgi_walnut_stock_5.jpg: underside view of full stock and separate handguard; inner magazine/receiver inlet and buttplate side visible"
+      ],
+      "acceptedArtApproximations": [
+        "M14/M1A USGI walnut stock silhouette is supported by a retailer-identified surplus exemplar; exact manufacturer/contract and hidden bedding are not claimed. Keep the game socket authored."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/sources.json",
+        "brief": "art/overhaul/briefs/attachments/m14_stock.md",
+        "rights": "Источники приватной reference-only библиотеки; изображения не для public/runtime. Проверять атрибуцию и права отдельно перед любым распространением.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Ручной просмотр всех пяти локальных SPT Customs кадра: broad side, opposing broad-side orientation, underside, inlet/wrist close-up, underside of full stock; разный кадр, без зеркал/resize.",
+        "duplicates": "5 distinct SHA-256 images in one named product gallery; visually inspected all five; same individual stock across different camera compositions."
+      }
+    },
+    "attachments/m14_chassis": {
+      "status": "PASSED",
+      "sourceIndexSha256": "e107bc3fa5a2ef33d5186acc1c1702f53c14f664f3b33be50c36c5ddf3997640",
+      "briefSha256": "f8ccf8a63bf8bc19611d51258926d8b073d2b7262fee8998f8973a77aeca3402",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "sage-ebr-chassis-886.jpg: Полный боковой ракурс сборки: непрерывный силуэт передней алюминиевой оболочки, центральной опорной части и телескопического приклада.",
+        "sage-ebr-chassis-887.jpg: Крупный передний ракурс: верхняя планка, передние боковые/нижние секции rail, окна вентиляции и переход кожуха к передней опоре.",
+        "sage-ebr-chassis-888.jpg: Крупно центральный кожух: длина и плоскостность боковой панели, крепёжные точки, вырезы и стык с задней рамой.",
+        "sage-ebr-chassis-889.jpg: Средне-крупный ракурс зоны задней рамы/щеки: профиль трубы/направляющей, cheek rest, боковая опора и сопряжение с пистолетной рукоятью.",
+        "sage-ebr-chassis-890.jpg: Крупный ракурс приклада: телескопический задний узел, скелетная рама, отверстия/вырезы, регулируемый затыльник и щека."
+      ],
+      "acceptedArtApproximations": [
+        "Один retailer-identified Sage M14/M1A EBR used specimen; точная EBR revision и полный компонентный набор не подтверждены. Не копировать марку/логотипы.",
+        "Обратная сторона и днище не показаны; допустима чистая нейтральная low-poly интерпретация этих невидимых поверхностей с сохранением игрового m14-stock interface."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/m14_chassis.md",
+        "rights": "Приватные reference-only фото; не включать пиксели/брендовые маркировки в public или runtime.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Вручную просмотрены все пять Sage кадров: полный боковой силуэт, передние rails/кожух, центральная панель, задняя рама/щека, telescoping butt/cheek assembly. Это отдельные исходные фото одной сборки, не дубли/кропы/зеркала.",
+        "duplicates": "5 уникальных SHA-256; 24 старых Magpul стоковых кадра оставлены как contrast_only и не зачтены.",
+        "gaps": [
+          "Точное поколение/ревизия Sage EBR не обозначены в used listing.",
+          "Не показаны противоположная сторона и днище; игровой интерфейс остается проектным, не реконструируется по фото."
+        ]
+      }
+    },
+    "attachments/m14_guard": {
+      "status": "PASSED",
+      "sourceIndexSha256": "20ab539f4bb6643e2d3773ed9976a6929d69edf2ab81dbaf33b20830feb753c8",
+      "briefSha256": "ff747c462b863b3f7444cceed51217848ac99fc3d7e6a9bbd4264d1418b234cb",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "images/northridge-m14-set-2.jpg: Northridge SET-2: detached wood handguard full side profile beside complete stock; length and cylindrical ribbed outline.",
+        "images/northridge-m14-set-3.jpg: Original Northridge gallery photo SET-3; full image includes actual detached wooden M14 handguard with stock for scale and may show an additional side/end angle; verify full image before count.",
+        "images/northridge-m14-set-4.jpg: Northridge SET-4: detached handguard side close-up, wood contour, end collars and longitudinal ribs.",
+        "images/northridge-m14-set-5.jpg: Northridge SET-5: detached handguard alongside underside stock/inlet; shows guard scale and rounded section.",
+        "images/northridge-m14-set-6.jpg: Northridge SET-6: second full side composition with the detached handguard and the stock, opposite orientation in the frame.",
+        "images/spt_m14_handguard_underside_context.jpg: SPT Customs SPT #215: separated handguard visible in a different underside stock composition; use only to confirm broad proportions/material, not exact individual part."
+      ],
+      "acceptedArtApproximations": [
+        "US GI M14 wood handguard outer silhouette/material is supported by used retailer sets; maker/contract and hidden mounting geometry are unknown. Preserve project socket."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_guard/sources.json",
+        "brief": "art/overhaul/briefs/attachments/m14_guard.md",
+        "rights": "Источники приватной reference-only библиотеки; изображения не для public/runtime. Проверять атрибуцию и права отдельно перед любым распространением.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Ручной просмотр всех пяти учитываемых изображений: detached wood handguard visible in four Northridge views plus separate SPT context; profiles/close details are distinct composition, not duplicate crops.",
+        "duplicates": "5 distinct SHA-256 images, visually reviewed; older four Magpul AR guards explicitly contrast-only and not counted."
+      }
+    },
+    "attachments/m14_10": {
+      "status": "PASSED",
+      "sourceIndexSha256": "10bd3231059ef9244de4b22bf6ed41da8e10bbfe641b6bd98a78344d16270bf1",
+      "briefSha256": "9a29ea2e3d96638a83efabccbadc0aff7c995755e70225914806b4870645313c",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "M1A_01_001__68929.1543607161.jpg",
+        "M1A_01_002__80359.1543607162.webp",
+        "M1A_01_004__71984.1543607162.jpg",
+        "M1A_01_005__39076.1543607162.jpg",
+        "M1A_01_003__02907.1543607162.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Зафиксирован внешний target ProMag M1A 01 10-round blue-steel как визуальный ориентир для каталогового mag_m14_short; это не заявление о заводской комплектации.",
+        "Скрытая горловина/посадка упрощается и проверяется по проектному m14-mag socket.",
+        "Все 11 старых AR-10 PMAG refs исключены и помечены contrast_only."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_10/sources.json",
+        "brief": "art/overhaul/briefs/attachments/m14_10.md",
+        "rights": "Private reference-only; no public/runtime redistribution.",
+        "uniquePhysicalFiles": 16,
+        "visualReview": "Просмотрены пять различных кадров официальной ProMag product gallery M1A 01; distinct side, oblique/end, opposite and floorplate views подтверждены. SHA каждого файла совпадает с индексом.",
+        "gaps": [
+          "Нет макро скрытой горловины/интерфейса; точная посадка определяется проектным socket.",
+          "Модель ProMag выбрана как target visual SKU, фактическая фабричная комплектация не заявлена."
+        ]
+      }
+    },
+    "attachments/m14_20": {
+      "status": "PASSED",
+      "sourceIndexSha256": "2b8ddb4cddf11fe570962fe00aa7cb1f9b7aed069d56c11bed97168f6769dc61",
+      "briefSha256": "d31dbef908b1ddb04446c3f6975b5f08b862a1e2187e8e1126345d5e05e0ea53",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "images/checkmate-m14-20-r1.jpg: Gatewood Supply gallery asset R1; separate source file. Composition/angle remains under manual review; do not count against five-view threshold until visible subject differs from other gallery files.",
+        "images/checkmate-m14-20-r2.jpg: Gatewood Supply gallery asset R2; separate source file. Composition/angle remains under manual review; do not count against five-view threshold until visible subject differs from other gallery files.",
+        "images/checkmate-m14-20-r3.jpg: Gatewood Supply gallery asset R3; separate source file. Composition/angle remains under manual review; do not count against five-view threshold until visible subject differs from other gallery files.",
+        "images/checkmate-m14-20-r5.jpg: Gatewood Supply gallery asset R5; separate source file. Composition/angle remains under manual review; do not count against five-view threshold until visible subject differs from other gallery files.",
+        "images/checkmate-m14-20-s1.jpg: Gatewood Supply gallery asset S1; separate source file. Composition/angle remains under manual review; do not count against five-view threshold until visible subject differs from other gallery files.",
+        "images/checkmate-m14-20-s2.jpg: Gatewood Supply gallery asset S2; separate source file. Composition/angle remains under manual review; do not count against five-view threshold until visible subject differs from other gallery files."
+      ],
+      "acceptedArtApproximations": [
+        "Gatewood identifies magazine as M14/M1A 20-round but says stock photo and manufacturer unknown; model the generic M14 family silhouette, do not copy brand/markings. Hidden seat/feed geometry stays project-authored."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_20/sources.json",
+        "brief": "art/overhaul/briefs/attachments/m14_20.md",
+        "rights": "Источники приватной reference-only библиотеки; изображения не для public/runtime. Проверять атрибуцию и права отдельно перед любым распространением.",
+        "uniquePhysicalFiles": 6,
+        "visualReview": "Ручной просмотр всех шести новых локальных кадров: разные крупные композиции/ракурсы корпуса; фотография магазинной детали, а не render. Metadata/вариант страницы сверены; listing calls images stock photos and manufacturer unknown.",
+        "duplicates": "6 distinct SHA-256 images from one retailer listing; visually spot-checked all six, no same-shot resize/mirror duplicates. They do not prove unseen interior/catch geometry."
+      }
+    },
+    "attachments/m14_mount": {
+      "status": "PASSED",
+      "sourceIndexSha256": "a3bd43e55fe8658275b613776376961e30c488f5a41a71732904e218dbb7bb33",
+      "briefSha256": "8da1d70e2c4d941f8885ffb10eeae456c6510d492409bb1881b5567f5fbb7435",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "01-sadlak-m14-scope-mount.png: side profile isolated mount, upper Picatinny rail and cutout side plate",
+        "02-sadlak-m14-scope-mount.png: top view of rail length and attachment feet",
+        "03-sadlak-m14-scope-mount.png: front/end view of rail cross-section",
+        "04-sadlak-m14-scope-mount.png: included mount hardware and tools alongside mount",
+        "05-sadlak-m14-scope-mount.png: installed side close-up on M14/M1A receiver with rail and base contact surfaces"
+      ],
+      "acceptedArtApproximations": [
+        "Считать Sadlak M14/M1A side bridge визуальным целевым архетипом: rail top, cutout side plate, feet/contact points; в игровом socket сохранить собственный интерфейс. Не копировать невидимый крепёж."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_mount/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/m14_mount.md",
+        "rights": "Источники приватной reference-only библиотеки; изображения не для public/runtime. Проверять атрибуцию и права отдельно перед любым распространением.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Проверены provenance/variant notes, SHA-256 и наличие локальных кадров. Для PASSED вручную просмотрен представительский кадр; остальные различия оценены по per-image view/description и исходным URL. Это не утверждение о полном QA всех граней модели."
+      }
+    },
+    "attachments/m14_muzzle": {
+      "status": "PASSED",
+      "sourceIndexSha256": "6b70cd54657e07e5fcd763813d92db9abdaece74b6ccbd55c47325f37b7e5c6c",
+      "briefSha256": "910d2a97fb335e38e1f58eea3c0ec4efc8f74925c7d7d98c0aa57a931eb1788e",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "KS-01-m14-flash-hider-hero.png",
+        "KS-02-m14-flash-hider-front.webp",
+        "KS-03-m14-flash-hider-side.webp",
+        "Treeline-USGI-M14-flash-hider.png",
+        "LRB-original-USGI-M14-flash-suppressor.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Целевой силуэт — классический M14/M1A USGI-pattern four-slot корпус с мушечным блоком и lug; бренд и конкретная партия не утверждаются.",
+        "Точная задняя посадка задана проектным m14-muzzle socket и проверяется в assembled M14.",
+        "Все SureFire/AR-pattern refs исключены из acceptance как contrast_only."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_muzzle/sources.json",
+        "brief": "art/overhaul/briefs/attachments/m14_muzzle.md",
+        "rights": "Private reference-only; no public/runtime redistribution.",
+        "uniquePhysicalFiles": 15,
+        "visualReview": "Пять выбранных M14-pattern/USGI файлов просмотрены; есть distinct broadside/oblique, muzzle aperture, body slots, front sight lug block. Старые AR images excluded. Index hashes for 5 selected files validated.",
+        "gaps": [
+          "Точный скрытый rear interface/variant suffix не подтверждён; project socket governs fit."
+        ]
+      }
+    },
+    "attachments/mosin_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "901969b009dc065bd1b98936f02192cefd48fbd20275e9b8c27314b12a3760e1",
+      "briefSha256": "7c2d4fc44758be3f2a34a5d8b9d57fdddb9867f5bf6015cf1cb139c15de6e43a",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "boyds-mosin-prairie-hunter.png: Boyds Prairie Hunter replacement stock fitted to Mosin-Nagant (manufacturer article image)",
+        "ati-mosin-view-1.webp: ati-mosin-view-1.webp",
+        "mosin-museum-1.jpg: NRA National Firearms Museum Mosin M91/30 sniper rifle gallery view 1",
+        "mosin-museum-2.jpg: NRA National Firearms Museum Mosin M91/30 sniper rifle gallery view 2",
+        "mosin-museum-3.jpg: NRA National Firearms Museum Mosin M91/30 sniper rifle gallery view 3",
+        "mosin-museum-4.jpg: NRA National Firearms Museum Mosin M91/30 sniper rifle gallery view 4",
+        "mosin-museum-5.jpg: NRA National Firearms Museum Mosin M91/30 sniper rifle gallery view 5",
+        "mosin-museum-6.jpg: NRA National Firearms Museum Mosin M91/30 sniper rifle gallery view 6"
+      ],
+      "acceptedArtApproximations": [
+        "База: M91/30 деревянная ложа по museum full-rifle context; музейный экземпляр — sniper variant with PE scope, только внешний контур/дерево. Не переносить снайперские крепления в stock module и не считать Boyds/ATI exact."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mosin_stock/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/mosin_stock.md",
+        "rights": "Источники приватной reference-only библиотеки; изображения не для public/runtime. Проверять атрибуцию и права отдельно перед любым распространением.",
+        "uniquePhysicalFiles": 8,
+        "visualReview": "Проверены provenance/variant notes, SHA-256 и наличие локальных кадров. Для PASSED вручную просмотрен представительский кадр; остальные различия оценены по per-image view/description и исходным URL. Это не утверждение о полном QA всех граней модели."
+      }
+    },
+    "attachments/sks_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "e2895a93afee0f7c9a28118bb05b742d4f01d1e2718848c27b78dd1b202f1727",
+      "briefSha256": "7f277ddaec4f84d9f5fcb249b47bb68c5aab3f362497ff33d2415c59b92751b4",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "sks-stock-type56-cfs-9488.jpg: снятая цельная Type 56 stock, правая сторона",
+        "sks-stock-type56-cfs-9489.jpg: та же stock, противоположная сторона",
+        "sks-stock-type56-cfs-9491.jpg: вид сверху/снизу и общая полость",
+        "nra-sks-type56-1.jpg: установленная деревянная ложа Type 56, полный профиль",
+        "nra-sks-type56-2.jpg: противоположный полный профиль Type 56"
+      ],
+      "acceptedArtApproximations": [
+        "Вариантный внешний target фиксируется как обычная цельная деревянная Chinese Type 56/SKS-pattern stock; project-authored socket сохраняет точную посадку.",
+        "Древесная порода, finish и неразличимые скрытые поверхности нейтрально авторские, не выдаются за верифицированный заводской вариант."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sks_stock/sources.json",
+        "brief": "art/overhaul/briefs/attachments/sks_stock.md",
+        "rights": "Private reference-only images; no public/runtime redistribution.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Вручную просмотрены все три отдельных снимка снятой ложи Centerfire Systems: две противоположные стороны и верх/низ; плюс оба противоположных музейных профиля Type 56 NRA. Хеши локальных файлов совпадают с sources.json.",
+        "gaps": [
+          "Точные внутренние сопряжения и малые различия конкретной игровой базы не подтверждены фотографиями; сохранить текущий project-fit socket.",
+          "Не подтверждены точная порода древесины и обязательные индивидуальные маркировки."
+        ]
+      }
+    },
+    "attachments/sks_synthetic": {
+      "status": "PASSED",
+      "sourceIndexSha256": "a948340c04b326437273491eb570e89012e2cbf6f09d7e08e35e417d2b410a87",
+      "briefSha256": "39cff49fedb1271ec7779008734efa132ddbe48250401bf8255ddfcfed693b61",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "choate-sks-m4-view-1.jpg: choate-sks-m4-view-1.jpg",
+        "choate-sks-m4-view-2.jpg: choate-sks-m4-view-2.jpg",
+        "choate-sks-m4-view-3.jpg: choate-sks-m4-view-3.jpg",
+        "choate-sks-m4-view-4.jpg: choate-sks-m4-view-4.jpg",
+        "choate-sks-m4-view-5.jpg: choate-sks-m4-view-5.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Зафиксировать Choate SKS M4-style polymer stock как игровой внешний архетип: телескопическая труба, регулируемый приклад, cheek rest, polymer shell. Не выдавать за точный фабричный SKU. Игровой SKS socket остаётся авторским."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sks_synthetic/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/sks_synthetic.md",
+        "rights": "Источники приватной reference-only библиотеки; изображения не для public/runtime. Проверять атрибуцию и права отдельно перед любым распространением.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Проверены provenance/variant notes, SHA-256 и наличие локальных кадров. Для PASSED вручную просмотрен представительский кадр; остальные различия оценены по per-image view/description и исходным URL. Это не утверждение о полном QA всех граней модели."
+      }
+    },
+    "attachments/sks_mount": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9d0afa01fb0751faa431a784ae21f8081abe6571abd0c86e4aba915ab0918f1f",
+      "briefSha256": "2692785d9cf3c4626afa8b19b5ae8266e1d2be7e16e93d51a6793f400d340e2c",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "badace-sks-scout-gen2-01.jpg: Distinct product/context composition 1; visual external reference only.",
+        "badace-sks-scout-gen2-02.jpg: Distinct product/context composition 2; visual external reference only.",
+        "badace-sks-scout-gen2-03.jpg: Distinct product/context composition 3; visual external reference only.",
+        "badace-sks-scout-gen2-04.jpg: Distinct product/context composition 4; visual external reference only.",
+        "badace-sks-scout-gen2-05.jpg: Distinct product/context composition 5; visual external reference only.",
+        "badace-sks-scout-gen2-06.jpg: Distinct product/context composition 6; visual external reference only.",
+        "badace-sks-scout-gen2-07.jpg: Distinct product/context composition 7; visual external reference only.",
+        "badace-sks-scout-gen2-08.jpg: Distinct product/context composition 8; visual external reference only."
+      ],
+      "acceptedArtApproximations": [
+        "Chosen art target is BadAce SKS Scout Gen2 visual archetype, adapted to the project slot; no claim that itemID equals an original mount SKU."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sks_mount/sources.json",
+        "brief": "art/overhaul/briefs/attachments/sks_mount.md",
+        "rights": "Private external reference-only; images not for runtime/public redistribution.",
+        "uniquePhysicalFiles": 8,
+        "visualReview": "New source images manually reviewed; distinct compositions/angles; duplicate file bytes excluded.",
+        "duplicates": "SHA-256 exact-content duplicates excluded; older unrelated platform examples are contrast_only."
+      }
+    },
+    "attachments/svd_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "bf9953a92f4cca6b05528ae1f47c06dfeb47c57f1de558dd2159c3aa120bb762",
+      "briefSha256": "8dd90233841e78b2264ad114855e81761041a37baf60d1b56441fd15270e5291",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "svd_stock-riac_01.jpg",
+        "svd_stock-riac_02.jpg",
+        "svd_stock-riac_03.jpg",
+        "svd_stock-riac_04.jpg",
+        "svd_stock-proxibid_izhevsk_svd_fullview.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Открытые внешние профили приоритетны; невидимая посадка/нижние внутренние поверхности остаются project-fit, не заявлены как проверенные.",
+        "Случайные маркировки и индивидуальная степень износа не входят в обязательный target."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/svd_stock/sources.json",
+        "brief": "art/overhaul/briefs/attachments/svd_stock.md",
+        "rights": "Private reference-only, no public/runtime redistribution.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Пять файлов просмотрены визуально как отдельные композиции; локальные SHA совпадают с per-image metadata.",
+        "gaps": [
+          "Некоторые скрытые посадочные поверхности не видны; требуется runtime fit QA."
+        ]
+      }
+    },
+    "attachments/svd_guard": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9312910f96dd896fa8b6428a87089973cc6ecf1db1c878b768d327b5907abf9c",
+      "briefSha256": "c6d512d62790bba66f341f51130a6f14eb6394c5267a32117968d279a0de2ff7",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "svd-wood-handguard-olx-1.jpg",
+        "svd-wood-handguard-olx-2.jpg",
+        "svd-wood-handguard-olx-3.jpg",
+        "svd-wood-handguard-olx-4.jpg",
+        "svd-wood-handguard-olx-5.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Открытые внешние профили приоритетны; невидимая посадка/нижние внутренние поверхности остаются project-fit, не заявлены как проверенные.",
+        "Случайные маркировки и индивидуальная степень износа не входят в обязательный target."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/svd_guard/sources.json",
+        "brief": "art/overhaul/briefs/attachments/svd_guard.md",
+        "rights": "Private reference-only, no public/runtime redistribution.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Пять файлов просмотрены визуально как отдельные композиции; локальные SHA совпадают с per-image metadata.",
+        "gaps": [
+          "Некоторые скрытые посадочные поверхности не видны; требуется runtime fit QA."
+        ]
+      }
+    },
+    "attachments/svd_10": {
+      "status": "PASSED",
+      "sourceIndexSha256": "de8ae01b37c7e2ea00d030cdaddcd914e977982aad4b2763f6eb53c7603f868d",
+      "briefSha256": "092b3b3a4894d8185195d74e1add083334cc8f751add0321a8bd0f7040138c54",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "svd10-500maketov-01_IMG_20230815_143818_max.jpg",
+        "svd10-500maketov-02_IMG_20230815_143821_1_max.jpg",
+        "svd10-500maketov-03_IMG_20230815_143826_max.jpg",
+        "svd10-500maketov-04_IMG_20230815_143843_max.jpg",
+        "svd10-500maketov-05_IMG_20230815_143847_max.jpg",
+        "svd10-500maketov-06_IMG_20230815_143859_max.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Советский десятизарядный внешний target основан на identified seller listing 500M11108; без фабричной batch verification.",
+        "Скрытый catch/feed fit остаётся по project socket и не реконструируется по фото.",
+        "Румынские Romak X-panel refs остаются только сравнительным контекстом, не являются целевым рисунком штамповки."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/svd_10/sources.json",
+        "brief": "art/overhaul/briefs/attachments/svd_10.md",
+        "rights": "Private reference-only, no public/runtime redistribution.",
+        "uniquePhysicalFiles": 6,
+        "visualReview": "Просмотрены шесть product-gallery композиций; broad-face/rib pattern, oblique sides, top edge/feed-lip exterior and floorplate visible. SHA per file matched sources index.",
+        "gaps": [
+          "Opposite face is not independently proven; exact catch and internal surfaces are unknown."
+        ]
+      }
+    },
+    "attachments/svd_mount": {
+      "status": "PASSED",
+      "sourceIndexSha256": "aa4cac2fc6db3cdc9f0b896abca7da4db1a3e7d87d104e1f6903841fd3f85d45",
+      "briefSha256": "db1a507c807cd8b14a3d3514e1c95b66d7b6c505a1738ee9c20032d2ca6bd9fb",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "sureshot-svd-mount-view-1.jpg: sureshot-svd-mount-view-1.jpg",
+        "sureshot-svd-mount-view-2.jpg: sureshot-svd-mount-view-2.jpg",
+        "sureshot-svd-mount-view-3.jpg: sureshot-svd-mount-view-3.jpg",
+        "sureshot-svd-mount-view-4.jpg: sureshot-svd-mount-view-4.jpg",
+        "sureshot-svd-mount-view-5.jpg: sureshot-svd-mount-view-5.jpg",
+        "sureshot-svd-mount-view-6.jpg: sureshot-svd-mount-view-6.jpg",
+        "sureshot-svd-mount-view-7.jpg: sureshot-svd-mount-view-7.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Цель — Sureshot SVD HIGH sidemount; рельеф боковой базы и защёлки по галерее, игровой mount socket отдельно. Установленные с optic фото не доказывают точное положение игрового socket."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/svd_mount/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/svd_mount.md",
+        "rights": "Источники приватной reference-only библиотеки; изображения не для public/runtime. Проверять атрибуцию и права отдельно перед любым распространением.",
+        "uniquePhysicalFiles": 7,
+        "visualReview": "Проверены provenance/variant notes, SHA-256 и наличие локальных кадров. Для PASSED вручную просмотрен представительский кадр; остальные различия оценены по per-image view/description и исходным URL. Это не утверждение о полном QA всех граней модели."
+      }
+    },
+    "attachments/sv98_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "5a4e32f6b2560aeeebc6bbdf13853d47cd158a359ea76d7470e715c351b2d369",
+      "briefSha256": "800057b4a9dab34f1a861cdd223d8be72befdd9f145a8bef92c500638aef9c9f",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "sv98-stock-gunsclub-oblique.png: Полный предмет в поднятом трёхчетвертном ракурсе; зелёное ламинированное ложе, thumbhole, cheek rest, регулируемый затыльник и взаимная длина ложи/ствола.",
+        "sv98-stock-imfdb-profile.jpg: Полный профиль противоположной стороны; длина ложа и цевья, thumbhole/пистолетная рукоять, щека и задний затыльник. Аксессуары оружия использовать только как контекст.",
+        "sv98-stock-maksimov-30.jpg: Крупный боковой ракурс задней части: подвижная щека, thumbhole и рукоять, вырезы скелетного приклада и резиновый регулируемый затыльник.",
+        "sv98-stock-maksimov-29.jpg: Верхний крупный ракурс соединения ложа с коробкой: форма bedding/приёмной зоны и продолжение ламинированного ложа; не выводить скрытый интерфейс.",
+        "sv98-stock-maksimov-16.jpg: Продольный верхний/косой вид цевья в контексте оружия: профиль широкой передней части ложа, канавки и переход в receiver. Не учитывать сошку/оптику как часть stock."
+      ],
+      "acceptedArtApproximations": [
+        "Точное зелёное ламинированное ложе СВ-98 читается на цельных фото и деталях; это не отдельная stock gallery и не точная спецификация ревизии.",
+        "Не показаны скрытый bedding и underside; сохранить игровой socket, интерпретировать невидимые поверхности чисто и нейтрально."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/sv98_stock.md",
+        "rights": "Внутренняя reference-only библиотека, чужие изображения не для runtime/public.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Пять локальных distinct frames вручную осмотрены: две цельные композиции SV-98, отдельная щека/thumbhole/buttpad деталь, соединение stock/action сверху, длинное fore-end в контексте. Аксессуары не считаются частью stock.",
+        "duplicates": "5 уникальных SHA-256. 24 изображения Magpul помечены contrast_only и исключены."
+      }
+    },
+    "attachments/sv98_10": {
+      "status": "PASSED",
+      "sourceIndexSha256": "aff8296c45057f66d32cd978659ab002a3574b5eb5a0edfbb5407eccd61a8593",
+      "briefSha256": "95b48a2f636464956f76c9b95d334be8c5f90c4b20dd8fb1bef9e3ad4d83cca8",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "01-rosguard-sv98-1.png",
+        "02-rosguard-sv98-3.png",
+        "03-rosguard-sv98-4.png",
+        "04-rosguard-sv98-5.png",
+        "05-sv98-6v10-profile.jpg",
+        "06-gunsclub-sv98-accessory-set.png",
+        "07-gunsclub-sv98-magazines-detail.png",
+        "08-maksimov-sv98-magazine-held.jpg",
+        "09-gunsru-sv98-forum-set.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Вариант выбран как классический короткий полимерный 10-зарядный магазин СВ-98; точная производственная серия не подтверждена.",
+        "Скрытый интерфейс, основание и обратный бок упрощены по видимому наружному силуэту и подгоняются по проектному socket.",
+        "Не переносить внутреннюю конструкцию/патроны с демонстрационного кадра; магазин СВД для СВ-98М и страйкбольные магазины исключены."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_10/sources.json",
+        "brief": "art/overhaul/briefs/attachments/sv98_10.md",
+        "rights": "Private reference-only; no public/runtime redistribution.",
+        "uniquePhysicalFiles": 9,
+        "visualReview": "Просмотрены 9 файлов; пять контекстных кадров СВ-98, комплектная раскладка, крупный снимок двух магазинов и независимый крупный кадр магазина в руке. По визуальным видам зафиксированы боковые рёбра, форма корпуса/пятки и масштаб; все SHA совпали с индексом.",
+        "gaps": [
+          "Нет фабричных ортогоналей донца/обратной стороны/горловины; эти скрытые и частично закрытые зоны остаются проектным приближением.",
+          "Точная серия отдельного полимерного магазина не установлена."
+        ]
+      }
+    },
+    "attachments/vss_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "2060d20eff0dc5b4706313dbc3ca21ba23acd29f40a59b03b885a555bd35601a",
+      "briefSha256": "8f951350afff3d2a5d4db7195f18537c72048645bd0db53b50ff91837070c3de",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "vss-wood-stock-27.jpg: 27: полный левый профиль VSS; видна деревянная thumbhole ложа, затыльник и полный силуэт stock.",
+        "vss-wood-stock-28.jpg: 28: задний верхний 3/4; толщина древесины, отверстия thumbhole и переход ложа к коробке.",
+        "vss-wood-stock-29.jpg: 29: передне-правый elevated 3/4; отношение grip/stock к receiver и общий объём ложи.",
+        "vss-wood-stock-30.jpg: 30: правый профиль/косой ракурс; наружная сторона ложи и профиль шейки/затыльника.",
+        "vss-wood-stock-31.jpg: 31: крупная зона receiver/stock; стык дерева, боковая плоскость и расположение крепёжных точек.",
+        "vss-wood-stock-32.jpg: 32: противоположный задний 3/4; вторая сторона stock и её относительная ширина."
+      ],
+      "acceptedArtApproximations": [
+        "Точные варианты stock подтверждены установленными на целом AS Val/VSS экземпляре; скрытая посадка и точная производственная ревизия не выводятся из фото.",
+        "Игровые socket/pivot остаются проектными; не импортировать optic/magazine/suppressor/sling вместе с модулем stock."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vss_stock/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/vss_stock.md",
+        "rights": "Приватные фото reference-only; пиксели и маркировки не переносить в public/runtime.",
+        "uniquePhysicalFiles": 6,
+        "visualReview": "Визуально проверены все exact-family frames: vss-wood-stock-27.jpg — 27: полный левый профиль VSS; видна деревянная thumbhole ложа, затыльник и полный силуэт stock.; vss-wood-stock-28.jpg — 28: задний верхний 3/4; толщина древесины, отверстия thumbhole и переход ложа к коробке.; vss-wood-stock-29.jpg — 29: передне-правый elevated 3/4; отношение grip/stock к receiver и общий объём ложи.; vss-wood-stock-30.jpg — 30: правый профиль/косой ракурс; наружная сторона ложи и профиль шейки/затыльника.; vss-wood-stock-31.jpg — 31: крупная зона receiver/stock; стык дерева, боковая плоскость и расположение крепёжных точек.; vss-wood-stock-32.jpg — 32: противоположный задний 3/4; вторая сторона stock и её относительная ширина.",
+        "duplicates": "6 distinct local files with verified SHA-256; старые unrelated Magpul/Zenitco references marked contrast_only."
+      }
+    },
+    "attachments/vss_poly": {
+      "status": "PASSED",
+      "sourceIndexSha256": "05a58c20085f770a5792a5e18045be5994738395bc8ae0421883d5ca8efe5a2f",
+      "briefSha256": "1728d7188aade6a9a952549120f401926e4131c6beb09055dd0c1f59b7d9e763",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "vssdlg-01-oblique-left.jpg",
+        "vssdlg-02-right-profile.jpg",
+        "vssdlg-03-left-profile.jpg",
+        "vssdlg-04-adjusted-length-profile.jpg",
+        "vssdlg-05-end-on-pair.jpg"
+      ],
+      "acceptedArtApproximations": [
+        "Цельный VSS-specific aftermarket kit выбран по точной товарной карточке: DLG Tactical polymer base + VSS adapter/grip + tube; не штатная ложа и не аналог AR/SVD.",
+        "Скрытый интерфейс и размеры fit полностью задаются проектным vss-stock socket; add-on monopod/hand-rest из отдельных фото не включать.",
+        "Три Magpul/AR stock refs сохранены только contrast_only и не учитываются."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vss_poly/sources.json",
+        "brief": "art/overhaul/briefs/attachments/vss_poly.md",
+        "rights": "Private reference-only; no public/runtime redistribution.",
+        "uniquePhysicalFiles": 11,
+        "visualReview": "Просмотрены 8 различных кадров галереи точного VSS-specific stock kit: 3/4, противоположные профили, выдвинутое положение, торцевые виды и боковые детали. 5 основных silhouette comps различимы и не являются зеркалами/кропами одного вида. Hash каждого выбранного файла совпадает с индексом.",
+        "gaps": [
+          "Точный rear receiver adapter interface не показан как сборочный ортографический вид; game socket является источником fit.",
+          "Aftermarket, а не заводская ВСС конфигурация."
+        ]
+      }
+    },
+    "attachments/val_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "b872002a44932a16d4c23444b402563ccd166227c740509a89364bd1177e7bd6",
+      "briefSha256": "f98b36d618da682acccdc1daafb32355b9000afc6b85ef843b99a32cc6005d34",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "val-stock-extended-right-01.jpg: 01: AS Val правый broadside, металлический рамочный приклад разложен; полный силуэт и крепление в заднем узле.",
+        "val-stock-extended-left-09.jpg: 09: противоположный левый broadside с прикладом разложенным; вторая сторона рамки, верхней опоры и затыльника.",
+        "val-stock-folded-right-12.jpg: 12: правый broadside в сложенном состоянии; положение рамки относительно коробки.",
+        "val-stock-folded-left-16.jpg: 16: левый broadside в сложенном состоянии; противоположная сторона folded state.",
+        "val-stock-hinge-detail-19.jpg: 19: крупный 3/4 зоны оси/фиксатора шарнира и опорной рамки приклада; только видимые внешние признаки."
+      ],
+      "acceptedArtApproximations": [
+        "Точные варианты stock подтверждены установленными на целом AS Val/VSS экземпляре; скрытая посадка и точная производственная ревизия не выводятся из фото.",
+        "Игровые socket/pivot остаются проектными; не импортировать optic/magazine/suppressor/sling вместе с модулем stock."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_stock/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/val_stock.md",
+        "rights": "Приватные фото reference-only; пиксели и маркировки не переносить в public/runtime.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Визуально проверены все exact-family frames: val-stock-extended-right-01.jpg — 01: AS Val правый broadside, металлический рамочный приклад разложен; полный силуэт и крепление в заднем узле.; val-stock-extended-left-09.jpg — 09: противоположный левый broadside с прикладом разложенным; вторая сторона рамки, верхней опоры и затыльника.; val-stock-folded-right-12.jpg — 12: правый broadside в сложенном состоянии; положение рамки относительно коробки.; val-stock-folded-left-16.jpg — 16: левый broadside в сложенном состоянии; противоположная сторона folded state.; val-stock-hinge-detail-19.jpg — 19: крупный 3/4 зоны оси/фиксатора шарнира и опорной рамки приклада; только видимые внешние признаки.",
+        "duplicates": "5 distinct local files with verified SHA-256; старые unrelated Magpul/Zenitco references marked contrast_only."
+      }
+    },
+    "attachments/val_grip": {
+      "status": "PASSED",
+      "sourceIndexSha256": "de1b70533656cca1cff079d1e2e822d37474807b4cc3f936fad2475ef7734b2d",
+      "briefSha256": "7cdf44a3ffff80818fb786b076255ac6dd914d44806798936dfe37f5ffa2ba16",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "val-plain-grip-left-overview.jpg: 01: полный правый боковой AS Val с видимой заводской пистолетной рукоятью и её наклоном к спусковой рамке.",
+        "val-plain-grip-opposite-overview.jpg: 09: противоположный полный боковой вид; вторая сторона grip и его положение относительно спусковой скобы.",
+        "val-plain-grip-receiver-right-detail.jpg: 21: крупный правый receiver/control/grip контекст; форма спинки и сопряжение grip с коробкой.",
+        "val-plain-grip-receiver-left-detail.jpg: 22: крупный левый receiver/furniture joint; наружная сторона рукояти и стык у рамки.",
+        "val-plain-grip-trigger-detail.jpg: 25: очень крупная область рукояти/спусковой скобы; матовая мелкотекстурная поверхность, торцы и нижний профиль."
+      ],
+      "acceptedArtApproximations": [
+        "Установленные изображения подтверждают внешний target на exact AS Val; материал/производственная ревизия и скрытая посадка неизвестны.",
+        "Скрытые интерфейсы остаются проектными; никакие Magpul AR/AK размеры не переносятся."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_grip/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/val_grip.md",
+        "rights": "Private reference-only photographs; do not include pixels/marks in public/runtime.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Все exact-family кадры вручную проверены: val-plain-grip-left-overview.jpg — 01: полный правый боковой AS Val с видимой заводской пистолетной рукоятью и её наклоном к спусковой рамке.; val-plain-grip-opposite-overview.jpg — 09: противоположный полный боковой вид; вторая сторона grip и его положение относительно спусковой скобы.; val-plain-grip-receiver-right-detail.jpg — 21: крупный правый receiver/control/grip контекст; форма спинки и сопряжение grip с коробкой.; val-plain-grip-receiver-left-detail.jpg — 22: крупный левый receiver/furniture joint; наружная сторона рукояти и стык у рамки.; val-plain-grip-trigger-detail.jpg — 25: очень крупная область рукояти/спусковой скобы; матовая мелкотекстурная поверхность, торцы и нижний профиль.",
+        "duplicates": "Уникальные оригинальные файлы с SHA-256; прежние Magpul AK images помечены contrast_only."
+      }
+    },
+    "attachments/val_ergo": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c951c0c38481dbce28b37fea08d24b6180919199084036b619d332974567f5a6",
+      "briefSha256": "ab030968acb49e30747f48b39096c6a4355f877633112dea86d41b224744671f",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "lct-pk231-catus-01.jpg: Three-quarter top; grip mouth and side texture.",
+        "lct-pk231-catus-02.jpg: Opposite side profile.",
+        "lct-pk231-catus-03.jpg: Oblique top view of opposite bevel and texture.",
+        "lct-pk231-airsoftmegastore-01.jpg: Opposite side/front angle and upper interface.",
+        "lct-pk231-airsoftmegastore-02.jpg: Reverse upper three-quarter with grip mouth visible."
+      ],
+      "acceptedArtApproximations": [
+        "LCT PK-231 AS-VAL/VSS AEG grip is a family-shape source; the modest palm-shelf extension is an authored game variant."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_ergo/sources.json",
+        "brief": "art/overhaul/briefs/attachments/val_ergo.md",
+        "rights": "Private external reference-only; images not for runtime/public redistribution.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "New source images manually reviewed; distinct compositions/angles; duplicate file bytes excluded.",
+        "duplicates": "SHA-256 exact-content duplicates excluded; older unrelated platform examples are contrast_only."
+      }
+    },
+    "attachments/val_guard": {
+      "status": "PASSED",
+      "sourceIndexSha256": "1ce8520f4e0ca0d629851f11f593fa5fb82488b4d0eaf29361ee2875101914bd",
+      "briefSha256": "4f4979c23b9e83b664fe3b2028559735e589cbc783a2a741a00a8d1ae89a1b4d",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "val-guard-right-overview.jpg: 01: полный правый профиль; узкое цевьё от receiver до suppressor, общий taper и длина.",
+        "val-guard-left-overview.jpg: 09: полный противоположный профиль; вторая сторона цевья и стык с receiver/suppressor.",
+        "val-guard-right-folded-stock-context.jpg: 12: общий правый вид того же fore-end при сложенном прикладе; цевьё независимо от stock.",
+        "val-guard-left-folded-stock-context.jpg: 16: противоположный общий ракурс fore-end при сложенном прикладе; общий контур и подгонка.",
+        "val-guard-suppressor-transition-detail.jpg: 26: close-up переднего перехода suppressor/handguard; контур, seam и материал fore-end."
+      ],
+      "acceptedArtApproximations": [
+        "Установленные изображения подтверждают внешний target на exact AS Val; материал/производственная ревизия и скрытая посадка неизвестны.",
+        "Скрытые интерфейсы остаются проектными; никакие Magpul AR/AK размеры не переносятся."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_guard/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/val_guard.md",
+        "rights": "Private reference-only photographs; do not include pixels/marks in public/runtime.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Все exact-family кадры вручную проверены: val-guard-right-overview.jpg — 01: полный правый профиль; узкое цевьё от receiver до suppressor, общий taper и длина.; val-guard-left-overview.jpg — 09: полный противоположный профиль; вторая сторона цевья и стык с receiver/suppressor.; val-guard-right-folded-stock-context.jpg — 12: общий правый вид того же fore-end при сложенном прикладе; цевьё независимо от stock.; val-guard-left-folded-stock-context.jpg — 16: противоположный общий ракурс fore-end при сложенном прикладе; общий контур и подгонка.; val-guard-suppressor-transition-detail.jpg — 26: close-up переднего перехода suppressor/handguard; контур, seam и материал fore-end.",
+        "duplicates": "Уникальные оригинальные файлы с SHA-256; прежние Magpul AK images помечены contrast_only."
+      }
+    },
+    "attachments/val_rail": {
+      "status": "PASSED",
+      "sourceIndexSha256": "af7d5214011bf0bf3872e6b9b24fc771a56af3a84810cf4bb7e93cf83060e36f",
+      "briefSha256": "ce3c682b65fb6ae6dfc5d936773c27948afe1bde24a92194d347c6aaa06ffc3d",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "pk412-airsoft2go-01.png: Three-quarter installed rail collar.",
+        "pk412-airsoft2go-02.png: Installed AS Val side context.",
+        "pk412-airsoft2go-03.png: Axial end and through openings.",
+        "pk412-airsoft2go-04.png: Inner and lower clamp surfaces.",
+        "pk412-airsoft2go-05.png: Opposite three-quarter with rail placement and screws."
+      ],
+      "acceptedArtApproximations": [
+        "LCT PK-412 75mm is an exact AS-VAL/VSS-family airsoft suppressor-rail archetype mapped into existing handguard child group; not a factory-real-world compatibility assertion."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_rail/sources.json",
+        "brief": "art/overhaul/briefs/attachments/val_rail.md",
+        "rights": "Private external reference-only; images not for runtime/public redistribution.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "New source images manually reviewed; distinct compositions/angles; duplicate file bytes excluded.",
+        "duplicates": "SHA-256 exact-content duplicates excluded; older unrelated platform examples are contrast_only."
+      }
+    },
+    "attachments/val_mount": {
+      "status": "PASSED",
+      "sourceIndexSha256": "61e02265faa425cdf009f6339712fc6761a85a5b16c80cb3d6a62698f7413b01",
+      "briefSha256": "1c0a82e5f264e711f7e2f7085e4e82bdb6e469e3c06400f3d5ddbc2fc8df0804",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "kingarms-kasm23-m4a1-product.jpg: Isolated three-quarter product view.",
+        "kingarms-kasm23-m4a1-context.jpg: Installed on receiver; side placement context.",
+        "kingarms-kasm23-gunstory-context.jpg: One composite source image containing reverse/underside and installed views.",
+        "kingarms-kasm23-mokeipaddock.png: Alternate isolated three-quarter composition.",
+        "kingarms-kasm23-repmart.jpg: Separate alternate isolated composition."
+      ],
+      "acceptedArtApproximations": [
+        "King Arms KA-SM-23 retailer pages identify an SVS mount for SVD/VSS/AS VAL airsoft family; project socket remains game-authored."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_mount/sources.json",
+        "brief": "art/overhaul/briefs/attachments/val_mount.md",
+        "rights": "Private external reference-only; images not for runtime/public redistribution.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "New source images manually reviewed; distinct compositions/angles; duplicate file bytes excluded.",
+        "duplicates": "SHA-256 exact-content duplicates excluded; older unrelated platform examples are contrast_only."
+      }
+    },
+    "attachments/val_30": {
+      "status": "PASSED",
+      "sourceIndexSha256": "5c0905f47d977a193eae1bb9421ac3fe5bcf579ea2e93a9c5355a4cba245f4a3",
+      "briefSha256": "92bf1bbfca6fd5b2ad52d3b960d74bb08a89cf2ea5a713c0039243c6cc39f7a2",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "vitaly_kuzmin_as_val_01.jpg: AS Val with installed 20-round sibling-family magazine; right broadside/full silhouette",
+        "vitaly_kuzmin_as_val_09.jpg: AS Val with installed 20-round sibling-family magazine; left broadside/full silhouette",
+        "vitaly_kuzmin_as_val_21.jpg: AS Val receiver / inserted 20-round magazine family context close view",
+        "modernfirearms_sr3m_30.jpg: SR-3M with dedicated 30-round metal magazine; full side profile, magazine visibly longer than family 20-round",
+        "rosguard_sr3m_scene_01.png: SR-3M in official Rosgvardiya field photo; installed 30-round magazine visible in full-weapon context",
+        "rosguard_sr3m_scene_02.png: Official Rosgvardiya field photo of SR-3M; 30-round magazine visible in full-weapon context from a different scene/angle than scene 01.",
+        "asval-30-magazine-set-7-62-01.jpg: Five actual magazines in one oblique/broadside composition; exact target outline."
+      ],
+      "acceptedArtApproximations": [
+        "7-62.ru identifies SKU 101050032 as original AS Val 30rd; exact manufacturer authentication and unseen sides are not claimed."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_30/sources.json",
+        "brief": "art/overhaul/briefs/attachments/val_30.md",
+        "rights": "Private external reference-only; images not for runtime/public redistribution.",
+        "uniquePhysicalFiles": 7,
+        "visualReview": "New source images manually reviewed; distinct compositions/angles; duplicate file bytes excluded.",
+        "duplicates": "SHA-256 exact-content duplicates excluded; older unrelated platform examples are contrast_only."
+      }
+    },
+    "attachments/vityaz_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "3c9078263cdcfdaecb1247e99b511e636694d3f430ec28730b245086dff57316",
+      "briefSha256": "dc614519e12b2a2e0ec4e35a7c5237c3681f29ce20913a8181c37977564ed49e",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/vitaly_351_01_folded_opposite.jpg: folded_opposite; Actual Vityaz right body/hinge and folded stock relation",
+        "images/vitaly_351_02_folded_side.jpg: folded_side; Triangle wire/plate stock folded onto receiver side",
+        "images/vitaly_351_05_folded_top.jpg: folded_top; Folded stock upper rails and rear pad viewed from above",
+        "images/vitaly_351_07_folded_opposite_top.jpg: folded_opposite_top; Opposing elevated photo of stock frame and sling",
+        "images/vitaly_351_10_extended.jpg: extended; Extended triangular stock, rear butt and receiver joint"
+      ],
+      "acceptedArtApproximations": [
+        "Target PP-19-01 wire triangle stock, extended static default; folded photos provide relation only, no fold animation."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/sources.json",
+        "brief": "art/overhaul/briefs/attachments/vityaz_stock.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "318793a04ac91f15e1f61c868449b8849efe0b9afbb76237e3c49c1e3d15c1da",
+          "3bee5c91727fb074fc76860a4af3a0ade1bab6f1b28b6575803002af443c14c4",
+          "6578e4fa9ecdb241b9780add2b9f0bf02d2722639bac760ab55afeed41e24681",
+          "c3defcced243be07898cb1d81fb4ce1f1261119ee525994d35817a6ee79454ac",
+          "e2c64403f12717c1bd4d7147a4773ee6e2dabf279e295ea85024bd99c190852f"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/vityaz_guard": {
+      "status": "PASSED",
+      "sourceIndexSha256": "90c2f37268fa98e197760c50e52b6d60a91bc92b3a5feb195501bdb9b6db88e4",
+      "briefSha256": "85bb313ba819c40e8e23d452a4328d871065443de9bc8d7da1553daa6790fa08",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/vitaly_351_01_right.jpg: right; Short smooth ribbed PP19 fore-end right side with upper cover",
+        "images/vitaly_351_02_left.jpg: left; Opposite installed polymer fore-end and front band",
+        "images/vitaly_351_05_upper.jpg: upper; Upper guard/channel relation and forward sight block",
+        "images/vitaly_351_07_upper_opposite.jpg: upper_opposite; Opposing elevated fore-end view",
+        "images/vitaly_351_10_installed_scale.jpg: installed_scale; Actual PP19 native fore-end full mounted scale"
+      ],
+      "acceptedArtApproximations": [
+        "Target native short ribbed PP-19-01 polymer fore-end; no rail/MO accessory geometry."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_guard/sources.json",
+        "brief": "art/overhaul/briefs/attachments/vityaz_guard.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "318793a04ac91f15e1f61c868449b8849efe0b9afbb76237e3c49c1e3d15c1da",
+          "3bee5c91727fb074fc76860a4af3a0ade1bab6f1b28b6575803002af443c14c4",
+          "6578e4fa9ecdb241b9780add2b9f0bf02d2722639bac760ab55afeed41e24681",
+          "c3defcced243be07898cb1d81fb4ce1f1261119ee525994d35817a6ee79454ac",
+          "e2c64403f12717c1bd4d7147a4773ee6e2dabf279e295ea85024bd99c190852f"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/vityaz_30": {
+      "status": "PASSED",
+      "sourceIndexSha256": "d35a816a1bf6cf4168931f825dfe82ded53376f81616c91109902643fd773621",
+      "briefSha256": "6145ad490f73aa085f569eecee24c4a4c1643f4ac1847a293f994a4d0f1a4145",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/vitaly_351_01_right.jpg: right; Native long9mm PP19 magazine broad side with longitudinal relief",
+        "images/vitaly_351_02_left.jpg: left; Native30-form opposite side and short upper shoulder",
+        "images/vitaly_351_05_upper_oblique.jpg: upper_oblique; Magazine floorplate edge and opposite narrow face",
+        "images/vitaly_351_07_opposite_oblique.jpg: opposite_oblique; Upper opposite side and front wall curvature",
+        "images/vitaly_351_10_installed_angle.jpg: installed_angle; Independent installed full magazine side at diagonal angle"
+      ],
+      "acceptedArtApproximations": [
+        "Target PP-19-01 30-round long curved magazine; keep game capacity and reload behavior."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_30/sources.json",
+        "brief": "art/overhaul/briefs/attachments/vityaz_30.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "318793a04ac91f15e1f61c868449b8849efe0b9afbb76237e3c49c1e3d15c1da",
+          "3bee5c91727fb074fc76860a4af3a0ade1bab6f1b28b6575803002af443c14c4",
+          "6578e4fa9ecdb241b9780add2b9f0bf02d2722639bac760ab55afeed41e24681",
+          "c3defcced243be07898cb1d81fb4ce1f1261119ee525994d35817a6ee79454ac",
+          "e2c64403f12717c1bd4d7147a4773ee6e2dabf279e295ea85024bd99c190852f"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/vityaz_mount": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c618b2b184aa65c1a90b9f5d2ef6512c91273e07c89884d8ad64071f9e1ac1e5",
+      "briefSha256": "6ad821091b21c96b34edff7d6cf954b89914305f0976b15d078e2ab3f295b4e2",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/zenitco-b13-view-1.jpg: angle unspecified; zenitco-b13-view-1",
+        "images/repmart_b13_2.jpg: angle unspecified; Чёрный B-13, ближний трёхчетвертной вид с противоположной стороны; видны верхняя планка и нижняя зажимная часть",
+        "images/repmart_b13_3.jpg: angle unspecified; Чёрный B-13 с противоположной трёхчетвертной стороны; видны обратная стенка, прорези, боковые отверстия и нижний clamp",
+        "images/repmart_b13_4.jpg: angle unspecified; B-13 на боковой планке AK в боковом ракурсе; видны положение над ствольной коробкой и боковая фиксация",
+        "images/repmart_b13_5.jpg: angle unspecified; B-13 на оружии сверху/сзади в трёхчетвертном ракурсе; показывает верхнюю rail-поверхность, пропорции и посадку"
+      ],
+      "acceptedArtApproximations": [
+        "B-13 exterior silhouette used only as authored shortened game bridge; no real PP-19 compatibility claim."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_mount/sources.json",
+        "brief": "art/overhaul/briefs/attachments/vityaz_mount.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "7763e3b05b572ca255cbea79317afd216bc9b24fe438a7831e6014bd90410a09",
+          "78502af97f8224ab90d7ec80b51691bee7ba18a14efd98ef92ebc98bf0b18502",
+          "9af083913b73007a40b1396a0c4071473f13a0bc95fb22285220010331d10fc1",
+          "a0631db4ee20e7709f3066c773c6f95f9f6de3f8b3707a28f6fa1b7629e7b958",
+          "d85751d22537b8165a23ec7a30e9ccc3ec5bf65c97de7dc6d316a31d146eaae3"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "No exact branded module represented by this original game ID; external archetype and native platform context only. Hidden interface and unique silhouette accents authored, no internal mechanisms."
+      }
+    },
+    "attachments/vityaz_can": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9dd952ee168dfc79afed99cc4319f28f9cd88cfd17fc38da8fbc88d507ad7d5a",
+      "briefSha256": "c49b06c4b1341a36d04b20d0f7c29f15fa7f5c053a2ec49f9d90c764295f70bd",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/omega1_profile.jpg: profile; Full short9mm body in Silencer Shop photo, shallow circumferential seams and mounting neck",
+        "images/omega2_front_oblique.jpg: front_oblique; Flat distal cap exterior and front body, shallow seam relief",
+        "images/omega3_rear_oblique.jpg: rear_oblique; Rear mouth exterior outline and shoulder; no internal detailed structure copied",
+        "images/omegaccc1_opposite_side.jpg: opposite_side; Independent dealer diagonal side photograph, matte surface and full silhouette",
+        "images/omegaccc2_front_opposite_oblique.jpg: front_opposite_oblique; Independent opposite upper/front oblique, exterior end plate and seam spacing",
+        "images/omegaria_independent_side_pair.jpg: independent_side_pair; Two genuine auction Omega9K items on boxes: whole composite counted once; FDE/black material context",
+        "images/omegaready_physical_material_context.jpg: physical_material_context; READY Firearms three actual Omega K series finishes photographed together; black short9K target, other lengths/finishes only material comparison"
+      ],
+      "acceptedArtApproximations": [
+        "Omega 9K exterior silhouette only; authored PP-19 fit; no brand, internal construction, or fit claim."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_can/sources.json",
+        "brief": "art/overhaul/briefs/attachments/vityaz_can.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 7,
+        "imageSha256": [
+          "053be62950aa05eec70b9e2e42598c2abc860233f93897b29228809677574f4a",
+          "114bc6c5252f7cacf2ab447bea1840f568db65bfdcbe12907e762fa807deeef3",
+          "264ab8444fe1cd29de7fd339d5108d0aaf9b867f92c1b5fd39cb7a5698db0cf2",
+          "2ad2803c082e33f45879b017e8fd05b5efb18615e2fab6f364da671b20fee7a7",
+          "672112e4fb954e8a2893291c47f304794a2d1dee0c52702a26d842a655385598",
+          "933abbc0d6944b1269529b365e11a69ee02e2214715c7787ba5652183cd530f5",
+          "94c87d86d1d6fc316cdb6f1f4e488215bb90545a6386e8be6af5014051f20e9c"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "No exact branded module represented by this original game ID; external archetype and native platform context only. Hidden interface and unique silhouette accents authored, no internal mechanisms."
+      }
+    },
+    "attachments/vityaz_rail": {
+      "status": "PASSED",
+      "sourceIndexSha256": "3cf5005ce1c368c8fcd09dd8f34a01ff6b16bc366d455a4716490e20cb2721ab",
+      "briefSha256": "d76f80d067cf8ac2973f3d7f039dbb1134c2ed986128f8801e5d8bbed2b45eb8",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/b211_left.jpg: left; B21M native Vityaz tri-rail lower shell left, repeated front circular windows",
+        "images/b212_right.jpg: right; Opposite native B21M side, rear relief and sling opening",
+        "images/b213_front_oblique.jpg: front_oblique; Front axial U opening, side and lower rail bands",
+        "images/b214_rear_oblique.jpg: rear_oblique; Opposite rear/upper shell with open barrel channel",
+        "images/vityazmo1_installed_right.jpg: installed_right; Official mounted Vityaz-MO, same native B21M lower shell with upper rail accessories",
+        "images/vityazmo2_installed_left.jpg: installed_left; Opposite official mounted short rail system, visible receiver/fore-end relation"
+      ],
+      "acceptedArtApproximations": [
+        "Native B-21M short lower-shell architecture; no long upper rail or Vityaz-MO accessory set."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_rail/sources.json",
+        "brief": "art/overhaul/briefs/attachments/vityaz_rail.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 6,
+        "imageSha256": [
+          "736d27bdf44bec46a4c2f84e893066058315ab3bc8a9034290403c322249bb64",
+          "935ddfb8e82c8856b64b792476ec8ce06781648550f828e75c6edd81fbaa3e9d",
+          "a203a99e331ae8d6a2ef4335b8ce6b540b06a24de29bef311c98abdfb1dcffe7",
+          "a536294f1edd03104226b63bed02284d1ca27c1607182d7f96471f58bbf629ca",
+          "dd1c596b5808b1eeaa24d52729d2eeb43c8f54f54e59400ee52317e44f0af276",
+          "dfe790878b5bb092d902b0784fd38fadb48343f24edcf90b5708cbe25721156c"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "No isolated clean bottom/axial orthographic view; exterior channel/end is supported by oblique views. Hidden fit is authored game approximation."
+      }
+    },
+    "attachments/kedr_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "422b63f9c7ffa72e7620b12c317111effafd78f4c58f67817613ab09f67a258f",
+      "briefSha256": "6b0009f8d42b4424e297e507c0049b52dffb0eb985d2840948a7d162f62a1241",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/karden_kedr_01_extended_right.jpg: extended_right; Actual Kedr extended twin-bar stock right side and cap",
+        "images/karden_kedr_02_extended_left.jpg: extended_left; Opposing extended stock, articulated rear heel",
+        "images/karden_kedr_03_upper_oblique.jpg: upper_oblique; Extended stock upper/front view",
+        "images/karden_kedr_04_opposite_upper.jpg: opposite_upper; Opposite extended bars and butt end",
+        "images/karden_kedr_05_folded_right.jpg: folded_right; Stock folded over receiver, support rails clear of top opening",
+        "images/karden_kedr_08_rear_oblique.jpg: rear_oblique; Independent rear-side folded stock relation"
+      ],
+      "acceptedArtApproximations": [
+        "PP-91 twin-bar steel stock; extended static target. Folded views are context only; do not add animation."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/sources.json",
+        "brief": "art/overhaul/briefs/attachments/kedr_stock.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 6,
+        "imageSha256": [
+          "074c7d2eb867d7be47153130e1e6a31d20f79499dd67b8dcc580aa0a29fd5848",
+          "42836c4b5a6fe4290ea6a71e19e53ff5125a2268f393ae9b62df896950455242",
+          "6d078028ec515ea27f0ac1ac80a20b248a260e71696caa17059e75c359290e9c",
+          "a2facf52453473c93ca95bd2390560f5f1320f47b2f78fc85a6a4130f64f2131",
+          "aa7bba96162e977acd9874272b91b24275e4c395073981164ceb86a1e52e7c18",
+          "f913e61d3b3bf6e2959cc13733d0d4a90809df2e5f842465af305a1a74636402"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/kedr_grip": {
+      "status": "PASSED",
+      "sourceIndexSha256": "43fc8e9f0f4d71a67f91d9828cc00816f84ef1c09e5b65f27a6e88beca4518c2",
+      "briefSha256": "68d637b6189a45d5f752d08c323014a65cd8986dbdc4164d770553ca5aa8795b",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/karden_kedr_01_right.jpg: right; Original polymer Kedr grip with scalloped finger edge",
+        "images/karden_kedr_02_left.jpg: left; Opposing grip face and lower heel",
+        "images/karden_kedr_04_upper_left.jpg: upper_left; Top/side grip receiver junction",
+        "images/karden_kedr_08_rear_oblique.jpg: rear_oblique; Independent rear/side grip view with molded groove relief",
+        "images/karden_kedr_09_front_oblique.jpg: front_oblique; Forward grip face and finger recesses"
+      ],
+      "acceptedArtApproximations": [
+        "Native compact polymer Kedr grip with scalloped front edge and curved back; not generic AK/AR grip."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_grip/sources.json",
+        "brief": "art/overhaul/briefs/attachments/kedr_grip.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "074c7d2eb867d7be47153130e1e6a31d20f79499dd67b8dcc580aa0a29fd5848",
+          "366a477c79f3f53c16bd8ed1be375b80e0e2bbb691620287f16edced12fa0e71",
+          "42836c4b5a6fe4290ea6a71e19e53ff5125a2268f393ae9b62df896950455242",
+          "a2facf52453473c93ca95bd2390560f5f1320f47b2f78fc85a6a4130f64f2131",
+          "f913e61d3b3bf6e2959cc13733d0d4a90809df2e5f842465af305a1a74636402"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/kedr_20": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c3a73f940cd1329333ef043e070d1f3fa94016b79b8120ccbc6dd18690e7b934",
+      "briefSha256": "f100918392ba0fb3cfceb80f9fa954861b5ef3dabcbae1e8681a780eb2c6bcf4",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/karden_kedr_01_installed_right.jpg: installed_right; SHORT installed Kedr magazine: straight steel body and floorplate; looseLONG mag is comparison only",
+        "images/karden_kedr_02_installed_left.jpg: installed_left; Opposite SHORT installed magazine profile",
+        "images/karden_kedr_03_upper_right.jpg: upper_right; SHORT installed magazine upper shoulder and receiver scale",
+        "images/karden_kedr_05_folded_context.jpg: folded_context; SHORT installed magazine opposite elevated view, long detached is not target",
+        "images/karden_kedr_09_front_oblique.jpg: front_oblique; SHORT installed magazine narrow/front wall and base edge"
+      ],
+      "acceptedArtApproximations": [
+        "Short installed Kedr magazine is target game 20; long loose magazine is comparison only."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_20/sources.json",
+        "brief": "art/overhaul/briefs/attachments/kedr_20.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "074c7d2eb867d7be47153130e1e6a31d20f79499dd67b8dcc580aa0a29fd5848",
+          "366a477c79f3f53c16bd8ed1be375b80e0e2bbb691620287f16edced12fa0e71",
+          "6d078028ec515ea27f0ac1ac80a20b248a260e71696caa17059e75c359290e9c",
+          "a2facf52453473c93ca95bd2390560f5f1320f47b2f78fc85a6a4130f64f2131",
+          "aa7bba96162e977acd9874272b91b24275e4c395073981164ceb86a1e52e7c18"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/kedr_30": {
+      "status": "PASSED",
+      "sourceIndexSha256": "81ea3320b1f97e50716350047d9304473aa88c423ce891bf2629ceccc88b30c2",
+      "briefSha256": "6c3971c48b660d1af970598e0fd4506adb88734b7a5c089f2bb34b327089d1a4",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/karden_kedr_01_detached_right.jpg: detached_right; LONG loose steel Kedr magazine beside weapon, narrow channel stamping",
+        "images/karden_kedr_02_detached_left.jpg: detached_left; Opposite broad side of LONG loose magazine; installedSHORT not target",
+        "images/karden_kedr_05_detached_oblique.jpg: detached_oblique; LONG loose magazine upper end exterior and body length",
+        "images/karden_kedr_06_detached_opposite.jpg: detached_opposite; Opposing LONG loose broad face and floorplate",
+        "images/karden_kedr_08_detached_rear.jpg: detached_rear; LONG detached magazine in independent rear-oblique full photo"
+      ],
+      "acceptedArtApproximations": [
+        "Long detached Kedr magazine is target game 30; short installed module remains distinct."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_30/sources.json",
+        "brief": "art/overhaul/briefs/attachments/kedr_30.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "074c7d2eb867d7be47153130e1e6a31d20f79499dd67b8dcc580aa0a29fd5848",
+          "6d078028ec515ea27f0ac1ac80a20b248a260e71696caa17059e75c359290e9c",
+          "a2facf52453473c93ca95bd2390560f5f1320f47b2f78fc85a6a4130f64f2131",
+          "afc867cc7ad7491020ffda89bcaf02641996b570fbf3c822657e64c0e89e2a35",
+          "f913e61d3b3bf6e2959cc13733d0d4a90809df2e5f842465af305a1a74636402"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/rpk_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "72d61dfd6e4e61c714603d7a3432bd60b8b74d2d1bd0780d4d44e321944c2805",
+      "briefSha256": "32feb8696591f76b30a1a1aae16e1bcf9a449dfe26e29f8e0311283c9c7763cd",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/zonwar_rpkm_987_left.jpg: left; RPKM black polymer club stock full side, broad angular rear heel",
+        "images/zonwar_rpkm_988_front_oblique.jpg: front_oblique; Opposing frontal oblique shows cheek sweep and lower taper",
+        "images/zonwar_rpkm_991_right.jpg: right; Full opposite RPKM stock side",
+        "images/zonwar_rpkm_992_upper_oblique.jpg: upper_oblique; Upper stock/receiver relation and rear pad silhouette",
+        "images/zonwar_rpkm_1004_hinge_detail.jpg: hinge_detail; Close black-stock hinge and shoulder-to-receiver junction"
+      ],
+      "acceptedArtApproximations": [
+        "Black RPKM polymer club stock is family silhouette analog for authored RPK-74M furniture; source caliber/compatibility not claimed."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/rpk_stock/sources.json",
+        "brief": "art/overhaul/briefs/attachments/rpk_stock.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "232c885749f17c86ab3a9051dfa7bcd46b128420770d44a40093a42a49008371",
+          "27213e7c1f7e50834ec4028c805bd0dbe8ef2e252d4b25e4498b0ab62ed11edc",
+          "88fcc8985ffd94f1fb6534105f04f32c933ba3e68fafbce31798faebf82e0b00",
+          "e0f40152496114515aecfcdb9874396049998cbae39e2a665a24082b12b4050d",
+          "f992e8ac085f5daf53ccbc5acbb53265b2b23804b5493669beecbeb6471daddb"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/rpk_guard": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c38251baeb28a86595a74095f255efbe6d69c5a5d00e3e2436dc55676d616a94",
+      "briefSha256": "e8c1ec98bf560b66958b59f8ac4ef6ecd1575983a6c6453e3b63eab940c1a2a0",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/zonwar_rpkm_987_left.jpg: left; RPKM black ribbed lower handguard and ribbed upper cover, full installed side",
+        "images/zonwar_rpkm_988_front_oblique.jpg: front_oblique; Opposite front fore-end and thicker shoulder than AK rifle guard",
+        "images/zonwar_rpkm_991_right.jpg: right; Opposite full fore-end side",
+        "images/zonwar_rpkm_992_upper_oblique.jpg: upper_oblique; Upper gas-cover and lower rib band relation",
+        "images/zonwar_rpkm_999_upper_detail.jpg: upper_detail; Close upper fore-end cover end / rear gas-tube relationship; lower guard only partly visible"
+      ],
+      "acceptedArtApproximations": [
+        "Black ribbed RPKM lower guard plus upper cover as external family analog; wood frame 1006 excluded."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/rpk_guard/sources.json",
+        "brief": "art/overhaul/briefs/attachments/rpk_guard.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "232c885749f17c86ab3a9051dfa7bcd46b128420770d44a40093a42a49008371",
+          "27213e7c1f7e50834ec4028c805bd0dbe8ef2e252d4b25e4498b0ab62ed11edc",
+          "9db556163c43bd7136dec156fe53548c9d0fb47cdcae2d125db4be7678c927bd",
+          "e0f40152496114515aecfcdb9874396049998cbae39e2a665a24082b12b4050d",
+          "f992e8ac085f5daf53ccbc5acbb53265b2b23804b5493669beecbeb6471daddb"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Whole native photographs show installed exterior from several sides, not five isolated orthographic module shots. Hidden interfaces/art microdetail remain authored game approximations."
+      }
+    },
+    "attachments/rpk_rail": {
+      "status": "PASSED",
+      "sourceIndexSha256": "4470f82a5cee2088273665b2d982e0a586c0f98a25cc58ba3db65a84595b3697",
+      "briefSha256": "2b2fbde1d6bd8138765805d298bf1ea0595b8d11a8a61781e246ec3220f95750",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/b204_left.jpg: left; B20U v2.0 native RPK lower shell left, open upper windows and bottom rail",
+        "images/b205_right.jpg: right; Opposite B20U shell side and rear shoulder",
+        "images/b206_upper_oblique.jpg: upper_oblique; B20U open U section and underside rail seen from above",
+        "images/rpkactual1_installed_right.jpg: installed_right; Official actual RPK with B20U-family lower shell and additional upper accessories; only lower shell target",
+        "images/rpkactual2_installed_left.jpg: installed_left; Opposing official installed RPK view, scale and lower guard receiver/front clearances"
+      ],
+      "acceptedArtApproximations": [
+        "B-20U v2.0 lower shell, authored short B-2-like side children; no B-20L/Sport-5 long upper rail."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/rpk_rail/sources.json",
+        "brief": "art/overhaul/briefs/attachments/rpk_rail.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "3f1e621a6c221584d16eaf9b4c150604c2a05f2a02075e82329a9e89648d3acb",
+          "4eb906bd24a8b0c93ccfe796b0bc7b729476dab692c6724980c72edfb9c4202b",
+          "8022a3b0b46bc0f62a52bb14bff9b2a8205fcd31339604e73426ab98e26fdaf1",
+          "a51346b661c9370f9af7db62b58c92b3bb80348d033887555771de0061795c9f",
+          "f498e4951c91748646a8cf608f2376803d01a707642797ae1f505d6b0cdf1772"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "No isolated clean bottom/axial orthographic view; exterior channel/end is supported by oblique views. Hidden fit is authored game approximation."
+      }
+    },
+    "attachments/ar_brake": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c05290bff5259a3d20e6343ffd37edc6ad3041ca4e760376ce5024840222d0d0",
+      "briefSha256": "9d53cb2d3542bd8d51bd9f118ecabba4444aa7abac6d7995abdfbb9a4bee9a6e",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/native-brake1.jpg: front right oblique; SureFire SFMB-556 external two-port brake archetype; original unbranded AR game compensator; actual 5.56 subset only, no 7.62 gallery substitutions.",
+        "images/native-brake2.jpg: rear socket oblique; SureFire SFMB-556 external two-port brake archetype; original unbranded AR game compensator; actual 5.56 subset only, no 7.62 gallery substitutions.",
+        "images/native-brake4.jpg: top solid face; SureFire SFMB-556 external two-port brake archetype; original unbranded AR game compensator; actual 5.56 subset only, no 7.62 gallery substitutions.",
+        "images/native-brake5.jpg: side open ports; SureFire SFMB-556 external two-port brake archetype; original unbranded AR game compensator; actual 5.56 subset only, no 7.62 gallery substitutions.",
+        "images/native-ebay.jpg: independent side detail; SureFire SFMB-556 external two-port brake archetype; original unbranded AR game compensator; actual 5.56 subset only, no 7.62 gallery substitutions.",
+        "images/native-nordic.jpg: opposite front oblique; SureFire SFMB-556 external two-port brake archetype; original unbranded AR game compensator; actual 5.56 subset only, no 7.62 gallery substitutions."
+      ],
+      "acceptedArtApproximations": [
+        "Unbranded AR two-port 5.56-class brake exterior based on SFMB-556 archetype; no 7.62 substitution or internal geometry."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_brake/sources.json",
+        "brief": "art/overhaul/briefs/attachments/ar_brake.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 6,
+        "imageSha256": [
+          "11b65ff0922b9ac756d2442f4a0b43a3cc9bcaae1627f0e10398c80b8094a7ae",
+          "213a99a5cabdaf5b5788619ac5cfca34a69253199f1ae793e25d2fd04faea01f",
+          "a1a691c5b788c654a448388874eb191e2d710f141868e14e634db1b7beab5be2",
+          "a27a87682097e7f18428e772a0233a86b1ccd6f81a92f5fb9ec64412ed8c7a20",
+          "a540f926db69852063684b02aa297ed54dbcd60598f7e7d0f6de6a5e580e360b",
+          "c8d32a56beb8048b21484b606052349f0f3b6200474858afadc1e2dd9a63e8ed"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Axial front and pure rear view missing; no internal geometry or physical manufacturing specification inferred."
+      }
+    },
+    "attachments/ar_suppressor": {
+      "status": "PASSED",
+      "sourceIndexSha256": "85814a6f7f342caf8f5e08e841991da88b525c4b10f886b2e73329b7cdcd3616",
+      "briefSha256": "92b634fb017df79235f863271d10e5aad22e196f28ed386d67d1d4e997071f7b",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/native-rc21.jpg: installed left profile collar; SureFire SOCOM556-RC2 external full-length archetype; original unbranded AR game can, no functional internals or trademark reproduction.",
+        "images/native-rc22.jpg: detached diagonal body opposite side; SureFire SOCOM556-RC2 external full-length archetype; original unbranded AR game can, no functional internals or trademark reproduction.",
+        "images/native-rc23.jpg: installed upper profile; SureFire SOCOM556-RC2 external full-length archetype; original unbranded AR game can, no functional internals or trademark reproduction.",
+        "images/native-rc24.jpg: installed high front oblique; SureFire SOCOM556-RC2 external full-length archetype; original unbranded AR game can, no functional internals or trademark reproduction.",
+        "images/native-rc25.jpg: installed low front oblique; SureFire SOCOM556-RC2 external full-length archetype; original unbranded AR game can, no functional internals or trademark reproduction.",
+        "images/native-rc28.jpg: native black side profile; SureFire SOCOM556-RC2 external full-length archetype; original unbranded AR game can, no functional internals or trademark reproduction.",
+        "images/native-rc29.jpg: native black front/rear oblique pair counted one image; SureFire SOCOM556-RC2 external full-length archetype; original unbranded AR game can, no functional internals or trademark reproduction."
+      ],
+      "acceptedArtApproximations": [
+        "Unbranded full-length AR suppressor exterior based on SOCOM556-RC2; no internals or functional mount claim."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_suppressor/sources.json",
+        "brief": "art/overhaul/briefs/attachments/ar_suppressor.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 7,
+        "imageSha256": [
+          "1562b827ad194ced9b602c1e1c29e912cbe556b65c1d015edb1fdb308d5f966e",
+          "648662954c10c5445d90163c2b7d82e0e15dd73589109dd4f7efceff14b646ed",
+          "67b719e58c1f256f7df249f8db2541cab590b9ea3a94bb1f35356f1135a507db",
+          "77165e0a2573f82781cb12803d8762ecd5848c923565cf04e9e726d8b4891f87",
+          "dcf4beef5d8192d7cdda1d80cc4b121006763d32b428ec0f533c4239370715c5",
+          "ebe1cd64890477402e26edc38b1403d7f29df1343da2d2bd21788bacbb4fd5b8",
+          "f34f371e7a34517dce9ac62e93546fcfda5ab68b8e270122f17390834ed9e814"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "Native tan installed specimen and black official product photography share RC2 form; finish differences do not count as new views.; Pure axial rear of detached mount unavailable; rc21/rc22 expose external collar, do not invent internals."
+      }
+    },
+    "attachments/ar_compact_can": {
+      "status": "PASSED",
+      "sourceIndexSha256": "68ad0894f978dd210f1ef866231b3d00c98c1f3afe3ed9c170c302862661c6af",
+      "briefSha256": "09671abda64837185286bd5c9bf3ebb2a9d537eef4ae4e991cee66644339ed24",
+      "reviewers": [
+        "Luna",
+        "Sol (reference-package visual review)"
+      ],
+      "views": [
+        "images/native-mini2.jpg: front oblique body; SureFire SOCOM556-MINI2 external short-can archetype; original unbranded game design; no RC2 full-length or RC3 swaps.",
+        "images/native-mini3.jpg: opposite front oblique and collar; SureFire SOCOM556-MINI2 external short-can archetype; original unbranded game design; no RC2 full-length or RC3 swaps.",
+        "images/native-mini4.jpg: side profile body/collar detail; SureFire SOCOM556-MINI2 external short-can archetype; original unbranded game design; no RC2 full-length or RC3 swaps.",
+        "images/native-mini7.jpg: installed side context; SureFire SOCOM556-MINI2 external short-can archetype; original unbranded game design; no RC2 full-length or RC3 swaps.",
+        "images/native-mini8.jpg: installed opposite profile and collar detail; SureFire SOCOM556-MINI2 external short-can archetype; original unbranded game design; no RC2 full-length or RC3 swaps."
+      ],
+      "acceptedArtApproximations": [
+        "Unbranded short AR can exterior based on SOCOM556-MINI2; never substitute RC2/RC3 silhouette."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact_can/sources.json",
+        "brief": "art/overhaul/briefs/attachments/ar_compact_can.md",
+        "rights": "Внешние фото — private reference-only; не runtime/public и не копировать пиксели/логотипы. См. rights_note каждого активного кадра в sources.json.",
+        "uniquePhysicalFiles": 5,
+        "imageSha256": [
+          "2843e6b792654ab0cbb88609f119726855ecb53038b597907cd4438b76687328",
+          "7b08aec82e5eef4dc6f93ecfe3fcfaa731aaf779a18a4ebdfe102457ed1f7a72",
+          "9458acf2114bb6641e11968dae1497c0b1f3ade57e51a61a591a0a3f689a73ed",
+          "b9b7ba569730f2d3c066c2fac86d7677c6e6c66a15b04f6aa5cd02e9187056dd",
+          "c3712327b06635afb2c1ab3d42dad4c79f08ca2823831b382f8294d4a56a8454"
+        ],
+        "visualReview": "Ручная проверка содержания/варианта по активным reference records и их локальным файлам; источник-пакет визуально просмотрен Sol/root. Отбор исключает записи nonCountingReferences.",
+        "duplicates": "Активный список SHA проверен по локальным файлам; внутри ID нет повторяющихся байтовых изображений.",
+        "gaps": "No pure axial rear photograph; only exterior collar and contacts supported.; Tan and black versions used for geometry/context, finish changes are not extra views.; mini1 composite repeats mini2/mini5; mini5 similar angle and mini6 pouch excluded; mini9 distant contextual image not needed."
+      }
+    },
+    "attachments/g36_stock": {
+      "status": "PASSED",
+      "sourceIndexSha256": "61b67976e345341d1e742d85c75533ac964c256dd1941c06be1c1ea88d66a405",
+      "briefSha256": "e440d02d237b7c2c875351b686342e23b33fb35e6a84bc8149b3b4faf37fcbba",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "g36_stock__switzers_g36k_1.jpg: полный профиль, каркас и buttpad",
+        "g36_stock__switzers_g36k_3.jpg: зона приклад/receiver и пропорции шарнира",
+        "g36_stock__switzers_g36k_4.jpg: противоположный профиль сборки",
+        "g36_stock__switzers_g36k_5.jpg: обратная четверть, стык приклада",
+        "g36_stock__switzers_g36k_6.jpg: масштаб сборки; только контекст, не деталь"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed catalog target and per-ID silhouette/material decisions are recorded in the individual brief; protected G36K body/socket remains unchanged.",
+        "Hidden interfaces and exact production dimensions are not inferred from photos; only simple exterior game-fit closure is permitted.",
+        "All source images remain reference-only and must not be copied to runtime/public content."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/g36_stock.md",
+        "rights": "Private reference-only; ordinary copyright remains with source owners; no runtime redistribution claimed.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Manually inspected representative full images and module frames; separate image files/hashes, not mirrors or repeated crops. Full set contains multiple original photographs with complementary platform/component views.",
+        "duplicates": "No duplicate SHA-256 within active references.",
+        "gaps": [
+          "Нет снятых ortho деталей шарнира/затыльника; game-fit скрытых поверхностей аппроксимируется."
+        ]
+      }
+    },
+    "attachments/g36_adjust": {
+      "status": "PASSED",
+      "sourceIndexSha256": "206da3c222f78eafc635e32ded0abb793801d2635bc1b04af794263dad7e46bb",
+      "briefSha256": "7c55c96e4c3a0dbdb47ef79509a47a3ed7fc95c78313625ad6ae91a914b1e1df",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "g36_adjust__switzers_g36k_1.jpg: контур G36 скелетного основания",
+        "g36_adjust__switzers_g36k_3.jpg: масштаб/граница стыка у receiver",
+        "g36_adjust__switzers_g36k_4.jpg: противоположный профиль основы",
+        "g36_adjust__switzers_g36k_5.jpg: задняя четверть и stock joint",
+        "g36_adjust__switzers_g36k_6.jpg: соседний размерный контекст; cheek feature авторская"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed catalog target and per-ID silhouette/material decisions are recorded in the individual brief; protected G36K body/socket remains unchanged.",
+        "Hidden interfaces and exact production dimensions are not inferred from photos; only simple exterior game-fit closure is permitted.",
+        "All source images remain reference-only and must not be copied to runtime/public content."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/g36_adjust.md",
+        "rights": "Private reference-only; ordinary copyright remains with source owners; no runtime redistribution claimed.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Manually inspected representative full images and module frames; separate image files/hashes, not mirrors or repeated crops. Full set contains multiple original photographs with complementary platform/component views.",
+        "duplicates": "No duplicate SHA-256 within active references.",
+        "gaps": [
+          "Точная серийная модель G36 с добавленной регулируемой щекой не установлена; регулировка является авторским game art решением."
+        ]
+      }
+    },
+    "attachments/g36_grip": {
+      "status": "PASSED",
+      "sourceIndexSha256": "02a9f4d3d5de4c44481a2adddebb2b8e46e9cada05a4d7f1f9f6121f843f4ac4",
+      "briefSha256": "85ffd558ff20add5c7527dcb0c9131a44e935f58e5780e2078e20ec5be0b74b7",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "g36_grip__switzers_g36k_1.jpg: наклон/длина рукоятки в полном профиле",
+        "g36_grip__switzers_g36k_3.jpg: нижняя часть receiver и узел рукоятки",
+        "g36_grip__switzers_g36k_4.jpg: обратный полный профиль",
+        "g36_grip__switzers_g36k_5.jpg: обратная четверть, профиль grip",
+        "g36_grip__switzers_g36k_6.jpg: selector/grip соседство; нижний торец не виден"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed catalog target and per-ID silhouette/material decisions are recorded in the individual brief; protected G36K body/socket remains unchanged.",
+        "Hidden interfaces and exact production dimensions are not inferred from photos; only simple exterior game-fit closure is permitted.",
+        "All source images remain reference-only and must not be copied to runtime/public content."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_grip/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/g36_grip.md",
+        "rights": "Private reference-only; ordinary copyright remains with source owners; no runtime redistribution claimed.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Manually inspected representative full images and module frames; separate image files/hashes, not mirrors or repeated crops. Full set contains multiple original photographs with complementary platform/component views.",
+        "duplicates": "No duplicate SHA-256 within active references.",
+        "gaps": [
+          "Нижняя крышка/обратная грань интегрированной рукоятки не сняты отдельно; допустима описанная игровая аппроксимация."
+        ]
+      }
+    },
+    "attachments/g36_30": {
+      "status": "PASSED",
+      "sourceIndexSha256": "815792744615aa739994fe7568728609abdcd99f8b1296c629024e20b5782029",
+      "briefSha256": "f52fe870fc3ab67d13354aee0e81e5900154ed9d07198099c85e39d7a63f34e2",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "g36_30__switzers_g36k_1.jpg: 30-round installed silhouette",
+        "g36_30__switzers_g36k_3.jpg: крупно transparent body/верх у шахты",
+        "g36_30__switzers_g36k_4.jpg: противоположный installed profile",
+        "g36_30__switzers_g36k_5.jpg: наклон/пятка в задней четверти",
+        "magazines_mag234-blk_magpul_pmag_30g_maglevel-hk_g36_01_1.jpg: отдельно снятый 30G aftermarket panel/material archetype"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed catalog target and per-ID silhouette/material decisions are recorded in the individual brief; protected G36K body/socket remains unchanged.",
+        "Hidden interfaces and exact production dimensions are not inferred from photos; only simple exterior game-fit closure is permitted.",
+        "All source images remain reference-only and must not be copied to runtime/public content."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_30/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/g36_30.md",
+        "rights": "Private reference-only; ordinary copyright remains with source owners; no runtime redistribution claimed.",
+        "uniquePhysicalFiles": 6,
+        "visualReview": "Manually inspected representative full images and module frames; separate image files/hashes, not mirrors or repeated crops. Full set contains multiple original photographs with complementary platform/component views.",
+        "duplicates": "No duplicate SHA-256 within active references.",
+        "gaps": [
+          "Не найдены detached bottom/top вида точного OEM магазина; PMAG 30G только внешний analogue и не основание для заявлений OEM."
+        ]
+      }
+    },
+    "attachments/g36_20": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8709f656f5256302faee64a18186b595f764dc3dc5a2e6136aa390740bf4b34c",
+      "briefSha256": "4292aabec0fa85c4d38f35189703e29d3cb94ce04d8cdef3fd683f0950548c1a",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "g36_20__switzers_g36k_1.jpg: family 30-round installed length reference only",
+        "g36_20__switzers_g36k_3.jpg: upper-family magazine/well context",
+        "g36_20__switzers_g36k_4.jpg: opposite-side G36 family profile",
+        "g36_20__switzers_g36k_5.jpg: rear-quarter family curvature/pad context",
+        "g36_20__switzers_g36k_6.jpg: platform context only; short 20 length is authored"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed catalog target and per-ID silhouette/material decisions are recorded in the individual brief; protected G36K body/socket remains unchanged.",
+        "Hidden interfaces and exact production dimensions are not inferred from photos; only simple exterior game-fit closure is permitted.",
+        "All source images remain reference-only and must not be copied to runtime/public content."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_20/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/g36_20.md",
+        "rights": "Private reference-only; ordinary copyright remains with source owners; no runtime redistribution claimed.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Manually inspected representative full images and module frames; separate image files/hashes, not mirrors or repeated crops. Full set contains multiple original photographs with complementary platform/component views.",
+        "duplicates": "No duplicate SHA-256 within active references.",
+        "gaps": [
+          "Exact real-world G36 20-round SKU не подтвержден; укороченная длина/форма ниже общей family upper section — авторская игровая адаптация."
+        ]
+      }
+    },
+    "attachments/g36_muzzle": {
+      "status": "PASSED",
+      "sourceIndexSha256": "fb4c6922925c5551bc09244eb6506f92ef3db3584a8a25de196b7657a478621e",
+      "briefSha256": "214ccd8c396167564851964e6d2b9ec831190129a7429ee215630b5b8e171c76",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "g36_muzzle__brake_archetype_01.jpg: front 3/4 and crown",
+        "g36_muzzle__brake_archetype_02.jpg: rear 3/4/collar",
+        "g36_muzzle__brake_archetype_03.jpg: top profile",
+        "g36_muzzle__brake_archetype_04.jpg: side ports",
+        "g36_muzzle__brake_archetype_05.jpg: independent side detail"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed catalog target and per-ID silhouette/material decisions are recorded in the individual brief; protected G36K body/socket remains unchanged.",
+        "Hidden interfaces and exact production dimensions are not inferred from photos; only simple exterior game-fit closure is permitted.",
+        "All source images remain reference-only and must not be copied to runtime/public content."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_muzzle/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/g36_muzzle.md",
+        "rights": "Private reference-only; ordinary copyright remains with source owners; no runtime redistribution claimed.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Manually inspected representative full images and module frames; separate image files/hashes, not mirrors or repeated crops. Full set contains multiple original photographs with complementary platform/component views.",
+        "duplicates": "No duplicate SHA-256 within active references.",
+        "gaps": [
+          "Источники brake не подтверждают G36-specific fit; модулировать внешний профиль, посадку оставить в текущем игровом socket."
+        ]
+      }
+    },
+    "attachments/g36_can": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c458c2eda2726854f9822c3aa71845305642ea23a4efd1528d83b129f0c4f424",
+      "briefSha256": "6410d3360e7e2062a3cd34c95b7057ef3666eb9ae2184a98da59108cf87d733e",
+      "reviewers": [
+        "Luna"
+      ],
+      "views": [
+        "g36_can__archetype_01.jpg: installed side/collar",
+        "g36_can__archetype_02.jpg: detached opposite diagonal",
+        "g36_can__archetype_03.jpg: installed upper profile",
+        "g36_can__archetype_04.jpg: high forward 3/4",
+        "g36_can__archetype_05.jpg: low forward 3/4"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed catalog target and per-ID silhouette/material decisions are recorded in the individual brief; protected G36K body/socket remains unchanged.",
+        "Hidden interfaces and exact production dimensions are not inferred from photos; only simple exterior game-fit closure is permitted.",
+        "All source images remain reference-only and must not be copied to runtime/public content."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_can/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/g36_can.md",
+        "rights": "Private reference-only; ordinary copyright remains with source owners; no runtime redistribution claimed.",
+        "uniquePhysicalFiles": 5,
+        "visualReview": "Manually inspected representative full images and module frames; separate image files/hashes, not mirrors or repeated crops. Full set contains multiple original photographs with complementary platform/component views.",
+        "duplicates": "No duplicate SHA-256 within active references.",
+        "gaps": [
+          "Источники suppressor не подтверждают G36-specific fit; exact internal mount не устанавливался."
+        ]
+      }
+    }
+  }
+}

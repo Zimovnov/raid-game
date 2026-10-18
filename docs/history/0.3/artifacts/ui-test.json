@@ -1,0 +1,774 @@
+{
+  "scope": "DOM templates only, isolated local trusted source. No game controller/renderer/IndexedDB/WebRTC integration was executed.",
+  "status": "PASS",
+  "checks": [
+    {
+      "test": "main",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 257,
+      "buttons": 5,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "РЕЙД"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "character",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 714,
+      "buttons": 10,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Новый персонаж",
+        "АК-74М + ПМ"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "stash",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 727,
+      "buttons": 26,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Схрон",
+        "Схрон",
+        "Рюкзак"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "gunsmith",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 1182,
+      "buttons": 35,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Оружейная",
+        "Приклад"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "traders",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 6706,
+      "buttons": 150,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Торговцы",
+        "Игорь Мельников",
+        "Продать из схрона"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "quests",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 1403,
+      "buttons": 20,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Задания",
+        "Требуется инструмент",
+        "Книга технолога",
+        "Партия под контролем",
+        "На соседней улице",
+        "После смены",
+        "Квартальные записи",
+        "Дачное снабжение",
+        "Гаражный запас",
+        "Прогулка с пользой",
+        "Электрик на выезде",
+        "Проверенная техника",
+        "Своя сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "maps",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 1039,
+      "buttons": 15,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Выход в рейд",
+        "АК-74М"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "lobby",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 717,
+      "buttons": 11,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Отряд",
+        "Позвать друга"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "settings",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 933,
+      "buttons": 32,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Настройки",
+        "Изображение и звук",
+        "Управление"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "about",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 1286,
+      "buttons": 9,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Об игре",
+        "РЕЙД · обновлённая сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "raid",
+      "viewport": [
+        1280,
+        720
+      ],
+      "status": "PASS",
+      "text": 144,
+      "buttons": 0,
+      "horizontalOverflow": false,
+      "visibleHeadings": [],
+      "emptyButtons": 0
+    },
+    {
+      "test": "main",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 257,
+      "buttons": 5,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "РЕЙД"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "character",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 714,
+      "buttons": 10,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Новый персонаж",
+        "АК-74М + ПМ"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "stash",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 727,
+      "buttons": 26,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Схрон",
+        "Схрон",
+        "Рюкзак"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "gunsmith",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 1182,
+      "buttons": 35,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Оружейная",
+        "Приклад"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "traders",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 6706,
+      "buttons": 150,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Торговцы",
+        "Игорь Мельников",
+        "Продать из схрона"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "quests",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 1403,
+      "buttons": 20,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Задания",
+        "Требуется инструмент",
+        "Книга технолога",
+        "Партия под контролем",
+        "На соседней улице",
+        "После смены",
+        "Квартальные записи",
+        "Дачное снабжение",
+        "Гаражный запас",
+        "Прогулка с пользой",
+        "Электрик на выезде",
+        "Проверенная техника",
+        "Своя сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "maps",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 1039,
+      "buttons": 15,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Выход в рейд",
+        "АК-74М"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "lobby",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 717,
+      "buttons": 11,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Отряд",
+        "Позвать друга"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "settings",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 933,
+      "buttons": 32,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Настройки",
+        "Изображение и звук",
+        "Управление"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "about",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 1286,
+      "buttons": 9,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Об игре",
+        "РЕЙД · обновлённая сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "raid",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "status": "PASS",
+      "text": 144,
+      "buttons": 0,
+      "horizontalOverflow": false,
+      "visibleHeadings": [],
+      "emptyButtons": 0
+    },
+    {
+      "test": "main",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 257,
+      "buttons": 5,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "РЕЙД"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "character",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 714,
+      "buttons": 10,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Новый персонаж",
+        "АК-74М + ПМ"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "stash",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 727,
+      "buttons": 26,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Схрон",
+        "Схрон",
+        "Рюкзак"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "gunsmith",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1182,
+      "buttons": 35,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Оружейная",
+        "Приклад"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "traders",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 6706,
+      "buttons": 150,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Торговцы",
+        "Игорь Мельников",
+        "Продать из схрона"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "quests",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1403,
+      "buttons": 20,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Задания",
+        "Требуется инструмент",
+        "Книга технолога",
+        "Партия под контролем",
+        "На соседней улице",
+        "После смены",
+        "Квартальные записи",
+        "Дачное снабжение",
+        "Гаражный запас",
+        "Прогулка с пользой",
+        "Электрик на выезде",
+        "Проверенная техника",
+        "Своя сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "maps",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1039,
+      "buttons": 15,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Выход в рейд",
+        "АК-74М"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "lobby",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 717,
+      "buttons": 11,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Отряд",
+        "Позвать друга"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "settings",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 933,
+      "buttons": 32,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Настройки",
+        "Изображение и звук",
+        "Управление"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "about",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1286,
+      "buttons": 9,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Об игре",
+        "РЕЙД · обновлённая сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "raid",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "status": "PASS",
+      "text": 144,
+      "buttons": 0,
+      "horizontalOverflow": false,
+      "visibleHeadings": [],
+      "emptyButtons": 0
+    },
+    {
+      "test": "main",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 257,
+      "buttons": 5,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "РЕЙД"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "character",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 714,
+      "buttons": 10,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Новый персонаж",
+        "АК-74М + ПМ"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "stash",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 727,
+      "buttons": 26,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Схрон",
+        "Схрон",
+        "Рюкзак"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "gunsmith",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1182,
+      "buttons": 35,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Оружейная",
+        "Приклад"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "traders",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 6706,
+      "buttons": 150,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Торговцы",
+        "Игорь Мельников",
+        "Продать из схрона"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "quests",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1403,
+      "buttons": 20,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Задания",
+        "Требуется инструмент",
+        "Книга технолога",
+        "Партия под контролем",
+        "На соседней улице",
+        "После смены",
+        "Квартальные записи",
+        "Дачное снабжение",
+        "Гаражный запас",
+        "Прогулка с пользой",
+        "Электрик на выезде",
+        "Проверенная техника",
+        "Своя сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "maps",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1039,
+      "buttons": 15,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Выход в рейд",
+        "АК-74М"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "lobby",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 717,
+      "buttons": 11,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Отряд",
+        "Позвать друга"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "settings",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 933,
+      "buttons": 32,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Настройки",
+        "Изображение и звук",
+        "Управление"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "about",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 1286,
+      "buttons": 9,
+      "horizontalOverflow": false,
+      "visibleHeadings": [
+        "Об игре",
+        "РЕЙД · обновлённая сборка"
+      ],
+      "emptyButtons": 0
+    },
+    {
+      "test": "raid",
+      "viewport": [
+        3440,
+        1440
+      ],
+      "status": "PASS",
+      "text": 144,
+      "buttons": 0,
+      "horizontalOverflow": false,
+      "visibleHeadings": [],
+      "emptyButtons": 0
+    },
+    {
+      "test": "HTML escaping in character field",
+      "status": "PASS"
+    },
+    {
+      "test": "five distinct map selection controls",
+      "status": "PASS",
+      "count": 5
+    },
+    {
+      "test": "actual weapon slot/module controls",
+      "status": "PASS"
+    },
+    {
+      "test": "DOM JavaScript errors",
+      "status": "PASS",
+      "errors": []
+    }
+  ],
+  "capabilities": {
+    "webgl2": false,
+    "rtc": true,
+    "indexedDB": true,
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36"
+  }
+}

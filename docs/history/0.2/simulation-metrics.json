@@ -1,0 +1,68 @@
+{
+  "scope": "Node CPU simulation only, two idle players, seed 123, bots active, 600 fixed steps/map. No GPU rendering, network transport or browser frame scheduling. Do not interpret as FPS or measured upload rate.",
+  "node": "v22.16.0",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "platform": "linux",
+  "maps": [
+    {
+      "map": "factory",
+      "steps": 600,
+      "simulatedSeconds": 20,
+      "players": 2,
+      "bots": 6,
+      "initMs": 150.270563,
+      "p50StepMs": 0.0628030000000308,
+      "p95StepMs": 0.2717099999999846,
+      "p95SnapshotBytes": 18689,
+      "maxSnapshotBytes": 18745
+    },
+    {
+      "map": "city",
+      "steps": 600,
+      "simulatedSeconds": 20,
+      "players": 2,
+      "bots": 6,
+      "initMs": 258.23395600000003,
+      "p50StepMs": 0.061970999999971355,
+      "p95StepMs": 0.1207880000000614,
+      "p95SnapshotBytes": 18093,
+      "maxSnapshotBytes": 18142
+    },
+    {
+      "map": "village",
+      "steps": 600,
+      "simulatedSeconds": 20,
+      "players": 2,
+      "bots": 6,
+      "initMs": 367.8560779999999,
+      "p50StepMs": 0.06059000000004744,
+      "p95StepMs": 0.10213999999996304,
+      "p95SnapshotBytes": 18796,
+      "maxSnapshotBytes": 18842
+    },
+    {
+      "map": "park",
+      "steps": 600,
+      "simulatedSeconds": 20,
+      "players": 2,
+      "bots": 6,
+      "initMs": 536.2937019999999,
+      "p50StepMs": 0.06995299999994131,
+      "p95StepMs": 0.09557100000006358,
+      "p95SnapshotBytes": 17253,
+      "maxSnapshotBytes": 17306
+    },
+    {
+      "map": "mall",
+      "steps": 600,
+      "simulatedSeconds": 20,
+      "players": 2,
+      "bots": 6,
+      "initMs": 214.27549399999998,
+      "p50StepMs": 0.044065000000045984,
+      "p95StepMs": 0.0905840000000353,
+      "p95SnapshotBytes": 19723,
+      "maxSnapshotBytes": 19777
+    }
+  ]
+}

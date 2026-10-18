@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>РЕЙД — тактический extraction-шутер</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div id="react-root"><section class="boot"><b>РЕЙД</b><p>Загрузка игры…</p></section></div>
+  <div id="cookie-root"></div>
+  <noscript>Для игры требуется JavaScript.</noscript>
+  <script type="module" src="/src/react/bootstrap.tsx"></script>
+  <script>
+    (function () {
+      var boot = document.querySelector('#react-root > .boot');
+      function failed() {
+        if (!boot || !boot.isConnected) return;
+        boot.innerHTML = '<b>РЕЙД</b><h1>Игра не загрузилась</h1><p>Проверьте соединение и попробуйте снова.</p>';
+        var retry = document.createElement('button');
+        retry.textContent = 'Повторить';
+        retry.addEventListener('click', function () { location.reload(); });
+        boot.appendChild(retry);
+      }
+      window.addEventListener('error', function (event) {
+        if (event.target instanceof HTMLScriptElement) failed();
+      }, true);
+      setTimeout(failed, 15000);
+    }());
+  </script>
+</body>
+</html>

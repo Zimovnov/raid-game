@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/mp5_retract.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__mp5_retract": {
+      "0": {
+        "triangles": 184,
+        "vertices": 360,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04450000077486038,
+            -0.14300349354743958,
+            -0.1900000423192978
+          ],
+          "max": [
+            0.04450000077486038,
+            0.04966269060969353,
+            0.2420000284910202
+          ]
+        }
+      },
+      "1": {
+        "triangles": 76,
+        "vertices": 144,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04450000077486038,
+            -0.14400003850460052,
+            -0.1900000423192978
+          ],
+          "max": [
+            0.04450000077486038,
+            0.04999997839331627,
+            0.2410000115633011
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/mp5_retract-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__mp5_retract": {
+      "min": [
+        -0.04450000077486038,
+        -0.14300349354743958,
+        -0.1900000423192978
+      ],
+      "max": [
+        0.04450000077486038,
+        0.04966269060969353,
+        0.2420000284910202
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.04450000077486038,
+      -0.2420000284910202,
+      -0.14400003850460052
+    ],
+    "max": [
+      0.04450000077486038,
+      0.1900000423192978,
+      0.04999997839331627
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

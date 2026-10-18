@@ -1,0 +1,63 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>RAID — приёмка overhaul</title>
+<style>body{margin:0;background:#171a19;color:#ddd;font:14px system-ui}canvas{width:100vw;height:100vh;display:block}aside{position:absolute;left:16px;right:16px;top:16px;background:#111e;padding:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}select,button,input{font:inherit;max-width:280px}output{white-space:pre-wrap}.report{position:absolute;bottom:10px;left:16px;right:16px;max-height:210px;overflow:auto;background:#111e;padding:8px;font:11px monospace}body.clean aside,body.clean .report{display:none}#clean{position:absolute;right:12px;bottom:12px;z-index:2}</style>
+<canvas id="scene"></canvas><button id="clean">Скрыть панель</button><aside><select id="weapon" aria-label="Оружие"></select><select id="attachment" aria-label="Модуль"><option value="">Штатная сборка</option></select><select id="view" aria-label="Ракурс"><option value="workshop">Оружейная</option><option value="fp">Первое лицо</option><option value="ads">Прицеливание</option><option value="world">Пять независимых экземпляров</option><option value="character">Персонаж</option></select><select id="action" aria-label="Действие"><option value="idle">Покой</option><option value="reload">Перезарядка</option><option value="fire">Выстрел</option><option value="inspect">Осмотр</option></select><input id="progress" aria-label="Ход анимации" type="range" min="0" max="1" step=".01" value="0"><select id="bodyPose" aria-label="Поза персонажа"><option value="idle">Стойка</option><option value="walk">Шаг, фаза 0,48</option><option value="crouch">Присед</option></select><select id="cameraAngle" aria-label="Камера"><option value="oblique">Три четверти</option><option value="front">Спереди</option><option value="side">Сбоку</option><option value="back">Сзади</option></select><button id="benchmark">Измерить 3 × 10 секунд</button><button id="audit">Проверить все модели</button><output id="status">Загрузка</output></aside><output class="report" id="report"></output>
+<script type="module">
+import {Renderer} from '/src/rendering/renderer.ts';
+import {weaponModel} from '/src/rendering/models.ts';
+import {model} from '/src/rendering/math.ts';
+import {createWeapon,getSlots,replacePreview,moduleProblems} from '/src/domain/items.ts';
+import {CATALOG} from '/src/content/catalog.ts';
+import {newProfile} from '/src/domain/profile.ts';
+import {World} from '/src/simulation/world.ts';
+import {MAPS} from '/src/content/maps.ts';
+const $=id=>document.getElementById(id),renderer=new Renderer($('scene'),'babylon');
+$('clean').onclick=()=>{const hidden=document.body.classList.toggle('clean');$('clean').textContent=hidden?'Показать панель':'Скрыть панель';};
+const weapons=Object.values(CATALOG).filter(d=>d.category==='weapon');
+$('weapon').innerHTML=weapons.map(d=>`<option value="${d.id}">${d.name}</option>`).join('');
+const profile=newProfile({name:'Приёмка',faction:'BEAR',face:0,outfit:0});
+const world=new World(MAPS.range,'fieldkit-review',false,51,true), actor=world.addPlayer(profile.id,profile.character,profile.gear);
+let gun=createWeapon(weapons[0].id), audit=false,previous=performance.now(), benchmark=null;
+let auditReport='';const frames=[],results=[];window.fieldKitReview={renderer,results,frames};
+function selectWeapon(id){frames.length=0;gun=createWeapon(id);actor.gear.primary=gun;actor.active='primary';$('weapon').value=id;$('attachment').innerHTML='<option value="">Штатная сборка</option>'+getSlots(gun).flatMap(s=>Object.values(CATALOG).filter(d=>d.category==='module'&&d.interface===s.slot.accepts&&!moduleProblems(gun,s.path,d.id).length).map(d=>`<option value="${s.path}|${d.id}">${s.slot.name}: ${d.name}</option>`)).join('');}
+$('weapon').onchange=()=>selectWeapon($('weapon').value);
+$('attachment').onchange=()=>{gun=createWeapon($('weapon').value);if($('attachment').value){const [path,id]=$('attachment').value.split('|');gun=replacePreview(gun,path,id);}actor.gear.primary=gun;};
+renderer.orbit={yaw:2.7,pitch:.15,distance:1.35};
+$('cameraAngle').onchange=()=>{renderer.orbit.yaw={oblique:2.7,front:-Math.PI/2,side:0,back:Math.PI/2}[$('cameraAngle').value];};
+function draw(now){const interval=now-previous,dt=Math.min(.1,interval/1000);previous=now;const start=performance.now(),view=$('view').value,action=$('action').value,t=Number($('progress').value);
+ renderer.orbit.distance=view==='character'?1.9:1.35;
+ const pose={reload:action==='reload'?Math.max(.001,t):0,mode:'swap',empty:true,inspect:action==='inspect'?Math.max(.001,t):0,shotAge:action==='fire'?t*.12:100};
+ if(view==='character'){renderer.workshop(null,profile.character,'high',profile.gear,$('bodyPose').value,.48);}
+ else if(view==='workshop'||view==='world'){
+  renderer.workshop(gun,null,'high');
+  if(view==='world'||action!=='idle'){
+   const dynamic=[];for(let n=0;n<(view==='world'?5:1);n++){const p={...pose,reload:view==='world'?(n+1)/6:pose.reload};for(const part of weaponModel(gun,'',0,p))dynamic.push({part,parent:model(view==='world'?[(n-2)*.25,0,(n-2)*.12]:[0,0,0],view==='world'?[.5,.5,.5]:[1,1,1],[0,view==='world'?(n-2)*.3:0,0])});}
+   renderer.bridge.render(renderer.staticParts,dynamic,true);
+  }
+ }else{renderer.setMap(MAPS.range);const snapshot=world.snapshot(),a=snapshot.players[0];a.gear.primary=gun;a.active='primary';a.reload=pose.reload?1-pose.reload:0;a.reloadDuration=1;a.reloadMode='swap';a.reloadEmpty=true;a.inspect=pose.inspect?(1-pose.inspect)*1.8:0;a.lastShot=snapshot.time-pose.shotAge;renderer.raid(snapshot,profile.id,{yaw:0,pitch:0,fov:78,aim:view==='ads',bob:false,quality:'high',dt});}
+ const cpu=performance.now()-start; if(benchmark)sampleBenchmark(now,cpu,interval);
+ frames.push(cpu);if(frames.length>240)frames.shift();
+ $('status').textContent=renderer.bridge.models?.errors.size?JSON.stringify([...renderer.bridge.models.errors]):CATALOG[gun.def].name+' · '+renderer.bridge.metrics.drawCalls+' вызовов';
+ if(!audit&&!benchmark){const ordered=[...frames].sort((a,b)=>a-b);$('report').textContent=auditReport+' CPU кадр p95: '+(ordered[Math.floor(ordered.length*.95)]||0).toFixed(2)+' мс';}
+ requestAnimationFrame(draw);
+}requestAnimationFrame(draw);
+
+const percentile=(values,p)=>{const sorted=[...values].sort((a,b)=>a-b);return sorted[Math.min(sorted.length-1,Math.floor(sorted.length*p))]??null;};
+const viewCharacter=()=>$('view').value==='character'?{character:profile.character,armor:profile.gear.armor?.def,helmet:profile.gear.helmet?.def}:null;
+const inventory=()=>({metrics:{...renderer.bridge.metrics},sceneMeshes:renderer.bridge.scene.meshes.length,materials:renderer.bridge.scene.materials.length,textures:renderer.bridge.scene.textures.length,assetErrors:[...renderer.bridge.models.errors]});
+function sampleBenchmark(now,cpu,interval){
+ const b=benchmark,elapsed=now-b.since;
+ if(elapsed<3000){$('report').textContent=`Прогрев: прогон ${b.runs.length+1}/3`;return;}
+ b.cpu.push(cpu);b.intervals.push(interval);
+ if(elapsed<13000){if(b.cpu.length%30===0)$('report').textContent=`Измерение ${b.runs.length+1}/3: ${((elapsed-3000)/1000).toFixed(1)}/10 с`;return;}
+ b.runs.push({frames:b.cpu.length,cpuSubmitMs:{median:percentile(b.cpu,.5),p95:percentile(b.cpu,.95)},rafIntervalMs:{median:percentile(b.intervals,.5),p95:percentile(b.intervals,.95)},observedRafHz:1000/(b.intervals.reduce((a,v)=>a+v,0)/b.intervals.length),...inventory()});
+ if(b.runs.length<3){b.since=now;b.cpu=[];b.intervals=[];return;}
+ const report={status:renderer.bridge.models.errors.size?'FAILED':'MEASURED',recordedAt:new Date().toISOString(),scope:'Production renderer in this controlled browser tab. CPU measures synchronous submission only; RAF timing includes browser scheduling and throttling. Not a multiplayer or gameplay acceptance.',weapon:gun.def,installedBuild:gun,view:$('view').value,action:$('action').value,actionProgress:Number($('progress').value),character:viewCharacter(),bodyPose:$('bodyPose').value,bodyTime:.48,camera:{orbit:{...renderer.orbit},fov:['workshop','world','character'].includes($('view').value)?43:78},seed:51,resolution:{css:[innerWidth,innerHeight],pixels:[renderer.bridge.engine.getRenderWidth(),renderer.bridge.engine.getRenderHeight()],dpr:devicePixelRatio},gpuFrameMs:'unavailable — no timer-query measurement',jsHeap:performance.memory?{used:performance.memory.usedJSHeapSize,total:performance.memory.totalJSHeapSize,limit:performance.memory.jsHeapSizeLimit}:'unavailable',glMemory:'unavailable',resources:performance.getEntriesByType('resource').filter(r=>/\.(glb|png|jpg)(\?|$)/.test(r.name)).map(r=>({url:r.name,transferBytes:r.transferSize,decodedBodyBytes:r.decodedBodySize,status:r.responseStatus||'unavailable'})),runs:b.runs};
+ auditReport=JSON.stringify(report,null,2);$('report').textContent=auditReport;benchmark=null;$('benchmark').disabled=false;for(const input of document.querySelectorAll('select,input'))input.disabled=false;$('audit').disabled=false;
+ // Keep the completed measurement stable for DOM-based collection and screenshots.
+ audit=true;
+}
+$('benchmark').onclick=()=>{if(benchmark)return;audit=false;benchmark={since:performance.now(),cpu:[],intervals:[],runs:[]};$('benchmark').disabled=true;$('audit').disabled=true;for(const input of document.querySelectorAll('select,input'))input.disabled=true;};
+
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+$('audit').onclick=async()=>{if(audit)return;audit=true;$('audit').disabled=true;results.length=0;try{for(const w of weapons){selectWeapon(w.id);$('view').value='workshop';await wait(900);for(const view of ['workshop','fp','ads','world']){$('view').value=view;await wait(100);if(renderer.bridge.models?.errors.size)throw Error(JSON.stringify([...renderer.bridge.models.errors]));}results.push({weapon:w.id,status:'PASSED'});$('report').textContent=results.length+'/'+weapons.length+' моделей без ошибок загрузки';} auditReport=JSON.stringify({status:'PASSED',weapons:results.length,scope:'Production renderer GLB loading, workshop/first person/ADS/five poses. No gameplay/network claims.'});}catch(e){$('report').textContent='FAILED '+e.message;}finally{audit=false;$('audit').disabled=false;}};
+</script></html>

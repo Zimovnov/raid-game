@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/ar_suppressor.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "muzzle__ar_suppressor": {
+      "0": {
+        "triangles": 340,
+        "vertices": 847,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03152700141072273,
+            -0.02998396009206772,
+            -0.25700005888938904
+          ],
+          "max": [
+            0.03152700141072273,
+            0.029983967542648315,
+            0.021116651594638824
+          ]
+        }
+      },
+      "1": {
+        "triangles": 100,
+        "vertices": 253,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.02991499938070774,
+            -0.02606709487736225,
+            -0.25700002908706665
+          ],
+          "max": [
+            0.02991499938070774,
+            0.026067106053233147,
+            0.021000003442168236
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/ar_suppressor-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "muzzle__ar_suppressor": {
+      "min": [
+        -0.03152700141072273,
+        -0.02998396009206772,
+        -0.25700005888938904
+      ],
+      "max": [
+        0.03152700141072273,
+        0.029983967542648315,
+        0.021116651594638824
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03152700141072273,
+      -0.021116653457283974,
+      -0.029983965680003166
+    ],
+    "max": [
+      0.03152700141072273,
+      0.25700005888938904,
+      0.029983999207615852
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

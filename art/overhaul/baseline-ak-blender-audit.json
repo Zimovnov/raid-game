@@ -1,0 +1,1250 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/field-kit-051/weapon_ak_common.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "action": {
+      "0": {
+        "triangles": 108,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 12,
+        "vertices": 24,
+        "objects": 1,
+        "materials": [
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "body": {
+      "0": {
+        "triangles": 1112,
+        "vertices": 2208,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 152,
+        "vertices": 288,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard__ak_poly": {
+      "0": {
+        "triangles": 972,
+        "vertices": 1944,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 108,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard__ak_rail": {
+      "0": {
+        "triangles": 2700,
+        "vertices": 5400,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 300,
+        "vertices": 600,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard__ak_vent": {
+      "0": {
+        "triangles": 3996,
+        "vertices": 7992,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 444,
+        "vertices": 888,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard__ak_wood": {
+      "0": {
+        "triangles": 972,
+        "vertices": 1944,
+        "objects": 1,
+        "materials": [
+          "FK051_polymer",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 108,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "FK051_polymer",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_grip__fore_angled": {
+      "0": {
+        "triangles": 216,
+        "vertices": 432,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 24,
+        "vertices": 48,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_grip__fore_slim": {
+      "0": {
+        "triangles": 216,
+        "vertices": 432,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 24,
+        "vertices": 48,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_grip__fore_stop": {
+      "0": {
+        "triangles": 108,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 12,
+        "vertices": 24,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_grip__fore_stub": {
+      "0": {
+        "triangles": 248,
+        "vertices": 480,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 56,
+        "vertices": 96,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_grip__fore_vertical": {
+      "0": {
+        "triangles": 216,
+        "vertices": 432,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 24,
+        "vertices": 48,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_laser__laser": {
+      "0": {
+        "triangles": 248,
+        "vertices": 480,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 56,
+        "vertices": 96,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_laser__laser_dual": {
+      "0": {
+        "triangles": 388,
+        "vertices": 744,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 100,
+        "vertices": 168,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_light__flashlight": {
+      "0": {
+        "triangles": 280,
+        "vertices": 528,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 88,
+        "vertices": 144,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_light__light_compact": {
+      "0": {
+        "triangles": 420,
+        "vertices": 792,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 132,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "handguard_light__wide_light": {
+      "0": {
+        "triangles": 420,
+        "vertices": 792,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 132,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "magazine__ak545_30": {
+      "0": {
+        "triangles": 1080,
+        "vertices": 2160,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 120,
+        "vertices": 240,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "magazine__ak545_45": {
+      "0": {
+        "triangles": 1080,
+        "vertices": 2160,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 120,
+        "vertices": 240,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "magazine__ak545_window_30": {
+      "0": {
+        "triangles": 2052,
+        "vertices": 4104,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 228,
+        "vertices": 456,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "magazine__ak762_20": {
+      "0": {
+        "triangles": 1080,
+        "vertices": 2160,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 120,
+        "vertices": 240,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "magazine__ak762_30": {
+      "0": {
+        "triangles": 1080,
+        "vertices": 2160,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 120,
+        "vertices": 240,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "mount__ak_mount": {
+      "0": {
+        "triangles": 324,
+        "vertices": 648,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 36,
+        "vertices": 72,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "mount_optic__dot_tube": {
+      "0": {
+        "triangles": 636,
+        "vertices": 1224,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 156,
+        "vertices": 264,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "mount_optic__holo": {
+      "0": {
+        "triangles": 540,
+        "vertices": 1080,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 60,
+        "vertices": 120,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "mount_optic__prism2": {
+      "0": {
+        "triangles": 744,
+        "vertices": 1440,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 168,
+        "vertices": 288,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "mount_optic__red_dot": {
+      "0": {
+        "triangles": 540,
+        "vertices": 1080,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 60,
+        "vertices": 120,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "mount_optic__scope3_compact": {
+      "0": {
+        "triangles": 744,
+        "vertices": 1440,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 168,
+        "vertices": 288,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "mount_optic__scope4": {
+      "0": {
+        "triangles": 636,
+        "vertices": 1224,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 156,
+        "vertices": 264,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "muzzle__ak_brake": {
+      "0": {
+        "triangles": 464,
+        "vertices": 912,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 80,
+        "vertices": 144,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "muzzle__ak_ported": {
+      "0": {
+        "triangles": 776,
+        "vertices": 1536,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 104,
+        "vertices": 192,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "muzzle__ak_suppressor": {
+      "0": {
+        "triangles": 280,
+        "vertices": 528,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 88,
+        "vertices": 144,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "pistolgrip__ak_ergo": {
+      "0": {
+        "triangles": 648,
+        "vertices": 1296,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 72,
+        "vertices": 144,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "pistolgrip__ak_grip": {
+      "0": {
+        "triangles": 108,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 12,
+        "vertices": 24,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "pistolgrip__ak_palm": {
+      "0": {
+        "triangles": 216,
+        "vertices": 432,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 24,
+        "vertices": 48,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "stock__ak_cheek": {
+      "0": {
+        "triangles": 432,
+        "vertices": 864,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 48,
+        "vertices": 96,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "stock__ak_skeleton": {
+      "0": {
+        "triangles": 324,
+        "vertices": 648,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 36,
+        "vertices": 72,
+        "objects": 1,
+        "materials": [
+          "FK051_metal"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "stock__ak_stock": {
+      "0": {
+        "triangles": 216,
+        "vertices": 432,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 24,
+        "vertices": 48,
+        "objects": 1,
+        "materials": [
+          "FK051_metal",
+          "FK051_polymer"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "stock__ak_wood_stock": {
+      "0": {
+        "triangles": 216,
+        "vertices": 432,
+        "objects": 1,
+        "materials": [
+          "FK051_polymer",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 24,
+        "vertices": 48,
+        "objects": 1,
+        "materials": [
+          "FK051_polymer",
+          "FK051_wood"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "surface-polymer",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "surface-wood",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "surface-metal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-roundtrip/ak-common.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "rawImportedBounds": {
+    "min": [
+      -1.7857141494750977,
+      -1.2416667938232422,
+      -6.357142925262451
+    ],
+    "max": [
+      1.7857141494750977,
+      2.411764621734619,
+      4.085714340209961
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

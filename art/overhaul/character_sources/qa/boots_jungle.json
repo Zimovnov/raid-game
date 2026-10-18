@@ -1,0 +1,345 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/boots_jungle.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "boots_jungle_footL": {
+      "0": {
+        "triangles": 1100,
+        "vertices": 1956,
+        "objects": 6,
+        "materials": [
+          "RAID_jungle_cloth",
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_reinforce",
+          "RAID_rubber",
+          "RAID_zip"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10100000351667404,
+            -0.12349999696016312,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.10100000351667404,
+            0.17800000309944153,
+            0.11550000309944153
+          ]
+        }
+      },
+      "1": {
+        "triangles": 252,
+        "vertices": 492,
+        "objects": 6,
+        "materials": [
+          "RAID_jungle_cloth",
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_reinforce",
+          "RAID_rubber",
+          "RAID_zip"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.09594999998807907,
+            -0.11699999868869781,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.09594999998807907,
+            0.17800000309944153,
+            0.11550000309944153
+          ]
+        }
+      }
+    },
+    "boots_jungle_footR": {
+      "0": {
+        "triangles": 1100,
+        "vertices": 1956,
+        "objects": 6,
+        "materials": [
+          "RAID_jungle_cloth",
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_reinforce",
+          "RAID_rubber",
+          "RAID_zip"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10100000351667404,
+            -0.12349999696016312,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.10100000351667404,
+            0.17800000309944153,
+            0.11550000309944153
+          ]
+        }
+      },
+      "1": {
+        "triangles": 252,
+        "vertices": 492,
+        "objects": 6,
+        "materials": [
+          "RAID_jungle_cloth",
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_reinforce",
+          "RAID_rubber",
+          "RAID_zip"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.09594999998807907,
+            -0.11699999868869781,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.09594999998807907,
+            0.17800000309944153,
+            0.11550000309944153
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "jungle_cloth_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "jungle_cloth_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lace_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "leather_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "jungle_cloth_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "leather_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "leather_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lace_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lace_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/boots_jungle.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "boots_jungle_footL": {
+      "min": [
+        -0.10100000351667404,
+        -0.12349999696016312,
+        -0.2280000001192093
+      ],
+      "max": [
+        0.10100000351667404,
+        0.17800000309944153,
+        0.11550000309944153
+      ]
+    },
+    "boots_jungle_footR": {
+      "min": [
+        -0.10100000351667404,
+        -0.12349999696016312,
+        -0.2280000001192093
+      ],
+      "max": [
+        0.10100000351667404,
+        0.17800000309944153,
+        0.11550000309944153
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.10100000351667404,
+      -0.11550000309944153,
+      -0.12349999696016312
+    ],
+    "max": [
+      0.10100000351667404,
+      0.2280000001192093,
+      0.17800000309944153
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

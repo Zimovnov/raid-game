@@ -1,0 +1,118 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/m9_grip.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "pistolgrip__m9_grip": {
+      "0": {
+        "triangles": 232,
+        "vertices": 428,
+        "objects": 3,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_sand.002",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03749999776482582,
+            -0.13480454683303833,
+            -0.04400000348687172
+          ],
+          "max": [
+            0.03750000149011612,
+            0.06975125521421432,
+            0.06199999526143074
+          ]
+        }
+      },
+      "1": {
+        "triangles": 64,
+        "vertices": 114,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_sand.002"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03590000048279762,
+            -0.13500002026557922,
+            -0.04400000348687172
+          ],
+          "max": [
+            0.035899996757507324,
+            0.07000001519918442,
+            0.06199999526143074
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "sand-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m9_grip-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "pistolgrip__m9_grip": {
+      "min": [
+        -0.03749999776482582,
+        -0.13480454683303833,
+        -0.04400000348687172
+      ],
+      "max": [
+        0.03750000149011612,
+        0.06975125521421432,
+        0.06199999526143074
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03749999776482582,
+      -0.06200001761317253,
+      -0.13500003516674042
+    ],
+    "max": [
+      0.03750000149011612,
+      0.04400002211332321,
+      0.07000001519918442
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "body",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_00",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_01",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_02",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_03",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_04",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_05",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_06",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_07",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_08",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_09",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_10",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "face_11",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_acu",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_afghanka",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_bdu",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_fleece",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_g4",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_gorka",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_kombat",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_m65",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_softshell",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "jacket_sumrak",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_acu",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_afghanka",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_bdu",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_g4",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_gorka",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_kombat",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_softshell",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "trousers_sumrak",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "head_balaclava",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "head_bandana",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "head_boonie",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "head_fleece",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "head_patrol",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "head_watch",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "close",
+      "closeback",
+      "closequarter",
+      "closeside"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "gloves_coyote",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "gloves_fingerless",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "gloves_leather",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "gloves_olive",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "boots_desert",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "boots_hiking",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "boots_jungle",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  },
+  {
+    "id": "boots_leather",
+    "structural": "PASSED",
+    "lod0AndLod1": "PASSED",
+    "uvAndPbrBytes": "PASSED",
+    "browserLoad": "PASSED",
+    "capturedViews": [
+      "back",
+      "front",
+      "quarter",
+      "side"
+    ],
+    "screenshotsAreNotExhaustiveFitApproval": true
+  }
+]

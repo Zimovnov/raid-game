@@ -1,0 +1,139 @@
+{
+  "status": "MEASURED",
+  "recordedAt": "2026-10-18T04:40:30.197Z",
+  "scope": "Production renderer in this controlled browser tab. CPU measures synchronous submission only; RAF timing includes browser scheduling and throttling. Not a multiplayer or gameplay acceptance.",
+  "weapon": "weapon_glock17",
+  "installedBuild": {
+    "id": "a2aff240-fa97-4012-916d-2a5a89a03185",
+    "def": "weapon_glock17",
+    "qty": 1,
+    "condition": 100,
+    "rounds": 0,
+    "children": {
+      "magazine": {
+        "id": "793105c6-b428-4d37-868f-4c62d49f846e",
+        "def": "glock_17",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 16,
+        "children": {}
+      }
+    },
+    "chamber": 1
+  },
+  "view": "workshop",
+  "action": "idle",
+  "actionProgress": 0,
+  "character": null,
+  "bodyPose": "idle",
+  "bodyTime": 0.48,
+  "camera": {
+    "orbit": {
+      "yaw": 2.7,
+      "pitch": 0.15,
+      "distance": 1.35
+    },
+    "fov": 43
+  },
+  "seed": 51,
+  "resolution": {
+    "css": [
+      1280,
+      720
+    ],
+    "pixels": [
+      1792,
+      1008
+    ],
+    "dpr": 2
+  },
+  "gpuFrameMs": "unavailable — no timer-query measurement",
+  "jsHeap": {
+    "used": 99347683,
+    "total": 117113527,
+    "limit": 4395630592
+  },
+  "glMemory": "unavailable",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:18264/assets/field-kit-051/weapon_ak_common.glb?v=c49567f00e6a",
+      "transferBytes": 300,
+      "decodedBodyBytes": 3351708,
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:18264/assets/field-kit-051/weapon_glock17.glb?v=889823852850",
+      "transferBytes": 300,
+      "decodedBodyBytes": 8337072,
+      "status": 200
+    }
+  ],
+  "runs": [
+    {
+      "frames": 601,
+      "cpuSubmitMs": {
+        "median": 2,
+        "p95": 2.800000011920929
+      },
+      "rafIntervalMs": {
+        "median": 16.69999999999709,
+        "p95": 17.59999999999127
+      },
+      "observedRafHz": 59.99980033344317,
+      "metrics": {
+        "drawCalls": 11,
+        "triangles": 24872,
+        "instances": 14,
+        "textures": 0
+      },
+      "sceneMeshes": 164,
+      "materials": 16,
+      "textures": 9,
+      "assetErrors": []
+    },
+    {
+      "frames": 601,
+      "cpuSubmitMs": {
+        "median": 1.8999999910593033,
+        "p95": 2.7999999970197678
+      },
+      "rafIntervalMs": {
+        "median": 16.699999999982538,
+        "p95": 17.60000000000582
+      },
+      "observedRafHz": 60.00279547133654,
+      "metrics": {
+        "drawCalls": 11,
+        "triangles": 24872,
+        "instances": 14,
+        "textures": 0
+      },
+      "sceneMeshes": 164,
+      "materials": 16,
+      "textures": 9,
+      "assetErrors": []
+    },
+    {
+      "frames": 601,
+      "cpuSubmitMs": {
+        "median": 2.1000000089406967,
+        "p95": 2.9000000059604645
+      },
+      "rafIntervalMs": {
+        "median": 16.699999999982538,
+        "p95": 18.400000000023283
+      },
+      "observedRafHz": 60.00039933710038,
+      "metrics": {
+        "drawCalls": 11,
+        "triangles": 24872,
+        "instances": 14,
+        "textures": 0
+      },
+      "sceneMeshes": 164,
+      "materials": 16,
+      "textures": 9,
+      "assetErrors": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "executedAtUTC": "2026-09-25T07:09:17.055863+00:00",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "commands": [
+    {
+      "name": "verify",
+      "command": "npm run verify",
+      "exitCode": 0,
+      "elapsedSeconds": 13.694,
+      "log": "verify.log"
+    },
+    {
+      "name": "ui",
+      "command": "npm run test:ui",
+      "exitCode": 0,
+      "elapsedSeconds": 3.894,
+      "log": "ui.log"
+    },
+    {
+      "name": "native",
+      "command": "npm run test:render",
+      "exitCode": 0,
+      "elapsedSeconds": 3.443,
+      "log": "native.log"
+    },
+    {
+      "name": "browser",
+      "command": "npm run test:e2e",
+      "exitCode": 2,
+      "elapsedSeconds": 1.506,
+      "log": "browser.log"
+    },
+    {
+      "name": "rtc",
+      "command": "python3 tools/rtc-test.py",
+      "exitCode": 2,
+      "elapsedSeconds": 16.725,
+      "log": "rtc.log"
+    },
+    {
+      "name": "packaging",
+      "command": "npm run test:packaging",
+      "exitCode": 0,
+      "elapsedSeconds": 1.304,
+      "log": "packaging.log"
+    },
+    {
+      "name": "metrics",
+      "command": "node tools/simulation-metrics.mjs",
+      "exitCode": 0,
+      "elapsedSeconds": 2.149,
+      "log": "metrics.log"
+    }
+  ],
+  "build": {
+    "version": "0.2.0",
+    "hash": "0c492360eacbb0a395658274a9b3f28bc5f742a9a6e5a4c13a6dda72daa26312",
+    "builtAt": "2026-09-25T07:09:22.473Z"
+  },
+  "completedAtUTC": "2026-09-25T07:12:56.339319+00:00"
+}

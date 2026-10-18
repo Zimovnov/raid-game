@@ -1,0 +1,1451 @@
+{
+  "status": "PASSED",
+  "errors": [],
+  "moduleCount": 100,
+  "runtimeGlbBytes": 12415108,
+  "structuralScope": "Import, re-export/re-import, UV non-collapse, finite unit normals, LOD groups, frame bounds, triangles, 1-2 materials/draws, GLB hashes, original Blender masters, reference SHA integrity.",
+  "renderScope": {
+    "expected": 200,
+    "staleOrMissing": [],
+    "status": "PASSED"
+  },
+  "runtimeScope": "NOT_RUN: assembled fit, FPS, ADS, reload, pump extremes and collision are owned by parent integration QA.",
+  "modules": {
+    "870_pump": {
+      "sha256": "3c4ac325d178536e914ff35179ae24b2cfafdc29c4941ff4647c475df8308491",
+      "bytes": 155588,
+      "triangles": {
+        "0": 842,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "870_pump_rail": {
+      "sha256": "57bcf688b8d2627fbc085d3341f1be92be793ea66fa8237654f6d6b8301952c1",
+      "bytes": 211620,
+      "triangles": {
+        "0": 1288,
+        "1": 376
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "870_tactical": {
+      "sha256": "8f76ce856015ba98e07d7823c5c47c2b587ab2a44124673b1f95ab606212abc8",
+      "bytes": 125100,
+      "triangles": {
+        "0": 408,
+        "1": 156
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "870_wood": {
+      "sha256": "d500446d5d2c8df201dffcc1135612df43e163a4cb260b01f4e4a0bda7ed53e3",
+      "bytes": 124928,
+      "triangles": {
+        "0": 256,
+        "1": 84
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_brake": {
+      "sha256": "08a798f9d951461ca462d356d63ebabe35dc01b3d1faef0901e1583d8e2fe447",
+      "bytes": 84408,
+      "triangles": {
+        "0": 342,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_compact": {
+      "sha256": "f3cdc5a180621e51caacfd79c6ff57e32255241bb316819229b54df8f332b7eb",
+      "bytes": 119476,
+      "triangles": {
+        "0": 348,
+        "1": 136
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_compact_can": {
+      "sha256": "29382a195b6fb995b01d2dac00da9cfaebf0720f0dca8a84eca3d742aeb0d73f",
+      "bytes": 129372,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_crane": {
+      "sha256": "90d523a550dda51e13f0abc33c5539e6d36f7a4250195c3c0fe08d57053a4559",
+      "bytes": 125920,
+      "triangles": {
+        "0": 400,
+        "1": 192
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_long": {
+      "sha256": "5d96f77b46c84c43bb24de8a89d548ca144b9cf175e2c20ba25ed973e6bbe554",
+      "bytes": 160796,
+      "triangles": {
+        "0": 572,
+        "1": 280
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_octagonal": {
+      "sha256": "af506909639fabaa22715950b092286d14d3389869995436d6534791b46449cf",
+      "bytes": 131940,
+      "triangles": {
+        "0": 842,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_poly": {
+      "sha256": "7825d91ab141de16e8c5f57e4a192ee43d102d59bba4758228785fa553301c39",
+      "bytes": 161928,
+      "triangles": {
+        "0": 556,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_precision": {
+      "sha256": "70d8b3132861fc78dfde4b99f734c0a0f0719328ac9fef135aee4bb651ffada5",
+      "bytes": 122612,
+      "triangles": {
+        "0": 400,
+        "1": 136
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_short": {
+      "sha256": "b04491cf19d0cfd7b4097cc0db5c2685c43c7034784e27c0503e49b2e2ea16e8",
+      "bytes": 158484,
+      "triangles": {
+        "0": 492,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_stock": {
+      "sha256": "50de1b7a0435e07ac2eab64997406597603a33b817d2b558712af344f3268e72",
+      "bytes": 119108,
+      "triangles": {
+        "0": 344,
+        "1": 136
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_suppressor": {
+      "sha256": "a741f63fdb617d1519f1ea66894fcf0950074d91c22f1a4b979cedc60d47b4fb",
+      "bytes": 129356,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "ar_wire": {
+      "sha256": "abb7836f6a732d518a76282b8c50df3de506e2eb385d5fc8d1bb24cc20f5cc85",
+      "bytes": 71328,
+      "triangles": {
+        "0": 120,
+        "1": 88
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "aug_guard": {
+      "sha256": "bded033e4647b61d9b083d8ded2461fc2ccf5a146f10862f8b9fd6c8410f8ec4",
+      "bytes": 122376,
+      "triangles": {
+        "0": 116,
+        "1": 56
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "aug_muzzle": {
+      "sha256": "f037a6d9b192b4bb2a5c5bea7765afe0aca3faddf70220edf7ac04e75629c0be",
+      "bytes": 84612,
+      "triangles": {
+        "0": 342,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "aug_rail": {
+      "sha256": "a962e7f9a012a212cb349e77ae3e98bc118fdeee6c64bfb55f3cdc8e6c574578",
+      "bytes": 124520,
+      "triangles": {
+        "0": 756,
+        "1": 332
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "aug_stock": {
+      "sha256": "76f68309e47abc179a36d7117e91572bfee1b722d797ab026c4d87c3e6cd27bf",
+      "bytes": 113400,
+      "triangles": {
+        "0": 240,
+        "1": 64
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "aug_stock_padded": {
+      "sha256": "bdbd838d3ae158cd00348249df5b91fe4bb40a25d12f9d14ceebee04a403cb8f",
+      "bytes": 113492,
+      "triangles": {
+        "0": 240,
+        "1": 64
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "benelli_fixed": {
+      "sha256": "6f1c9def21ff83e5ddd49bb99e2e3e8922eeb42ee0e0cf8b818063213d235536",
+      "bytes": 113576,
+      "triangles": {
+        "0": 292,
+        "1": 88
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "benelli_guard": {
+      "sha256": "a4dbf9d37ac7753ad8dbccddfe73fd7a0c51e8cd420b3fdfaf841edbe0a15ce7",
+      "bytes": 170676,
+      "triangles": {
+        "0": 672,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "benelli_rail": {
+      "sha256": "4599d9dcc6407c77f224cc52ec01a2793e3801fd07b84230861308d55e964298",
+      "bytes": 165760,
+      "triangles": {
+        "0": 1368,
+        "1": 380
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "benelli_stock": {
+      "sha256": "8fb26c9c3ea18f86aa7154a21b9b2fdbba3292f501ff39294256e216f431b9b3",
+      "bytes": 125176,
+      "triangles": {
+        "0": 428,
+        "1": 136
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "bren_guard": {
+      "sha256": "e6a03342ce741f792a275886adb0b4e899ad9e2578ec9d89bc2b5d8e1a87898a",
+      "bytes": 121256,
+      "triangles": {
+        "0": 760,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "bren_guard_long": {
+      "sha256": "3c740bcabca1f1bed77d7e660e99e5deaa93e0828f0b83dc8cc86ed55f982f9e",
+      "bytes": 137164,
+      "triangles": {
+        "0": 1032,
+        "1": 320
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "bren_muzzle": {
+      "sha256": "584d3c642e01e8760fe60619aa9a387f111d4cf1a31051809fdf5e9097532abe",
+      "bytes": 80184,
+      "triangles": {
+        "0": 304,
+        "1": 88
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "bren_stock": {
+      "sha256": "1a8d2d290911dbad53bcd7586854d990a60bf7513debebabd3d888538f7fbe6d",
+      "bytes": 115872,
+      "triangles": {
+        "0": 328,
+        "1": 92
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "g36_adjust": {
+      "sha256": "7a45e28a7ff21578fb98feb118e93c3d2c7353bc564beafa8f89738cfc5a6504",
+      "bytes": 118852,
+      "triangles": {
+        "0": 360,
+        "1": 116
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "g36_can": {
+      "sha256": "637c97f2757617afe682b37fc9798b36a0694bc1ee662efea6c2b8a3bde99b67",
+      "bytes": 122952,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "g36_guard": {
+      "sha256": "e10999373bc1de9a5031d54a0b8c80655b48ee23f4a8f9572e535ee80ce6d3da",
+      "bytes": 161952,
+      "triangles": {
+        "0": 556,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "g36_muzzle": {
+      "sha256": "5b9aa5f44dae7f08bf0e359db152e8af0d891d426442db3d477d09a30d54a387",
+      "bytes": 84424,
+      "triangles": {
+        "0": 342,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "g36_rail": {
+      "sha256": "862447b33375b891433b66d946a8170390e13169716f91de62e5f5485744c05f",
+      "bytes": 157184,
+      "triangles": {
+        "0": 1224,
+        "1": 380
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "g36_stock": {
+      "sha256": "535aebf39ee24f306a37b7dc675be570de85d5f7bf071fb56c0f73efc645c03b",
+      "bytes": 113704,
+      "triangles": {
+        "0": 292,
+        "1": 104
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "hk416_guard": {
+      "sha256": "4f0ccbdda428784a1bd1687709a2e3362026778bcb87002bb90ca77e005640f1",
+      "bytes": 130204,
+      "triangles": {
+        "0": 842,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "hk416_short": {
+      "sha256": "cba56ad03ad66a96600fb4af18212d539e554f2f730faf5cace8f411a6578a6d",
+      "bytes": 121264,
+      "triangles": {
+        "0": 760,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "kedr_stock": {
+      "sha256": "a509c920f2311b563e3e8810df29cfc557873f51cadcc4c2d3c508a155dcdd41",
+      "bytes": 71352,
+      "triangles": {
+        "0": 120,
+        "1": 88
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "m14_chassis": {
+      "sha256": "1d631aba898051451b8f599797ce91258e4f53ba9985e706541ff17cb0917340",
+      "bytes": 174852,
+      "triangles": {
+        "0": 890,
+        "1": 290
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "m14_guard": {
+      "sha256": "2ef9c47668d3f8298f4d37b24cb4b0bda3e6f4facb7b190a24fe898a87e20941",
+      "bytes": 79300,
+      "triangles": {
+        "0": 92,
+        "1": 92
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "m14_mount": {
+      "sha256": "b7626c7f4bfea2ec799181340dc0368029da1326d46b9c2b67ed43225d0d74a9",
+      "bytes": 86860,
+      "triangles": {
+        "0": 344,
+        "1": 124
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "m14_muzzle": {
+      "sha256": "1ce704687eb8612afa46a0154782c9d28b4f2bb21e3d5c3c075ff0b28aa3dd3d",
+      "bytes": 80628,
+      "triangles": {
+        "0": 268,
+        "1": 104
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "m14_stock": {
+      "sha256": "0582345c9edfaf2072fdb7dbf99ba112d43d72fb22502f574380c7c5e5f2b8e8",
+      "bytes": 165252,
+      "triangles": {
+        "0": 404,
+        "1": 216
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "m17_mount": {
+      "sha256": "3b9ce80d083c5863a078f1fc8378c265c0ed2d294289e96abb3bdaa37342e52f",
+      "bytes": 68548,
+      "triangles": {
+        "0": 124,
+        "1": 36
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mcx_can": {
+      "sha256": "f9777680ef42afb3323cdf18f9cc7ca3c2816ae90b328c494411e5e328a2c565",
+      "bytes": 127360,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mcx_compact": {
+      "sha256": "31f5687d31b98cae3ae82dc4ac0f0cf612c465b1d65a50365c369358a270519c",
+      "bytes": 132804,
+      "triangles": {
+        "0": 452,
+        "1": 168
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mcx_guard": {
+      "sha256": "0221f33e01f9a5fbc02228b4207917d9e46f4a6558c9e37cbacb99246a47c059",
+      "bytes": 131728,
+      "triangles": {
+        "0": 842,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mcx_guard_short": {
+      "sha256": "abfb886db32982b2b0ce17f9813c952b107b8c19678ffdb32c25609430e00780",
+      "bytes": 119992,
+      "triangles": {
+        "0": 740,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mcx_muzzle": {
+      "sha256": "a7cef797d6d30eb9a061fd35b45d1082cc13439462e5f4640ef73efd3d34e962",
+      "bytes": 84232,
+      "triangles": {
+        "0": 342,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mcx_stock": {
+      "sha256": "db93cc9621b0bb162fbba8f676cf6d72ade8fbc8e1fcf9ff9fba28e7215df43b",
+      "bytes": 125984,
+      "triangles": {
+        "0": 368,
+        "1": 148
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mosin_stock": {
+      "sha256": "5b2ce22a3195eeab111b0a257bea45922acc8ea6898a38b4ea54dbfc3997d208",
+      "bytes": 165276,
+      "triangles": {
+        "0": 404,
+        "1": 216
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mp153_guard": {
+      "sha256": "c9bcaa7762b163265fffcfc56a00ed82374603c4ad1f2ad80e5303e7ec0ae492",
+      "bytes": 131252,
+      "triangles": {
+        "0": 220,
+        "1": 108
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mp5_guard": {
+      "sha256": "26aac642208835c41dca6ede09f95d9514db8978e32d93335698e64142f47288",
+      "bytes": 131232,
+      "triangles": {
+        "0": 220,
+        "1": 108
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mp5_mount": {
+      "sha256": "b1401a2630eaace26ad550280d266f2cd7c17364c3cabba053a8098b6c9aa9c6",
+      "bytes": 87448,
+      "triangles": {
+        "0": 328,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mp5_rail": {
+      "sha256": "a1dedea35543244ec6af32262e7e790e4500d76a1fe1d0b329913c16342ab76a",
+      "bytes": 131752,
+      "triangles": {
+        "0": 864,
+        "1": 340
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mp5_retract": {
+      "sha256": "4b31ccd4d98a7d70578b6009c5b9b3f4ba58a94569611b417c11a24e4dab371b",
+      "bytes": 109328,
+      "triangles": {
+        "0": 184,
+        "1": 76
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mp5_stock": {
+      "sha256": "d863aebfbb5d661b4d0f40065b74f2b72e7107679a69cce3ea710f03a8085c10",
+      "bytes": 111432,
+      "triangles": {
+        "0": 268,
+        "1": 84
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mpx_can": {
+      "sha256": "1faad9a901f6fa2fcd73ead22ed300ac899487cfdfbcb1ada090453734804dac",
+      "bytes": 123396,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mpx_guard": {
+      "sha256": "ee2f366ff1f875b6fad0b945fa52d243bdff2432b9e89006df969d50a56db792",
+      "bytes": 117436,
+      "triangles": {
+        "0": 700,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mpx_guard_long": {
+      "sha256": "ff9e2ba6be429cebf4cb5423d4ac2d3ee837ab68e0c37f8dd249474ceaf38df6",
+      "bytes": 134616,
+      "triangles": {
+        "0": 992,
+        "1": 320
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "mpx_stock": {
+      "sha256": "31f2024e765287cb35ec87f84166862de64d0690ee23c34fbba8792246d85ffa",
+      "bytes": 109300,
+      "triangles": {
+        "0": 184,
+        "1": 76
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "rpk_guard": {
+      "sha256": "4c360e4ad79158140ae4e1bd6d9fb86b2bf9451fc680c7f6e89ce20d089392fd",
+      "bytes": 174272,
+      "triangles": {
+        "0": 700,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "rpk_rail": {
+      "sha256": "b3ce40ceb5453af8288f000bd9639b940fdfc070afb2f225548279ad68e58f30",
+      "bytes": 150108,
+      "triangles": {
+        "0": 1172,
+        "1": 340
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "rpk_stock": {
+      "sha256": "5e3aa50c192d767298496f78f620d3f330468c34b300149e5b44cdfa1e7cd299",
+      "bytes": 112460,
+      "triangles": {
+        "0": 280,
+        "1": 84
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "saiga_guard": {
+      "sha256": "1b85d17f1a3e3b021b91a80bc76314917887a4c6d55c4e25327e37a82925831c",
+      "bytes": 132976,
+      "triangles": {
+        "0": 224,
+        "1": 136
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "saiga_mount": {
+      "sha256": "bc2aac074cda140d61b5b5a969a308e44e1b883ab17e17011adbeb99ad2090db",
+      "bytes": 86876,
+      "triangles": {
+        "0": 344,
+        "1": 124
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "saiga_rail": {
+      "sha256": "519df60a55e8bd8a4da7dc0e40c051f6ccf4d13bd6e9ce6dcef34a0f7cdd6171",
+      "bytes": 165748,
+      "triangles": {
+        "0": 1368,
+        "1": 380
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "saiga_stock": {
+      "sha256": "da1f547b03f449330e91d5556b7632ef722a3a2755dd136b71e86dbf70115638",
+      "bytes": 110400,
+      "triangles": {
+        "0": 256,
+        "1": 80
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scar_brake": {
+      "sha256": "79be0391d63217c61ba7c6d6cabd65e238dbb9b3b6e10fb8ccd45b4723b81283",
+      "bytes": 83592,
+      "triangles": {
+        "0": 342,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scar_guard": {
+      "sha256": "a7edbe2f2e477b356852b8c2b031200d5279f228cc3316ff3b8afeb1e10c6b7e",
+      "bytes": 137272,
+      "triangles": {
+        "0": 842,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scar_guard_long": {
+      "sha256": "91be8358e3af413a7e1e0b7cd4195f313728b79262ba4170ad61249d85de8bfa",
+      "bytes": 111536,
+      "triangles": {
+        "0": 596,
+        "1": 304
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scar_precision": {
+      "sha256": "be4d24d3be4481f29ec1cee11ac793cfe5326af0b5d60fe042f8cdebc6a37f9d",
+      "bytes": 129148,
+      "triangles": {
+        "0": 364,
+        "1": 116
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scar_stock": {
+      "sha256": "e4d000e5567c084c64b3b777206c3f9bfb70ba16248f27fed0e1be0e435c2f79",
+      "bytes": 127180,
+      "triangles": {
+        "0": 344,
+        "1": 96
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scorpion_can": {
+      "sha256": "437b94edeccb5b1a5b4d16b49867a4236d0b59b3fad70a11e39a34bbd53856b1",
+      "bytes": 123172,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scorpion_guard": {
+      "sha256": "8e61574ea4baecc6f9626e1f7601ecd1ded5539528618bdb233866359fc4f684",
+      "bytes": 172144,
+      "triangles": {
+        "0": 720,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scorpion_guard_long": {
+      "sha256": "78f0d5423e5e36e5dc5e299aca21de82d60354bcf9fbe8863b17c3ba7e337b15",
+      "bytes": 135920,
+      "triangles": {
+        "0": 1012,
+        "1": 320
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "scorpion_stock": {
+      "sha256": "53ab11a183faf88ddcb5d2f4b7304111d06824cc0bb6d0932b7694101d327be5",
+      "bytes": 113764,
+      "triangles": {
+        "0": 292,
+        "1": 104
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sg_mount": {
+      "sha256": "156f2ef14a370eff13e1b67abf876782f74aaa4a177ce427afa5ee90e8cd9799",
+      "bytes": 75364,
+      "triangles": {
+        "0": 196,
+        "1": 76
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sg_pump": {
+      "sha256": "02ba8850d364c96fec2ee037e5eb3fcc49cd1443d168edad14df50c54751e2f3",
+      "bytes": 155640,
+      "triangles": {
+        "0": 842,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sg_rubber": {
+      "sha256": "84e75bd56da32f5f875e74de0651774ea14e09f3a385f4a2ff60072ff6946713",
+      "bytes": 112120,
+      "triangles": {
+        "0": 276,
+        "1": 84
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sg_stock": {
+      "sha256": "4f7a11b97ccf8309949fe921584733f25eeed126dcc0d7334f10f40f18caef81",
+      "bytes": 124240,
+      "triangles": {
+        "0": 248,
+        "1": 84
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sks_mount": {
+      "sha256": "88308f5a20f5c9c4fda54c02c377c73602062d0d1543c2154c10589fb265fa8f",
+      "bytes": 80460,
+      "triangles": {
+        "0": 276,
+        "1": 76
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sks_stock": {
+      "sha256": "f1e710d270e0f297e0461e4e8226158ea46d54941d1a45f092d7dc85637b3028",
+      "bytes": 162356,
+      "triangles": {
+        "0": 376,
+        "1": 188
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sks_synthetic": {
+      "sha256": "8e61138c2616d5cef914cd714abc88b88326f3ce113057f06f248943a3305eb8",
+      "bytes": 138212,
+      "triangles": {
+        "0": 532,
+        "1": 220
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "smg_suppressor": {
+      "sha256": "cee36713307d2e77c31f6afbb8cc32a21578c2f5132f019050b88b69c1ce6a32",
+      "bytes": 123036,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "sv98_stock": {
+      "sha256": "f3e1d6c6554e7e1fe935d1d8649e846cc264e21f29aeef1c6f9fd4d0bb407349",
+      "bytes": 144688,
+      "triangles": {
+        "0": 548,
+        "1": 220
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "svd_guard": {
+      "sha256": "ca5fcf844a79350aee17583d91a8c40a07bc8d517a2ce83d0b78d14ebed3641f",
+      "bytes": 141784,
+      "triangles": {
+        "0": 842,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "svd_mount": {
+      "sha256": "636a4d4b71afde1d8e423a0f8afadb3b0f7f5304d152d067e5a4510d6a32e3eb",
+      "bytes": 85644,
+      "triangles": {
+        "0": 324,
+        "1": 124
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "svd_stock": {
+      "sha256": "0e8b3ae291787efd3ad9fe36cd1b7cb136e23ff38746397d0675c1e406dc850e",
+      "bytes": 155272,
+      "triangles": {
+        "0": 384,
+        "1": 132
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "val_guard": {
+      "sha256": "398d3f75b8904c68a61caf2fe6a8866fc299e0653e02ef38edeb314b0f6d44a1",
+      "bytes": 131232,
+      "triangles": {
+        "0": 220,
+        "1": 108
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "val_mount": {
+      "sha256": "b03157979cd5db086a93619c59b61f15d08cfd10c6b8924692b48960134edc82",
+      "bytes": 83100,
+      "triangles": {
+        "0": 284,
+        "1": 124
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "val_rail": {
+      "sha256": "4b573e47cb8a88832e22da0ad55352be76c93971e6bce8257ed5239425f24d44",
+      "bytes": 81116,
+      "triangles": {
+        "0": 272,
+        "1": 124
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "val_stock": {
+      "sha256": "dc9358716ef11896076e952b4b58181de0ba2d6b5a3547b7e7b8e3ef70468339",
+      "bytes": 113524,
+      "triangles": {
+        "0": 224,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "vityaz_can": {
+      "sha256": "bebfab4422278a3813e0dae1fb57d95fbad59eb174432d4c876a602cbd9f0ccd",
+      "bytes": 123468,
+      "triangles": {
+        "0": 340,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "vityaz_guard": {
+      "sha256": "532b5df1ea2376460ab4e4bc7af5d88406cd4c2c21933311cbcb9ba1e8b37680",
+      "bytes": 174176,
+      "triangles": {
+        "0": 700,
+        "1": 272
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "vityaz_mount": {
+      "sha256": "604b475efb4c1d6d1f69a61cb9420703d2870a8475ea76356c0512d43d251faf",
+      "bytes": 81848,
+      "triangles": {
+        "0": 264,
+        "1": 124
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "vityaz_rail": {
+      "sha256": "525fa32f4b635573a2d46bf288d82072a02b5704e5dddeb6853a28b66ebc1a23",
+      "bytes": 135224,
+      "triangles": {
+        "0": 928,
+        "1": 340
+      },
+      "drawMeshes": {
+        "0": 1,
+        "1": 1
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "vityaz_stock": {
+      "sha256": "d66643cdba403f186d5838dc81b220d30bc85b78f04ef21c17b32adefbef43b1",
+      "bytes": 113568,
+      "triangles": {
+        "0": 224,
+        "1": 100
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "vss_poly": {
+      "sha256": "ab73a6d479cd35c1e2e2896c18bc168d6f866fe5b32d053f0a31377f2fd2f3c2",
+      "bytes": 125284,
+      "triangles": {
+        "0": 420,
+        "1": 120
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    },
+    "vss_stock": {
+      "sha256": "4560336da7f6cdb056ca4ee837f69f14e7f72e6732e683844677def69aa39a5e",
+      "bytes": 155260,
+      "triangles": {
+        "0": 384,
+        "1": 124
+      },
+      "drawMeshes": {
+        "0": 2,
+        "1": 2
+      },
+      "structural": "PASSED",
+      "runtime": "NOT_RUN"
+    }
+  },
+  "visualLOD1Review": {
+    "status": "PASSED",
+    "scope": "Seven repaired muzzle LOD1 oblique PNGs visually inspected; both projections regenerated. Earlier seven additional sampled modules reviewed. Not a complete visual review of all 100 LOD1 assets.",
+    "repairedIds": [
+      "ar_brake",
+      "aug_muzzle",
+      "bren_muzzle",
+      "g36_muzzle",
+      "m14_muzzle",
+      "mcx_muzzle",
+      "scar_brake"
+    ],
+    "rootCause": "Aggressive decimation of disconnected thin port walls produced stretched spikes despite valid normals and UVs.",
+    "fix": "Explicit LOD1 shapes with 88, 100 or 104 triangles; LOD0 retained.",
+    "remainingLimitations": [
+      "Far LOD ports merged into larger openings and circular cross sections reduced to facets.",
+      "Assembled runtime fit, LOD transition, ADS, reload/pump extremes, FPS and collision require parent integration QA."
+    ],
+    "logs": [
+      "lod1-brake-fix.log",
+      "render-lod1-brake-fix.log",
+      "render-lod0-brake-fix.log"
+    ]
+  },
+  "augGuardJoinFix": {
+    "status": "PASSED",
+    "rootCause": "12 mm gap between folding grip upper section (local Y -0.024) and hinge yoke bottom (local Y -0.012).",
+    "fix": "Upper grip section moved to local Y +0.004, yielding 16 mm overlap; socket/body untouched.",
+    "triangles": {
+      "LOD0": 116,
+      "LOD1": 56
+    },
+    "visualScope": "Updated LOD0 and LOD1 oblique PNGs inspected. Assembled screenshot verification belongs to parent.",
+    "log": "aug-guard-join-fix.log"
+  },
+  "registrySha256": "5800cb82b519ca6295905f6ac87b066f745e158b2eedb1f93e23e3dfcdfa44bc"
+}

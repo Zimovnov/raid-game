@@ -1,0 +1,35 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>АКМН — проверка ассета</title>
+<style>body{margin:0;background:#333;color:#ddd;font:14px system-ui}canvas{width:100vw;height:100vh;display:block}aside{position:absolute;left:18px;top:16px;background:#16201cdd;padding:12px;display:flex;gap:12px;align-items:center}select,input,button{font:inherit}output{min-width:100px}</style>
+<canvas id="scene"></canvas><aside><strong>АКМН · проверка экспорта</strong><select id="view"><option value="workshop">Оружейная</option><option value="fp">От первого лица</option><option value="ads">Прицеливание</option></select><select id="clip"><option value="">Покой</option><option>Reload_Tactical</option><option>Reload_Empty</option><option>Inspect</option><option>Fire</option></select><input id="time" type="range" min="0" max="1" step=".001" value="0"><button id="play">▶</button><output id="status">Загрузка…</output></aside>
+<script type="module">
+import {Renderer} from '/src/rendering/renderer.ts';
+import {createWeapon} from '/src/domain/items.ts';
+import {newProfile} from '/src/domain/profile.ts';
+import {World} from '/src/simulation/world.ts';
+import {MAPS} from '/src/content/maps.ts';
+const canvas=document.querySelector('canvas'),renderer=new Renderer(canvas,'babylon'),gun=createWeapon('weapon_akm');
+const profile=newProfile({name:'Проверка ассета',faction:'BEAR',face:0,outfit:0});profile.gear.primary=gun;
+const world=new World(MAPS.range,'akmn-review');world.addPlayer(profile.id,profile.character,profile.gear);
+const state={view:'workshop',clip:'',time:0,play:false};let previous=performance.now();
+renderer.orbit={yaw:2.7,pitch:.15,distance:1.3};
+document.querySelector('#view').onchange=e=>state.view=e.target.value;
+document.querySelector('#clip').onchange=e=>{state.clip=e.target.value;state.time=0;};
+document.querySelector('#time').oninput=e=>{state.time=Number(e.target.value);state.play=false;};
+document.querySelector('#play').onclick=()=>state.play=!state.play;
+window.akmnReview={renderer,gun,state,world,profile};
+function draw(now){
+ const dt=Math.min(.1,(now-previous)/1000);previous=now;
+ if(state.play)state.time=(state.time+dt/(state.clip==='Reload_Empty'?3.8:state.clip==='Inspect'?4.2:2.9))%1;
+ const pose={reload:state.clip.startsWith('Reload')?Math.max(.0001,state.time):0,mode:'swap',empty:state.clip==='Reload_Empty',inspect:state.clip==='Inspect'?Math.max(.0001,state.time):0,shotAge:state.clip==='Fire'?state.time*.105:100};
+ if(state.view==='workshop'){
+   renderer.workshop(gun,null);const bridge=renderer.bridge;
+   if(bridge.akmn.available(gun)){const identity=new Float32Array([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]);bridge.akmn.show(identity,pose,false);bridge.render([],[],true);}
+ }else{
+   renderer.setMap(MAPS.range);const snapshot=world.snapshot(),actor=snapshot.players[0];
+   actor.reload=pose.reload?1-pose.reload:0;actor.reloadDuration=1;actor.reloadMode='swap';actor.reloadEmpty=pose.empty;actor.inspect=pose.inspect?(1-pose.inspect)*1.8:0;actor.lastShot=snapshot.time-pose.shotAge;
+   renderer.raid(snapshot,profile.id,{yaw:0,pitch:0,fov:78,aim:state.view==='ads',bob:false,quality:'high',dt});
+ }
+ document.querySelector('#time').value=state.time;document.querySelector('#status').textContent=renderer.bridge.akmn.loadError|| (renderer.bridge.akmn.available(gun)?'GLB загружен':'Загрузка…');
+ requestAnimationFrame(draw);
+}requestAnimationFrame(draw);
+</script></html>

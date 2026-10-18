@@ -1,0 +1,127 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/ak12_stock.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__ak12_stock": {
+      "0": {
+        "triangles": 372,
+        "vertices": 732,
+        "objects": 3,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_rubber.004",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.048500001430511475,
+            -0.15558797121047974,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.048500001430511475,
+            0.07500002533197403,
+            0.23200002312660217
+          ]
+        }
+      },
+      "1": {
+        "triangles": 88,
+        "vertices": 144,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_rubber.004"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.048500001430511475,
+            -0.1560000479221344,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.048500001430511475,
+            0.07500002533197403,
+            0.2290000170469284
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_stock-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__ak12_stock": {
+      "min": [
+        -0.048500001430511475,
+        -0.15558797121047974,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.048500001430511475,
+        0.07500002533197403,
+        0.23200002312660217
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.048500001430511475,
+      -0.23200002312660217,
+      -0.1560000479221344
+    ],
+    "max": [
+      0.048500001430511475,
+      0.1900000423192978,
+      0.07500003278255463
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,39 @@
+{
+  "status": "RECIPE_ONLY_NOT_FINAL_PHOTOS",
+  "purpose": "Final assembled production-renderer gallery after all detachable modules are integrated and visually accepted. Body-only Blender QA images must not be copied as final weapon photographs.",
+  "destination": "/Users/vladimir/Downloads/RAID_GAME_Final_Weapon_Photos/<weaponId>/",
+  "renderer": "existing Renderer.workshop / Renderer.raid",
+  "viewport": {"width": 1600, "height": 1000, "dpr": 1},
+  "workshop": {
+    "quality": "high",
+    "fov": 43,
+    "focus": [0, -0.04, -0.13],
+    "distance": 1.65,
+    "longRifleDistance": 2.05,
+    "pistolDistance": 0.8,
+    "notes": "Use the complete default catalog tree and no exploded parts. Existing review page currently resets distance to 1.35 each frame; capture implementation must intentionally support this recipe's distances. Wait for all relevant groups to load and confirm zero model errors before capture.",
+    "views": [
+      {"name": "right", "yaw": 0, "pitch": 0},
+      {"name": "left", "yaw": 3.141592653589793, "pitch": 0},
+      {"name": "top", "yaw": 0, "pitch": 1.52},
+      {"name": "oblique", "yaw": 2.7, "pitch": 0.15},
+      {"name": "front", "yaw": -1.5707963267948966, "pitch": 0}
+    ]
+  },
+  "firstPerson": {
+    "views": ["fp", "ads"],
+    "fov": 78,
+    "yaw": 0,
+    "pitch": 0,
+    "bob": false,
+    "quality": "high",
+    "notes": "Use the existing live world/player equipment and Renderer.raid path; do not fabricate FP by moving the workshop camera. Capture idle and, for QA, existing reload/swap at progress 0.25, 0.5, 0.75. Actual game runtime owns bolt, recoil and magazine poses."
+  },
+  "acceptance": [
+    "Both sides and top show continuous physical support for sights, controls and interfaces.",
+    "Default magazine/stock/guard/grip/muzzle models sit in their sockets without duplicate body geometry.",
+    "Textures, normal directions, material response and silhouettes remain readable in the actual game renderer.",
+    "FP and ADS show usable sight line and hand contact; reload does not split static body parts.",
+    "Record actual screenshots and per-platform status; do not substitute Blender structural PASS for gameplay or visual acceptance."
+  ]
+}

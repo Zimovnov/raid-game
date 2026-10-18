@@ -1,0 +1,750 @@
+{
+  "authoringFPS": 60,
+  "units": "metres",
+  "axes": {
+    "blender": "+Y forward,+Z up,+X right",
+    "gltf": "-Z forward,+Y up,+X right"
+  },
+  "bodyMotionOwner": "authored during reload/inspect/draw/holster; game during locomotion/ADS/recoil",
+  "clips": [
+    {
+      "name": "AKMN_FP_Draw",
+      "duration": 0.75,
+      "fps": 60,
+      "loop": false,
+      "startState": "holstered",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "weapon_ready",
+          "frame": 45,
+          "seconds": 0.75,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Holster",
+      "duration": 0.65,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "holstered",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "weapon_ready",
+          "frame": 39,
+          "seconds": 0.65,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Fire",
+      "duration": 0.1,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "weapon_ready",
+          "frame": 6,
+          "seconds": 0.1,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_DryFire",
+      "duration": 0.2833333333333333,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "weapon_ready",
+          "frame": 17,
+          "seconds": 0.2833333333333333,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Reload_Tactical",
+      "duration": 2.9,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "hand_contact",
+          "frame": 30,
+          "seconds": 0.5,
+          "normalized": 0.1724137931034483
+        },
+        {
+          "name": "magazine_detach",
+          "frame": 35,
+          "seconds": 0.5833333333333334,
+          "normalized": 0.20114942528735633
+        },
+        {
+          "name": "magazine_old_hide",
+          "frame": 82,
+          "seconds": 1.3666666666666667,
+          "normalized": 0.47126436781609193
+        },
+        {
+          "name": "magazine_new_show",
+          "frame": 87,
+          "seconds": 1.45,
+          "normalized": 0.5
+        },
+        {
+          "name": "magazine_attach",
+          "frame": 141,
+          "seconds": 2.35,
+          "normalized": 0.8103448275862069
+        },
+        {
+          "name": "reload_commit",
+          "frame": 141,
+          "seconds": 2.35,
+          "normalized": 0.8103448275862069
+        },
+        {
+          "name": "weapon_ready",
+          "frame": 174,
+          "seconds": 2.9,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          0.17
+        ],
+        [
+          0.96,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Reload_Empty",
+      "duration": 3.8,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready_empty",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "hand_contact",
+          "frame": 39,
+          "seconds": 0.65,
+          "normalized": 0.17105263157894737
+        },
+        {
+          "name": "magazine_detach",
+          "frame": 46,
+          "seconds": 0.7666666666666667,
+          "normalized": 0.20175438596491227
+        },
+        {
+          "name": "magazine_old_hide",
+          "frame": 107,
+          "seconds": 1.7833333333333334,
+          "normalized": 0.4692982456140351
+        },
+        {
+          "name": "magazine_new_show",
+          "frame": 114,
+          "seconds": 1.9,
+          "normalized": 0.5
+        },
+        {
+          "name": "magazine_attach",
+          "frame": 185,
+          "seconds": 3.0833333333333335,
+          "normalized": 0.8114035087719298
+        },
+        {
+          "name": "reload_commit",
+          "frame": 185,
+          "seconds": 3.0833333333333335,
+          "normalized": 0.8114035087719298
+        },
+        {
+          "name": "bolt_pull",
+          "frame": 205,
+          "seconds": 3.4166666666666665,
+          "normalized": 0.8991228070175439
+        },
+        {
+          "name": "bolt_return",
+          "frame": 217,
+          "seconds": 3.6166666666666667,
+          "normalized": 0.9517543859649122
+        },
+        {
+          "name": "weapon_ready",
+          "frame": 228,
+          "seconds": 3.8,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          0.17
+        ],
+        [
+          0.96,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Check_Mag",
+      "duration": 2.05,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "hand_contact",
+          "frame": 21,
+          "seconds": 0.35,
+          "normalized": 0.17073170731707318
+        },
+        {
+          "name": "magazine_detach",
+          "frame": 25,
+          "seconds": 0.4166666666666667,
+          "normalized": 0.2032520325203252
+        },
+        {
+          "name": "magazine_attach",
+          "frame": 103,
+          "seconds": 1.7166666666666666,
+          "normalized": 0.8373983739837398
+        },
+        {
+          "name": "weapon_ready",
+          "frame": 123,
+          "seconds": 2.05,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Inspect",
+      "duration": 4.2,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "weapon_ready",
+          "frame": 252,
+          "seconds": 4.2,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Selector_Auto",
+      "duration": 0.31666666666666665,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "weapon_ready",
+          "frame": 19,
+          "seconds": 0.31666666666666665,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    },
+    {
+      "name": "AKMN_FP_Selector_Semi",
+      "duration": 0.31666666666666665,
+      "fps": 60,
+      "loop": false,
+      "startState": "ready",
+      "endState": "ready",
+      "sockets": [
+        "socket_ejection",
+        "socket_magazine_grip",
+        "socket_muzzle",
+        "socket_grip_r",
+        "socket_grip_l",
+        "socket_magazine",
+        "socket_aim",
+        "socket_optic"
+      ],
+      "animatedChannels": [
+        "weapon_body",
+        "bolt_carrier",
+        "trigger",
+        "selector",
+        "mag_release",
+        "magazine",
+        "magazine_spare",
+        "hand_l",
+        "hand_r"
+      ],
+      "gameChannels": [
+        "world_root",
+        "camera_recoil",
+        "locomotion",
+        "ADS",
+        "ammo",
+        "fire_permission"
+      ],
+      "events": [
+        {
+          "name": "weapon_ready",
+          "frame": 19,
+          "seconds": 0.31666666666666665,
+          "normalized": 1.0
+        }
+      ],
+      "interruptWindows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "interruptionPolicy": "reset visual pose/visibility from authoritative inventory; never commit ammo from clip"
+    }
+  ],
+  "procedural": {
+    "AKMN_FP_Idle": "existing breathing controller",
+    "AKMN_FP_ADS_In": "existing aim blend, 0.24 s",
+    "AKMN_FP_ADS_Idle": "existing aim controller",
+    "AKMN_FP_ADS_Out": "existing aim blend, 0.24 s",
+    "AKMN_FP_Walk": "existing travelled-distance sway",
+    "AKMN_FP_Sprint_In": "existing sprint blend",
+    "AKMN_FP_Sprint_Loop": "existing sprint and stride controller",
+    "AKMN_FP_Sprint_Out": "existing sprint blend"
+  },
+  "poses": {
+    "aimHeight": 0.088,
+    "support": [
+      -0.03,
+      -0.032,
+      -0.186
+    ],
+    "rightGrip": [
+      0.028,
+      -0.092,
+      0.107
+    ],
+    "muzzle": [
+      0,
+      0.013,
+      -0.48
+    ],
+    "sprintEulerXYZ": [
+      -0.32,
+      0.08,
+      0.12
+    ]
+  },
+  "sockets": {
+    "socket_ejection": {
+      "positionBlender": [
+        0.02199999988079071,
+        0.04399999976158142,
+        0.03999999910593033
+      ],
+      "parent": "bolt_carrier",
+      "forwardLocal": "+Y"
+    },
+    "socket_magazine_grip": {
+      "positionBlender": [
+        -0.02500000037252903,
+        0.09099999815225601,
+        -0.10599999874830246
+      ],
+      "parent": "magazine",
+      "forwardLocal": "+Y"
+    },
+    "socket_muzzle": {
+      "positionBlender": [
+        0.0,
+        0.47999998927116394,
+        0.013000000268220901
+      ],
+      "parent": "weapon_body",
+      "forwardLocal": "+Y"
+    },
+    "socket_grip_r": {
+      "positionBlender": [
+        0.02800000086426735,
+        -0.10700000077486038,
+        -0.09200000017881393
+      ],
+      "parent": "weapon_body",
+      "forwardLocal": "+Y"
+    },
+    "socket_grip_l": {
+      "positionBlender": [
+        -0.029999999329447746,
+        0.1860000044107437,
+        -0.03200000151991844
+      ],
+      "parent": "weapon_body",
+      "forwardLocal": "+Y"
+    },
+    "socket_magazine": {
+      "positionBlender": [
+        0.0,
+        0.10199999809265137,
+        -0.023000000044703484
+      ],
+      "parent": "weapon_body",
+      "forwardLocal": "+Y"
+    },
+    "socket_aim": {
+      "positionBlender": [
+        0.0,
+        0.06700000166893005,
+        0.08799999952316284
+      ],
+      "parent": "weapon_body",
+      "forwardLocal": "+Y"
+    },
+    "socket_optic": {
+      "positionBlender": [
+        -0.03200000151991844,
+        -0.029999999329447746,
+        0.006000000052154064
+      ],
+      "parent": "weapon_body",
+      "forwardLocal": "+Y"
+    }
+  },
+  "visibilityPolicy": "magazine_spare initially hidden; events change enabled mesh, never scale or Blender hide keys",
+  "stateAuthority": "all events visual notifications only; inventory, fire and reload commit remain simulation-owned"
+}

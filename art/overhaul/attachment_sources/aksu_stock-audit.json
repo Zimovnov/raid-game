@@ -1,0 +1,116 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/aksu_stock.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__aksu_stock": {
+      "0": {
+        "triangles": 252,
+        "vertices": 504,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_rubber.004",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03999999910593033,
+            -0.15558797121047974,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.048500001430511475,
+            0.053645458072423935,
+            0.23200002312660217
+          ]
+        }
+      },
+      "1": {
+        "triangles": 48,
+        "vertices": 84,
+        "objects": 1,
+        "materials": [
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03700000047683716,
+            -0.1560000479221344,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.03700000047683716,
+            0.05399998277425766,
+            0.2290000170469284
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_stock-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__aksu_stock": {
+      "min": [
+        -0.03999999910593033,
+        -0.15558797121047974,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.048500001430511475,
+        0.053645458072423935,
+        0.23200002312660217
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03999999910593033,
+      -0.23200002312660217,
+      -0.1560000479221344
+    ],
+    "max": [
+      0.048500001430511475,
+      0.1900000423192978,
+      0.05400003492832184
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,14 @@
+{
+  "objects": 7,
+  "materials": 1,
+  "triangles": 24788,
+  "vertices": 12480,
+  "uv_outside_0_1": 0,
+  "degenerate_faces": 0,
+  "nonmanifold_edges": 0,
+  "dimensions_m": [
+    0.03231000155210495,
+    0.20031020045280457,
+    0.13154353573918343
+  ]
+}

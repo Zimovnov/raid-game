@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/aug_guard.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__aug_guard": {
+      "0": {
+        "triangles": 116,
+        "vertices": 224,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03750000149011612,
+            -0.1600000113248825,
+            -0.027000004425644875
+          ],
+          "max": [
+            0.041999999433755875,
+            0.03200000524520874,
+            0.048999983817338943
+          ]
+        }
+      },
+      "1": {
+        "triangles": 56,
+        "vertices": 104,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03750000149011612,
+            -0.1600000113248825,
+            -0.027000004425644875
+          ],
+          "max": [
+            0.03750000149011612,
+            0.03200000897049904,
+            0.048999983817338943
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/aug_guard-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__aug_guard": {
+      "min": [
+        -0.03750000149011612,
+        -0.1600000113248825,
+        -0.027000004425644875
+      ],
+      "max": [
+        0.041999999433755875,
+        0.03200000524520874,
+        0.048999983817338943
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03750000149011612,
+      -0.049000006169080734,
+      -0.1600000113248825
+    ],
+    "max": [
+      0.041999999433755875,
+      0.027000026777386665,
+      0.03200000897049904
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

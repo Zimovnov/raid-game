@@ -1,0 +1,4123 @@
+{
+  "verifiedBuildHash": "6b9f529f582085f67481b8577de67217affab37ee6306666e12373602005efcf",
+  "evidence": [
+    "artifacts/verification.json",
+    "artifacts/current/release-verify.log",
+    "artifacts/current/route-audit.json",
+    "artifacts/content-validation.json",
+    "artifacts/native-render.json"
+  ],
+  "build": "0.3.0-6b9f529f582085f6",
+  "scope": "Installed virtual game definitions. Catalogue totals do not mean complete full-spec acceptance.",
+  "weapons": [
+    {
+      "id": "weapon_aks74u",
+      "name": "АКС-74У",
+      "ammo": "5.45x39",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_ak103",
+      "name": "АК-103",
+      "ammo": "7.62x39",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_hk416a5",
+      "name": "HK416 A5",
+      "ammo": "5.56x45",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_pp1901",
+      "name": "ПП-19-01 «Витязь»",
+      "ammo": "9x19",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_pp91",
+      "name": "ПП-91 «Кедр»",
+      "ammo": "9x18",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_tt",
+      "name": "ТТ",
+      "ammo": "7.62x25",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_glock17",
+      "name": "Glock 17",
+      "ammo": "9x19",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_mp443",
+      "name": "МР-443 «Грач»",
+      "ammo": "9x19",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_sks",
+      "name": "СКС",
+      "ammo": "7.62x39",
+      "feed": "internal",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_mosin9130",
+      "name": "Винтовка Мосина обр. 1891/30",
+      "ammo": "7.62x54R",
+      "feed": "internal",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_svd",
+      "name": "СВД",
+      "ammo": "7.62x54R",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_sv98",
+      "name": "СВ-98",
+      "ammo": "7.62x54R",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_mp153",
+      "name": "МР-153",
+      "ammo": "12gauge",
+      "feed": "tube",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_saiga12k",
+      "name": "Сайга-12К",
+      "ammo": "12gauge",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_ak74m",
+      "name": "АК-74М",
+      "ammo": "5.45x39",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_akm",
+      "name": "АКМ",
+      "ammo": "7.62x39",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_m4a1",
+      "name": "M4A1",
+      "ammo": "5.56x45",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_mp5",
+      "name": "HK MP5",
+      "ammo": "9x19",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_pm",
+      "name": "ПМ",
+      "ammo": "9x18",
+      "feed": "detachable",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    },
+    {
+      "id": "weapon_mp133",
+      "name": "МР-133",
+      "ammo": "12gauge",
+      "feed": "tube",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "nameSource": "User supplied weapon catalogue",
+      "realVariantVerification": "NOT RUN",
+      "testStatus": {
+        "defaultBuild": "PASS",
+        "fireAndReloadInWorld": "PASS",
+        "nativeRendering": "PASS",
+        "browserPlaytest": "BLOCKED"
+      },
+      "animationStatus": "PER_WEAPON_PROCEDURAL_PROFILE_6_SHARED_FAMILIES",
+      "chamberStatus": "IMPLEMENTED_AND_UNIT_TESTED"
+    }
+  ],
+  "modules": [
+    {
+      "id": "aksu_stock",
+      "name": "Компактный рамочный приклад",
+      "shape": "stock_wire",
+      "interface": "aksu-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "aksu_guard",
+      "name": "Короткое деревянное цевьё",
+      "shape": "guard_mini_wood",
+      "interface": "aksu-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "aksu_rail",
+      "name": "Короткое цевьё с планками",
+      "shape": "guard_mini_rail",
+      "interface": "aksu-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "aksu_mount",
+      "name": "Низкий мостик компактной платформы",
+      "shape": "mount_short",
+      "interface": "aksu-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "aksu_muzzle",
+      "name": "Конусное дульное устройство",
+      "shape": "muzzle_cone",
+      "interface": "aksu-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "hk416_guard",
+      "name": "Вентилируемое цевьё 416",
+      "shape": "guard_416",
+      "interface": "hk416-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "hk416_short",
+      "name": "Укороченное цевьё 416",
+      "shape": "guard_416_short",
+      "interface": "hk416-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "vityaz_stock",
+      "name": "Складной приклад ПП",
+      "shape": "stock_triangle",
+      "interface": "vityaz-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "vityaz_guard",
+      "name": "Узкое полимерное цевьё ПП",
+      "shape": "guard_mini_poly",
+      "interface": "vityaz-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "vityaz_rail",
+      "name": "Узкое рельсовое цевьё ПП",
+      "shape": "guard_mini_rail",
+      "interface": "vityaz-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "vityaz_30",
+      "name": "Магазин ПП-19 · 30",
+      "shape": "mag_smg",
+      "interface": "vityaz-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "vityaz_mount",
+      "name": "Мостик короткого ПП",
+      "shape": "mount_short",
+      "interface": "vityaz-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "vityaz_can",
+      "name": "Короткий глушитель ПП",
+      "shape": "muzzle_short_can",
+      "interface": "vityaz-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "kedr_stock",
+      "name": "Проволочный приклад «Кедра»",
+      "shape": "stock_wire_kedr",
+      "interface": "kedr-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "kedr_grip",
+      "name": "Узкая рукоятка «Кедра»",
+      "shape": "grip_kedr",
+      "interface": "kedr-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "kedr_20",
+      "name": "Магазин ПП-91 · 20",
+      "shape": "mag_kedr_short",
+      "interface": "kedr-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "kedr_30",
+      "name": "Магазин ПП-91 · 30",
+      "shape": "mag_kedr_long",
+      "interface": "kedr-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "tt_grip",
+      "name": "Рифлёные накладки ТТ",
+      "shape": "grip_tt",
+      "interface": "tt-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "tt_8",
+      "name": "Магазин ТТ · 8",
+      "shape": "mag_tt",
+      "interface": "tt-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "glock_17",
+      "name": "Магазин Glock · 17",
+      "shape": "mag_glock",
+      "interface": "glock-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "glock_33",
+      "name": "Удлинённый магазин Glock · 33",
+      "shape": "mag_glock_long",
+      "interface": "glock-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "pistol_light",
+      "name": "Компактный подствольный фонарь",
+      "shape": "light_pistol",
+      "interface": "pistol-light",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "grach_grip",
+      "name": "Контурные накладки «Грача»",
+      "shape": "grip_grach",
+      "interface": "grach-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "grach_18",
+      "name": "Магазин «Грача» · 18",
+      "shape": "mag_grach",
+      "interface": "grach-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sks_stock",
+      "name": "Деревянная ложа СКС",
+      "shape": "stock_sks_wood",
+      "interface": "sks-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sks_synthetic",
+      "name": "Полимерная ложа СКС",
+      "shape": "stock_sks_poly",
+      "interface": "sks-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sks_mount",
+      "name": "Игровое крепление СКС",
+      "shape": "mount_sks",
+      "interface": "sks-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mosin_stock",
+      "name": "Длинная деревянная ложа",
+      "shape": "stock_mosin_wood",
+      "interface": "mosin-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "svd_stock",
+      "name": "Скелетный приклад СВД",
+      "shape": "stock_svd_wood",
+      "interface": "svd-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "svd_guard",
+      "name": "Вентилируемые накладки СВД",
+      "shape": "guard_svd_wood",
+      "interface": "svd-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "svd_10",
+      "name": "Магазин СВД · 10",
+      "shape": "mag_svd",
+      "interface": "svd-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "svd_mount",
+      "name": "Боковое крепление СВД",
+      "shape": "mount_side",
+      "interface": "svd-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sv98_stock",
+      "name": "Спортивная ложа с щекой",
+      "shape": "stock_sv98",
+      "interface": "sv98-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sv98_10",
+      "name": "Магазин СВ-98 · 10",
+      "shape": "mag_sv98",
+      "interface": "sv98-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp153_guard",
+      "name": "Длинное полимерное цевьё дробовика",
+      "shape": "guard_mp153",
+      "interface": "mp153-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "saiga_stock",
+      "name": "Складной приклад дробовика",
+      "shape": "stock_solid_short",
+      "interface": "saiga-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "saiga_guard",
+      "name": "Широкое цевьё дробовика",
+      "shape": "guard_saiga",
+      "interface": "saiga-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "saiga_rail",
+      "name": "Широкое цевьё с планками",
+      "shape": "guard_saiga_rail",
+      "interface": "saiga-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "saiga_8",
+      "name": "Коробчатый магазин 12 к. · 8",
+      "shape": "mag_shotgun",
+      "interface": "saiga-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "saiga_5",
+      "name": "Короткий магазин 12 к. · 5",
+      "shape": "mag_shotgun_short",
+      "interface": "saiga-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "saiga_mount",
+      "name": "Боковое крепление дробовика",
+      "shape": "mount_side",
+      "interface": "saiga-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_crane",
+      "name": "Приклад с широким упором",
+      "shape": "stock_crane",
+      "interface": "ar-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_wire",
+      "name": "Открытый минималистичный приклад",
+      "shape": "stock_wire_ar",
+      "interface": "ar-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_cheek",
+      "name": "Рамочный приклад с щекой",
+      "shape": "stock_cheek",
+      "interface": "ak-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp5_retract",
+      "name": "Выдвижной металлический приклад",
+      "shape": "stock_retract",
+      "interface": "mp5-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sg_rubber",
+      "name": "Полимерный приклад с амортизатором",
+      "shape": "stock_padded",
+      "interface": "sg-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_vent",
+      "name": "Цевьё с продольными окнами",
+      "shape": "guard_vent",
+      "interface": "ak-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_octagonal",
+      "name": "Восьмигранное цевьё",
+      "shape": "guard_octagon",
+      "interface": "ar-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_palm",
+      "name": "Рукоятка с ладонным упором",
+      "shape": "grip_palm",
+      "interface": "ak-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_wrapped",
+      "name": "Рукоятка с мягкой обмоткой",
+      "shape": "grip_wrap",
+      "interface": "ar-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "fore_stub",
+      "name": "Укороченная вертикальная рукоятка",
+      "shape": "fore_stub",
+      "interface": "rail-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "fore_bail",
+      "name": "Рукоятка с открытой скобой",
+      "shape": "fore_bail",
+      "interface": "rail-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "dot_tube",
+      "name": "Закрытый трубчатый коллиматор",
+      "shape": "optic_tube",
+      "interface": "rail-optic",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "prism2",
+      "name": "Призматический прицел ×2",
+      "shape": "optic_prism",
+      "interface": "rail-optic",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "scope6",
+      "name": "Длинная оптика ×6",
+      "shape": "optic_long",
+      "interface": "rail-optic",
+      "platforms": [
+        "weapon_m4a1",
+        "weapon_hk416a5",
+        "weapon_sks",
+        "weapon_svd",
+        "weapon_sv98"
+      ],
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak762_20",
+      "name": "Короткий магазин 7,62 · 20",
+      "shape": "mag_ak_short",
+      "interface": "ak762-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar556_20",
+      "name": "Короткий прямой магазин 5,56 · 20",
+      "shape": "mag_ar_short",
+      "interface": "ar556-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp5_15",
+      "name": "Короткий магазин MP5 · 15",
+      "shape": "mag_smg_short",
+      "interface": "mp5-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_ported",
+      "name": "Двухкамерный игровой компенсатор",
+      "shape": "muzzle_ported",
+      "interface": "ak-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_compact_can",
+      "name": "Компактный глушитель AR",
+      "shape": "muzzle_short_can",
+      "interface": "ar-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "wide_light",
+      "name": "Фонарь с широким отражателем",
+      "shape": "light_wide",
+      "interface": "rail-light",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "laser_dual",
+      "name": "Двухоконный лазерный блок",
+      "shape": "laser_dual",
+      "interface": "rail-laser",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_stock",
+      "name": "Полимерный приклад",
+      "shape": "stock_solid",
+      "interface": "ak-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_wood_stock",
+      "name": "Деревянный приклад",
+      "shape": "stock_wood",
+      "interface": "ak-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_skeleton",
+      "name": "Рамочный приклад",
+      "shape": "stock_skeleton",
+      "interface": "ak-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_stock",
+      "name": "Телескопический приклад",
+      "shape": "stock_telescopic",
+      "interface": "ar-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_compact",
+      "name": "Компактный приклад",
+      "shape": "stock_compact",
+      "interface": "ar-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_precision",
+      "name": "Приклад с щекой",
+      "shape": "stock_precision",
+      "interface": "ar-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp5_stock",
+      "name": "Приклад MP5",
+      "shape": "stock_solid",
+      "interface": "mp5-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sg_stock",
+      "name": "Охотничий приклад",
+      "shape": "stock_wood",
+      "interface": "sg-stock",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_poly",
+      "name": "Полимерное цевьё",
+      "shape": "guard_poly",
+      "interface": "ak-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_wood",
+      "name": "Деревянное цевьё",
+      "shape": "guard_wood",
+      "interface": "ak-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_rail",
+      "name": "Рельсовое цевьё",
+      "shape": "guard_rail",
+      "interface": "ak-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_poly",
+      "name": "Ребристое цевьё",
+      "shape": "guard_round",
+      "interface": "ar-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_short",
+      "name": "Короткое рельсовое цевьё",
+      "shape": "guard_short",
+      "interface": "ar-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_long",
+      "name": "Длинное рельсовое цевьё",
+      "shape": "guard_long",
+      "interface": "ar-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp5_guard",
+      "name": "Цевьё MP5",
+      "shape": "guard_poly",
+      "interface": "mp5-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp5_rail",
+      "name": "Цевьё MP5 с планками",
+      "shape": "guard_rail",
+      "interface": "mp5-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sg_pump",
+      "name": "Деревянное помповое цевьё",
+      "shape": "guard_pump_wood",
+      "interface": "sg-handguard",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_grip",
+      "name": "Простая рукоятка АК",
+      "shape": "grip_plain",
+      "interface": "ak-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_ergo",
+      "name": "Рукоятка с упором",
+      "shape": "grip_ergo",
+      "interface": "ak-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_grip",
+      "name": "Простая рукоятка AR",
+      "shape": "grip_plain",
+      "interface": "ar-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_ergo",
+      "name": "Вертикальная рукоятка AR",
+      "shape": "grip_vertical",
+      "interface": "ar-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "pm_grip",
+      "name": "Бакелитовые накладки",
+      "shape": "grip_wood",
+      "interface": "pm-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "pm_rubber",
+      "name": "Резиновые накладки",
+      "shape": "grip_rubber",
+      "interface": "pm-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_mount",
+      "name": "Боковой кронштейн",
+      "shape": "mount_side",
+      "interface": "ak-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp5_mount",
+      "name": "Мостик MP5",
+      "shape": "mount_bridge",
+      "interface": "mp5-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "sg_mount",
+      "name": "Планка ствольной коробки",
+      "shape": "mount_flat",
+      "interface": "sg-mount",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "red_dot",
+      "name": "Открытый коллиматор",
+      "shape": "optic_open",
+      "interface": "rail-optic",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "holo",
+      "name": "Голографический прицел",
+      "shape": "optic_holo",
+      "interface": "rail-optic",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "scope4",
+      "name": "Компактная оптика ×4",
+      "shape": "optic_scope",
+      "interface": "rail-optic",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "fore_vertical",
+      "name": "Вертикальная передняя рукоятка",
+      "shape": "fore_vertical",
+      "interface": "rail-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "fore_angled",
+      "name": "Угловая передняя рукоятка",
+      "shape": "fore_angled",
+      "interface": "rail-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "fore_stop",
+      "name": "Небольшой упор",
+      "shape": "fore_stop",
+      "interface": "rail-grip",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "flashlight",
+      "name": "Оружейный фонарь",
+      "shape": "light",
+      "interface": "rail-light",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "laser",
+      "name": "Лазерный указатель",
+      "shape": "laser",
+      "interface": "rail-laser",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak545_30",
+      "name": "Магазин 5,45 · 30",
+      "shape": "mag_curved",
+      "interface": "ak545-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak545_45",
+      "name": "Магазин 5,45 · 45",
+      "shape": "mag_long",
+      "interface": "ak545-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak762_30",
+      "name": "Магазин 7,62 · 30",
+      "shape": "mag_banana",
+      "interface": "ak762-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar556_30",
+      "name": "Магазин 5,56 · 30",
+      "shape": "mag_straight",
+      "interface": "ar556-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar556_60",
+      "name": "Барабан 5,56 · 60",
+      "shape": "mag_drum",
+      "interface": "ar556-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "mp5_30",
+      "name": "Магазин 9×19 · 30",
+      "shape": "mag_smg",
+      "interface": "mp5-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "pm_8",
+      "name": "Магазин 9×18 · 8",
+      "shape": "mag_pistol",
+      "interface": "pm-mag",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_brake",
+      "name": "Компенсатор АК",
+      "shape": "muzzle_brake",
+      "interface": "ak-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ak_suppressor",
+      "name": "Глушитель АК (игровой)",
+      "shape": "muzzle_suppressor",
+      "interface": "ak-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_brake",
+      "name": "Компенсатор AR",
+      "shape": "muzzle_brake",
+      "interface": "ar-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "ar_suppressor",
+      "name": "Глушитель AR (игровой)",
+      "shape": "muzzle_suppressor",
+      "interface": "ar-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    },
+    {
+      "id": "smg_suppressor",
+      "name": "Глушитель MP5 (игровой)",
+      "shape": "muzzle_suppressor",
+      "interface": "smg-muzzle",
+      "platforms": null,
+      "evidenceStatus": "ORIGINAL_VIRTUAL_DESIGN_NOT_A_VERIFIED_BRANDED_REPLICA",
+      "modelStatus": "PROCEDURAL_PRESENT",
+      "compatibilityStatus": "TYPED_GAME_RULES",
+      "testStatus": {
+        "installableInAtLeastOneValidBuildWithGeometry": "PASS",
+        "fullPairwiseMatrix": "NOT RUN",
+        "browserVisualAcceptance": "BLOCKED"
+      }
+    }
+  ],
+  "loot": [
+    {
+      "id": "loot_food_drink_01",
+      "name": "Банка тушёнки",
+      "shape": "can",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_02",
+      "name": "Рыбные консервы",
+      "shape": "can",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_03",
+      "name": "Пакет гречки",
+      "shape": "sack",
+      "category": "food_drink",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_04",
+      "name": "Пачка макарон",
+      "shape": "packet",
+      "category": "food_drink",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_05",
+      "name": "Мука",
+      "shape": "sack",
+      "category": "food_drink",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_06",
+      "name": "Сахар",
+      "shape": "sack",
+      "category": "food_drink",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_07",
+      "name": "Соль",
+      "shape": "box",
+      "category": "food_drink",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_08",
+      "name": "Сухари",
+      "shape": "packet",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_09",
+      "name": "Галеты",
+      "shape": "flatpack",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_10",
+      "name": "Банка сгущёнки",
+      "shape": "can",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_11",
+      "name": "Плитка шоколада",
+      "shape": "chocolate",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_12",
+      "name": "Печенье",
+      "shape": "packet",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_13",
+      "name": "Чёрный чай",
+      "shape": "tea",
+      "category": "food_drink",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_14",
+      "name": "Банка растворимого кофе",
+      "shape": "jar",
+      "category": "food_drink",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_15",
+      "name": "Бутылка воды",
+      "shape": "bottle",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_16",
+      "name": "Минеральная вода",
+      "shape": "bottle",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_17",
+      "name": "Яблочный сок",
+      "shape": "carton",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_18",
+      "name": "Клюквенный морс",
+      "shape": "carton",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_19",
+      "name": "Квас",
+      "shape": "bottle",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_food_drink_20",
+      "name": "Банка маринованных огурцов",
+      "shape": "jar",
+      "category": "food_drink",
+      "functionality": "energy",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_01",
+      "name": "Бинт",
+      "shape": "bandage",
+      "category": "medical",
+      "functionality": "bandage",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_02",
+      "name": "Стерильный бинт",
+      "shape": "bandage",
+      "category": "medical",
+      "functionality": "bandage",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_03",
+      "name": "Бактерицидный пластырь",
+      "shape": "flatpack",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_04",
+      "name": "Марлевая салфетка",
+      "shape": "flatpack",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_05",
+      "name": "Эластичный бинт",
+      "shape": "bandage",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_06",
+      "name": "Жгут",
+      "shape": "strap",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_07",
+      "name": "Антисептик",
+      "shape": "bottle",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_08",
+      "name": "Индивидуальный перевязочный пакет",
+      "shape": "flatpack",
+      "category": "medical",
+      "functionality": "bandage",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_09",
+      "name": "Аптечка первой помощи",
+      "shape": "medkit",
+      "category": "medical",
+      "functionality": "heal",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_10",
+      "name": "Автомобильная аптечка",
+      "shape": "medkit",
+      "category": "medical",
+      "functionality": "heal",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_11",
+      "name": "Медицинские ножницы",
+      "shape": "scissors",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_12",
+      "name": "Одноразовые перчатки",
+      "shape": "gloves",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_13",
+      "name": "Медицинская маска",
+      "shape": "mask",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_14",
+      "name": "Респиратор",
+      "shape": "mask",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_15",
+      "name": "Термометр",
+      "shape": "thermometer",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_16",
+      "name": "Тонометр",
+      "shape": "cuff",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_17",
+      "name": "Пульсоксиметр",
+      "shape": "meter",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_18",
+      "name": "Термопокрывало",
+      "shape": "blanket",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_19",
+      "name": "Медицинская шина",
+      "shape": "splint",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_medical_20",
+      "name": "Холодовый пакет",
+      "shape": "coldpack",
+      "category": "medical",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_01",
+      "name": "Плоская отвёртка",
+      "shape": "screwdriver",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_02",
+      "name": "Крестовая отвёртка",
+      "shape": "screwdriver",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_03",
+      "name": "Пассатижи",
+      "shape": "pliers",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_04",
+      "name": "Кусачки",
+      "shape": "cutters",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_05",
+      "name": "Разводной ключ",
+      "shape": "wrench",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_06",
+      "name": "Рожковый ключ",
+      "shape": "openwrench",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_07",
+      "name": "Трещотка",
+      "shape": "ratchet",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_08",
+      "name": "Набор торцевых головок",
+      "shape": "toolcase",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_09",
+      "name": "Молоток",
+      "shape": "hammer",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_10",
+      "name": "Резиновая киянка",
+      "shape": "mallet",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_11",
+      "name": "Ножовка по металлу",
+      "shape": "hacksaw",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_12",
+      "name": "Ручная пила",
+      "shape": "saw",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_13",
+      "name": "Напильник",
+      "shape": "file",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_14",
+      "name": "Рулетка",
+      "shape": "tape",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_15",
+      "name": "Строительный уровень",
+      "shape": "level",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_16",
+      "name": "Штангенциркуль",
+      "shape": "caliper",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_17",
+      "name": "Струбцина",
+      "shape": "clamp",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_18",
+      "name": "Шестигранные ключи",
+      "shape": "hexkeys",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_19",
+      "name": "Мультитул",
+      "shape": "multitool",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_hand_tools_20",
+      "name": "Паяльник",
+      "shape": "solder",
+      "category": "hand_tools",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_01",
+      "name": "Коробка гвоздей",
+      "shape": "partsbox",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_02",
+      "name": "Коробка саморезов",
+      "shape": "partsbox",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_03",
+      "name": "Гайки",
+      "shape": "nuts",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_04",
+      "name": "Болты",
+      "shape": "bolts",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_05",
+      "name": "Шайбы",
+      "shape": "washers",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_06",
+      "name": "Крепёжные уголки",
+      "shape": "brackets",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_07",
+      "name": "Изолента",
+      "shape": "roll",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_08",
+      "name": "Армированный скотч",
+      "shape": "roll",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_09",
+      "name": "Малярная лента",
+      "shape": "roll",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_10",
+      "name": "Кабельные стяжки",
+      "shape": "ties",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_11",
+      "name": "Моток верёвки",
+      "shape": "rope",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_12",
+      "name": "Стальной трос",
+      "shape": "cable",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_13",
+      "name": "Силиконовый герметик",
+      "shape": "tube",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_14",
+      "name": "Монтажная пена",
+      "shape": "foam",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_15",
+      "name": "Столярный клей",
+      "shape": "glue",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_16",
+      "name": "Наждачная бумага",
+      "shape": "flatpack",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_17",
+      "name": "Кисть",
+      "shape": "brush",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_18",
+      "name": "Малярный валик",
+      "shape": "roller",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_19",
+      "name": "Лист фанеры",
+      "shape": "plywood",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_building_material_20",
+      "name": "Мешок цемента",
+      "shape": "sack",
+      "category": "building_material",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_01",
+      "name": "Печатная плата",
+      "shape": "board",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_02",
+      "name": "Процессор",
+      "shape": "cpu",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_03",
+      "name": "Оперативная память",
+      "shape": "ram",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_04",
+      "name": "Видеокарта",
+      "shape": "gpu",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_05",
+      "name": "SSD-накопитель",
+      "shape": "ssd",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_06",
+      "name": "Жёсткий диск",
+      "shape": "hdd",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_07",
+      "name": "Компьютерный блок питания",
+      "shape": "psu",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_08",
+      "name": "Корпусной вентилятор",
+      "shape": "fan",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_09",
+      "name": "Wi-Fi-роутер",
+      "shape": "router",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_10",
+      "name": "Сетевой коммутатор",
+      "shape": "switch",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_11",
+      "name": "Веб-камера",
+      "shape": "webcam",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_12",
+      "name": "Цифровой фотоаппарат",
+      "shape": "camera",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_13",
+      "name": "Объектив",
+      "shape": "lens",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_14",
+      "name": "Портативная радиостанция",
+      "shape": "radio",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_15",
+      "name": "Карманный радиоприёмник",
+      "shape": "radio",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_16",
+      "name": "Мультиметр",
+      "shape": "meter",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_17",
+      "name": "Зарядное устройство",
+      "shape": "charger",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_18",
+      "name": "Пауэрбанк",
+      "shape": "powerbank",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_19",
+      "name": "USB-флешка",
+      "shape": "usb",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_electronics_20",
+      "name": "Карта памяти",
+      "shape": "memory",
+      "category": "electronics",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_01",
+      "name": "Подшипник",
+      "shape": "bearing",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_02",
+      "name": "Ремень привода",
+      "shape": "belt",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_03",
+      "name": "Электродвигатель",
+      "shape": "motor",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_04",
+      "name": "Редуктор",
+      "shape": "gearbox",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_05",
+      "name": "Промышленное реле",
+      "shape": "relay",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_06",
+      "name": "Контактор",
+      "shape": "contactor",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_07",
+      "name": "Автоматический выключатель",
+      "shape": "breaker",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_08",
+      "name": "Плавкие предохранители",
+      "shape": "fuse",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_09",
+      "name": "Датчик температуры",
+      "shape": "probe",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_10",
+      "name": "Датчик давления",
+      "shape": "probe",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_11",
+      "name": "Манометр",
+      "shape": "gauge",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_12",
+      "name": "Медный кабель",
+      "shape": "cable",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_13",
+      "name": "Удлинитель",
+      "shape": "extension",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_14",
+      "name": "Клеммная колодка",
+      "shape": "terminal",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_15",
+      "name": "Промышленный разъём",
+      "shape": "plug",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_16",
+      "name": "Вентиль",
+      "shape": "valve",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_17",
+      "name": "Фильтрующий элемент",
+      "shape": "filter",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_18",
+      "name": "Вентиляционная решётка",
+      "shape": "grille",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_19",
+      "name": "Сигнальная лампа",
+      "shape": "lamp",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_industrial_20",
+      "name": "Канистра машинного масла",
+      "shape": "canister",
+      "category": "industrial",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_01",
+      "name": "Серебряное кольцо",
+      "shape": "ring",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_02",
+      "name": "Золотое кольцо",
+      "shape": "ring",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_03",
+      "name": "Серебряная цепочка",
+      "shape": "chain",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_04",
+      "name": "Золотая цепочка",
+      "shape": "chain",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_05",
+      "name": "Наручные механические часы",
+      "shape": "wristwatch",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_06",
+      "name": "Карманные часы",
+      "shape": "pocketwatch",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_07",
+      "name": "Коллекционная монета",
+      "shape": "coin",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_08",
+      "name": "Альбом марок",
+      "shape": "album",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_09",
+      "name": "Фарфоровая статуэтка",
+      "shape": "statuette",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_10",
+      "name": "Бронзовая фигурка",
+      "shape": "statuette",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_11",
+      "name": "Янтарная брошь",
+      "shape": "brooch",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_12",
+      "name": "Серебряная ложка",
+      "shape": "spoon",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_13",
+      "name": "Музыкальная шкатулка",
+      "shape": "musicbox",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_14",
+      "name": "Винтажный экспонометр",
+      "shape": "exposure",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_15",
+      "name": "Плёночный фотоаппарат",
+      "shape": "camera",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_16",
+      "name": "Коллекционная кассета",
+      "shape": "cassette",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_17",
+      "name": "Редкая виниловая пластинка",
+      "shape": "vinyl",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_18",
+      "name": "Подарочная перьевая ручка",
+      "shape": "pen",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_19",
+      "name": "Ювелирная шкатулка",
+      "shape": "jewelrybox",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_valuables_20",
+      "name": "Латунный компас",
+      "shape": "compass",
+      "category": "valuables",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_01",
+      "name": "Мыло",
+      "shape": "soap",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_02",
+      "name": "Стиральный порошок",
+      "shape": "packet",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_03",
+      "name": "Средство для посуды",
+      "shape": "bottle",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_04",
+      "name": "Губки",
+      "shape": "sponge",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_05",
+      "name": "Мусорные пакеты",
+      "shape": "roll",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_06",
+      "name": "Туалетная бумага",
+      "shape": "roll",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_07",
+      "name": "Бумажные полотенца",
+      "shape": "roll",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_08",
+      "name": "Полотенце",
+      "shape": "towel",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_09",
+      "name": "Набор ниток",
+      "shape": "thread",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_10",
+      "name": "Швейные иглы",
+      "shape": "needles",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_11",
+      "name": "Пуговицы",
+      "shape": "buttons",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_12",
+      "name": "Обувной крем",
+      "shape": "tin",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_13",
+      "name": "Щётка для обуви",
+      "shape": "brush",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_14",
+      "name": "Термос",
+      "shape": "thermos",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_15",
+      "name": "Эмалированная кружка",
+      "shape": "mug",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_16",
+      "name": "Походный котелок",
+      "shape": "pot",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_17",
+      "name": "Спички",
+      "shape": "matches",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_18",
+      "name": "Зажигалка",
+      "shape": "lighter",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_19",
+      "name": "Свеча",
+      "shape": "candle",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_household_20",
+      "name": "Набор батареек AA",
+      "shape": "batteries",
+      "category": "household",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_01",
+      "name": "Служебная записная книжка",
+      "shape": "notebook",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_02",
+      "name": "Журнал поставок",
+      "shape": "book",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_03",
+      "name": "Накладные",
+      "shape": "folder",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_04",
+      "name": "Каталог оборудования",
+      "shape": "book",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_05",
+      "name": "Технический паспорт агрегата",
+      "shape": "folder",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_06",
+      "name": "Папка бухгалтерских документов",
+      "shape": "folder",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_07",
+      "name": "Записная книжка мастера",
+      "shape": "notebook",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_08",
+      "name": "Архивные фотографии",
+      "shape": "photos",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_09",
+      "name": "Журнал дежурств",
+      "shape": "book",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_documents_10",
+      "name": "Пропуск в подсобное помещение",
+      "shape": "pass",
+      "category": "documents",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_01",
+      "name": "Книга рецептур",
+      "shape": "book",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_02",
+      "name": "Позолоченный сувенирный пельмень",
+      "shape": "dumpling",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_03",
+      "name": "Журнал контроля партии",
+      "shape": "book",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_04",
+      "name": "Пачка этикеток",
+      "shape": "labels",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_05",
+      "name": "Рулон упаковочной плёнки",
+      "shape": "roll",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_06",
+      "name": "Металлическая форма для пельменей",
+      "shape": "mold",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_07",
+      "name": "Мешок панировочных сухарей",
+      "shape": "sack",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_08",
+      "name": "Термосумка",
+      "shape": "cooler",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_09",
+      "name": "Пищевой термощуп",
+      "shape": "probe",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    },
+    {
+      "id": "loot_factory_special_10",
+      "name": "Коробка замороженных пельменей",
+      "shape": "foodbox",
+      "category": "factory_special",
+      "functionality": "sale-and-quest",
+      "source": "User supplied loot catalogue",
+      "geometry": "PRESENT",
+      "typedDefinitionTest": "PASS",
+      "individualBrowserInspection": "NOT RUN"
+    }
+  ],
+  "presets": [
+    {
+      "id": "ak-stock",
+      "name": "АК · исходный комплект",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "ak-light",
+      "name": "АК · лёгкий",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "ak-control",
+      "name": "АК · контроль",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "ak-quiet",
+      "name": "АК · тихий",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "akm-compact",
+      "name": "АКМ · короткий магазин",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "ar-stock",
+      "name": "AR · исходный комплект",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "ar-light",
+      "name": "AR · облегчённый",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "ar-range",
+      "name": "AR · умеренная оптика",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "ar-heavy",
+      "name": "AR · запас патронов",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "aksu-short",
+      "name": "АКС-74У · компактный",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "mp5-quiet",
+      "name": "MP5 · кооператив",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    },
+    {
+      "id": "sv98-optic",
+      "name": "СВ-98 · оптика ×6",
+      "validation": "PASS",
+      "quoteImmutability": "PASS"
+    }
+  ],
+  "maps": [
+    {
+      "id": "factory",
+      "name": "Пельменный завод Буянова",
+      "size": [
+        124,
+        106
+      ],
+      "lootPoints": 30,
+      "spawnCandidates": 6,
+      "exits": 3,
+      "fullSpecificationStatus": "NOT COMPLETE",
+      "controllerExitRoutes": "PASS",
+      "browserRaid": "BLOCKED",
+      "unconditionalExits": 2,
+      "controllerAllLootAndExitRoutes": "PASS, combat disabled"
+    },
+    {
+      "id": "city",
+      "name": "Обводный квартал",
+      "size": [
+        144,
+        132
+      ],
+      "lootPoints": 30,
+      "spawnCandidates": 6,
+      "exits": 3,
+      "fullSpecificationStatus": "NOT COMPLETE",
+      "controllerExitRoutes": "PASS",
+      "browserRaid": "BLOCKED",
+      "unconditionalExits": 2,
+      "controllerAllLootAndExitRoutes": "PASS, combat disabled"
+    },
+    {
+      "id": "village",
+      "name": "Дачный посёлок",
+      "size": [
+        158,
+        144
+      ],
+      "lootPoints": 30,
+      "spawnCandidates": 6,
+      "exits": 3,
+      "fullSpecificationStatus": "NOT COMPLETE",
+      "controllerExitRoutes": "PASS",
+      "browserRaid": "BLOCKED",
+      "unconditionalExits": 2,
+      "controllerAllLootAndExitRoutes": "PASS, combat disabled"
+    },
+    {
+      "id": "park",
+      "name": "Сосновый парк",
+      "size": [
+        172,
+        154
+      ],
+      "lootPoints": 30,
+      "spawnCandidates": 6,
+      "exits": 3,
+      "fullSpecificationStatus": "NOT COMPLETE",
+      "controllerExitRoutes": "PASS",
+      "browserRaid": "BLOCKED",
+      "unconditionalExits": 2,
+      "controllerAllLootAndExitRoutes": "PASS, combat disabled"
+    },
+    {
+      "id": "mall",
+      "name": "Торговый центр",
+      "size": [
+        120,
+        108
+      ],
+      "lootPoints": 30,
+      "spawnCandidates": 6,
+      "exits": 3,
+      "fullSpecificationStatus": "NOT COMPLETE",
+      "controllerExitRoutes": "PASS",
+      "browserRaid": "BLOCKED",
+      "unconditionalExits": 2,
+      "controllerAllLootAndExitRoutes": "PASS, combat disabled"
+    }
+  ],
+  "traders": 3,
+  "quests": 12,
+  "fullSpecRemaining": "Physical-device/internet/browser acceptance; full large map design; branded-variant verification; full nested inventory containers; animation artistic review, effects/audio and long-session GPU profiling."
+}

@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/m14_chassis.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__m14_chassis": {
+      "0": {
+        "triangles": 890,
+        "vertices": 1765,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05550000071525574,
+            -0.14500004053115845,
+            -0.970000147819519
+          ],
+          "max": [
+            0.05550000071525574,
+            0.11200002580881119,
+            0.2670000195503235
+          ]
+        }
+      },
+      "1": {
+        "triangles": 290,
+        "vertices": 618,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05550000071525574,
+            -0.14500004053115845,
+            -0.970000147819519
+          ],
+          "max": [
+            0.05550000071525574,
+            0.11200002580881119,
+            0.26600000262260437
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/m14_chassis-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__m14_chassis": {
+      "min": [
+        -0.05550000071525574,
+        -0.14500004053115845,
+        -0.970000147819519
+      ],
+      "max": [
+        0.05550000071525574,
+        0.11200002580881119,
+        0.2670000195503235
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05550000071525574,
+      -0.2670000195503235,
+      -0.14500004053115845
+    ],
+    "max": [
+      0.05550000071525574,
+      0.970000147819519,
+      0.11200014501810074
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

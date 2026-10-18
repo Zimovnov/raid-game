@@ -1,0 +1,116 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/saiga_guard.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__saiga_guard": {
+      "0": {
+        "triangles": 224,
+        "vertices": 396,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.060499999672174454,
+            -0.06510002166032791,
+            -0.1600000262260437
+          ],
+          "max": [
+            0.06449999660253525,
+            0.07402502745389938,
+            0.1300000101327896
+          ]
+        }
+      },
+      "1": {
+        "triangles": 136,
+        "vertices": 244,
+        "objects": 1,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05958086997270584,
+            -0.06510002166032791,
+            -0.1600000262260437
+          ],
+          "max": [
+            0.05958086997270584,
+            0.07402502745389938,
+            0.1300000101327896
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/saiga_guard-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__saiga_guard": {
+      "min": [
+        -0.060499999672174454,
+        -0.06510002166032791,
+        -0.1600000262260437
+      ],
+      "max": [
+        0.06449999660253525,
+        0.07402502745389938,
+        0.1300000101327896
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.060499999672174454,
+      -0.1300000250339508,
+      -0.06510002166032791
+    ],
+    "max": [
+      0.06449999660253525,
+      0.1600000262260437,
+      0.07402502745389938
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

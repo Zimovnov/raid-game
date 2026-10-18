@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/laser.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "laser__laser": {
+      "0": {
+        "triangles": 152,
+        "vertices": 248,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.02850000001490116,
+            -0.025000015273690224,
+            -0.049000002443790436
+          ],
+          "max": [
+            0.05700000002980232,
+            0.023499999195337296,
+            0.04150000587105751
+          ]
+        }
+      },
+      "1": {
+        "triangles": 120,
+        "vertices": 200,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.02850000001490116,
+            -0.025000015273690224,
+            -0.049000002443790436
+          ],
+          "max": [
+            0.05700000002980232,
+            0.023499999195337296,
+            0.04150000587105751
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/laser-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "laser__laser": {
+      "min": [
+        -0.02850000001490116,
+        -0.025000015273690224,
+        -0.049000002443790436
+      ],
+      "max": [
+        0.05700000002980232,
+        0.023499999195337296,
+        0.04150000587105751
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.02850000001490116,
+      -0.04150000587105751,
+      -0.025000015273690224
+    ],
+    "max": [
+      0.05700000002980232,
+      0.049000006169080734,
+      0.02350000850856304
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/ar_stock.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__ar_stock": {
+      "0": {
+        "triangles": 344,
+        "vertices": 662,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03500000014901161,
+            -0.15500003099441528,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.03500000014901161,
+            0.07500002533197403,
+            0.22700002789497375
+          ]
+        }
+      },
+      "1": {
+        "triangles": 136,
+        "vertices": 228,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03500000014901161,
+            -0.15500003099441528,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.03500000014901161,
+            0.07500002533197403,
+            0.22600001096725464
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/ar_stock-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__ar_stock": {
+      "min": [
+        -0.03500000014901161,
+        -0.15500003099441528,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.03500000014901161,
+        0.07500002533197403,
+        0.22700002789497375
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03500000014901161,
+      -0.22700004279613495,
+      -0.15500004589557648
+    ],
+    "max": [
+      0.03500000014901161,
+      0.1900000423192978,
+      0.07500003278255463
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

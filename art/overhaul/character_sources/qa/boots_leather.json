@@ -1,0 +1,281 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/boots_leather.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "boots_leather_footL": {
+      "0": {
+        "triangles": 1044,
+        "vertices": 1860,
+        "objects": 4,
+        "materials": [
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_rubber",
+          "RAID_zip"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10100000351667404,
+            -0.12349999696016312,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.10100000351667404,
+            0.17499999701976776,
+            0.11550000309944153
+          ]
+        }
+      },
+      "1": {
+        "triangles": 228,
+        "vertices": 444,
+        "objects": 3,
+        "materials": [
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_rubber"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.09594999998807907,
+            -0.11699999868869781,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.09594999998807907,
+            0.17499999701976776,
+            0.11550000309944153
+          ]
+        }
+      }
+    },
+    "boots_leather_footR": {
+      "0": {
+        "triangles": 1044,
+        "vertices": 1860,
+        "objects": 4,
+        "materials": [
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_rubber",
+          "RAID_zip"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.10100000351667404,
+            -0.12349999696016312,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.10100000351667404,
+            0.17499999701976776,
+            0.11550000309944153
+          ]
+        }
+      },
+      "1": {
+        "triangles": 228,
+        "vertices": 444,
+        "objects": 3,
+        "materials": [
+          "RAID_lace",
+          "RAID_leather",
+          "RAID_rubber"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.09594999998807907,
+            -0.11699999868869781,
+            -0.2280000001192093
+          ],
+          "max": [
+            0.09594999998807907,
+            0.17499999701976776,
+            0.11550000309944153
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "lace_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "leather_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lace_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lace_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "leather_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "leather_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "zip_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/boots_leather.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "boots_leather_footL": {
+      "min": [
+        -0.10100000351667404,
+        -0.12349999696016312,
+        -0.2280000001192093
+      ],
+      "max": [
+        0.10100000351667404,
+        0.17499999701976776,
+        0.11550000309944153
+      ]
+    },
+    "boots_leather_footR": {
+      "min": [
+        -0.10100000351667404,
+        -0.12349999696016312,
+        -0.2280000001192093
+      ],
+      "max": [
+        0.10100000351667404,
+        0.17499999701976776,
+        0.11550000309944153
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.10100000351667404,
+      -0.11550000309944153,
+      -0.12349999696016312
+    ],
+    "max": [
+      0.10100000351667404,
+      0.2280000001192093,
+      0.17499999701976776
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

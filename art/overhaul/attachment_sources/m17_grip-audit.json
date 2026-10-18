@@ -1,0 +1,108 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/m17_grip.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "pistolgrip__m17_grip": {
+      "0": {
+        "triangles": 252,
+        "vertices": 524,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_sand.002"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.036900002509355545,
+            -0.14000001549720764,
+            -0.04500000923871994
+          ],
+          "max": [
+            0.03689999878406525,
+            0.06975125521421432,
+            0.0793936550617218
+          ]
+        }
+      },
+      "1": {
+        "triangles": 64,
+        "vertices": 114,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_sand.002"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.036900002509355545,
+            -0.14000001549720764,
+            -0.04400000348687172
+          ],
+          "max": [
+            0.03689999878406525,
+            0.07000001519918442,
+            0.07999999076128006
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "sand-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m17_grip-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "pistolgrip__m17_grip": {
+      "min": [
+        -0.036900002509355545,
+        -0.14000001549720764,
+        -0.04500000923871994
+      ],
+      "max": [
+        0.03689999878406525,
+        0.06975125521421432,
+        0.0793936550617218
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.036900002509355545,
+      -0.08000001311302185,
+      -0.14000003039836884
+    ],
+    "max": [
+      0.03689999878406525,
+      0.045000024139881134,
+      0.07000001519918442
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

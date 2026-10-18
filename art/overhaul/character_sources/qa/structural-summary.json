@@ -1,0 +1,6 @@
+{
+  "status": "PASSED",
+  "count": 45,
+  "errors": {},
+  "scope": "Blender import and export/reimport: all mesh groups, both LOD, UVs, normals, geometry integrity."
+}

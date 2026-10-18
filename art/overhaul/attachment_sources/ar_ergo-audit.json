@@ -1,0 +1,108 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/ar_ergo.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "pistolgrip__ar_ergo": {
+      "0": {
+        "triangles": 252,
+        "vertices": 524,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_rubber.004"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03539999946951866,
+            -0.1418280154466629,
+            -0.04500000923871994
+          ],
+          "max": [
+            0.03539999574422836,
+            0.06975125521421432,
+            0.0689999908208847
+          ]
+        }
+      },
+      "1": {
+        "triangles": 64,
+        "vertices": 114,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_rubber.004"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03539999946951866,
+            -0.1420000195503235,
+            -0.04400000348687172
+          ],
+          "max": [
+            0.03539999574422836,
+            0.07000001519918442,
+            0.0689999908208847
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ar_ergo-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "pistolgrip__ar_ergo": {
+      "min": [
+        -0.03539999946951866,
+        -0.1418280154466629,
+        -0.04500000923871994
+      ],
+      "max": [
+        0.03539999574422836,
+        0.06975125521421432,
+        0.0689999908208847
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03539999946951866,
+      -0.0690000131726265,
+      -0.14200003445148468
+    ],
+    "max": [
+      0.03539999574422836,
+      0.045000024139881134,
+      0.07000001519918442
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

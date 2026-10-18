@@ -1,0 +1,27 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>RAID — посадка GLB на поверхность</title>
+<style>body{margin:0;background:#202624;color:#eee;font:14px system-ui}canvas{width:100vw;height:100vh;display:block}aside{position:absolute;top:12px;left:12px;background:#111e;padding:12px;max-width:330px}label{display:block;margin:12px 0}pre{font-size:11px;max-height:45vh;overflow:auto}</style>
+<canvas id="scene"></canvas><aside><strong>Нейтральная проверка границ, не новая игровая модель</strong><p>Зелёная поверхность: Y=0. После загрузки основание рамки касается поверхности.</p><label>Проверка загрузки <select id="mode" aria-label="Проверка загрузки"><option value="valid">Валидная модель</option><option value="missing">Пропущенная группа</option><option value="bounds">Некорректные границы</option></select></label><output id="status">Загрузка</output><pre id="report"></pre></aside>
+<script type="module">
+import {Renderer} from '/src/rendering/renderer.ts';
+import {MODEL_ASSETS} from '/src/content/model-assets.ts';
+import {lootGroundOffset,presentationBounds} from '/src/rendering/model-bounds.ts';
+import {model} from '/src/rendering/math.ts';
+import {Vector3} from '@babylonjs/core/Maths/math.vector.js';
+const renderer=new Renderer(document.getElementById('scene'),'babylon'),bridge=renderer.bridge;
+const b={min:[-.0175,-.1,-.1],max:[.0175,.1,.1]};
+for(const id of ['valid','missing','bounds'])MODEL_ASSETS['ground_'+id]={url:'/artifacts/overhaul-meshkit/bevel-probe.glb',frame:'meters',groups:id==='missing'?['probe_bevel','absent']:['probe_bevel'],groupBounds:{probe_bevel:id==='bounds'?{min:[0,2,0],max:[1,1,1]}:b}};
+const parts=Object.fromEntries(['valid','missing','bounds'].map(id=>[id,[{shape:'box',p:[0,.2,0],s:[.035,.4,.2],r:[0,0,0],c:[.8,.24,.15],asset:{weapon:'ground_'+id,group:'probe_bevel',first:true,transform:{p:[0,.06,0],s:[1,1,1],r:[0,0,0]}}}]]));
+const floor=[{shape:'box',p:[0,-.01,0],s:[1.2,.02,1.2],r:[0,0,0],c:[.22,.36,.25]}];
+function draw(){
+ const mode=document.getElementById('mode').value,rows=parts[mode],ready=(id,group)=>bridge.models.hasGroup(id,group),offset=lootGroundOffset(rows,ready);
+ bridge.begin([.7,.4,-.6],[0,.1,0],43,[.12,.15,.14],'high');
+ bridge.render(floor,rows.map(part=>({part,parent:model([0,offset,0])})),true);
+ const points=[];for(const mesh of bridge.scene.meshes.filter(m=>m.isVisible&&m.metadata?.raidAsset==='ground_'+mode)){
+  const vertices=mesh.getVerticesData('position');for(const matrix of mesh.thinInstanceGetWorldMatrices())for(let i=0;i<vertices.length;i+=3)points.push(Vector3.TransformCoordinates(new Vector3(vertices[i],vertices[i+1],vertices[i+2]),matrix));
+ }
+ const actualBottom=points.length?Math.min(...points.map(p=>p.y)):null,errors=[...bridge.models.errors].filter(([id])=>id==='ground_'+mode);
+ const report={scope:'Neutral GLB fixture grounding only',mode,ready:ready('ground_'+mode,'probe_bevel'),offset,actualBottom,presentedBottom:presentationBounds(rows,ready).min[1]+offset,errors};
+ document.getElementById('status').textContent=errors.length?'Fallback на поверхности':report.ready&&Math.abs(actualBottom)<1e-6?'PASSED — GLB на поверхности':'Загрузка';
+ const output=document.getElementById('report');output.textContent=JSON.stringify(report,null,2);output.setAttribute('data-report',JSON.stringify(report));requestAnimationFrame(draw);
+}requestAnimationFrame(draw);
+</script></html>

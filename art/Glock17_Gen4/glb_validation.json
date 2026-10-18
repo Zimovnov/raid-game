@@ -1,0 +1,102 @@
+{
+  "glb_bytes": 8571668,
+  "meshes": 7,
+  "nodes": 8,
+  "materials": 1,
+  "embedded_images": 3,
+  "primitives": 7,
+  "vertices": 52804,
+  "triangles": 24788,
+  "material": {
+    "doubleSided": true,
+    "name": "G17_AtlasPBR",
+    "normalTexture": {
+      "index": 0
+    },
+    "occlusionTexture": {
+      "index": 1
+    },
+    "pbrMetallicRoughness": {
+      "baseColorTexture": {
+        "index": 2
+      },
+      "metallicRoughnessTexture": {
+        "index": 1
+      }
+    }
+  },
+  "nodes_detail": [
+    {
+      "mesh": 0,
+      "name": "G17_BarrelVisual_LOD0",
+      "translation": [
+        0,
+        0,
+        -0.1420000046491623
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "G17_Frame_LOD0",
+      "translation": [
+        -0.01679999940097332,
+        -0.014999999664723873,
+        -0.052000001072883606
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "G17_Magazine_LOD0"
+    },
+    {
+      "mesh": 3,
+      "name": "G17_FrontSight_LOD0",
+      "translation": [
+        0,
+        0.00029337540036067367,
+        0.09300000220537186
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "G17_RearSight_LOD0",
+      "translation": [
+        0,
+        0.00029337540036067367,
+        0.09300000220537186
+      ]
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "mesh": 5,
+      "name": "G17_Slide_LOD0",
+      "translation": [
+        0,
+        -0.00029337540036067367,
+        -0.09300000220537186
+      ]
+    },
+    {
+      "mesh": 6,
+      "name": "G17_Trigger_LOD0"
+    },
+    {
+      "children": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ],
+      "extras": {
+        "axes": "Blender +Y forward,+Z up; glTF -Z forward,+Y up; 1 unit = 1 meter",
+        "origin": "Rear face of closed slide, bore-height centerline",
+        "configuration": "Gen4,9x19,standard magazine,iron sights,closed"
+      },
+      "name": "G17_GAME_ROOT"
+    }
+  ]
+}

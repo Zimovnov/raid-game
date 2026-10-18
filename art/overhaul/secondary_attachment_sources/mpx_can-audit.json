@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/mpx_can.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "muzzle__mpx_can": {
+      "0": {
+        "triangles": 340,
+        "vertices": 666,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03356099873781204,
+            -0.03191840276122093,
+            -0.14800001680850983
+          ],
+          "max": [
+            0.03356099873781204,
+            0.031918421387672424,
+            0.021000005304813385
+          ]
+        }
+      },
+      "1": {
+        "triangles": 100,
+        "vertices": 250,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03184499964118004,
+            -0.027749305590987206,
+            -0.14800001680850983
+          ],
+          "max": [
+            0.03184499964118004,
+            0.0277493167668581,
+            0.021000003442168236
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/mpx_can-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "muzzle__mpx_can": {
+      "min": [
+        -0.03356099873781204,
+        -0.03191840276122093,
+        -0.14800001680850983
+      ],
+      "max": [
+        0.03356099873781204,
+        0.031918421387672424,
+        0.021000005304813385
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03356099873781204,
+      -0.021000005304813385,
+      -0.03191841021180153
+    ],
+    "max": [
+      0.03356099873781204,
+      0.14800001680850983,
+      0.03191843628883362
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

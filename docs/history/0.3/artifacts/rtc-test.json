@@ -1,0 +1,46 @@
+{
+  "scope": "Real WebRTC between two independent Chromium processes. No HTTP navigation.\nThe test substitutes ONLY signaling delivery with an automation IPC bridge.\nProduction Session + Transport create their actual RTCPeerConnection/DataChannel,\nvalidate messages and exchange gameplay packets. This does not validate PeerServer,\npublic hosting, NAT traversal, rendering, UI input or IndexedDB integration.\nNo browser policy or security setting is changed.",
+  "status": "BLOCKED",
+  "checks": [],
+  "environmentPolicy": {
+    "WebRtcIPHandling": "disable_non_proxied_udp",
+    "URLBlocklist": [
+      "*"
+    ]
+  },
+  "browserVersions": [
+    "144.0.7559.96",
+    "144.0.7559.96"
+  ],
+  "peerStates": [
+    [
+      {
+        "state": "new",
+        "ice": "new",
+        "gathering": "complete",
+        "signal": "stable",
+        "local": "answer",
+        "remote": "offer",
+        "candidateLines": 0,
+        "channel": null
+      }
+    ],
+    [
+      {
+        "state": "new",
+        "ice": "new",
+        "gathering": "complete",
+        "signal": "stable",
+        "local": "offer",
+        "remote": "answer",
+        "candidateLines": 0,
+        "channel": "connecting"
+      }
+    ]
+  ],
+  "error": "Timed out: fixture.session.connected; diagnostics=[{\"diag\": {\"signaling\": \"test IPC bridge\", \"state\": \"нет соединения\", \"rtt\": 0, \"bufferedAmount\": 0, \"received\": 0, \"sent\": 0, \"route\": \"неизвестно\", \"ice\": \"no-candidates\"}, \"errors\": [\"Браузер не получил ICE-кандидаты. Проверьте сетевые ограничения браузера или настройки разрешённого TURN-сервера. Одиночный режим доступен.\", \"Браузер не получил ICE-кандидаты. Проверьте сетевые ограничения браузера или настройки разрешённого TURN-сервера. Одиночный режим доступен.\", \"Браузер не получил ICE-кандидаты. Проверьте сетевые ограничения браузера или настройки разрешённого TURN-сервера. Одиночный режим доступен.\"]}, {\"diag\": {\"signaling\": \"test IPC bridge\", \"state\": \"нет соединения\", \"rtt\": 0, \"bufferedAmount\": 0, \"received\": 0, \"sent\": 0, \"route\": \"неизвестно\", \"ice\": \"no-candidates\"}, \"errors\": [\"Браузер не получил ICE-кандидаты. Проверьте сетевые ограничения браузера или настройки разрешённого TURN-сервера. Одиночный режим доступен.\", \"Браузер не получил ICE-кандидаты. Проверьте сетевые ограничения браузера или настройки разрешённого TURN-сервера. Одиночный режим доступен.\", \"Браузер не получил ICE-кандидаты. Проверьте сетевые ограничения браузера или настройки разрешённого TURN-сервера. Одиночный режим доступен.\"]}]",
+  "signalingPackets": {
+    "OFFER": 3,
+    "ANSWER": 3
+  }
+}

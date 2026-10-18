@@ -1,0 +1,43 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>RAID — Character production review</title>
+<style>body{margin:0;background:#202624;color:#eee;font:13px system-ui}canvas{width:100vw;height:100vh;display:block}aside{position:absolute;top:12px;left:12px;background:#111d;padding:12px;width:260px}label,output{display:block;margin:7px 0}select{width:150px;float:right}pre{font-size:10px;max-height:28vh;overflow:auto}</style>
+<canvas id="scene"></canvas><aside><strong>Авторские слои персонажа · art QA</strong><label>ID <select id="asset" aria-label="Слой"></select></label><label>Поза <select id="pose" aria-label="Поза"><option value="idle">Стоя</option><option value="walk">Ходьба</option><option value="run">Бег</option><option value="crouch">Присед</option><option value="hold">Хват</option><option value="reload">Перезарядка</option><option value="dead">Смерть</option><option value="fp">Первое лицо</option><option value="far">LOD1</option></select></label><label>Ракурс <select id="view" aria-label="Ракурс"><option value="front">Спереди</option><option value="back">Сзади</option><option value="side">Профиль</option><option value="quarter">Три четверти</option><option value="close">Лицо</option><option value="closeback">Голова сзади</option><option value="closeside">Голова сбоку</option><option value="closequarter">Голова 3/4</option><option value="detail">Кисти / обувь</option></select></label><label>Экипировка <select id="equipment" aria-label="Экипировка"><option value="none">Без брони</option><option value="helmet">Шлем</option><option value="armor">Броня и шлем</option></select></label><label><input id="animate" type="checkbox" aria-label="Анимация"> Анимация</label><output id="status">Загрузка</output><pre id="report"></pre></aside>
+<script type="module">
+import {Renderer} from '/src/rendering/renderer.ts';
+import {MODEL_ASSETS} from '/src/content/model-assets.ts';
+import {CHARACTER_MODEL_ASSETS} from '/src/content/character-model-assets.ts';
+import {CHARACTER_OVERRIDES,CHARACTER_ASSET_DEFINITIONS} from '/src/content/overhaul-character-assets.ts';
+import {characterAppearanceModel} from '/src/rendering/apparel.ts';
+import {handsModel} from '/src/rendering/weapon-animation.ts';
+import {weaponModel} from '/src/rendering/models.ts';
+import {heldWeaponMatrix} from '/src/rendering/held-weapon.ts';
+import {defaultAppearance} from '/src/content/apparel.ts';
+import {createWeapon} from '/src/domain/items.ts';
+import {CATALOG} from '/src/content/catalog.ts';
+import {model} from '/src/rendering/math.ts';
+Object.assign(MODEL_ASSETS,CHARACTER_ASSET_DEFINITIONS);Object.assign(CHARACTER_MODEL_ASSETS,CHARACTER_OVERRIDES);
+const asset=document.getElementById('asset'),pose=document.getElementById('pose'),view=document.getElementById('view'),equipment=document.getElementById('equipment');
+for(const id of Object.keys(CHARACTER_OVERRIDES)){const option=document.createElement('option');option.value=id;option.textContent=id;asset.append(option)}
+for(const d of Object.values(CATALOG).filter(d=>d.equipmentSlot==='armor'||d.equipmentSlot==='helmet')){const o=document.createElement('option');o.value=d.id;o.textContent=d.id;equipment.append(o)}
+for(const id of ['rig_none', 'rig_smersh', 'rig_smersh_pkm', 'rig_sso_d3', 'rig_ana_alpha', 'rig_mk6', 'rig_34alpha', 'rig_taps', 'rig_alice', 'rig_canvas', 'rig_buyanov', 'pack_none', 'pack_veshmeshok', 'pack_rd54', 'pack_alice', 'pack_assault', 'pack_sso_map', 'pack_sso_ataka', 'pack_day']){const o=document.createElement('option');o.value=id;o.textContent=id;equipment.append(o)}
+asset.value=new URLSearchParams(location.search).get('id')||'jacket_g4';
+const renderer=new Renderer(document.getElementById('scene'),'babylon'),bridge=renderer.bridge,gun=createWeapon('weapon_ak74m',false),appearance=defaultAppearance('BEAR');
+Object.assign(appearance,{jacket:'jacket_g4',trousers:'trousers_g4',gloves:'gloves_olive',boots:'boots_desert',headwear:'head_none',rig:'rig_none',backpack:'pack_none',jacketCamo:'olive',trouserCamo:'olive'});
+const actor={name:'QA',faction:'BEAR',face:0,outfit:0,appearance};let frame=0,selection='';
+const errorLog=[];window.addEventListener('error',e=>errorLog.push(e.message));window.addEventListener('unhandledrejection',e=>errorLog.push(String(e.reason)));
+function draw(){frame++;const id=asset.value,layer=CHARACTER_OVERRIDES[id].layer;
+ if(selection!==id){if(layer==='face')actor.face=Number(id.slice(-2));else if(layer!=='body')appearance[layer==='headwear'?'headwear':layer]=id;selection=id;}
+ const mode=pose.value,fp=mode==='fp',dead=mode==='dead',crouch=mode==='crouch',far=mode==='far',moving=mode==='walk'?.7:mode==='run'?1.2:0,time=moving?(document.getElementById('animate').checked?performance.now()/1000:.83):0;
+ const eq=equipment.value;appearance.rig=eq.startsWith('rig_')?eq:'rig_none';appearance.backpack=eq.startsWith('pack_')?eq:'pack_none';
+ const equipped=eq.startsWith('helmet_')?{helmet:{def:eq}}:eq.startsWith('armor_')?{armor:{def:eq}}:eq==='none'||eq.startsWith('rig_')||eq.startsWith('pack_')?undefined:{helmet:{def:'helmet_fast'},armor:eq==='armor'?{def:'armor_jpc'}:null};
+ const gunpose={reload:mode==='reload'||fp?(document.getElementById('animate').checked?(performance.now()/2500)%1:.45):0,mode:'swap'};
+ const dynamic=fp?handsModel(gun,gunpose,0,0,appearance).map(part=>({part,parent:model()})):characterAppearanceModel(actor,time,moving,dead,crouch,equipped,mode==='hold'||mode==='reload'?{gun,weaponPose:gunpose}:{}).map(part=>({part,parent:model()}));
+ if(fp||mode==='hold'||mode==='reload') for(const part of weaponModel(gun,'',0,gunpose)) dynamic.push({part,parent:fp?model():heldWeaponMatrix(gun,gunpose,crouch,0,time,moving)});
+ const close=view.value.startsWith('close'),detail=view.value==='detail';let eye=fp?[.5,.08,-.55]:close?(view.value==='closeback'?[0,1.59,.9]:view.value==='closeside'?[.9,1.59,0]:view.value==='closequarter'?[.65,1.65,-.8]:[0,1.59,-.9]):detail?(layer==='boots'?[.65,.25,-.9]:[.72,.63,-1.1]):view.value==='back'?[0,1.15,3]:view.value==='side'?[3,1.15,0]:view.value==='quarter'?[2,1.5,-3]:[0,1.15,-3],target=fp?[0,-.12,.25]:close?[0,1.55,0]:detail?(layer==='boots'?[0,.13,0]:[0,.64,0]):[0,crouch?.65:.88,0];
+ if(far)eye=[0,1.15,-20];bridge.begin(eye,target,43,[.16,.18,.15],'high');bridge.render([],dynamic,far);
+ const meshes=bridge.scene.meshes.filter(m=>m.isVisible&&m.metadata?.raidAsset?.startsWith('overhaul_character_'));
+ const active=[...new Set(meshes.map(m=>m.metadata.raidAsset))],errors=[...bridge.models.errors].filter(([key])=>key.startsWith('overhaul_character_'));
+ const report={scope:'Actual Babylon renderer, authored GLB and existing character/FP poses; isolated review, not a played raid.',frame,id,pose:mode,view:view.value,equipment:equipment.value,phaseTime:time,reloadProgress:gunpose.reload,active,meshCount:meshes.length,instances:meshes.reduce((n,m)=>n+m.thinInstanceCount,0),errors,errorLog,metrics:bridge.metrics,roles:[...new Set(meshes.map(m=>m.metadata.raidMaterialRole))]};
+ document.getElementById('report').dataset.report=JSON.stringify(report);document.getElementById('report').textContent=JSON.stringify(report,null,2);document.getElementById('status').textContent=errors.length?'Ошибка GLB':active.includes(CHARACTER_OVERRIDES[id].asset)?'Выбранный слой GLB загружен':'Загрузка выбранного слоя';requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+</script></html>

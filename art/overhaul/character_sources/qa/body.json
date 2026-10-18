@@ -1,0 +1,916 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/body.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "body_footL": {
+      "0": {
+        "triangles": 92,
+        "vertices": 168,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07100000232458115,
+            -0.08500000089406967,
+            -0.17000000178813934
+          ],
+          "max": [
+            0.07100000232458115,
+            0.054999999701976776,
+            0.07500000298023224
+          ]
+        }
+      },
+      "1": {
+        "triangles": 44,
+        "vertices": 84,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06745000183582306,
+            -0.08500000089406967,
+            -0.17000000178813934
+          ],
+          "max": [
+            0.06745000183582306,
+            0.054999999701976776,
+            0.07500000298023224
+          ]
+        }
+      }
+    },
+    "body_footR": {
+      "0": {
+        "triangles": 92,
+        "vertices": 168,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07100000232458115,
+            -0.08500000089406967,
+            -0.17000000178813934
+          ],
+          "max": [
+            0.07100000232458115,
+            0.054999999701976776,
+            0.07500000298023224
+          ]
+        }
+      },
+      "1": {
+        "triangles": 44,
+        "vertices": 84,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06745000183582306,
+            -0.08500000089406967,
+            -0.17000000178813934
+          ],
+          "max": [
+            0.06745000183582306,
+            0.054999999701976776,
+            0.07500000298023224
+          ]
+        }
+      }
+    },
+    "body_foreL": {
+      "0": {
+        "triangles": 344,
+        "vertices": 636,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0560000017285347,
+            -0.35248002409935,
+            -0.057999998331069946
+          ],
+          "max": [
+            0.08236400038003922,
+            0.017999999225139618,
+            0.0560000017285347
+          ]
+        }
+      },
+      "1": {
+        "triangles": 248,
+        "vertices": 468,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.053199999034404755,
+            -0.35248002409935,
+            -0.057999998331069946
+          ],
+          "max": [
+            0.08236400038003922,
+            0.017999999225139618,
+            0.0560000017285347
+          ]
+        }
+      }
+    },
+    "body_foreR": {
+      "0": {
+        "triangles": 344,
+        "vertices": 636,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.08236400038003922,
+            -0.35248002409935,
+            -0.057999998331069946
+          ],
+          "max": [
+            0.0560000017285347,
+            0.017999999225139618,
+            0.0560000017285347
+          ]
+        }
+      },
+      "1": {
+        "triangles": 248,
+        "vertices": 468,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.08236400038003922,
+            -0.35248002409935,
+            -0.057999998331069946
+          ],
+          "max": [
+            0.053199999034404755,
+            0.017999999225139618,
+            0.0560000017285347
+          ]
+        }
+      }
+    },
+    "body_head": {
+      "0": {
+        "triangles": 44,
+        "vertices": 72,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03700000047683716,
+            -0.20999999344348907,
+            -0.020999999716877937
+          ],
+          "max": [
+            0.03700000047683716,
+            -0.15000000596046448,
+            0.03999999910593033
+          ]
+        }
+      },
+      "1": {
+        "triangles": 20,
+        "vertices": 36,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03514999896287918,
+            -0.20999999344348907,
+            -0.020999999716877937
+          ],
+          "max": [
+            0.03514999896287918,
+            -0.15000000596046448,
+            0.03999999910593033
+          ]
+        }
+      }
+    },
+    "body_pelvis": {
+      "0": {
+        "triangles": 68,
+        "vertices": 120,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.1809999942779541,
+            -0.06499999761581421,
+            -0.10000000149011612
+          ],
+          "max": [
+            0.1809999942779541,
+            0.06499999761581421,
+            0.10000000149011612
+          ]
+        }
+      },
+      "1": {
+        "triangles": 32,
+        "vertices": 60,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.17194999754428864,
+            -0.06499999761581421,
+            -0.10000000149011612
+          ],
+          "max": [
+            0.17194999754428864,
+            0.06499999761581421,
+            0.10000000149011612
+          ]
+        }
+      }
+    },
+    "body_shinL": {
+      "0": {
+        "triangles": 116,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06499999761581421,
+            -0.32499998807907104,
+            -0.06700000166893005
+          ],
+          "max": [
+            0.06499999761581421,
+            0.017999999225139618,
+            0.08100000023841858
+          ]
+        }
+      },
+      "1": {
+        "triangles": 56,
+        "vertices": 108,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06174999848008156,
+            -0.32499998807907104,
+            -0.06700000166893005
+          ],
+          "max": [
+            0.06174999848008156,
+            0.017999999225139618,
+            0.08100000023841858
+          ]
+        }
+      }
+    },
+    "body_shinR": {
+      "0": {
+        "triangles": 116,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06499999761581421,
+            -0.32499998807907104,
+            -0.06700000166893005
+          ],
+          "max": [
+            0.06499999761581421,
+            0.017999999225139618,
+            0.08100000023841858
+          ]
+        }
+      },
+      "1": {
+        "triangles": 56,
+        "vertices": 108,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06174999848008156,
+            -0.32499998807907104,
+            -0.06700000166893005
+          ],
+          "max": [
+            0.06174999848008156,
+            0.017999999225139618,
+            0.08100000023841858
+          ]
+        }
+      }
+    },
+    "body_thighL": {
+      "0": {
+        "triangles": 92,
+        "vertices": 168,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07900000363588333,
+            -0.3499999940395355,
+            -0.07800000160932541
+          ],
+          "max": [
+            0.07900000363588333,
+            0.012000000104308128,
+            0.0860000029206276
+          ]
+        }
+      },
+      "1": {
+        "triangles": 44,
+        "vertices": 84,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0750499963760376,
+            -0.3499999940395355,
+            -0.07800000160932541
+          ],
+          "max": [
+            0.0750499963760376,
+            0.012000000104308128,
+            0.0860000029206276
+          ]
+        }
+      }
+    },
+    "body_thighR": {
+      "0": {
+        "triangles": 92,
+        "vertices": 168,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07900000363588333,
+            -0.3499999940395355,
+            -0.07800000160932541
+          ],
+          "max": [
+            0.07900000363588333,
+            0.012000000104308128,
+            0.0860000029206276
+          ]
+        }
+      },
+      "1": {
+        "triangles": 44,
+        "vertices": 84,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0750499963760376,
+            -0.3499999940395355,
+            -0.07800000160932541
+          ],
+          "max": [
+            0.0750499963760376,
+            0.012000000104308128,
+            0.0860000029206276
+          ]
+        }
+      }
+    },
+    "body_torso": {
+      "0": {
+        "triangles": 140,
+        "vertices": 264,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.2070000022649765,
+            -0.23999999463558197,
+            -0.10700000077486038
+          ],
+          "max": [
+            0.2070000022649765,
+            0.25,
+            0.0949999988079071
+          ]
+        }
+      },
+      "1": {
+        "triangles": 68,
+        "vertices": 132,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.19664999842643738,
+            -0.23999999463558197,
+            -0.10700000077486038
+          ],
+          "max": [
+            0.19664999842643738,
+            0.25,
+            0.0949999988079071
+          ]
+        }
+      }
+    },
+    "body_upperL": {
+      "0": {
+        "triangles": 116,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07000000029802322,
+            -0.3100000023841858,
+            -0.07699999958276749
+          ],
+          "max": [
+            0.07000000029802322,
+            0.008999999612569809,
+            0.07800000160932541
+          ]
+        }
+      },
+      "1": {
+        "triangles": 56,
+        "vertices": 108,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06650000065565109,
+            -0.3100000023841858,
+            -0.07699999958276749
+          ],
+          "max": [
+            0.06650000065565109,
+            0.008999999612569809,
+            0.07800000160932541
+          ]
+        }
+      }
+    },
+    "body_upperR": {
+      "0": {
+        "triangles": 116,
+        "vertices": 216,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07000000029802322,
+            -0.3100000023841858,
+            -0.07699999958276749
+          ],
+          "max": [
+            0.07000000029802322,
+            0.008999999612569809,
+            0.07800000160932541
+          ]
+        }
+      },
+      "1": {
+        "triangles": 56,
+        "vertices": 108,
+        "objects": 1,
+        "materials": [
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.06650000065565109,
+            -0.3100000023841858,
+            -0.07699999958276749
+          ],
+          "max": [
+            0.06650000065565109,
+            0.008999999612569809,
+            0.07800000160932541
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "skin_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "skin_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "skin_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/body.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "body_footL": {
+      "min": [
+        -0.07100000232458115,
+        -0.08500000089406967,
+        -0.17000000178813934
+      ],
+      "max": [
+        0.07100000232458115,
+        0.054999999701976776,
+        0.07500000298023224
+      ]
+    },
+    "body_footR": {
+      "min": [
+        -0.07100000232458115,
+        -0.08500000089406967,
+        -0.17000000178813934
+      ],
+      "max": [
+        0.07100000232458115,
+        0.054999999701976776,
+        0.07500000298023224
+      ]
+    },
+    "body_foreL": {
+      "min": [
+        -0.0560000017285347,
+        -0.35248002409935,
+        -0.057999998331069946
+      ],
+      "max": [
+        0.08236400038003922,
+        0.017999999225139618,
+        0.0560000017285347
+      ]
+    },
+    "body_foreR": {
+      "min": [
+        -0.08236400038003922,
+        -0.35248002409935,
+        -0.057999998331069946
+      ],
+      "max": [
+        0.0560000017285347,
+        0.017999999225139618,
+        0.0560000017285347
+      ]
+    },
+    "body_head": {
+      "min": [
+        -0.03700000047683716,
+        -0.20999999344348907,
+        -0.020999999716877937
+      ],
+      "max": [
+        0.03700000047683716,
+        -0.15000000596046448,
+        0.03999999910593033
+      ]
+    },
+    "body_pelvis": {
+      "min": [
+        -0.1809999942779541,
+        -0.06499999761581421,
+        -0.10000000149011612
+      ],
+      "max": [
+        0.1809999942779541,
+        0.06499999761581421,
+        0.10000000149011612
+      ]
+    },
+    "body_shinL": {
+      "min": [
+        -0.06499999761581421,
+        -0.32499998807907104,
+        -0.06700000166893005
+      ],
+      "max": [
+        0.06499999761581421,
+        0.017999999225139618,
+        0.08100000023841858
+      ]
+    },
+    "body_shinR": {
+      "min": [
+        -0.06499999761581421,
+        -0.32499998807907104,
+        -0.06700000166893005
+      ],
+      "max": [
+        0.06499999761581421,
+        0.017999999225139618,
+        0.08100000023841858
+      ]
+    },
+    "body_thighL": {
+      "min": [
+        -0.07900000363588333,
+        -0.3499999940395355,
+        -0.07800000160932541
+      ],
+      "max": [
+        0.07900000363588333,
+        0.012000000104308128,
+        0.0860000029206276
+      ]
+    },
+    "body_thighR": {
+      "min": [
+        -0.07900000363588333,
+        -0.3499999940395355,
+        -0.07800000160932541
+      ],
+      "max": [
+        0.07900000363588333,
+        0.012000000104308128,
+        0.0860000029206276
+      ]
+    },
+    "body_torso": {
+      "min": [
+        -0.2070000022649765,
+        -0.23999999463558197,
+        -0.10700000077486038
+      ],
+      "max": [
+        0.2070000022649765,
+        0.25,
+        0.0949999988079071
+      ]
+    },
+    "body_upperL": {
+      "min": [
+        -0.07000000029802322,
+        -0.3100000023841858,
+        -0.07699999958276749
+      ],
+      "max": [
+        0.07000000029802322,
+        0.008999999612569809,
+        0.07800000160932541
+      ]
+    },
+    "body_upperR": {
+      "min": [
+        -0.07000000029802322,
+        -0.3100000023841858,
+        -0.07699999958276749
+      ],
+      "max": [
+        0.07000000029802322,
+        0.008999999612569809,
+        0.07800000160932541
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.2070000022649765,
+      -0.10000000149011612,
+      -0.35248002409935
+    ],
+    "max": [
+      0.2070000022649765,
+      0.17000000178813934,
+      0.25
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

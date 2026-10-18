@@ -1,0 +1,240 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/face_07.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "face_07_head": {
+      "0": {
+        "triangles": 696,
+        "vertices": 1308,
+        "objects": 5,
+        "materials": [
+          "RAID_eye.001",
+          "RAID_hair3.001",
+          "RAID_iris.001",
+          "RAID_lip.001",
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.14419999718666077,
+            -0.2370000034570694,
+            -0.14399999380111694
+          ],
+          "max": [
+            0.14419999718666077,
+            0.1509999930858612,
+            0.11999999731779099
+          ]
+        }
+      },
+      "1": {
+        "triangles": 440,
+        "vertices": 852,
+        "objects": 5,
+        "materials": [
+          "RAID_eye.001",
+          "RAID_hair3.001",
+          "RAID_iris.001",
+          "RAID_lip.001",
+          "RAID_skin.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.14419999718666077,
+            -0.2370000034570694,
+            -0.14399999380111694
+          ],
+          "max": [
+            0.14419999718666077,
+            0.1509999930858612,
+            0.11999999731779099
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "eye_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "hair3_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "iris_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lip_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "skin_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "hair3_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "iris_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "skin_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "eye_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "iris_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lip_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "hair3_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "eye_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "lip_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "skin_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/face_07.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "face_07_head": {
+      "min": [
+        -0.14419999718666077,
+        -0.2370000034570694,
+        -0.14399999380111694
+      ],
+      "max": [
+        0.14419999718666077,
+        0.1509999930858612,
+        0.11999999731779099
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.14419999718666077,
+      -0.11999999731779099,
+      -0.2370000034570694
+    ],
+    "max": [
+      0.14419999718666077,
+      0.14399999380111694,
+      0.1509999930858612
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

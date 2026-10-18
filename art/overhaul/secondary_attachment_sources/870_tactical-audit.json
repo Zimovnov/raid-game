@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/870_tactical.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__870_tactical": {
+      "0": {
+        "triangles": 408,
+        "vertices": 796,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03999999910593033,
+            -0.19474749267101288,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.03999999910593033,
+            0.065000019967556,
+            0.26200002431869507
+          ]
+        }
+      },
+      "1": {
+        "triangles": 156,
+        "vertices": 264,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03999999910593033,
+            -0.19500000774860382,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.03999999910593033,
+            0.065000019967556,
+            0.26100000739097595
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/870_tactical-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__870_tactical": {
+      "min": [
+        -0.03999999910593033,
+        -0.19474749267101288,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.03999999910593033,
+        0.065000019967556,
+        0.26200002431869507
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03999999910593033,
+      -0.26200002431869507,
+      -0.1950000524520874
+    ],
+    "max": [
+      0.03999999910593033,
+      0.19000005722045898,
+      0.0650000274181366
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,108 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/pistol_light.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "light__pistol_light": {
+      "0": {
+        "triangles": 480,
+        "vertices": 768,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_lens.002",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03150000050663948,
+            -0.03299999237060547,
+            -0.06310000270605087
+          ],
+          "max": [
+            0.03150000050663948,
+            0.053000014275312424,
+            0.04104000702500343
+          ]
+        }
+      },
+      "1": {
+        "triangles": 148,
+        "vertices": 240,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_lens.002",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03150000050663948,
+            -0.03299999237060547,
+            -0.06310000270605087
+          ],
+          "max": [
+            0.03150000050663948,
+            0.053000014275312424,
+            0.04104000702500343
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/pistol_light-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "light__pistol_light": {
+      "min": [
+        -0.03150000050663948,
+        -0.03299999237060547,
+        -0.06310000270605087
+      ],
+      "max": [
+        0.03150000050663948,
+        0.053000014275312424,
+        0.04104000702500343
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03150000050663948,
+      -0.04104001075029373,
+      -0.033000003546476364
+    ],
+    "max": [
+      0.03150000050663948,
+      0.06310000270605087,
+      0.05300001800060272
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

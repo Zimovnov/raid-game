@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/benelli_fixed.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__benelli_fixed": {
+      "0": {
+        "triangles": 292,
+        "vertices": 584,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04899999871850014,
+            -0.19475087523460388,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.04899999871850014,
+            0.04099998623132706,
+            0.25200003385543823
+          ]
+        }
+      },
+      "1": {
+        "triangles": 88,
+        "vertices": 150,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04899999871850014,
+            -0.19500000774860382,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.04899999871850014,
+            0.04099998623132706,
+            0.25099998712539673
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/benelli_fixed-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__benelli_fixed": {
+      "min": [
+        -0.04899999871850014,
+        -0.19475087523460388,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.04899999871850014,
+        0.04099998623132706,
+        0.25200003385543823
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.04899999871850014,
+      -0.25200003385543823,
+      -0.1950000524520874
+    ],
+    "max": [
+      0.04899999871850014,
+      0.19000005722045898,
+      0.04100003093481064
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,192 @@
+{
+  "status": "MEASURED",
+  "recordedAt": "2026-10-18T04:51:07.946Z",
+  "scope": "Production renderer in this controlled browser tab. CPU measures synchronous submission only; RAF timing includes browser scheduling and throttling. Not a multiplayer or gameplay acceptance.",
+  "weapon": "weapon_aks74u",
+  "installedBuild": {
+    "id": "8bf41a11-0b8c-479e-a080-88b8a9c5d079",
+    "def": "weapon_aks74u",
+    "qty": 1,
+    "condition": 100,
+    "rounds": 0,
+    "children": {
+      "stock": {
+        "id": "d865d2cc-58ff-49aa-a1d0-ccbaf96e392e",
+        "def": "aksu_stock",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      },
+      "handguard": {
+        "id": "e702ea35-47a0-461d-8fd7-2fccf2df1bc1",
+        "def": "aksu_guard",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      },
+      "pistolgrip": {
+        "id": "6bfc7998-71ba-48b2-b48b-66336927fecd",
+        "def": "ak_grip",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      },
+      "magazine": {
+        "id": "44b76d1a-3234-4e82-8cfa-93c339149eb2",
+        "def": "ak545_30",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 29,
+        "children": {}
+      },
+      "muzzle": {
+        "id": "1cfe2e74-93c5-464b-b2a2-1e6dbc3d527d",
+        "def": "aksu_muzzle",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      }
+    },
+    "chamber": 1
+  },
+  "view": "character",
+  "action": "idle",
+  "actionProgress": 0,
+  "character": {
+    "character": {
+      "name": "Приёмка",
+      "faction": "BEAR",
+      "face": 0,
+      "outfit": 0,
+      "appearance": {
+        "jacket": "jacket_kombat",
+        "trousers": "trousers_kombat",
+        "jacketCamo": "olive",
+        "trouserCamo": "olive",
+        "headwear": "head_patrol",
+        "gloves": "gloves_olive",
+        "boots": "boots_leather",
+        "rig": "rig_smersh",
+        "rigCamo": "olive",
+        "backpack": "pack_rd54",
+        "backpackCamo": "olive"
+      }
+    },
+    "armor": "armor_light"
+  },
+  "bodyPose": "idle",
+  "bodyTime": 0.48,
+  "camera": {
+    "orbit": {
+      "yaw": -1.5707963267948966,
+      "pitch": 0.15,
+      "distance": 1.9
+    },
+    "fov": 43
+  },
+  "seed": 51,
+  "resolution": {
+    "css": [
+      1280,
+      720
+    ],
+    "pixels": [
+      1792,
+      1008
+    ],
+    "dpr": 2
+  },
+  "gpuFrameMs": "unavailable — no timer-query measurement",
+  "jsHeap": {
+    "used": 83250303,
+    "total": 133333795,
+    "limit": 4395630592
+  },
+  "glMemory": "unavailable",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:18264/assets/field-kit-051/camo-olive.png?v=b8d033fdf935",
+      "transferBytes": 300,
+      "decodedBodyBytes": 147998,
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:18264/assets/field-kit-051/fabric-normal.png?v=b30f9037e0b5",
+      "transferBytes": 300,
+      "decodedBodyBytes": 9784,
+      "status": 200
+    }
+  ],
+  "runs": [
+    {
+      "frames": 601,
+      "cpuSubmitMs": {
+        "median": 3.3999999910593033,
+        "p95": 5.0999999940395355
+      },
+      "rafIntervalMs": {
+        "median": 16.699999999982538,
+        "p95": 18.29999999998836
+      },
+      "observedRafHz": 60.010584229498086,
+      "metrics": {
+        "drawCalls": 44,
+        "triangles": 1416,
+        "instances": 118,
+        "textures": 0
+      },
+      "sceneMeshes": 53,
+      "materials": 39,
+      "textures": 4,
+      "assetErrors": []
+    },
+    {
+      "frames": 600,
+      "cpuSubmitMs": {
+        "median": 3.7000000029802322,
+        "p95": 5.200000002980232
+      },
+      "rafIntervalMs": {
+        "median": 16.699999999982538,
+        "p95": 18.20000000001164
+      },
+      "observedRafHz": 59.98980173370519,
+      "metrics": {
+        "drawCalls": 44,
+        "triangles": 1416,
+        "instances": 118,
+        "textures": 0
+      },
+      "sceneMeshes": 53,
+      "materials": 39,
+      "textures": 4,
+      "assetErrors": []
+    },
+    {
+      "frames": 601,
+      "cpuSubmitMs": {
+        "median": 3.7999999970197678,
+        "p95": 5.200000002980232
+      },
+      "rafIntervalMs": {
+        "median": 16.699999999982538,
+        "p95": 18.39999999999418
+      },
+      "observedRafHz": 59.99321208249323,
+      "metrics": {
+        "drawCalls": 44,
+        "triangles": 1416,
+        "instances": 118,
+        "textures": 0
+      },
+      "sceneMeshes": 53,
+      "materials": 39,
+      "textures": 4,
+      "assetErrors": []
+    }
+  ]
+}

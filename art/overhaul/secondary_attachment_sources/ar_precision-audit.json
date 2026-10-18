@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/ar_precision.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__ar_precision": {
+      "0": {
+        "triangles": 400,
+        "vertices": 758,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05249999836087227,
+            -0.1600000411272049,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.05299999937415123,
+            0.13700002431869507,
+            0.25700002908706665
+          ]
+        }
+      },
+      "1": {
+        "triangles": 136,
+        "vertices": 228,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05249999836087227,
+            -0.1600000411272049,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.05249999836087227,
+            0.13700002431869507,
+            0.25600001215934753
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/ar_precision-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__ar_precision": {
+      "min": [
+        -0.05249999836087227,
+        -0.1600000411272049,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.05299999937415123,
+        0.13700002431869507,
+        0.25700002908706665
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05249999836087227,
+      -0.25700002908706665,
+      -0.1600000411272049
+    ],
+    "max": [
+      0.05299999937415123,
+      0.1900000423192978,
+      0.13700003921985626
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

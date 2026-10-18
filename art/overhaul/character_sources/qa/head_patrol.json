@@ -1,0 +1,181 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/head_patrol.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "head_patrol_head": {
+      "0": {
+        "triangles": 168,
+        "vertices": 306,
+        "objects": 3,
+        "materials": [
+          "RAID_cloth",
+          "RAID_reinforce",
+          "RAID_seam"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.1469999998807907,
+            0.07699999958276749,
+            -0.24300000071525574
+          ],
+          "max": [
+            0.1469999998807907,
+            0.18299999833106995,
+            0.1354999989271164
+          ]
+        }
+      },
+      "1": {
+        "triangles": 80,
+        "vertices": 150,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth",
+          "RAID_reinforce"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.13965000212192535,
+            0.07699999958276749,
+            -0.24300000071525574
+          ],
+          "max": [
+            0.13965000212192535,
+            0.18299999833106995,
+            0.1354999989271164
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "cloth_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/head_patrol.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "head_patrol_head": {
+      "min": [
+        -0.1469999998807907,
+        0.07699999958276749,
+        -0.24300000071525574
+      ],
+      "max": [
+        0.1469999998807907,
+        0.18299999833106995,
+        0.1354999989271164
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.1469999998807907,
+      -0.1354999989271164,
+      0.07699999958276749
+    ],
+    "max": [
+      0.1469999998807907,
+      0.24300000071525574,
+      0.18299999833106995
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

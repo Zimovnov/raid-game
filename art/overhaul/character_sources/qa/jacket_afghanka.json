@@ -1,0 +1,455 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/jacket_afghanka.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "jacket_afghanka_foreL": {
+      "0": {
+        "triangles": 316,
+        "vertices": 588,
+        "objects": 3,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001",
+          "RAID_seam.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07649999856948853,
+            -0.26100000739097595,
+            -0.0949999988079071
+          ],
+          "max": [
+            0.07649999856948853,
+            0.06599999964237213,
+            0.10000000149011612
+          ]
+        }
+      },
+      "1": {
+        "triangles": 108,
+        "vertices": 204,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07267499715089798,
+            -0.26100000739097595,
+            -0.0949999988079071
+          ],
+          "max": [
+            0.07267499715089798,
+            0.06599999964237213,
+            0.10000000149011612
+          ]
+        }
+      }
+    },
+    "jacket_afghanka_foreR": {
+      "0": {
+        "triangles": 316,
+        "vertices": 588,
+        "objects": 3,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001",
+          "RAID_seam.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07649999856948853,
+            -0.26100000739097595,
+            -0.0949999988079071
+          ],
+          "max": [
+            0.07649999856948853,
+            0.06599999964237213,
+            0.10000000149011612
+          ]
+        }
+      },
+      "1": {
+        "triangles": 108,
+        "vertices": 204,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07267499715089798,
+            -0.26100000739097595,
+            -0.0949999988079071
+          ],
+          "max": [
+            0.07267499715089798,
+            0.06599999964237213,
+            0.10000000149011612
+          ]
+        }
+      }
+    },
+    "jacket_afghanka_torso": {
+      "0": {
+        "triangles": 744,
+        "vertices": 1332,
+        "objects": 3,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001",
+          "RAID_seam.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.24408000707626343,
+            -0.28200000524520874,
+            -0.16300000250339508
+          ],
+          "max": [
+            0.24408000707626343,
+            0.3011031150817871,
+            0.12863999605178833
+          ]
+        }
+      },
+      "1": {
+        "triangles": 244,
+        "vertices": 480,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.23187600076198578,
+            -0.28200000524520874,
+            -0.16300000250339508
+          ],
+          "max": [
+            0.23187600076198578,
+            0.3011031150817871,
+            0.12863999605178833
+          ]
+        }
+      }
+    },
+    "jacket_afghanka_upperL": {
+      "0": {
+        "triangles": 144,
+        "vertices": 264,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0949999988079071,
+            -0.30300000309944153,
+            -0.09600000083446503
+          ],
+          "max": [
+            0.07800000160932541,
+            0.035999998450279236,
+            0.10100000351667404
+          ]
+        }
+      },
+      "1": {
+        "triangles": 68,
+        "vertices": 132,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0949999988079071,
+            -0.30300000309944153,
+            -0.09600000083446503
+          ],
+          "max": [
+            0.07410000264644623,
+            0.035999998450279236,
+            0.10100000351667404
+          ]
+        }
+      }
+    },
+    "jacket_afghanka_upperR": {
+      "0": {
+        "triangles": 144,
+        "vertices": 264,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07800000160932541,
+            -0.30300000309944153,
+            -0.09600000083446503
+          ],
+          "max": [
+            0.0949999988079071,
+            0.035999998450279236,
+            0.10100000351667404
+          ]
+        }
+      },
+      "1": {
+        "triangles": 68,
+        "vertices": 132,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth.001",
+          "RAID_reinforce.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.07410000264644623,
+            -0.30300000309944153,
+            -0.09600000083446503
+          ],
+          "max": [
+            0.0949999988079071,
+            0.035999998450279236,
+            0.10100000351667404
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "cloth_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "reinforce_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/jacket_afghanka.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "jacket_afghanka_foreL": {
+      "min": [
+        -0.07649999856948853,
+        -0.26100000739097595,
+        -0.0949999988079071
+      ],
+      "max": [
+        0.07649999856948853,
+        0.06599999964237213,
+        0.10000000149011612
+      ]
+    },
+    "jacket_afghanka_foreR": {
+      "min": [
+        -0.07649999856948853,
+        -0.26100000739097595,
+        -0.0949999988079071
+      ],
+      "max": [
+        0.07649999856948853,
+        0.06599999964237213,
+        0.10000000149011612
+      ]
+    },
+    "jacket_afghanka_torso": {
+      "min": [
+        -0.24408000707626343,
+        -0.28200000524520874,
+        -0.16300000250339508
+      ],
+      "max": [
+        0.24408000707626343,
+        0.3011031150817871,
+        0.12863999605178833
+      ]
+    },
+    "jacket_afghanka_upperL": {
+      "min": [
+        -0.0949999988079071,
+        -0.30300000309944153,
+        -0.09600000083446503
+      ],
+      "max": [
+        0.07800000160932541,
+        0.035999998450279236,
+        0.10100000351667404
+      ]
+    },
+    "jacket_afghanka_upperR": {
+      "min": [
+        -0.07800000160932541,
+        -0.30300000309944153,
+        -0.09600000083446503
+      ],
+      "max": [
+        0.0949999988079071,
+        0.035999998450279236,
+        0.10100000351667404
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.24408000707626343,
+      -0.12863999605178833,
+      -0.30300000309944153
+    ],
+    "max": [
+      0.24408000707626343,
+      0.16300000250339508,
+      0.3011031150817871
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

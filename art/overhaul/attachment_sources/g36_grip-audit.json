@@ -1,0 +1,108 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/g36_grip.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "pistolgrip__g36_grip": {
+      "0": {
+        "triangles": 92,
+        "vertices": 184,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.036400001496076584,
+            -0.1510000079870224,
+            -0.03800000995397568
+          ],
+          "max": [
+            0.036399997770786285,
+            0.07000001519918442,
+            0.03198830410838127
+          ]
+        }
+      },
+      "1": {
+        "triangles": 52,
+        "vertices": 96,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.036400001496076584,
+            -0.1510000079870224,
+            -0.03800000995397568
+          ],
+          "max": [
+            0.036399997770786285,
+            0.07000001519918442,
+            0.03199998661875725
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/g36_grip-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "pistolgrip__g36_grip": {
+      "min": [
+        -0.036400001496076584,
+        -0.1510000079870224,
+        -0.03800000995397568
+      ],
+      "max": [
+        0.036399997770786285,
+        0.07000001519918442,
+        0.03198830410838127
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.036400001496076584,
+      -0.032000016421079636,
+      -0.1510000079870224
+    ],
+    "max": [
+      0.036399997770786285,
+      0.03800002112984657,
+      0.07000001519918442
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

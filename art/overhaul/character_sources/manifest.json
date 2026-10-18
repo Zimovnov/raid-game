@@ -1,0 +1,1600 @@
+{
+  "schema": 1,
+  "scope": "Original authored geometry and procedural PBR; reference images remain private and are never embedded.",
+  "uvTileMetres": 0.45,
+  "joints": [
+    "torso",
+    "pelvis",
+    "head",
+    "upperL",
+    "upperR",
+    "foreL",
+    "foreR",
+    "thighL",
+    "thighR",
+    "shinL",
+    "shinR",
+    "footL",
+    "footR"
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "assetId": "overhaul_character_body",
+      "layer": "body",
+      "url": "/assets/art-overhaul/characters/body.glb",
+      "groups": {
+        "body_torso": {
+          "joint": "torso",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_head": {
+          "joint": "head",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_footL": {
+          "joint": "footL",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "skin"
+          ]
+        },
+        "body_footR": {
+          "joint": "footR",
+          "roles": [
+            "skin"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1772,
+        "1": 1016
+      },
+      "bytes": 260716,
+      "sha256": "6ba1c206243ae828bdd14461986632b11e0b50450da49332f32ffb8653d749b7"
+    },
+    {
+      "id": "face_00",
+      "assetId": "overhaul_character_face_00",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_00.glb",
+      "groups": {
+        "face_00_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 696,
+        "1": 440
+      },
+      "bytes": 393436,
+      "sha256": "4c88060e28ec21c41467f0a94766dd6fdaa97c58d1ec268e5e1469a9691b592b"
+    },
+    {
+      "id": "face_01",
+      "assetId": "overhaul_character_face_01",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_01.glb",
+      "groups": {
+        "face_01_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 696,
+        "1": 440
+      },
+      "bytes": 391172,
+      "sha256": "c26d0a0194ee83ea2b1a59403e0a54da928131e7a264978ebf51d948dd5e639c"
+    },
+    {
+      "id": "face_02",
+      "assetId": "overhaul_character_face_02",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_02.glb",
+      "groups": {
+        "face_02_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 720,
+        "1": 448
+      },
+      "bytes": 396096,
+      "sha256": "700b046247ce5a7e0cdd3e28b83da9426989aae310601cd38addc472bac6f616"
+    },
+    {
+      "id": "face_03",
+      "assetId": "overhaul_character_face_03",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_03.glb",
+      "groups": {
+        "face_03_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 696,
+        "1": 440
+      },
+      "bytes": 393168,
+      "sha256": "d27169ba354b9d0e1037cacc2dbd5ce23eebf26f4f1de1fd4f0a2f07e0d46e15"
+    },
+    {
+      "id": "face_04",
+      "assetId": "overhaul_character_face_04",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_04.glb",
+      "groups": {
+        "face_04_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 720,
+        "1": 448
+      },
+      "bytes": 395672,
+      "sha256": "3f6af47008e81dc53a1c67ca3e6cd14d1986f1a4e448d48bd1244f2b327089ad"
+    },
+    {
+      "id": "face_05",
+      "assetId": "overhaul_character_face_05",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_05.glb",
+      "groups": {
+        "face_05_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 696,
+        "1": 440
+      },
+      "bytes": 391172,
+      "sha256": "5cc74e0f064c4ea63343b60bcfc8527f35f784d876f434de34e5e59f0bf33997"
+    },
+    {
+      "id": "face_06",
+      "assetId": "overhaul_character_face_06",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_06.glb",
+      "groups": {
+        "face_06_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 720,
+        "1": 448
+      },
+      "bytes": 396100,
+      "sha256": "0f94e99dec17b4aa546bf785d623086be5617eca343b064c3b06a6e8bd70c147"
+    },
+    {
+      "id": "face_07",
+      "assetId": "overhaul_character_face_07",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_07.glb",
+      "groups": {
+        "face_07_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 696,
+        "1": 440
+      },
+      "bytes": 393168,
+      "sha256": "6faa4cdf06b52652f84fa95dbf361ec3b0c307ee72ead1df8f2146d0629e7698"
+    },
+    {
+      "id": "face_08",
+      "assetId": "overhaul_character_face_08",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_08.glb",
+      "groups": {
+        "face_08_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 696,
+        "1": 440
+      },
+      "bytes": 393408,
+      "sha256": "f2da2a9bb57304d127e32f51e108df37c721ff9999f505b344e63f4fe4b7ae6f"
+    },
+    {
+      "id": "face_09",
+      "assetId": "overhaul_character_face_09",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_09.glb",
+      "groups": {
+        "face_09_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 720,
+        "1": 448
+      },
+      "bytes": 393412,
+      "sha256": "8c73c5f91669ebb2c98c39b219a2b3f4f3bfc54340006f6976c3be8df50952e0"
+    },
+    {
+      "id": "face_10",
+      "assetId": "overhaul_character_face_10",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_10.glb",
+      "groups": {
+        "face_10_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 696,
+        "1": 440
+      },
+      "bytes": 393860,
+      "sha256": "775a9b59a64b6a023bdcdee147816330016ac3132be098a1344a64cb83d7ff0f"
+    },
+    {
+      "id": "face_11",
+      "assetId": "overhaul_character_face_11",
+      "layer": "face",
+      "url": "/assets/art-overhaul/characters/face_11.glb",
+      "groups": {
+        "face_11_head": {
+          "joint": "head",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 720,
+        "1": 448
+      },
+      "bytes": 395408,
+      "sha256": "20efb938eda796f66af4f6007c4525e33b0b48d197ed0d43fe30b0a843f35888"
+    },
+    {
+      "id": "jacket_acu",
+      "assetId": "overhaul_character_jacket_acu",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_acu.glb",
+      "groups": {
+        "jacket_acu_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_acu_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_acu_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_acu_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_acu_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1592,
+        "1": 572
+      },
+      "bytes": 413344,
+      "sha256": "995732f988720766e23a5060b727bd6d6ee11826bc4d49582df09bb69e2993e3"
+    },
+    {
+      "id": "jacket_afghanka",
+      "assetId": "overhaul_character_jacket_afghanka",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_afghanka.glb",
+      "groups": {
+        "jacket_afghanka_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_afghanka_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_afghanka_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_afghanka_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_afghanka_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1664,
+        "1": 596
+      },
+      "bytes": 355424,
+      "sha256": "96e08d2c5db82fa40571aa8a5164060e14fdb9b93777418b4f5dbebc6f889c22"
+    },
+    {
+      "id": "jacket_bdu",
+      "assetId": "overhaul_character_jacket_bdu",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_bdu.glb",
+      "groups": {
+        "jacket_bdu_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_bdu_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_bdu_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_bdu_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_bdu_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1636,
+        "1": 584
+      },
+      "bytes": 352552,
+      "sha256": "b52627bedd9b543c64bf114fade9ed578ef4dd2d27e6201f23e92fdd2001361f"
+    },
+    {
+      "id": "jacket_fleece",
+      "assetId": "overhaul_character_jacket_fleece",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_fleece.glb",
+      "groups": {
+        "jacket_fleece_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_fleece_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_fleece_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_fleece_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_fleece_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1312,
+        "1": 500
+      },
+      "bytes": 448488,
+      "sha256": "95487a31bd9767335aef4b36ad7e6605178e7d13528ab5b8cf2b2eab3b5145a4"
+    },
+    {
+      "id": "jacket_g4",
+      "assetId": "overhaul_character_jacket_g4",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_g4.glb",
+      "groups": {
+        "jacket_g4_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_g4_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_g4_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_g4_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_g4_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1396,
+        "1": 560
+      },
+      "bytes": 464208,
+      "sha256": "ee45755b49d2a9feb6db1e3a72e688f05dd2ff8aeebdae5b103a621efebd4806"
+    },
+    {
+      "id": "jacket_gorka",
+      "assetId": "overhaul_character_jacket_gorka",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_gorka.glb",
+      "groups": {
+        "jacket_gorka_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_gorka_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_gorka_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_gorka_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_gorka_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1848,
+        "1": 692
+      },
+      "bytes": 374924,
+      "sha256": "6bc115544be022155e3be3387c4a9680a8f157f1e493f471b9a4dfa8667fed4e"
+    },
+    {
+      "id": "jacket_kombat",
+      "assetId": "overhaul_character_jacket_kombat",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_kombat.glb",
+      "groups": {
+        "jacket_kombat_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_kombat_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_kombat_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_kombat_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_kombat_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1564,
+        "1": 560
+      },
+      "bytes": 474288,
+      "sha256": "2be17be3876d7b2a52a6fd4f7d92ea629fb2d1a910a7fb5d1521c5b5359df80f"
+    },
+    {
+      "id": "jacket_m65",
+      "assetId": "overhaul_character_jacket_m65",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_m65.glb",
+      "groups": {
+        "jacket_m65_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_m65_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_m65_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_m65_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_m65_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1664,
+        "1": 596
+      },
+      "bytes": 355072,
+      "sha256": "83538cd50b8e0b6752ea7d68525538e65812a0b84b718493a14aeed344c3526f"
+    },
+    {
+      "id": "jacket_softshell",
+      "assetId": "overhaul_character_jacket_softshell",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_softshell.glb",
+      "groups": {
+        "jacket_softshell_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_softshell_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_softshell_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_softshell_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_softshell_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1608,
+        "1": 608
+      },
+      "bytes": 418172,
+      "sha256": "e14356c64e659ad165e643eecbca7adc4435a0f14dc6f0229870710c0fedd9a6"
+    },
+    {
+      "id": "jacket_sumrak",
+      "assetId": "overhaul_character_jacket_sumrak",
+      "layer": "jacket",
+      "url": "/assets/art-overhaul/characters/jacket_sumrak.glb",
+      "groups": {
+        "jacket_sumrak_torso": {
+          "joint": "torso",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_sumrak_upperL": {
+          "joint": "upperL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_sumrak_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_sumrak_upperR": {
+          "joint": "upperR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "jacket_sumrak_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1428,
+        "1": 536
+      },
+      "bytes": 337376,
+      "sha256": "0b99cc2eb9906eab4c3083212868b3db4efba499975607051e18521bdcf3f016"
+    },
+    {
+      "id": "trousers_acu",
+      "assetId": "overhaul_character_trousers_acu",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_acu.glb",
+      "groups": {
+        "trousers_acu_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_acu_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_acu_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_acu_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_acu_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1464,
+        "1": 548
+      },
+      "bytes": 403784,
+      "sha256": "6040a60699877c8b1114a3386483a1a96851c1a0551bffd975b3d63be98d41dd"
+    },
+    {
+      "id": "trousers_afghanka",
+      "assetId": "overhaul_character_trousers_afghanka",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_afghanka.glb",
+      "groups": {
+        "trousers_afghanka_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_afghanka_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_afghanka_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_afghanka_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_afghanka_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1120,
+        "1": 428
+      },
+      "bytes": 371420,
+      "sha256": "93ca24e0b0dd875d78f2ec6cc18650e41a1ad1d8207db644b53fd56db8dbcff2"
+    },
+    {
+      "id": "trousers_bdu",
+      "assetId": "overhaul_character_trousers_bdu",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_bdu.glb",
+      "groups": {
+        "trousers_bdu_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_bdu_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_bdu_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_bdu_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_bdu_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1408,
+        "1": 524
+      },
+      "bytes": 396888,
+      "sha256": "d9dc8b86691e8043dc880927d64357a34bb0e36ae9897b9662c496e4e51be5e7"
+    },
+    {
+      "id": "trousers_g4",
+      "assetId": "overhaul_character_trousers_g4",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_g4.glb",
+      "groups": {
+        "trousers_g4_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_g4_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_g4_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_g4_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_g4_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1632,
+        "1": 548
+      },
+      "bytes": 477628,
+      "sha256": "5846334889e403c8935314f1bcbc6d20cd0d311d88defafcae587f2f56fd611e"
+    },
+    {
+      "id": "trousers_gorka",
+      "assetId": "overhaul_character_trousers_gorka",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_gorka.glb",
+      "groups": {
+        "trousers_gorka_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_gorka_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_gorka_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_gorka_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_gorka_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1488,
+        "1": 548
+      },
+      "bytes": 402516,
+      "sha256": "3051c7006395e259db7558203225ddc8c7769f5108e4f1b9773ab4699ea76546"
+    },
+    {
+      "id": "trousers_kombat",
+      "assetId": "overhaul_character_trousers_kombat",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_kombat.glb",
+      "groups": {
+        "trousers_kombat_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_kombat_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_kombat_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_kombat_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_kombat_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1544,
+        "1": 572
+      },
+      "bytes": 410432,
+      "sha256": "8fba24ff6e105a0d156a52f8c733d6b83ac56b8bd42989582953cd9fd16c0783"
+    },
+    {
+      "id": "trousers_softshell",
+      "assetId": "overhaul_character_trousers_softshell",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_softshell.glb",
+      "groups": {
+        "trousers_softshell_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_softshell_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_softshell_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_softshell_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_softshell_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1152,
+        "1": 452
+      },
+      "bytes": 375236,
+      "sha256": "b5ae6a4b157ae2eab76d4c561292ca41e215c3832953d0392109b6a78956aa58"
+    },
+    {
+      "id": "trousers_sumrak",
+      "assetId": "overhaul_character_trousers_sumrak",
+      "layer": "trousers",
+      "url": "/assets/art-overhaul/characters/trousers_sumrak.glb",
+      "groups": {
+        "trousers_sumrak_pelvis": {
+          "joint": "pelvis",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_sumrak_thighL": {
+          "joint": "thighL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_sumrak_shinL": {
+          "joint": "shinL",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_sumrak_thighR": {
+          "joint": "thighR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        },
+        "trousers_sumrak_shinR": {
+          "joint": "shinR",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 1208,
+        "1": 452
+      },
+      "bytes": 379528,
+      "sha256": "7964355df7c3241fc1b125ac6c68c4eefe7b5bb7958bc255d7a5b1e39303c60f"
+    },
+    {
+      "id": "head_balaclava",
+      "assetId": "overhaul_character_head_balaclava",
+      "layer": "headwear",
+      "url": "/assets/art-overhaul/characters/head_balaclava.glb",
+      "groups": {
+        "head_balaclava_head": {
+          "joint": "head",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 238,
+        "1": 130
+      },
+      "bytes": 151648,
+      "sha256": "10cf196d0c464e0206166be6384e2b873728878032ecc05fb055703dfe4dca6a"
+    },
+    {
+      "id": "head_bandana",
+      "assetId": "overhaul_character_head_bandana",
+      "layer": "headwear",
+      "url": "/assets/art-overhaul/characters/head_bandana.glb",
+      "groups": {
+        "head_bandana_head": {
+          "joint": "head",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 176,
+        "1": 112
+      },
+      "bytes": 145236,
+      "sha256": "f1e59ae1b6a07f6056d19c017669585a66ee9ab8b33d07ef2a58170d94fb7c36"
+    },
+    {
+      "id": "head_boonie",
+      "assetId": "overhaul_character_head_boonie",
+      "layer": "headwear",
+      "url": "/assets/art-overhaul/characters/head_boonie.glb",
+      "groups": {
+        "head_boonie_head": {
+          "joint": "head",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 232,
+        "1": 104
+      },
+      "bytes": 279216,
+      "sha256": "7eb79a9ea6d9f9acccabf3508b049ac548bf3b1a7f2c94f5009ba5ccda546f95"
+    },
+    {
+      "id": "head_fleece",
+      "assetId": "overhaul_character_head_fleece",
+      "layer": "headwear",
+      "url": "/assets/art-overhaul/characters/head_fleece.glb",
+      "groups": {
+        "head_fleece_head": {
+          "joint": "head",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 140,
+        "1": 80
+      },
+      "bytes": 136588,
+      "sha256": "f15646d05568d992daeffb7f3fa94a9224a2a30a8a259fda5d94fbaa52719c66"
+    },
+    {
+      "id": "head_patrol",
+      "assetId": "overhaul_character_head_patrol",
+      "layer": "headwear",
+      "url": "/assets/art-overhaul/characters/head_patrol.glb",
+      "groups": {
+        "head_patrol_head": {
+          "joint": "head",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 168,
+        "1": 80
+      },
+      "bytes": 210096,
+      "sha256": "72c607d6b9e4ca6d0e44af1a6fcec7a2aed877d7c84caac5e70688f27df2c649"
+    },
+    {
+      "id": "head_watch",
+      "assetId": "overhaul_character_head_watch",
+      "layer": "headwear",
+      "url": "/assets/art-overhaul/characters/head_watch.glb",
+      "groups": {
+        "head_watch_head": {
+          "joint": "head",
+          "roles": [
+            "fabric",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 152,
+        "1": 92
+      },
+      "bytes": 138856,
+      "sha256": "07d081b5932a37ad4de3c4d019a6c24b7cccc48bc00f0a2e6c78ad2f55ffa967"
+    },
+    {
+      "id": "gloves_coyote",
+      "assetId": "overhaul_character_gloves_coyote",
+      "layer": "gloves",
+      "url": "/assets/art-overhaul/characters/gloves_coyote.glb",
+      "groups": {
+        "gloves_coyote_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "trim"
+          ]
+        },
+        "gloves_coyote_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 976,
+        "1": 592
+      },
+      "bytes": 364120,
+      "sha256": "1b3fb80f06b01bd2d31e81aea602fc1a83eb2e39efdde5c523e8408b6acbb6ee"
+    },
+    {
+      "id": "gloves_fingerless",
+      "assetId": "overhaul_character_gloves_fingerless",
+      "layer": "gloves",
+      "url": "/assets/art-overhaul/characters/gloves_fingerless.glb",
+      "groups": {
+        "gloves_fingerless_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        },
+        "gloves_fingerless_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "skin",
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 912,
+        "1": 656
+      },
+      "bytes": 353964,
+      "sha256": "c48e272b8009eca58da2ad91d293233e94edfcff025ecaaa048a63b9d4e79ee8"
+    },
+    {
+      "id": "gloves_leather",
+      "assetId": "overhaul_character_gloves_leather",
+      "layer": "gloves",
+      "url": "/assets/art-overhaul/characters/gloves_leather.glb",
+      "groups": {
+        "gloves_leather_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "trim"
+          ]
+        },
+        "gloves_leather_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 752,
+        "1": 496
+      },
+      "bytes": 275616,
+      "sha256": "ddce66b6e42e4903dddb3a8d2913f56497e7cb9a423bab0974d56dafac4d3aa3"
+    },
+    {
+      "id": "gloves_olive",
+      "assetId": "overhaul_character_gloves_olive",
+      "layer": "gloves",
+      "url": "/assets/art-overhaul/characters/gloves_olive.glb",
+      "groups": {
+        "gloves_olive_foreL": {
+          "joint": "foreL",
+          "roles": [
+            "trim"
+          ]
+        },
+        "gloves_olive_foreR": {
+          "joint": "foreR",
+          "roles": [
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 976,
+        "1": 592
+      },
+      "bytes": 432632,
+      "sha256": "24c9ec6ecf2e83bf275f35d4ac9035d7c2404c192aae281b33b9201036947e24"
+    },
+    {
+      "id": "boots_desert",
+      "assetId": "overhaul_character_boots_desert",
+      "layer": "boots",
+      "url": "/assets/art-overhaul/characters/boots_desert.glb",
+      "groups": {
+        "boots_desert_footL": {
+          "joint": "footL",
+          "roles": [
+            "trim"
+          ]
+        },
+        "boots_desert_footR": {
+          "joint": "footR",
+          "roles": [
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 2016,
+        "1": 520
+      },
+      "bytes": 418272,
+      "sha256": "e945344786272cb4e81673403cff60f701aca8e4074287ed25e111b7e7fcfa08"
+    },
+    {
+      "id": "boots_hiking",
+      "assetId": "overhaul_character_boots_hiking",
+      "layer": "boots",
+      "url": "/assets/art-overhaul/characters/boots_hiking.glb",
+      "groups": {
+        "boots_hiking_footL": {
+          "joint": "footL",
+          "roles": [
+            "trim"
+          ]
+        },
+        "boots_hiking_footR": {
+          "joint": "footR",
+          "roles": [
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 2016,
+        "1": 520
+      },
+      "bytes": 418280,
+      "sha256": "28ef17a7301d6aad32fd96d89d485e95844b07a88aa5811cccb1a37bcf1433d6"
+    },
+    {
+      "id": "boots_jungle",
+      "assetId": "overhaul_character_boots_jungle",
+      "layer": "boots",
+      "url": "/assets/art-overhaul/characters/boots_jungle.glb",
+      "groups": {
+        "boots_jungle_footL": {
+          "joint": "footL",
+          "roles": [
+            "trim"
+          ]
+        },
+        "boots_jungle_footR": {
+          "joint": "footR",
+          "roles": [
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 2200,
+        "1": 504
+      },
+      "bytes": 566644,
+      "sha256": "c6adf5d3ba5fc31b0944390fd36def5a53b6fa8a02418a622a3a9a450b23a73e"
+    },
+    {
+      "id": "boots_leather",
+      "assetId": "overhaul_character_boots_leather",
+      "layer": "boots",
+      "url": "/assets/art-overhaul/characters/boots_leather.glb",
+      "groups": {
+        "boots_leather_footL": {
+          "joint": "footL",
+          "roles": [
+            "trim"
+          ]
+        },
+        "boots_leather_footR": {
+          "joint": "footR",
+          "roles": [
+            "trim"
+          ]
+        }
+      },
+      "triangles": {
+        "0": 2088,
+        "1": 456
+      },
+      "bytes": 414348,
+      "sha256": "541b1ba18d4b634245d8f1ec64c4b291f21f5682174c247d091401b400e1c75b"
+    }
+  ],
+  "limitations": [
+    "Rigid inherited 13-anchor rig: no per-finger bones, cloth physics or facial animation.",
+    "Hoods are stored behind the collar under the current torso anchor."
+  ],
+  "verification": {
+    "structural": "PASSED",
+    "blenderVisual": "PASSED",
+    "browserRuntime": "PASSED",
+    "onlineRaid": "NOT RUN"
+  },
+  "verificationScope": {
+    "blenderVisual": "20 Workbench geometry sheets, reopened runtime GLBs; not PBR rendering proof",
+    "browserRuntime": "All 45 IDs loaded in actual Babylon renderer. 351 persisted observations, zero character loader/errors. Isolated scene, not a played raid.",
+    "headwearFaceCombinations": "65 of 72 valid captured combinations; 7 bandana combinations reset by HMR, NOT RUN for acceptance",
+    "equipmentFit": "Representative helmet and armor fit reviewed. Full rig/backpack matrix NOT RUN; capture batch interrupted by timeout."
+  }
+}

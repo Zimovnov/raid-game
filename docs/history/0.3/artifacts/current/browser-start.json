@@ -1,0 +1,5 @@
+{
+  "browser": "144.0.7559.96",
+  "status": "BLOCKED",
+  "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://localhost:18350/\nCall log:\n  - navigating to \"http://localhost:18350/\", waiting until \"networkidle\"\n"
+}

@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/bren_stock.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__bren_stock": {
+      "0": {
+        "triangles": 328,
+        "vertices": 636,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05000000074505806,
+            -0.16300353407859802,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.05000000074505806,
+            0.09400001913309097,
+            0.252000093460083
+          ]
+        }
+      },
+      "1": {
+        "triangles": 92,
+        "vertices": 162,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05000000074505806,
+            -0.16400004923343658,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.05000000074505806,
+            0.09400001913309097,
+            0.25099998712539673
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/bren_stock-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__bren_stock": {
+      "min": [
+        -0.05000000074505806,
+        -0.16300353407859802,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.05000000074505806,
+        0.09400001913309097,
+        0.252000093460083
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05000000074505806,
+      -0.252000093460083,
+      -0.16400004923343658
+    ],
+    "max": [
+      0.05000000074505806,
+      0.1900000423192978,
+      0.09400003403425217
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

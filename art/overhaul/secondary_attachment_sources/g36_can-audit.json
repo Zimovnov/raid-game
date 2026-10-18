@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/g36_can.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "muzzle__g36_can": {
+      "0": {
+        "triangles": 340,
+        "vertices": 652,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.029493000358343124,
+            -0.02804950252175331,
+            -0.21800005435943604
+          ],
+          "max": [
+            0.029493000358343124,
+            0.0280495285987854,
+            0.021000003442168236
+          ]
+        }
+      },
+      "1": {
+        "triangles": 100,
+        "vertices": 250,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.027985000982880592,
+            -0.024384964257478714,
+            -0.21800003945827484
+          ],
+          "max": [
+            0.027985000982880592,
+            0.02438497543334961,
+            0.021000003442168236
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/g36_can-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "muzzle__g36_can": {
+      "min": [
+        -0.029493000358343124,
+        -0.02804950252175331,
+        -0.21800005435943604
+      ],
+      "max": [
+        0.029493000358343124,
+        0.0280495285987854,
+        0.021000003442168236
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.029493000358343124,
+      -0.021000005304813385,
+      -0.028049513697624207
+    ],
+    "max": [
+      0.029493000358343124,
+      0.21800005435943604,
+      0.028049549087882042
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

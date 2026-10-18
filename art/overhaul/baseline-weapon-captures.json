@@ -1,0 +1,233 @@
+{
+  "status": "CAPTURED_AND_REVIEWED",
+  "scope": "Original runtime, all36 default builds, same workshop camera oblique yaw2.7 pitch.15 distance1.35 FOV43. Highquality. No new models or animation/gameplay acceptance.",
+  "captures": [
+    {
+      "id": "weapon_aks74u",
+      "name": "АКС-74У",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_aks74u.png",
+      "status": "АКС-74У · 12 вызовов"
+    },
+    {
+      "id": "weapon_ak103",
+      "name": "АК-103",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_ak103.png",
+      "status": "АК-103 · 12 вызовов"
+    },
+    {
+      "id": "weapon_hk416a5",
+      "name": "HK416 A5",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_hk416a5.png",
+      "status": "HK416 A5 · 13 вызовов"
+    },
+    {
+      "id": "weapon_pp1901",
+      "name": "ПП-19-01 «Витязь»",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_pp1901.png",
+      "status": "ПП-19-01 «Витязь» · 10 вызовов"
+    },
+    {
+      "id": "weapon_pp91",
+      "name": "ПП-91 «Кедр»",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_pp91.png",
+      "status": "ПП-91 «Кедр» · 10 вызовов"
+    },
+    {
+      "id": "weapon_tt",
+      "name": "ТТ",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_tt.png",
+      "status": "ТТ · 10 вызовов"
+    },
+    {
+      "id": "weapon_glock17",
+      "name": "Glock 17",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_glock17.png",
+      "status": "Glock 17 · 11 вызовов"
+    },
+    {
+      "id": "weapon_mp443",
+      "name": "МР-443 «Грач»",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_mp443.png",
+      "status": "МР-443 «Грач» · 10 вызовов"
+    },
+    {
+      "id": "weapon_sks",
+      "name": "СКС",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_sks.png",
+      "status": "СКС · 11 вызовов"
+    },
+    {
+      "id": "weapon_mosin9130",
+      "name": "Винтовка Мосина обр. 1891/30",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_mosin9130.png",
+      "status": "Винтовка Мосина обр. 1891/30 · 12 вызовов"
+    },
+    {
+      "id": "weapon_svd",
+      "name": "СВД",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_svd.png",
+      "status": "СВД · 12 вызовов"
+    },
+    {
+      "id": "weapon_sv98",
+      "name": "СВ-98",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_sv98.png",
+      "status": "СВ-98 · 11 вызовов"
+    },
+    {
+      "id": "weapon_mp153",
+      "name": "МР-153",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_mp153.png",
+      "status": "МР-153 · 11 вызовов"
+    },
+    {
+      "id": "weapon_saiga12k",
+      "name": "Сайга-12К",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_saiga12k.png",
+      "status": "Сайга-12К · 10 вызовов"
+    },
+    {
+      "id": "weapon_ak74m",
+      "name": "АК-74М",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_ak74m.png",
+      "status": "АК-74М · 16 вызовов"
+    },
+    {
+      "id": "weapon_akm",
+      "name": "АКМ",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_akm.png",
+      "status": "АКМ · 16 вызовов"
+    },
+    {
+      "id": "weapon_m4a1",
+      "name": "M4A1",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_m4a1.png",
+      "status": "M4A1 · 10 вызовов"
+    },
+    {
+      "id": "weapon_mp5",
+      "name": "HK MP5",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_mp5.png",
+      "status": "HK MP5 · 10 вызовов"
+    },
+    {
+      "id": "weapon_pm",
+      "name": "ПМ",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_pm.png",
+      "status": "ПМ · 10 вызовов"
+    },
+    {
+      "id": "weapon_mp133",
+      "name": "МР-133",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_mp133.png",
+      "status": "МР-133 · 10 вызовов"
+    },
+    {
+      "id": "weapon_ak12",
+      "name": "АК-12",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_ak12.png",
+      "status": "АК-12 · 16 вызовов"
+    },
+    {
+      "id": "weapon_rpk74m",
+      "name": "РПК-74М",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_rpk74m.png",
+      "status": "РПК-74М · 16 вызовов"
+    },
+    {
+      "id": "weapon_asval",
+      "name": "АС «Вал»",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_asval.png",
+      "status": "АС «Вал» · 14 вызовов"
+    },
+    {
+      "id": "weapon_vss",
+      "name": "ВСС «Винторез»",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_vss.png",
+      "status": "ВСС «Винторез» · 13 вызовов"
+    },
+    {
+      "id": "weapon_g36k",
+      "name": "HK G36K",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_g36k.png",
+      "status": "HK G36K · 16 вызовов"
+    },
+    {
+      "id": "weapon_scarl",
+      "name": "FN SCAR-L Mk2",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_scarl.png",
+      "status": "FN SCAR-L Mk2 · 16 вызовов"
+    },
+    {
+      "id": "weapon_auga3",
+      "name": "Steyr AUG A3",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_auga3.png",
+      "status": "Steyr AUG A3 · 15 вызовов"
+    },
+    {
+      "id": "weapon_mcxspearlt",
+      "name": "SIG MCX-SPEAR LT · 5,56",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_mcxspearlt.png",
+      "status": "SIG MCX-SPEAR LT · 5,56 · 16 вызовов"
+    },
+    {
+      "id": "weapon_bren2",
+      "name": "CZ BREN 2 · 5,56",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_bren2.png",
+      "status": "CZ BREN 2 · 5,56 · 17 вызовов"
+    },
+    {
+      "id": "weapon_scorpion",
+      "name": "CZ Scorpion EVO 3 A1",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_scorpion.png",
+      "status": "CZ Scorpion EVO 3 A1 · 15 вызовов"
+    },
+    {
+      "id": "weapon_mpx",
+      "name": "SIG MPX",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_mpx.png",
+      "status": "SIG MPX · 14 вызовов"
+    },
+    {
+      "id": "weapon_m9a3",
+      "name": "Beretta M9A3",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_m9a3.png",
+      "status": "Beretta M9A3 · 12 вызовов"
+    },
+    {
+      "id": "weapon_m17",
+      "name": "SIG P320-M17",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_m17.png",
+      "status": "SIG P320-M17 · 12 вызовов"
+    },
+    {
+      "id": "weapon_rem870",
+      "name": "Remington 870",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_rem870.png",
+      "status": "Remington 870 · 12 вызовов"
+    },
+    {
+      "id": "weapon_benellim4",
+      "name": "Benelli M4",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_benellim4.png",
+      "status": "Benelli M4 · 11 вызовов"
+    },
+    {
+      "id": "weapon_m14",
+      "name": "M14",
+      "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-baseline-weapons/weapon_m14.png",
+      "status": "M14 · 16 вызовов"
+    }
+  ],
+  "review": {
+    "reviewer": "GPT-6.1 Sol",
+    "checkedAt": "2026-10-18T05:09:58.246857+00:00",
+    "evidence": [
+      "artifacts/overhaul-baseline-weapons/sheet-1.jpg",
+      "artifacts/overhaul-baseline-weapons/sheet-2.jpg",
+      "artifacts/overhaul-baseline-weapons/sheet-3.jpg",
+      "artifacts/overhaul-baseline-weapons/sheet-4.jpg"
+    ],
+    "notes": "Viewed all36 contact-sheet frames and full Mosin9130 frame. Assets visible in workshop, no edge clipping observed. Existing primitive silhouettes, floating sights and low material detail are baseline defects, not accepted final art."
+  }
+}

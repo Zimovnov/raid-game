@@ -1,0 +1,43 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>RAID — проверка координат GLB</title>
+<style>body{margin:0;background:#202624;color:#eee;font:14px system-ui}canvas{width:100vw;height:100vh;display:block}aside{position:absolute;top:12px;left:12px;background:#111e;padding:12px;max-width:300px}label,output{display:block;margin:8px 0}pre{font-size:11px;max-height:32vh;overflow:auto}</style>
+<canvas id="scene"></canvas><aside><strong>Нейтральный инженерный объект, не новая игровая модель</strong><p id="caption">Слева геометрия в метрах; справа старый режим.</p><label>Размер процедурного примитива <select id="scale" aria-label="Размер процедурного примитива"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></label><label>Экземпляры <select id="instances" aria-label="Экземпляры"><option value="separate">Старый и новый режимы</option><option value="shared">Один меш в двух слотах</option></select></label><label>Проверка загрузки <select id="load" aria-label="Проверка загрузки"><option value="valid">Корректные группы</option><option value="missing">Отсутствующая группа</option><option value="frame">Неизвестная система координат</option></select></label><output id="status">Загрузка</output><output id="pick">Нажмите на видимую рамку</output><pre id="report"></pre></aside>
+<script type="module">
+import {Renderer} from '/src/rendering/renderer.ts';
+import {MODEL_ASSETS} from '/src/content/model-assets.ts';
+import {model} from '/src/rendering/math.ts';
+import {Vector3} from '@babylonjs/core/Maths/math.vector.js';
+const renderer=new Renderer(document.getElementById('scene'),'babylon'),bridge=renderer.bridge;
+const url='/artifacts/overhaul-meshkit/bevel-probe.glb';
+for(const [id,frame,groups] of [['probe_normalized',undefined,['probe_bevel']],['probe_meters','meters',['probe_bevel']],['probe_missing','meters',['probe_bevel','absent']],['probe_badframe','wrong',['probe_bevel']]]) MODEL_ASSETS[id]={url,groups,frame};
+const fallback={shape:'box',p:[0,0,.25],s:[.035,.2,.2],r:[0,0,0],c:[.8,.24,.15]};
+const bounds=(id,instance)=>{
+ const points=[];
+ for(const mesh of bridge.scene.meshes.filter(mesh=>mesh.isVisible&&mesh.metadata?.raidAsset===id)){
+  const vertices=mesh.getVerticesData('position');
+  const matrices=mesh.thinInstanceGetWorldMatrices();
+  for(const matrix of instance===undefined?matrices:[matrices[instance]].filter(Boolean))for(let i=0;i<vertices.length;i+=3)points.push(Vector3.TransformCoordinates(new Vector3(vertices[i],vertices[i+1],vertices[i+2]),matrix));
+ }
+ return points.length?{min:[0,1,2].map(k=>Math.min(...points.map(p=>p.asArray()[k]))),max:[0,1,2].map(k=>Math.max(...points.map(p=>p.asArray()[k])))}:null;
+};
+function draw(){
+ const scale=Number(document.getElementById('scale').value),mode=document.getElementById('load').value;
+ const shared=document.getElementById('instances').value==='shared'&&mode==='valid';
+ const id=mode==='valid'?'probe_meters':mode==='missing'?'probe_missing':'probe_badframe';
+ const make=(weapon,p,explicit,slot)=>({...fallback,p,s:[scale,scale,scale],slot,asset:{weapon,group:'probe_bevel',first:true,...(explicit?{transform:{p,s:[1,1,1],r:[0,0,0]}}:{})}});
+ const old=make(shared?'probe_meters':'probe_normalized',[0,0,-.3],shared,'optic'),metres=make(id,[0,0,.3],true,'mount.optic');
+ bridge.begin([1.5,.7,-.4],[0,0,0],43,[.12,.15,.14],'high');
+ bridge.render([], [{part:old,parent:model()},{part:metres,parent:model()}],false);
+ const original=bounds(shared?'probe_meters':'probe_normalized',shared?0:undefined),authored=bounds(id,shared?1:undefined),errors=[...bridge.models.errors].filter(([weapon])=>[id,'probe_normalized'].includes(weapon));
+ const sizes=b=>b?b.max.map((value,k)=>value-b.min[k]):null;
+ const size=sizes(authored),passed=mode==='valid'&&!!size&&size.every((n,k)=>Math.abs(n-[.035,.2,.2][k])<1e-5);
+ document.getElementById('status').textContent=errors.length?'ОШИБКА АССЕТА — виден процедурный fallback':passed?'PASSED — размер в метрах сохранён':'Загрузка';
+ document.getElementById('caption').textContent=shared?'Общая геометрия в двух слотах: optic и mount.optic':'Слева геометрия в метрах; справа старый режим.';
+ const slotPaths=bridge.scene.meshes.filter(m=>m.isVisible&&m.metadata?.raidAsset).map(m=>({asset:m.metadata.raidAsset,slots:m.metadata.raidSlots}));
+ document.getElementById('report').textContent=JSON.stringify({scope:'Generic source fixture; no target art, gameplay or performance acceptance',mode,shared,scale,oldDimensions:sizes(original),metreDimensions:size,metrics:bridge.metrics,slotPaths,errors},null,2);
+ requestAnimationFrame(draw);
+}requestAnimationFrame(draw);
+document.getElementById('scene').addEventListener('pointerup',event=>{
+ const rect=event.currentTarget.getBoundingClientRect(),hit=bridge.pickWeapon((event.clientX-rect.left)/rect.width,(event.clientY-rect.top)/rect.height);
+ document.getElementById('pick').textContent=hit.hit?'Выбран слот: '+(hit.slot||'корпус'):'Нет попадания';
+});
+</script></html>

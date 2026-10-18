@@ -1,0 +1,135 @@
+{
+  "version": "0.5.0",
+  "researchedAt": "2026-10-11",
+  "scope": "Primary references for names, broad visual families and ammunition group labels. Numerical game balance, animated poses, module interfaces, stock variants and all meshes are original game design. This is not a real branded attachment compatibility catalogue.",
+  "externalAssetsIncluded": false,
+  "sources": [
+    {
+      "platforms": ["weapon_ak12"],
+      "publisher": "Rostec",
+      "url": "https://rostec.ru/en/directions/weapons/products-projects/ak-12-ak-15-ak-19-assault-rifles/",
+      "scope": "AK-12 name and 5.45 mm platform family.",
+      "retrieval": "Primary-domain indexed excerpt read; direct page fetch unavailable. Exact current subvariant is not claimed."
+    },
+    {
+      "platforms": ["weapon_rpk74m"],
+      "publisher": "Rosoboronexport",
+      "url": "https://roe.ru/pdfs/pdf_1060.pdf",
+      "scope": "RPK-74M name, 5.45 mm family, folding stock, bipod and 45-round box magazine.",
+      "retrieval": "Primary-domain indexed PDF text read; direct PDF fetch returned 502."
+    },
+    {
+      "platforms": ["weapon_asval", "weapon_vss"],
+      "publisher": "Official Ukrainian delegation submission hosted by OSCE",
+      "url": "https://www.osce.org/sites/default/files/f/documents/d/1/220141.pdf",
+      "scope": "Pages 12 and 13 only: VSS / AS Val names, 9x39 ammunition group, 10/20-round VSS magazine and visual silhouettes. Political assertions are outside this game's research scope.",
+      "retrieval": "PDF opened and text read."
+    },
+    {
+      "platforms": ["weapon_asval", "weapon_vss"],
+      "publisher": "Rostec",
+      "url": "https://rostec.ru/en/media/news/rostec-develops-new-collimator-sight-with-unique-capabilities/",
+      "scope": "Manufacturer-group corroboration of Vintorez and AS Val names. No claimed reproduction of the promoted sight or its performance.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_g36k"],
+      "publisher": "Heckler & Koch",
+      "url": "https://www.heckler-koch.com/en/Products/Military%2520and%2520Law%2520Enforcement/Assault%2520rifles/G36",
+      "scope": "G36/G36K names, 5.56x45 group, polymer family, folding stock and magazine-fed platform.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_scarl"],
+      "publisher": "FN Herstal",
+      "url": "https://fnherstal.com/en/defence/portable-weapons/fn-scar-l-mk2/",
+      "scope": "SCAR-L Mk2 name, 5.56x45 group, box receiver, folding adjustable stock and rail-based silhouette.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_auga3"],
+      "publisher": "Steyr Arms",
+      "url": "https://www.steyr-arms.com/en/military-law-enforcement/assault-rifles/aug-a3/",
+      "scope": "AUG A3 name, bullpup arrangement, 5.56x45 group, rear magazine location, olive/black stock and 30/42-round magazine choices.",
+      "retrieval": "Page opened and read."
+    },
+    {
+      "platforms": ["weapon_mcxspearlt"],
+      "publisher": "SIG Sauer",
+      "url": "https://www.sigsauer.com/blog/the-evolution-of-the-sig-sauer-mcx-introducing-the-mcx-spear-lt",
+      "scope": "MCX-SPEAR LT name, existence of 5.56 variant, coyote finish, lightweight handguard and folding stock.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_bren2", "weapon_scorpion"],
+      "publisher": "Ceska zbrojovka",
+      "url": "https://www.czub.cz/download/4027/cz-military-le-catalog-2025-en-v1.pdf",
+      "scope": "BREN 2 and Scorpion EVO 3 A1 names and visual platform families; Scorpion 9x19 group and folding polymer stock.",
+      "retrieval": "Primary-domain indexed PDF text read."
+    },
+    {
+      "platforms": ["weapon_bren2"],
+      "publisher": "Ceska zbrojovka",
+      "url": "https://www.czub.cz/en/about-us-history/",
+      "scope": "BREN 2 5.56x45 variant name; only this calibre variant is implemented here.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_mpx"],
+      "publisher": "SIG Sauer",
+      "url": "https://www.sigsauer.com/media/sigsauer/resources/FULL_DEFENSE_CAT_26_PRINT.pdf",
+      "scope": "2026 catalogue page 32: MPX name, 9 mm group, short subgun silhouette, AR-style controls and folding/telescoping stock.",
+      "retrieval": "Primary-domain indexed PDF text read."
+    },
+    {
+      "platforms": ["weapon_m9a3"],
+      "publisher": "Beretta",
+      "url": "https://www.beretta.com/en-dk/firearms/firearms-family/90-series",
+      "scope": "M9A3 in the 90 family, open-slide silhouette, separate grip panels and service-pistol context.",
+      "retrieval": "Page opened and read; 9 mm identity additionally present in Beretta's indexed M9A3 catalogue."
+    },
+    {
+      "platforms": ["weapon_m17"],
+      "publisher": "SIG Sauer",
+      "url": "https://www.sigsauer.com/faqs",
+      "scope": "P320-M17 commercial naming, distinction from military M17, tan/black controls and magazine capacity variants. The game's optic adapter is fictional and not a SIG-LOC compatibility claim.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_rem870"],
+      "publisher": "Remington Arms",
+      "url": "https://remington-arms.com/870-series/",
+      "scope": "Model 870 name, steel receiver and pump-action silhouette. No named modern tactical SKU is claimed.",
+      "retrieval": "Primary-domain indexed page text read; www.remarms.com opened and confirmed redirect to remington-arms.com."
+    },
+    {
+      "platforms": ["weapon_benellim4"],
+      "publisher": "Benelli USA",
+      "url": "https://www.benelliusa.com/resources/benelli-unleashes-the-m4-ext-more-firepower-more-versatility-more-m4",
+      "scope": "2026 M4-family reference: semiautomatic 12-gauge, tubular capacity, telescoping stock and fixed fore-end. Game model is labeled M4 rather than claiming an exact M4 EXT replica.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_m14"],
+      "publisher": "US National Park Service, Springfield Armory National Historic Site",
+      "url": "https://www.nps.gov/spar/learn/historyculture/national-matches.htm",
+      "scope": "M14 historic rifle family and existence of semiautomatic-only variants.",
+      "retrieval": "Primary-domain indexed page text read."
+    },
+    {
+      "platforms": ["weapon_m14"],
+      "publisher": "US Army Press",
+      "url": "https://www.armyupress.army.mil/Journals/NCO-Journal/Archives/2018/March/Infantry-Squad-Part-2/",
+      "scope": "M14 name and 7.62x51 ammunition group. No real-world combat advice or performance claims reproduced.",
+      "retrieval": "Primary-domain indexed page text read."
+    }
+  ],
+  "limitations": [
+    "No external 3D models, photographs, trademarks, recorded gunshots, manufacturing diagrams or dimensions are bundled.",
+    "The game uses primitive low-poly art, procedural animation, synthesized sound and authored gameplay statistics.",
+    "The additional workshop modules are virtual variants. Their real-world branded compatibility has not been verified and is not claimed.",
+    "RPK bipod remains folded visual geometry; there is no deployable bipod mechanic.",
+    "M14 is intentionally configured for single fire in game. AUG automatic fire uses the existing fire-mode selector rather than reproducing a progressive physical trigger.",
+    "Source presence in a manufacturer's catalogue is not evidence of popularity or a ranked 2026 trend."
+  ]
+}

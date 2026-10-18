@@ -1,0 +1,3314 @@
+[
+  {
+    "id": "weapon_aks74u",
+    "shape": "aksu",
+    "name": "АКС-74У",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.02,
+          0.32
+        ],
+        "handguard": [
+          0,
+          0.008,
+          -0.225
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.022,
+          -0.49
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.064,
+        -0.11,
+        -0.2
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.022,
+        -0.49
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "aksu-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "aksu-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ak-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ak545-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "aksu-mount",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "aksu-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_ak103",
+    "shape": "ak103",
+    "name": "АК-103",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.028,
+          -0.8
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.11,
+        -0.23
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.028,
+        -0.8
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "ak-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "ak-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ak-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ak762-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "ak-mount",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "ak-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_hk416a5",
+    "shape": "hk416",
+    "name": "HK416 A5",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.02,
+          -0.35
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.025,
+          -0.83
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.12,
+        -0.32
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.025,
+        -0.83
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "ar-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "hk416-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ar-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ar556-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "ar-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_pp1901",
+    "shape": "vityaz",
+    "name": "ПП-19-01 «Витязь»",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.02,
+          0.34
+        ],
+        "handguard": [
+          0,
+          0.005,
+          -0.23
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.24,
+          -0.085
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.55
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.06,
+        -0.1,
+        -0.21
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.023,
+        -0.55
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "vityaz-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "vityaz-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ak-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "vityaz-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "vityaz-mount",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "vityaz-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_pp91",
+    "shape": "kedr",
+    "name": "ПП-91 «Кедр»",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          0.025,
+          0.25
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.14,
+          0.07
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          0.065
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.04,
+        -0.08,
+        -0.12
+      ],
+      "aimHeight": 0.105,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.022,
+        -0.235
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "kedr-stock",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "kedr-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "kedr-mag",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "weapon_tt",
+    "shape": "tt",
+    "name": "ТТ",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.14,
+          0.058
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          0.058
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0,
+          -0.075,
+          -0.09
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.042,
+        -0.19,
+        0.065
+      ],
+      "aimHeight": 0.083,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.235
+      ]
+    },
+    "slots": [
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "tt-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "tt-mag",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "weapon_mp443",
+    "shape": "grach",
+    "name": "МР-443 «Грач»",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.14,
+          0.058
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          0.058
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0,
+          -0.075,
+          -0.09
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.042,
+        -0.19,
+        0.065
+      ],
+      "aimHeight": 0.084,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.217
+      ]
+    },
+    "slots": [
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "grach-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "grach-mag",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "weapon_sks",
+    "shape": "sks",
+    "name": "СКС",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.045,
+          0.34
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.085,
+          0.015
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.06,
+        -0.09,
+        -0.37
+      ],
+      "aimHeight": 0.107,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.88
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "sks-stock",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "sks-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_mosin9130",
+    "shape": "mosin",
+    "name": "Винтовка Мосина обр. 1891/30",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.05,
+          0.36
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.06,
+        -0.1,
+        -0.4
+      ],
+      "aimHeight": 0.105,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.031,
+        -1.03
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "mosin-stock",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "weapon_svd",
+    "shape": "svd",
+    "name": "СВД",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.045,
+          0.35
+        ],
+        "handguard": [
+          0,
+          0.008,
+          -0.41
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          -0.01
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.1,
+          0.015
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.12,
+        -0.39
+      ],
+      "aimHeight": 0.135,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.025,
+        -1.01
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "svd-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "svd-handguard",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "svd-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "svd-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_sv98",
+    "shape": "sv98",
+    "name": "СВ-98",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.075,
+          0.37
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          -0.07
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.14,
+          0.015
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.12,
+        -0.38
+      ],
+      "aimHeight": 0.145,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.06,
+        -0.99
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "sv98-stock",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "sv98-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_mp153",
+    "shape": "mp153",
+    "name": "МР-153",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.02,
+          0.39
+        ],
+        "handguard": [
+          0,
+          -0.035,
+          -0.35
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.11,
+        -0.34
+      ],
+      "aimHeight": 0.06,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.022,
+        -0.87
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "sg-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "mp153-handguard",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "sg-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_saiga12k",
+    "shape": "saiga",
+    "name": "Сайга-12К",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.02,
+          0.36
+        ],
+        "handguard": [
+          0,
+          0.006,
+          -0.29
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.25,
+          -0.055
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.14,
+        -0.29
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.022,
+        -0.66
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "saiga-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "saiga-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ak-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "saiga-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "saiga-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_m4a1",
+    "shape": "ar",
+    "name": "M4A1",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.11,
+        -0.23
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.023,
+        -0.76
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "ar-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "ar-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ar-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ar556-mag",
+        "required": true
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "ar-muzzle",
+        "required": false
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_mp5",
+    "shape": "mp5",
+    "name": "HK MP5",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.53
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.11,
+        -0.23
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.023,
+        -0.53
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "mp5-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "mp5-handguard",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "mp5-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Крепление",
+        "accepts": "mp5-mount",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "smg-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_pm",
+    "shape": "pm",
+    "name": "ПМ",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.14,
+          0.058
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          0.058
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0,
+          -0.075,
+          -0.09
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.042,
+        -0.19,
+        0.065
+      ],
+      "aimHeight": 0.08,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.19
+      ]
+    },
+    "slots": [
+      {
+        "id": "pistolgrip",
+        "name": "Накладки",
+        "accepts": "pm-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "pm-mag",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "weapon_mp133",
+    "shape": "shotgun",
+    "name": "МР-133",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.11,
+        -0.23
+      ],
+      "aimHeight": 0.055,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.022,
+        -0.88
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад",
+        "accepts": "sg-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "sg-handguard",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Крепление",
+        "accepts": "sg-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_ak12",
+    "shape": "ak12",
+    "name": "АК-12",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.01,
+          0.37
+        ],
+        "handguard": [
+          0,
+          0.01,
+          -0.31
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.025,
+          -0.79
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.065,
+        -0.12,
+        -0.28
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.025,
+        -0.79
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "ak12-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "ak12-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ak-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ak545-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "ak12-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_rpk74m",
+    "shape": "rpk74",
+    "name": "РПК-74М",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.02,
+          0.41
+        ],
+        "handguard": [
+          0,
+          0.006,
+          -0.34
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.024,
+          -1.09
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.12,
+        -0.35
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.024,
+        -1.09
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "rpk-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "rpk-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ak-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ak545-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "ak-mount",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "ak-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_asval",
+    "shape": "asval",
+    "name": "АС «Вал»",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.008,
+          0.35
+        ],
+        "handguard": [
+          0,
+          0.008,
+          -0.205
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.13
+        ],
+        "magazine": [
+          0,
+          -0.19,
+          -0.06
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.1,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.064,
+        -0.11,
+        -0.22
+      ],
+      "aimHeight": 0.14,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.8
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "val-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "val-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "val-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "val-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "val-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_vss",
+    "shape": "vss",
+    "name": "ВСС «Винторез»",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.012,
+          0.35
+        ],
+        "handguard": [
+          0,
+          0.008,
+          -0.215
+        ],
+        "pistolgrip": [
+          0,
+          -0.13,
+          0.15
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          -0.06
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.1,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.064,
+        -0.11,
+        -0.225
+      ],
+      "aimHeight": 0.14,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.86
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "vss-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "val-handguard",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "val-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "val-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_g36k",
+    "shape": "g36",
+    "name": "HK G36K",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          0.02,
+          0.37
+        ],
+        "handguard": [
+          0,
+          -0.005,
+          -0.28
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.09
+        ],
+        "magazine": [
+          0,
+          -0.205,
+          -0.075
+        ],
+        "muzzle": [
+          0,
+          0.022,
+          -0.71
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.2,
+          -0.01
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.066,
+        -0.12,
+        -0.27
+      ],
+      "aimHeight": 0.174,
+      "opticAimHeight": 0.27,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.022,
+        -0.71
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "g36-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "g36-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "g36-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "g36-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "g36-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_scarl",
+    "shape": "scar",
+    "name": "FN SCAR-L Mk2",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          0.025,
+          0.41
+        ],
+        "handguard": [
+          0,
+          0.023,
+          -0.29
+        ],
+        "pistolgrip": [
+          0,
+          -0.145,
+          0.105
+        ],
+        "magazine": [
+          0,
+          -0.22,
+          -0.065
+        ],
+        "muzzle": [
+          0,
+          0.032,
+          -0.77
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.073,
+        -0.12,
+        -0.27
+      ],
+      "aimHeight": 0.17,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.032,
+        -0.77
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "scar-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "scar-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ar-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ar556-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "scar-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_auga3",
+    "shape": "aug",
+    "name": "Steyr AUG A3",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.008,
+          0.385
+        ],
+        "handguard": [
+          0,
+          -0.075,
+          -0.2
+        ],
+        "pistolgrip": [
+          0,
+          -0.13,
+          -0.025
+        ],
+        "magazine": [
+          0,
+          -0.19,
+          0.225
+        ],
+        "muzzle": [
+          0,
+          0.034,
+          -0.56
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.055
+        ],
+        "grip": [
+          0,
+          -0.17,
+          -0.2
+        ],
+        "light": [
+          0.095,
+          -0.012,
+          -0.25
+        ],
+        "laser": [
+          -0.093,
+          0.012,
+          -0.25
+        ]
+      },
+      "support": [
+        -0.045,
+        -0.16,
+        -0.19
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.034,
+        -0.56
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "aug-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "aug-handguard",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "aug-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "aug-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_mcxspearlt",
+    "shape": "mcx",
+    "name": "SIG MCX-SPEAR LT · 5,56",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          0,
+          0.37
+        ],
+        "handguard": [
+          0,
+          0.015,
+          -0.37
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.125
+        ],
+        "magazine": [
+          0,
+          -0.22,
+          -0.055
+        ],
+        "muzzle": [
+          0,
+          0.03,
+          -0.83
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.065,
+        -0.12,
+        -0.31
+      ],
+      "aimHeight": 0.155,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.83
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "mcx-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "mcx-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ar-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ar556-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "mcx-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_bren2",
+    "shape": "bren",
+    "name": "CZ BREN 2 · 5,56",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          0.013,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.012,
+          -0.26
+        ],
+        "pistolgrip": [
+          0,
+          -0.145,
+          0.1
+        ],
+        "magazine": [
+          0,
+          -0.218,
+          -0.055
+        ],
+        "muzzle": [
+          0,
+          0.027,
+          -0.72
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.066,
+        -0.12,
+        -0.255
+      ],
+      "aimHeight": 0.16,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.027,
+        -0.72
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "bren-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "bren-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "bren-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "ar556-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "bren-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_scorpion",
+    "shape": "scorpion",
+    "name": "CZ Scorpion EVO 3 A1",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.012,
+          0.31
+        ],
+        "handguard": [
+          0,
+          0.008,
+          -0.21
+        ],
+        "pistolgrip": [
+          0,
+          -0.155,
+          0.082
+        ],
+        "magazine": [
+          0,
+          -0.218,
+          -0.077
+        ],
+        "muzzle": [
+          0,
+          0.026,
+          -0.43
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.115,
+          -0.22
+        ],
+        "light": [
+          0.085,
+          0.015,
+          -0.22
+        ],
+        "laser": [
+          -0.087,
+          0.02,
+          -0.21
+        ]
+      },
+      "support": [
+        -0.06,
+        -0.11,
+        -0.19
+      ],
+      "aimHeight": 0.135,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.026,
+        -0.43
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "scorpion-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "scorpion-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "scorpion-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "scorpion-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "scorpion-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_mpx",
+    "shape": "mpx",
+    "name": "SIG MPX",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          0.018,
+          0.29
+        ],
+        "handguard": [
+          0,
+          0.016,
+          -0.235
+        ],
+        "pistolgrip": [
+          0,
+          -0.15,
+          0.085
+        ],
+        "magazine": [
+          0,
+          -0.22,
+          -0.06
+        ],
+        "muzzle": [
+          0,
+          0.027,
+          -0.49
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.13,
+          -0.22
+        ],
+        "light": [
+          0.095,
+          0.008,
+          -0.22
+        ],
+        "laser": [
+          -0.09,
+          0.022,
+          -0.22
+        ]
+      },
+      "support": [
+        -0.06,
+        -0.11,
+        -0.19
+      ],
+      "aimHeight": 0.14,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.027,
+        -0.49
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "mpx-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "mpx-handguard",
+        "required": true
+      },
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "ar-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "mpx-mag",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "mpx-muzzle",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_m9a3",
+    "shape": "m9a3",
+    "name": "Beretta M9A3",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.14,
+          0.058
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          0.058
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0,
+          -0.075,
+          -0.09
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.042,
+        -0.19,
+        0.065
+      ],
+      "aimHeight": 0.082,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.03,
+        -0.242
+      ]
+    },
+    "slots": [
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "m9-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "m9-mag",
+        "required": true
+      },
+      {
+        "id": "light",
+        "name": "Подствольный фонарь",
+        "accepts": "pistol-light",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_m17",
+    "shape": "m17",
+    "name": "SIG P320-M17",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.018,
+          0.38
+        ],
+        "handguard": [
+          0,
+          0.007,
+          -0.285
+        ],
+        "pistolgrip": [
+          0,
+          -0.14,
+          0.061
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          0.06
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.075,
+          0.044
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0,
+          -0.075,
+          -0.09
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.042,
+        -0.19,
+        0.063
+      ],
+      "aimHeight": 0.088,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.138,
+      "muzzle": [
+        0,
+        0.032,
+        -0.211
+      ]
+    },
+    "slots": [
+      {
+        "id": "pistolgrip",
+        "name": "Рукоятка",
+        "accepts": "m17-grip",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "m17-mag",
+        "required": true
+      },
+      {
+        "id": "light",
+        "name": "Подствольный фонарь",
+        "accepts": "pistol-light",
+        "required": false
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "m17-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_rem870",
+    "shape": "rem870",
+    "name": "Remington 870",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.015,
+          0.37
+        ],
+        "handguard": [
+          0,
+          -0.036,
+          -0.34
+        ],
+        "pistolgrip": [
+          0,
+          -0.115,
+          0.16
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.077,
+          0.018
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.065,
+        -0.1,
+        -0.32
+      ],
+      "aimHeight": 0.074,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.025,
+        -0.85
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "870-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "870-handguard",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "sg-mount",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_benellim4",
+    "shape": "benelli",
+    "name": "Benelli M4",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.014,
+          0.39
+        ],
+        "handguard": [
+          0,
+          -0.022,
+          -0.355
+        ],
+        "pistolgrip": [
+          0,
+          -0.135,
+          0.14
+        ],
+        "magazine": [
+          0,
+          -0.23,
+          -0.054
+        ],
+        "muzzle": [
+          0,
+          0.023,
+          -0.76
+        ],
+        "mount": [
+          0,
+          0.11,
+          0
+        ],
+        "optic": [
+          0,
+          0.135,
+          0.045
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.063,
+        -0.105,
+        -0.35
+      ],
+      "aimHeight": 0.11,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.027,
+        -0.89
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "benelli-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "benelli-handguard",
+        "required": true
+      },
+      {
+        "id": "optic",
+        "name": "Оптика",
+        "accepts": "rail-optic",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "weapon_m14",
+    "shape": "m14",
+    "name": "M14",
+    "layout": {
+      "anchors": {
+        "stock": [
+          0,
+          -0.036,
+          0.365
+        ],
+        "handguard": [
+          0,
+          0.035,
+          -0.335
+        ],
+        "pistolgrip": [
+          0,
+          -0.12,
+          0.145
+        ],
+        "magazine": [
+          0,
+          -0.18,
+          -0.032
+        ],
+        "muzzle": [
+          0,
+          0.035,
+          -0.98
+        ],
+        "mount": [
+          0,
+          0.1,
+          0.005
+        ],
+        "optic": [
+          0,
+          0.16,
+          -0.02
+        ],
+        "grip": [
+          0,
+          -0.14,
+          -0.32
+        ],
+        "light": [
+          0.115,
+          0.015,
+          -0.34
+        ],
+        "laser": [
+          -0.102,
+          0.027,
+          -0.32
+        ]
+      },
+      "support": [
+        -0.07,
+        -0.085,
+        -0.38
+      ],
+      "aimHeight": 0.12,
+      "opticAimHeight": 0.22,
+      "mountedOpticAimHeight": 0.24,
+      "muzzle": [
+        0,
+        0.035,
+        -0.98
+      ]
+    },
+    "slots": [
+      {
+        "id": "stock",
+        "name": "Приклад / ложа",
+        "accepts": "m14-stock",
+        "required": true
+      },
+      {
+        "id": "handguard",
+        "name": "Цевьё",
+        "accepts": "m14-handguard",
+        "required": true
+      },
+      {
+        "id": "magazine",
+        "name": "Магазин",
+        "accepts": "m14-mag",
+        "required": true
+      },
+      {
+        "id": "mount",
+        "name": "Кронштейн",
+        "accepts": "m14-mount",
+        "required": false
+      },
+      {
+        "id": "muzzle",
+        "name": "Дульное устройство",
+        "accepts": "m14-muzzle",
+        "required": false
+      }
+    ]
+  }
+]

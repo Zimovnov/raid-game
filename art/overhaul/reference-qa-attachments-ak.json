@@ -1,0 +1,917 @@
+{
+  "attachments/aksu_stock": {
+    "status": "PASSED",
+    "sourceIndexSha256": "5d77a749ba68459d1ef56723d3bd5e04fdba85373f87d9b796e650a3806b4f5c",
+    "briefSha256": "6e4a7e827619af62e29bac397ed3ad6fce96bf51f42c8b3f4f5839bdf47fdad7",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Virtual Museum AKS-74U specimen: full left-side stock extended, opposite-side folded frame, separate hinge/receiver oblique and opposite extended perspective; all four images inspected individually.",
+      "Tokyo Marui official AKS74U product gallery: one complete side profile with wire frame extended and a distinct side frame with stock folded; replica is secondary context only."
+    ],
+    "acceptedArtApproximations": [
+      "Use museum frame silhouette/hinge and Tokyo Marui only for additional overall folded/extended composition; author the exact game hinge fit and do not claim a specific production subvariant."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aksu_stock/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/aksu_stock.md",
+      "rights": "Museum/manufacturer/retailer imagery is retained as private reference-only material; no runtime or redistribution rights asserted.",
+      "duplicates": "Different original image files/camera angles were visually checked. Same exhibit/product-series is described as a related view rather than a different physical SKU; no mirrored or crop-generated frames counted.",
+      "gaps": "No wire-stock tube, hinge, butt loop or folded view. Current refs are non-target forms.",
+      "review": "Target component is visibly present in the counted complete-weapon/product frames. Non-target component details and exact fit remain authored game approximations."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 6,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/aksu_guard": {
+    "status": "PASSED",
+    "sourceIndexSha256": "3ae0d72a7d56e8dae4b9b11808af2c42448bac9cb71d75784d0ca52758e54913",
+    "briefSha256": "000cd372746cc4a8bd75be56bcea45f6411ede4298bb154f5771b244570fb8bf",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Virtual Museum AKS-74U specimen: four different whole-object/profile and oblique frames with short wooden upper/lower handguards visible.",
+      "Tokyo Marui official AKS74U gallery: side, front/upper oblique and lower oblique views; use as secondary assembled-form reference because it is an airsoft replica."
+    ],
+    "acceptedArtApproximations": [
+      "Original short wood handguard with geometry synthesized from AKS-74U specimen and secondary assembled views; no exact manufacturer SKU or dimensions asserted."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aksu_guard/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/aksu_guard.md",
+      "rights": "Museum/manufacturer/retailer imagery is retained as private reference-only material; no runtime or redistribution rights asserted.",
+      "duplicates": "Different original image files/camera angles were visually checked. Same exhibit/product-series is described as a related view rather than a different physical SKU; no mirrored or crop-generated frames counted.",
+      "gaps": "No compact AKS-74U guard-specific rear/front and installed silhouette. Existing long/full-length guards do not close the shortened target.",
+      "review": "Target component is visibly present in the counted complete-weapon/product frames. Non-target component details and exact fit remain authored game approximations."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 8,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/aksu_rail": {
+    "status": "PASSED",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "CAA XRSU47 gallery views: compact AKS-scale handguard body; opposing side/profile views expose the short fore-end relative to receiver and front sight.",
+      "CAA XRSU47 underside / installed-context images: broad lower grip plane, rail placement, and relation to the short gas/front-sight assembly.",
+      "Magpul MAG619/MAG620/MAG680 are excluded from target-length proof; used only as contrasting full-length AK handguard silhouettes."
+    ],
+    "acceptedArtApproximations": [
+      "Original short rail handguard archetype guided by CAA XRSU47 form; adapt socket and rail placement to the existing protected AKSU model. No copied branding or exact proprietary surface relief."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aksu_rail/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/aksu_rail.md",
+      "rights": "Downloaded manufacturer/retailer product photographs retained as private reference-only material; no runtime redistribution rights asserted.",
+      "duplicates": "CAA gallery frames used for distinct views of the short XRSU47; Magpul full-length handguards are not counted as target-form views.",
+      "review": "Manual review supports the compact short handguard silhouette, rail arrangement, underside and installed context; authored fit must still be checked against the game AKSU socket."
+    },
+    "sourceIndexSha256": "b1956d59387547b7c6024cc9c0204f1bf745a8da8b4d9019e5116b6c4c47b572",
+    "briefSha256": "3223bbbe4fc01a23e093a762c2a0309abe3f3e4ce841983e65f6f1320423674e",
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 7,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/aksu_mount": {
+    "status": "PASSED",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Zenitco B-13: eight gallery views, including opposing sides, bottom/clamp and several mounted examples; reviewed as support/clamp archetype only, full length excluded from target scaling.",
+      "AKS-74U museum and Tokyo Marui assembled views: distinct profiles and oblique receiver/top-cover views provide compact platform context; not mount-specific images."
+    ],
+    "acceptedArtApproximations": [
+      "Author-designed short bridge derived from the visible B-13 support architecture but scaled to the game AKSU socket; not a claim that a short B-13 exists or is compatible."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aksu_mount/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/aksu_mount.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceIndexSha256": "2ef7cb4d406f98e699ea66f65fdbe252edb40477686da9fa1f5438fbe17bbdda",
+    "briefSha256": "199c531459f8da9a82d5501e72a2c63fdb222584e909da872da39754e10b4ea0",
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "One B-13 geometry analogue plus four distinct AKS-74U receiver clearance/context views; all other full-size B-13 variants are non-counting."
+    }
+  },
+  "attachments/aksu_muzzle": {
+    "status": "PASSED",
+    "sourceIndexSha256": "19928e673f3042a76720e4a6ac59883cd94fab44062c91a2bbb24d29ce7ba9ac",
+    "briefSha256": "35ac60960dc927ce0f20a76f9dca2f6e912fa7781bb21276780f6e89cee88b7b",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Virtual Museum AKS-74U specimen: four different whole-object and oblique frames with the conical muzzle device visible against the compact front-sight block.",
+      "Tokyo Marui official AKS74U gallery: distinct full profile and close/oblique views of the installed cone and front-sight assembly; airsoft replica photos are supplemental only."
+    ],
+    "acceptedArtApproximations": [
+      "Use a generic AKS-74U-style conical exterior with author-defined socket. Do not copy hidden internals or claim exact threading/manufacturing dimensions."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aksu_muzzle/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/aksu_muzzle.md",
+      "rights": "Museum/manufacturer/retailer imagery is retained as private reference-only material; no runtime or redistribution rights asserted.",
+      "duplicates": "Different original image files/camera angles were visually checked. Same exhibit/product-series is described as a related view rather than a different physical SKU; no mirrored or crop-generated frames counted.",
+      "gaps": "Target short cone/booster side and front shape is not covered.",
+      "review": "Target component is visibly present in the counted complete-weapon/product frames. Non-target component details and exact fit remain authored game approximations."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 8,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/glock_17": {
+    "status": "PASSED",
+    "sourceIndexSha256": "93128d1c21d77f03023a4e613bbed5f322134e1d366f0fafabf41b6dfd3446e8",
+    "briefSha256": "a0ced813d66b66d9fb40e1a33cca91d267765d2a0c4362dfc88b9feab619f59c",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "GLOCK G17 17-round official gallery frame 1: oblique side/profile of exact capacity/product family",
+      "GLOCK G17 17-round official gallery frame 2: opposite/alternate side and body features",
+      "GLOCK G17 17-round official gallery frame 3: rear/side feature view",
+      "GLOCK G17 17-round official gallery frame 4: base/alternate oblique view",
+      "MAG546 PMAG GL9 17-round G17: archetype comparison of side witness windows and floorplate; not an exact GLOCK part"
+    ],
+    "acceptedArtApproximations": [
+      "Авторский straight polymer 17-round Glock-type body; exact mounting interface remains game-defined, no branded logos copied."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_17/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/glock_17.md",
+      "rights": "All images are private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Distinct source images and semantic relevance manually reviewed; frames of one product or color variants are explicitly described as such.",
+      "review": "Четыре производителя GLOCK gallery views plus one separately identified 17-round PMAG archetype are visually distinct and relevant. The 33-round drum and other capacity examples are not used to infer the target 17-round silhouette."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/glock_33": {
+    "status": "PASSED",
+    "sourceIndexSha256": "767d7f3ef14153963b2798d2428b216d0e716e2219f840e332487236227f1642",
+    "briefSha256": "46547f8fb18d012709ed0d7fa686bfc29fef01f011eb6c071eeba46beb0b6ba0",
+    "reviewers": [
+      "reference_research"
+    ],
+    "views": [
+      "2016 45-degree technical view, perforated side and upper feed end",
+      "2016 rear/back-facing profile, centered body and base",
+      "2016 left-side profile, smooth reverse body face",
+      "2023 Gen5 45-degree view with contrasting follower/top insert",
+      "2023 Gen5 back-facing elevation",
+      "2023 Gen5 left-facing side profile"
+    ],
+    "acceptedArtApproximations": [
+      "Use six official GLOCK 33-round gallery photos from two eras as shape reference; do not claim one exact generation or replicate trademarks. Hidden catch/follower internals omitted."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/glock_33.md",
+      "rights": "GLOCK images are copyrighted reference-only; Magpul nonmatching items are excluded from active count.",
+      "duplicates": "Six local image hashes are unique and visual review confirmed distinct camera angles/sides, not pHash false-positive duplicates.",
+      "production": "External low-poly magazine only; no manufacturing or proprietary dimensions."
+    }
+  },
+  "attachments/ak_cheek": {
+    "status": "PASSED",
+    "sourceIndexSha256": "6dd49eb5ed8db6d7e3f81857b63bff55cbc0b787965bb58e6d14a412f534c43e",
+    "briefSha256": "0132e558d98bc053ef0466b56bde495f33a44b601414bcb97424f550c0e836ee",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "stocks_mag616-blk_magpul_moe_ak_stock_01_1.jpg: cheek/comb height context",
+      "stocks_mag585-blk_magpul_zhukov-s_stock_01_1.jpg: alternate cheek and butt profile",
+      "stocks_mag552-blk_magpul_zhukov-s_stock-yugo_01_1.jpg: alternate profile context",
+      "pt1-detail-1.jpg: PT-1 cheek/comb profile",
+      "pt1-detail-2.jpg: PT-1 alternate side and cheek-height detail"
+    ],
+    "acceptedArtApproximations": [
+      "Use PT-1/Magpul only as external cheek geometry archetypes; authored mount remains game-defined."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_cheek/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_cheek.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 7,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_vent": {
+    "status": "PASSED",
+    "sourceIndexSha256": "c20f0b032bd64dcb606766b9edaf21cf545040ce7c8383a6d7e94565bd10efe0",
+    "briefSha256": "96efe5480e63f51e950cfd9db8b44ee95656a46184edc74a06d16df34d329166",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Five independent Zenitco B-10U photos manually inspected: direct side, two oblique sides, top rail, and underside/back; all show a genuinely vented AK fore-end.",
+      "Magpul alternatives explicitly excluded as vent-pattern proof."
+    ],
+    "acceptedArtApproximations": [
+      "Original vented AK handguard with large rounded side slots and thick structural ribs; B-10U is archetype only, no copied marks or exact dimensions."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_vent/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_vent.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "gaps": "Only three useful B-10U images according to the inspected source gallery; add two appropriate views.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_palm": {
+    "status": "PASSED",
+    "sourceIndexSha256": "229e356e33493853736cb8eebb0bb104432bedd85d037a0dfb43e14fae13736b",
+    "briefSha256": "ea1e07661af86158facd8b58eb7dee8833e78ec8331dd3dee1800aecc1a52baf",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG683 K2 / MAG682 MOE SL / MAG523 MOE: three palm/back contours",
+      "CAA G47 frames 1–3: palm swell and base/installed views",
+      "CAA G47 frames 4–5: additional surface and end views"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined palm-swell grip; distinct from plain grip through broader rear/side palm contour."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_palm/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_palm.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    }
+  },
+  "attachments/ak762_20": {
+    "status": "PASSED",
+    "sourceIndexSha256": "151680f0caf11c1cf9a09b4c11b5a5db09842af83384b037b08a7ea5a229a6cc",
+    "briefSha256": "45cd269ad5cda2c6110bd1ef30dae594f45862979c13bdc69463dcae65d19721",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG658 official product image: exact 20-round PMAG external side silhouette",
+      "MAG658 Feature 01: base/body feature view",
+      "MAG658 Feature 02: side texture and window detail",
+      "MAG658 Feature 03: alternate three-quarter view",
+      "MAG658 Feature 04: base/upper body detail"
+    ],
+    "acceptedArtApproximations": [
+      "Use the exact 20-round Magpul product only as exterior archetype; keep game attachment interface independent."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak762_20/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak762_20.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_ported": {
+    "status": "PASSED",
+    "sourceIndexSha256": "2a66a29c291000ccc6611540c4b0ce0256cf70b13ac068a69c319e0a18b6edc4",
+    "briefSha256": "39fd11a97973c54a88b097ad68f012efaea602f058ee7620bb171ce86eb22dbd",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Five distinct Zenitco DTK-1/2/3M images show ported brake/compensator bodies and opening patterns; one is installed on an AK-pattern rifle.",
+      "SureFire SFMB/Warcomp images are supplemental; closed suppressor cans excluded."
+    ],
+    "acceptedArtApproximations": [
+      "Original short perforated device using broad visible ports, scaled for the game AK socket; not a copy or specific compatibility claim."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ported/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_ported.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "gaps": "Current set lacks five suitable ported-compensator views and must not use suppressor-can shape.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 10,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_stock": {
+    "status": "PASSED",
+    "sourceIndexSha256": "16aa5cadb9bffb3a5eef1f09a4675dc22726010e10cc9bd63d2a890577cfd75a",
+    "briefSha256": "890f9005bd20320557bb703c43710688f0cf96f7cb724df3d62a577b629501d8",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG616 MOE AK stock: side profile, cheek and buttpad form",
+      "MAG585 Zhukov-S stock: distinct folding/adjustable silhouette archetype",
+      "MAG552 Yugo Zhukov-S stock: alternate platform profile, contrast only",
+      "PT-1 detail frames 1–4: side view and adjustment/cheekpiece states",
+      "PT-1 detail frames 5–7: additional lock/adjustment and installed profile details"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined AK polymer stock silhouette; PT-1 frames are used for visible cheek/adjustment cues only, not copied as exact mechanism or interface."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_stock/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_stock.md",
+      "rights": "All images are private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Distinct source images and semantic relevance manually reviewed; frames of one product or color variants are explicitly described as such.",
+      "review": "Ten unique source files reviewed. Product model families provide distinct profiles; the PT-1 sequence includes related states of one product and is counted as feature coverage, not as independent models."
+    }
+  },
+  "attachments/ak_wood_stock": {
+    "status": "PASSED",
+    "sourceIndexSha256": "7422e898a3c41a8871d6973d32fc477dd3ee9986ab5c2e0b17774de1afa4ee70",
+    "briefSha256": "cea4a37beb99a04a84bb1ca06cdb1c4153910a0ed3c16db2edd8ce33d6e2a754",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Пять самостоятельных файлов проверены по предмету/ракурсу; коллекционные деревянные детали сочетаются с различными полными музейными ракурсами AKM, где дерево отчетливо различимо."
+    ],
+    "acceptedArtApproximations": [
+      "Точные размеры и посадка остаются авторскими; музейные сборки использованы как контекст, без заявлений о совпадении варианта."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_wood_stock/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_wood_stock.md",
+      "rights": "Private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Пять активных изображений имеют разные SHA-256; собранные варианты и контрастные материалы сохранены вне активного набора.",
+      "review": "Useful silhouette and wood-material coverage includes full-profile/oblique and close stock/laminate views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Два (ak_wood_stock) / один (ak_wood) distinct museum photo(s) added from existing reviewed AKM weapon gallery; component clearly visible; no crop was counted."
+    },
+    "reviewedAt": "2026-10-17"
+  },
+  "attachments/ak_skeleton": {
+    "status": "PASSED",
+    "sourceIndexSha256": "f25026ee56a6344043b446afab5e6689de2bcee17e080156c7afae42d85b7b31",
+    "briefSha256": "1a97bd114c92dea0620165701c05526464140121d766a4bc051d4c9f8fff73a8",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Five distinct AK-12 ARMY-2020 exhibition photos manually reviewed: complete profile, opposite profile, rear three-quarter, hinge close-up and oblique view showing large open stock panels.",
+      "The source stock is a native AK family form archetype, not the exact game skeleton-stock SKU."
+    ],
+    "acceptedArtApproximations": [
+      "Original skeletal stock that retains a few broad, reinforced openings and a thick buttpad; infer no exact locking mechanism or factory fit from the AK-12 analogue."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_skeleton/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_skeleton.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "gaps": "Current refs do not show an open skeleton stock frame or its back/hinge profile.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_poly": {
+    "status": "PASSED",
+    "sourceIndexSha256": "abe17ef960d834e657d765eb2ad319f1749e62437606b4ffbfe0c9cc98d03a16",
+    "briefSha256": "b7d0deca48423967380b5a58d2ce28fd0a35ca78502a921e67aed0af7564b4ba",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG619 MOE AK: polymer handguard profile",
+      "MAG620 MOE AKM: alternate polymer guard shape",
+      "MAG680 Zhukov-U: broad polymer shell contrast",
+      "Zenitco B-10M frames 1–2: rail/vent profile archetypes",
+      "CAA XRS47 gallery: alternate rail shell and mounted scale"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined polymer AK guard; no commercial interface or brand markings copied."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_poly/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_poly.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 10,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_wood": {
+    "status": "PASSED",
+    "sourceIndexSha256": "a56d13c898a72deb330f04d6df1a9db68b2de4c998285b7dd70a88d3a5442537",
+    "briefSha256": "bc1b5287fbca429efd967cb9e0c5efc5a39acd474c2227e6cc99d8897b08815e",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Пять самостоятельных файлов проверены по предмету/ракурсу; коллекционные деревянные детали сочетаются с различными полными музейными ракурсами AKM, где дерево отчетливо различимо."
+    ],
+    "acceptedArtApproximations": [
+      "Точные размеры и посадка остаются авторскими; музейные сборки использованы как контекст, без заявлений о совпадении варианта."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_wood/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_wood.md",
+      "rights": "All images are private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Пять активных изображений имеют разные SHA-256; собранные варианты и контрастные материалы сохранены вне активного набора.",
+      "review": "Пять+ полезных файлов проверены вручную; две новые фотографии показывают отдельные ламинированные детали. Коллекционная галерея и музейные изображения остаются reference-only."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Два (ak_wood_stock) / один (ak_wood) distinct museum photo(s) added from existing reviewed AKM weapon gallery; component clearly visible; no crop was counted."
+    },
+    "reviewedAt": "2026-10-17"
+  },
+  "attachments/ak_rail": {
+    "status": "PASSED",
+    "sourceIndexSha256": "15c5f230c1801ef80d970ab1e6b2c445ea8bac3bcf10a4d2f29f62a9afa3fcdf",
+    "briefSha256": "ffc1d486be1f7fa41d2eb65f0212929b5987177371d4bf3fc514db76c13fa01b",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG619/MAG620/MAG680: AK guard silhouette contrast",
+      "Zenitco B-10M frames 1–2: side/top rail run and major apertures",
+      "CAA XRS47 frames 1–2: side rail sections and mounted shape",
+      "CAA XRS47 frames 3–4: second useful body/rail view"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined rail handguard based on multiple AK rail-shell archetypes; keep the base AK interface game-defined."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_rail/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_rail.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 15,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_grip": {
+    "status": "PASSED",
+    "sourceIndexSha256": "f5fc7f3ee710d61e54e2e285e16057b2c92c259a5e5f88342466c198fa2bb085",
+    "briefSha256": "d405ba93682dc90a07f41fb28e7f5210e6d7d0b0d0a2974d9d1bcc9adbe52460",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG523 MOE AK grip: side form and palm contour",
+      "MAG682 MOE SL AK grip: alternate side silhouette and texturing",
+      "MAG683 K2 AK grip: alternate back/angle and grip inclination",
+      "CAA G47 gallery views 1–3: distinct isolated/installed product angles including attachment/context",
+      "Remaining CAA G47 gallery views: additional surface and installed context, not treated as independent grip designs"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined plain AK grip with broad palm body, simple front/back planes, restrained molded texture; use Magpul/CAA only as shape archetypes."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_grip/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_grip.md",
+      "rights": "All images are private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Distinct source images and semantic relevance manually reviewed; frames of one product or color variants are explicitly described as such.",
+      "review": "At least six relevant distinct gallery images were inspected; the first three Magpul silhouettes are separate models, CAA images add body and installed context. Exact interface is not asserted."
+    }
+  },
+  "attachments/ak_ergo": {
+    "status": "PASSED",
+    "sourceIndexSha256": "c04d354b2eda3b217702e955897a1cebc720cdc8cfb47aaf8ff96cc41693b0c3",
+    "briefSha256": "bc2ab279906ca6bb0874c1ae550c025794e17c65db037b2673bb063fe1f55a90",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG683 K2, MAG682 MOE SL, MAG523 MOE: three distinct grip profiles and textures",
+      "CAA G47 frames 1–3: separate grip shape and installed context",
+      "CAA G47 frames 4–5: additional side/end detail"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined ergonomic grip; Magpul/CAA are visual archetypes only."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ergo/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_ergo.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    }
+  },
+  "attachments/ak_mount": {
+    "status": "PASSED",
+    "sourceIndexSha256": "b6d0f4ac2c173b3bcb9141156b375d243a43b4018c67aa40ee9fd72d3f4ff053",
+    "briefSha256": "90e86d7b3af3771da9cde4c156bd051b8b967eb7f233ce32b47dde452cd09773",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Zenitco official B-13 black profile: overall side silhouette",
+      "Repmart gallery frame 2: black mount oblique, upper rail and underside clamp",
+      "Repmart gallery frame 3: reverse three-quarter face, perforated side wall and dovetail clamp",
+      "Repmart gallery frame 4: mounted side close-up for position/context",
+      "Repmart gallery frame 5: mounted top/rear three-quarter angle for rail and receiver proportions"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined AK side-mount silhouette based on visible B-13 external form; seller-attributed B-13 images are visual references only, not verified engineering drawings or a compatibility claim.",
+      "Simplify hidden clamp details to the visual form; fit to protected game receiver."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_mount/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_mount.md",
+      "rights": "All images remain private reference-only; redistribution/runtime rights not established.",
+      "duplicates": "Three original Zenitco images are same profile in color variants and count as one angle family; separate Repmart images add two distinct product angles and two mounted context views.",
+      "review": "Five useful non-duplicate forms/views now cover side, opposite 3/4 surfaces, lower clamp, upper rail and installed scale. Repmart seller attribution is not independent authenticity proof."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Retained one isolated official B-13 profile plus four independent Repmart images; all other old references are non-counting."
+    }
+  },
+  "attachments/ak545_30": {
+    "status": "PASSED",
+    "sourceIndexSha256": "06d1f43b897de66b2899517d8235f368db993fe5f21373c3eff178df5758057e",
+    "briefSha256": "5442fb8398cf233f811e1c43db788870c13c8c830e1a0de18527549dfbfbf0bf",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG673 PMAG 30 AK74: polymer archetype side profile",
+      "AK74 30 Gen3 views 1–2: 30-round body and base/profile",
+      "AK74 30 Gen2 window views 1–2: 30-round body with witness windows",
+      "AK74 10-round views: explicitly comparative length only"
+    ],
+    "acceptedArtApproximations": [
+      "Use only 30-round images for target length; 10-round items are contrast-only. Interface remains game-defined."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak545_30/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak545_30.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Comparative-only images moved to nonCountingReferences; only target-appropriate evidence is counted."
+    }
+  },
+  "attachments/ak545_45": {
+    "status": "PASSED",
+    "sourceIndexSha256": "29725194b943194915f0f110dea489003de879b8e254626545101d20bcb385a6",
+    "briefSha256": "6f97a648030d9c0546ddc294a49c376b3b6ba69dee18736d559dbf242635edba",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "AC-Unity 45-round windowed gallery: three distinct side/oblique views of exact 5.45×39 target envelope and window location.",
+      "ThinLine guide images: 45-round Molot Bakelite and plum ribbed profiles; Russian black pair and East German pair expose differing ribs, shell profiles and base ends.",
+      "ThinLine comparative 30/40/45 image used only for scale; it is not counted as a separate target-view angle."
+    ],
+    "acceptedArtApproximations": [
+      "Original 45-round 5.45×39 magazine appearance using AC-Unity for the windowed outer form and other documented 45-round shells for generic curvature/material variants; no copied brand marks or exact internal geometry."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak545_45/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak545_45.md",
+      "rights": "AC-Unity and third-party guide images are private visual references only; no runtime or redistribution rights asserted.",
+      "duplicates": "Five downloaded ThinLine frames were visually inspected. They show distinct images/products, not crops or mirrored duplicates; color-only alternatives are not counted as extra camera views. The size comparison is supplemental, not an independent target angle.",
+      "gaps": "Only three suitable target-capacity files; need two more independent useful 45-round views.",
+      "review": "The three AC-Unity images remain exact windowed target refs; five additional 45-round archetype images cover shell curvature, rib pattern, base/end, and relative scale. Generic external-form brief now has adequate target-family evidence."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 8,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak762_30": {
+    "status": "PASSED",
+    "sourceIndexSha256": "6411e3a08759df6307aaa8176f88a11b6bb26597d14a72a72e5a5307e03eb955",
+    "briefSha256": "60c2b6fe941739fb7d9a7da684225e442b158dfaa7cd7e4bab435908a4b8b954",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG573/MAG572: two 30-round AK polymer magazine profiles",
+      "MAG658 20-round body: comparative length only",
+      "MAG657 10-round body: comparative length only",
+      "XTech MAG47 frames 1–2: 30-round curved-body profile/details",
+      "XTech MAG47 frames 3–4: additional product angles"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined 30-round curved AK magazine; XTech and Magpul are external shape archetypes, not compatibility claims."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak762_30/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak762_30.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 6,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_brake": {
+    "status": "PASSED",
+    "sourceIndexSha256": "54095e3d29373ea7c1a3578314f2ceb25291aa612b6ab223f8b93f53302c4697",
+    "briefSha256": "88c135816494662930c6accc3fd498e581e5c93d56880b960fbbb2aa9465f3bd",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Five Zenitco DTK-1/2/3M images reviewed: front opening, side ports, rear collar, compact alternative and an installed AK-pattern view.",
+      "SureFire cans excluded; SFMB/Warcomp remain supplemental secondary examples."
+    ],
+    "acceptedArtApproximations": [
+      "Generic original AK muzzle brake with large side ports and stepped collar; no exact product interface or real-world function inferred."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_brake/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_brake.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "gaps": "Fewer than five distinct appropriate brake images; most package pages are suppressor cans. Replace with target brake gallery.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 10,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak_suppressor": {
+    "status": "PASSED",
+    "sourceIndexSha256": "1f5e55a44a8360355d2d2f68f6af6b249a082bf98954704f5495b8a2a53900da",
+    "briefSha256": "e61beb89bf2bf1b79dacedc226e327ceec17d5cb63bee9f834f39a1a60cccc71",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "SOCOM556-MINI2 page: separate suppressor can, end and rear collar views",
+      "SOCOM556-RC2 page: separate suppressor can and mount silhouette",
+      "SOCOM556-RC3 page: separate suppressor can silhouette",
+      "SOCOM556-RC4 page: separate suppressor can silhouette",
+      "SOCOM300-SPS page: fifth distinct closed suppressor product form",
+      "SF3P, SFMB, Warcomp CTN/Sport: explicitly excluded; these are muzzle devices, not suppressors"
+    ],
+    "acceptedArtApproximations": [
+      "Generic authored external can/collar profile; no internal baffle modeling, brand marks, or product-specific compatibility claim."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_suppressor/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak_suppressor.md",
+      "rights": "All images are private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Distinct source images and semantic relevance manually reviewed; frames of one product or color variants are explicitly described as such.",
+      "review": "Five distinct SureFire product pages depict actual suppressor bodies. Three flash hider/Warcomp pages are explicitly non-counting and excluded."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak12_stock": {
+    "status": "PASSED",
+    "sourceIndexSha256": "3daab61d92c6aa48a24177b14f280c5411b16dc731ada4b960cc2bdc25a6f6ce",
+    "briefSha256": "4cd685ba44f58bf7acc89a23bb87937cd0a2bf1b61ec5a363512d92ec31d2fe4",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Five distinct AK-12 ARMY-2020 photos: rear three-quarter cheek/buttpad, two side profiles, close hinge/receiver and oblique rear/action view.",
+      "Magpul/PT-1 images are comparison alternatives, excluded from target-specific counts."
+    ],
+    "acceptedArtApproximations": [
+      "Use the observed angular AK-12 stock silhouette as visual basis; small controls and exact internal hinge are author simplified."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_stock/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak12_stock.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "gaps": "No AK12-specific L-shaped stock silhouette, rear profile or installed close-up in current package.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak12_cheek": {
+    "status": "PASSED",
+    "sourceIndexSha256": "b88a63f696dbfe344e4a03abdfc980406950abee4fa85e3ac5e91d40937a44ae",
+    "briefSha256": "63be08d0b1ce00aac9df850f04b79ce586fc9745a8a1b49c1168325367b6d855",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Magpul MOE AK stock: baseline cheek/comb profile",
+      "Magpul Zhukov-S stock: alternate cheek/comb contour",
+      "Magpul Yugo Zhukov-S stock: alternate profile contrast",
+      "PT-1 frames 1–2: two cheek-profile/height views",
+      "PT-1 detail frames 3–4: adjustment feature and top surface"
+    ],
+    "acceptedArtApproximations": [
+      "Author-defined AK12 cheek shape based on visible PT-1/Magpul archetypes; no exact AK12 stock compatibility claim."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_cheek/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak12_cheek.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 7,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak12_guard": {
+    "status": "PASSED",
+    "sourceIndexSha256": "c957caa4f2fe0bf78b8a66d141a275a63f8fba88cf1112406327cd29a6f3dce2",
+    "briefSha256": "1e2dca0487f5f390cfb2bba61849d9600fc0bb2f1962f4ea3056f0d791cc473d",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "MAG619/MAG620/MAG680: polymer AK guard profile archetypes",
+      "Zenitco B-10M frame 1: handguard side profile",
+      "Zenitco B-10M frame 2: side/bottom rail and vent detail",
+      "CAA XRS47 frames 1–3: alternate rail shell and installed scale (inspected in gallery)"
+    ],
+    "acceptedArtApproximations": [
+      "Original AK12-style interpretation; B-10M and XRS47 are shape/rail archetypes only, not claimed as exact AK12 parts."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_guard/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak12_guard.md",
+      "rights": "All sources private reference-only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Product families/states explicitly described; capacity, length and category contrasts are excluded from target-geometry count.",
+      "review": "At least five appropriate external-form views reviewed, except ak545_window_30 which remains PARTIAL with only two exact windowed target views."
+    }
+  },
+  "attachments/ak12_guard_long": {
+    "status": "PASSED",
+    "sourceIndexSha256": "6395443310619e169158397b63b4de27dfd6fb49f48b8f64897ae9c38182bb32",
+    "briefSha256": "bdb56fcd394d1e9cb6ed39382408b17fa9173e6d0f5eea16d36d2a2a150eabd8",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Four AK-12 exhibition photos show fore-end length on the actual family rifle, opposite side, lower rail and transition to barrel/front block.",
+      "Additional independent Magpul/Zenitco/CAA gallery images show rail and handguard cross-sections; these are form analogues, not compatibility claims."
+    ],
+    "acceptedArtApproximations": [
+      "Author long AK-12 guard, based on visible AK-12 assembly proportions and broad rail archetypes; fit is game-authored."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_guard_long/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak12_guard_long.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "gaps": "No independent target-specific AK12 long-guard silhouette; the package is shared with other guard IDs and needs specific target-length evidence.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    }
+  },
+  "attachments/ak12_brake": {
+    "status": "PASSED",
+    "sourceIndexSha256": "6826ad0a2598bc4e683a9f754882a0ab175efc9b0fc1a83986de1c2dec58e615",
+    "briefSha256": "e541465d3dd52844439540131fb12e5d434bd0b350bc22940c9916af8c95321f",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Five Zenitco DTK-1/2/3M manufacturer images: side/body, front ports, rear mount collar, alternate compact layout, and one installed AK-pattern view.",
+      "AK-12 exhibition context is cited only for the platform silhouette; no claim the Zenitco SKU is a standard AK-12 part."
+    ],
+    "acceptedArtApproximations": [
+      "Original ported device scaled to game AK-12; actual AK-12 muzzle versions vary, so this is a game customization rather than a claimed stock configuration."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_brake/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak12_brake.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "gaps": "No AK12-specific ported brake set and fewer than five relevant independent brake references.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 10,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak12_can": {
+    "status": "PASSED",
+    "sourceIndexSha256": "f622a6fd1efc1944689f58f104d856f796e25d58fa373f796e1b9b61fafc6d01",
+    "briefSha256": "f24dd08e3b98458b87514ac8da0db85a9e43b306c5c62efaf64654ec62ea56f9",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Five distinct SureFire can product references (MINI2, RC2, RC3, RC4, SOCOM300-SPS) expose cylindrical bodies, front caps, rear collars and length/diameter variation.",
+      "SF3P, SFMB and Warcomp images are explicitly excluded because they are muzzle devices, not suppressor bodies."
+    ],
+    "acceptedArtApproximations": [
+      "Use a generic suppressor body archetype on the AK-12 game socket; fit is a game approximation and not a claim of exact real-world attachment compatibility."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_can/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak12_can.md",
+      "rights": "Museum/manufacturer/retailer imagery is retained as private reference-only material; no runtime or redistribution rights asserted.",
+      "duplicates": "Different original image files/camera angles were visually checked. Same exhibit/product-series is described as a related view rather than a different physical SKU; no mirrored or crop-generated frames counted.",
+      "gaps": "General can archetypes cover the outer body only; no AK12-specific mounting or silhouette evidence. It shares the same source set as ak_suppressor, so not independent variant evidence.",
+      "review": "Target component is visibly present in the counted complete-weapon/product frames. Non-target component details and exact fit remain authored game approximations."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  },
+  "attachments/ak545_window_30": {
+    "status": "PASSED",
+    "sourceIndexSha256": "a9a93e149eee9e35cde1c8c6ed44aa579a1d8c891f42acb5c8d4c5b435db3cad",
+    "briefSha256": "0542f38389787b3288ed309a450fa9483408ede347f64ec403275f135e21eb3d",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "views": [
+      "Two AC-Unity Gen2 photos show the target 30-round 5.45 windowed magazine directly.",
+      "Three distinct AK-12 assembled photos show 30-round 5.45 windowed magazines installed, adding different full-side/scale contexts; they are not claimed to be the AC-Unity product.",
+      "45-round magazine references excluded."
+    ],
+    "acceptedArtApproximations": [
+      "Author 30-round windowed magazine using the AC-Unity photos for target window profile and AK-12 photos only for related 5.45 magazine body context."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak545_window_30/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ak545_window_30.md",
+      "rights": "All copyrighted/unlicensed photos remain private visual references only; no runtime/public redistribution rights asserted.",
+      "duplicates": "Original images were visually inspected. Distinct camera frames are described as views of the same specimen where applicable; no crops, mirrors or color variants counted as new views.",
+      "review": "The component is visible in counted isolated/product or assembled-platform frames. Any exact mounting fit not visually established is explicitly treated as an original game approximation."
+    },
+    "sourceCleanup": {
+      "checked": true,
+      "activeTargetReferences": 5,
+      "note": "Incorrect object/capacity/type images moved to nonCountingReferences; exclusions are preserved with reasons."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "G17_Slide_LOD0": {
+    "vertices": 4992,
+    "triangles": 9956
+  },
+  "G17_Magazine_LOD0": {
+    "vertices": 248,
+    "triangles": 488
+  },
+  "G17_BarrelVisual_LOD0": {
+    "vertices": 864,
+    "triangles": 1716
+  },
+  "G17_FrontSight_LOD0": {
+    "vertices": 336,
+    "triangles": 664
+  },
+  "G17_RearSight_LOD0": {
+    "vertices": 508,
+    "triangles": 1000
+  },
+  "G17_Trigger_LOD0": {
+    "vertices": 280,
+    "triangles": 552
+  },
+  "G17_Frame_LOD0": {
+    "vertices": 5252,
+    "triangles": 10412
+  },
+  "total_triangles": 24788
+}

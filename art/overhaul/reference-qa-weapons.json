@@ -1,0 +1,1400 @@
+{
+  "weapons": {
+    "weapon_saiga12k": {
+      "status": "PASSED",
+      "sourceIndexSha256": "ae8098aa146649db5930dff585a29ff04c20dd9ed99cc1a343cf6582cf0db12f",
+      "briefSha256": "c81ed2b8cb41c52c4fd9051808bba4183af8cf6bd0e4c8c5575bf77a6ccaacb5",
+      "reviewers": [
+        "Luna (manual image review)",
+        "Sol (not yet assigned)"
+      ],
+      "views": [
+        "opposing left and right side profiles",
+        "upper/rear three-quarter with top rail/receiver",
+        "separate magazine object view",
+        "receiver/stock junction close-up",
+        "front assembly three-quarter close-up"
+      ],
+      "acceptedArtApproximations": [
+        "Use 030 L-430 stock/guard silhouette as family-form cue; omit product top rail from bare default and keep it as saiga_rail child module.",
+        "Fit saiga_8 only to the 030 installed magazine/magwell shown in TEMP Gun image 01; do not use CSSPEC D-2/D-3 geometry for 030 interface.",
+        "Simplify microdetail under the game low-poly direction while retaining separate material response and silhouette."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_saiga12k/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_saiga12k.md",
+        "countedImages": [
+          "tempgun_saiga030_01.jpg",
+          "tempgun_saiga030_02.jpg",
+          "tempgun_saiga030_03.jpg",
+          "tempgun_saiga030_04.jpg",
+          "tempgun_saiga030_05.jpg",
+          "tempgun_saiga030_06.jpg"
+        ],
+        "variant": "Exact variant fixed as catalog weapon_saiga12k execution 030, article no. 202900900411, default saiga_stock/saiga_guard/ak_grip/saiga_8. 8-round magazine is shown installed in TEMP Gun image 01 and separately in image 03; official Kalashnikov Club price sheet independently identifies SKU and 8-round magazine.",
+        "variantEvidenceUrls": [
+          "https://kalashnikov.club/static/pdf/loyalty.pdf",
+          "https://www.kalashnikov.ru/medialibrary/f91/054_056.pdf"
+        ]
+      }
+    },
+    "weapon_ak74m": {
+      "status": "PASSED",
+      "sourceIndexSha256": "fcb7ef98c5cc6b1f75c1c04546ac7772519a2fe4a4f4923296691f54949d1b1f",
+      "briefSha256": "1f322a033d1040347a7ee108030bec6d2e3e1a3881711179150bc3edf9613f29",
+      "reviewers": [
+        "Luna (manual image review)",
+        "Sol (not yet assigned)"
+      ],
+      "views": [
+        "two opposing side/profile product views",
+        "stock and rear receiver close-up",
+        "front assembly / fore-end view",
+        "receiver/magazine/trigger-area close-up"
+      ],
+      "acceptedArtApproximations": [
+        "AK74M base geometry is explicitly excluded; images are fitting and family-form references only.",
+        "Modules remain catalog low-poly representations and must follow current mount transforms, not copy individual specimen markings."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_ak74m/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_ak74m.md",
+        "countedImages": [
+          "bham_ak74m_01.jpg",
+          "bham_ak74m_02.jpg",
+          "bham_ak74m_03.jpg",
+          "bham_ak74m_04.jpg",
+          "bham_ak74m_05.jpg",
+          "bham_ak74m_06.jpg",
+          "bham_ak74m_07.jpg",
+          "bham_ak74m_08.jpg"
+        ],
+        "variant": "Current default fixed as catalog build ak_stock/ak_poly/ak_grip/ak545_30/ak_brake; base excluded; module IDs and group scope enumerated."
+      }
+    },
+    "weapon_m4a1": {
+      "status": "PASSED",
+      "sourceIndexSha256": "3fb004ec76e68338783a81d1fd026d3728a14025e45feac2ed3be1fbbfc3715e",
+      "briefSha256": "3829c0ff4d993d70fa082ae3541e69bcf014b1b7c78d4bae8a9644616fc36def",
+      "reviewers": [
+        "Luna (manual image review)",
+        "Sol (execution/review pending)"
+      ],
+      "views": [
+        "rear sight / upper receiver close-up",
+        "front sight, barrel and handguard close-up",
+        "near-front angle while carry handle is removed",
+        "near-side full carbine 3/4",
+        "near-side full weapon firing view",
+        "upper/rear oblique toward muzzle"
+      ],
+      "acceptedArtApproximations": [
+        "Target fixed to current catalog default ar_stock/ar_poly/ar_grip/ar556_30/ar_brake; DVIDS photos confirm M4A1 family shape but do not override default parts.",
+        "M4A1 carbine silhouette uses short 14.5-inch-class barrel, fixed front sight, M4 polymer handguard and telescoping stock; image set does not prove a clean opposite-side or underside view.",
+        "Simplify non-silhouette detail under project low-poly style; no copied serials/marks/emblems, no attached optic or laser in default."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_m4a1/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_m4a1.md",
+        "countedImages": [
+          "images/dvids_2830660.jpg",
+          "images/dvids_2830661.jpg",
+          "images/dvids_2830654.jpg",
+          "images/dvids_2830665.jpg",
+          "images/dvids_2830669.jpg",
+          "images/dvids_2830675.jpg"
+        ],
+        "variant": "Current catalog default fixed as ar_stock/ar_poly/ar_grip/ar556_30/ar_brake; DVIDS/U.S. Army gallery labels the external service weapon M4A1. References include accessory/sight configurations; base target excludes accessory changes not present in catalog default.",
+        "variantEvidenceUrls": [
+          "https://cpeground.army.mil/Equipment/Equipment-Portfolio/PM-SL-Portfolio/M4A1-Carbine/",
+          "https://www.dvidshub.net/image/2830641/usag-benelux-soldiers-qualify-with-brand-new-m4a1-carbines"
+        ]
+      }
+    },
+    "weapon_akm": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8d8e0b2953052342f2b05fcb4b2e6a985b706df9631cf0cb33b9620e880d0092",
+      "briefSha256": "e4f42769e5d15d1d0fffe3dc2d301ba9bb48aed57f23ff1bec3cd117bad98e2f",
+      "reviewers": [
+        "Luna (manual image review)",
+        "Sol (asset execution review pending)"
+      ],
+      "views": [
+        "opposing left and right side profiles",
+        "front-right three-quarter full view",
+        "rear-left three-quarter full view",
+        "receiver marking/texture close-up"
+      ],
+      "acceptedArtApproximations": [
+        "Base AKM mesh and asset identity remain excluded from overhaul.",
+        "Use Polish museum specimen only as AKM-family assembly/fit context; do not transfer markings or claim aftermarket-module validation.",
+        "Model only explicitly catalogued child modules and preserve current virtual mount transforms.",
+        "Translate surface detail into angular low-poly planes and shared project materials."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_akm/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_akm.md",
+        "countedImages": [
+          "digitaltmuseum_akm_01.jpg",
+          "digitaltmuseum_akm_02.jpg",
+          "digitaltmuseum_akm_03.jpg",
+          "digitaltmuseum_akm_04.jpg",
+          "digitaltmuseum_akm_05.jpg"
+        ],
+        "variant": "Armémuseum/DigitaltMuseum AM.016072; Polish-made 1971 AKM-family museum/training specimen. Game default build fixed from src/content/weapons.ts: ak_wood_stock/ak_wood/ak_grip/ak762_30/ak_brake. Base AKM modeling excluded; scope is child modules only.",
+        "variantEvidenceUrls": [
+          "https://digitaltmuseum.se/011024370718/762-mm-automatkarbin-akm"
+        ]
+      }
+    },
+    "weapon_rpk74m": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8c04e94d716ca5398d72112e9fea2e27423da1fe4846eea82c836c9f58476055",
+      "briefSha256": "76e7766f1b0321b6d23455d5c7b193de51671a4f6c0afb0ff60a4a1f814534fb",
+      "reviewers": [
+        "Luna (manual source/image/variant/brief review)"
+      ],
+      "views": [
+        "zonwar_rpkm_987.jpg — full profile with black 45-round magazine/folded support legs.",
+        "zonwar_rpkm_988.jpg — front-left deployed-bipod 3/4 view.",
+        "zonwar_rpkm_991.jpg — opposite-side profile with stock hinge/receiver side.",
+        "zonwar_rpkm_992.jpg — opposite-side rear 3/4.",
+        "zonwar_rpkm_998.jpg — muzzle/front-sight/bipod detail.",
+        "zonwar_rpkm_999.jpg — rear/top sight detail; nondefault orange magazine excluded.",
+        "zonwar_rpkm_1004.jpg — stock hinge/rear receiver/grip detail; alternate magazine excluded.",
+        "zonwar_rpkm_1006.jpg — opposite receiver/control side; alternate magazine excluded."
+      ],
+      "acceptedArtApproximations": [
+        "Catalog default frozen: rpk_stock + rpk_guard + ak_grip + ak545_45 + ak_brake.",
+        "Keep bipod folded state only; no new deploy animation. Omit optic/sling/orange magazine/Drone-Fighter from default.",
+        "Reference gallery source labels exact RPK-74M; hidden underside and mount interfaces still follow project contracts, not photo inference."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_rpk74m/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_rpk74m.md",
+        "countedImages": [
+          "images/zonwar_rpkm_987.jpg",
+          "images/zonwar_rpkm_988.jpg",
+          "images/zonwar_rpkm_991.jpg",
+          "images/zonwar_rpkm_992.jpg",
+          "images/zonwar_rpkm_998.jpg",
+          "images/zonwar_rpkm_999.jpg",
+          "images/zonwar_rpkm_1004.jpg",
+          "images/zonwar_rpkm_1006.jpg"
+        ],
+        "sourceIndexSha256": "8c04e94d716ca5398d72112e9fea2e27423da1fe4846eea82c836c9f58476055",
+        "briefSha256": "76e7766f1b0321b6d23455d5c7b193de51671a4f6c0afb0ff60a4a1f814534fb",
+        "variant": "RPK-74M, locked catalog default assembly and 45-round module."
+      }
+    },
+    "weapon_asval": {
+      "status": "PASSED",
+      "sourceIndexSha256": "399cca4e070167b1037ec47a6475227beafbd44f0ac5d30cd2190d1df1c13181",
+      "briefSha256": "72b5c777359852e83f3e9611fbebe5a06f991ff55a715a10f4e82af10928c9f9",
+      "reviewers": [
+        "Luna (manual image review)",
+        "Sol (asset execution review pending)"
+      ],
+      "views": [
+        "right profile, stock extended",
+        "left profile, stock extended",
+        "right profile, stock folded",
+        "left profile, stock folded",
+        "stock/folding mechanism close-up",
+        "right receiver detail",
+        "left receiver detail",
+        "controls/grip close-up",
+        "integral suppressor close-up"
+      ],
+      "acceptedArtApproximations": [
+        "Use default catalog build val_stock/val_guard/val_grip/val_20; integral suppressor stays in base body.",
+        "Use extended stock as static default because runtime state does not authorize a new folding track.",
+        "Omit real serial/markings; simplify microdetail to angular low-poly facets and shared materials."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_asval/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_asval.md",
+        "countedImages": [
+          "vitaly_kuzmin_as_val_01.jpg",
+          "vitaly_kuzmin_as_val_09.jpg",
+          "vitaly_kuzmin_as_val_12.jpg",
+          "vitaly_kuzmin_as_val_16.jpg",
+          "vitaly_kuzmin_as_val_19.jpg",
+          "vitaly_kuzmin_as_val_21.jpg",
+          "vitaly_kuzmin_as_val_22.jpg",
+          "vitaly_kuzmin_as_val_25.jpg",
+          "vitaly_kuzmin_as_val_26.jpg"
+        ],
+        "variant": "Exact AS Val gallery labels; one photo series of specimen, stock unfolded/folded, side and receiver/suppressor details. Game default from arsenal-expansion.ts.",
+        "variantEvidenceUrls": [
+          "https://warwall.ru/news/detalnye_fotografii_avtomata_specialnogo_besshumnogo_as_val/2014-06-18-781"
+        ]
+      }
+    },
+    "weapon_vss": {
+      "status": "PASSED",
+      "sourceIndexSha256": "a6bf7a1cea0310b9f50ccfc55ff04a030b649b191f42d269a5e28d93cc5451ce",
+      "briefSha256": "a471d89de549a4901240ef3da24971312cd5c191a86b225bac783b0d6933ca3d",
+      "reviewers": [
+        "Luna (manual image review)",
+        "Sol (asset execution review pending)"
+      ],
+      "views": [
+        "left full side view",
+        "left three-quarter/elevated view",
+        "receiver and optic-side oblique",
+        "right full side view",
+        "opposing receiver/stock oblique",
+        "opposing rear/front oblique"
+      ],
+      "acceptedArtApproximations": [
+        "Fixed game default vss_stock/val_guard/val_10; integral suppressor remains in body.",
+        "Mounted PSO-type scope in refs is a variant cue only; omit it from default.",
+        "Approximate covered underside using current game transforms; no claims of exact unseen surfaces.",
+        "Retain thumbhole stock negative space and compact 10-round magazine in low-poly style."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_vss/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_vss.md",
+        "countedImages": [
+          "vitaly_kuzmin_raceofheroes_vss_27.jpg",
+          "vitaly_kuzmin_raceofheroes_vss_28.jpg",
+          "vitaly_kuzmin_raceofheroes_vss_29.jpg",
+          "vitaly_kuzmin_raceofheroes_vss_30.jpg",
+          "vitaly_kuzmin_raceofheroes_vss_31.jpg",
+          "vitaly_kuzmin_raceofheroes_vss_32.jpg"
+        ],
+        "variant": "WarWall caption group identifies VSS Vintorez at Alabino 2014. Six distinct original frames of wood thumbhole stock, scope fitted. Default game build from arsenal-expansion.ts uses vss_stock/val_guard/val_10, no optic.",
+        "variantEvidenceUrls": [
+          "https://warwall.ru/news/strelkovoe_oruzhie_i_pokazatelnoe_vystuplenie_na_gonke_geroev/2014-06-20-784"
+        ]
+      }
+    },
+    "weapon_glock17": {
+      "status": "PASSED",
+      "sourceIndexSha256": "ecdaa447e781804c4e34d7e7133274eac35973946c06c715e55d95424603c3d1",
+      "briefSha256": "f9a9eff1ef222bcf42ffe8cc46ae500b6019fc8352bac1a77530d5fba7299986",
+      "reviewers": [
+        "Luna (manual image review; project base excluded)",
+        "Sol (execution/runtime review pending)"
+      ],
+      "views": [
+        "exact GLOCK 17 Gen4 right-side profile with flush 17-round magazine",
+        "OEM-family 33-round magazine broad side and extended base",
+        "opposing side/three-quarter magazine body with top/follower and floorplate profile",
+        "rear witness-hole face / round count pattern",
+        "separate magazine follower, spring and baseplate product-detail arrangement"
+      ],
+      "acceptedArtApproximations": [
+        "Keep current project G17 Gen4 body/action GLB completely unchanged; its source is exact-fit evidence only.",
+        "33-round magazine uses long straight upper housing and gently curving lower profile; retailer photos govern only visible silhouette/details, with fit taken from project GLB.",
+        "Use simplified non-through witness holes and non-legible/minimal molded numbering where texture/memory budget requires; never invent internal geometry from exterior photos.",
+        "Generic catalog pistol light remains a neutral game-authored low-poly module, no specific brand/real-world mount claim."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/weapons/weapon_glock17.md",
+        "countedImages": [
+          "06_51666064.jpg",
+          "glock33_80pa_1.jpg",
+          "glock33_80pa_2.jpg",
+          "glock33_mcarbo.jpg",
+          "glock33_ericgrauffel.jpg",
+          "glock33_weaponsworld.jpg"
+        ],
+        "variant": "Protected base is the project GLOCK 17 Gen4 GLB. Catalog default is weapon_glock17 with magazine glock_17; allowed modules are glock_17 (mag_glock), glock_33 (mag_glock_long) and pistol_light (light_pistol). 33-round product images are module refs, not authority to revise the excluded base.",
+        "projectAsset": "/Users/vladimir/Projects/raid-game/art/Glock17_Gen4/Glock17_Gen4_LOD0.glb",
+        "variantEvidenceUrls": [
+          "https://commons.wikimedia.org/wiki/File%3AGLOCK%2017%20Gen%204%20Pistol%20MOD%2045160305.jpg",
+          "https://www.80percentarms.com/products/glock-oem-g17-33rd-magazine-blk/",
+          "https://us.glock.com/en/products/law-enforcement/pistols/g17-gen5"
+        ],
+        "projectAssetEvidence": {
+          "source": "/Users/vladimir/Projects/raid-game/art/Glock17_Gen4/Glock17_Gen4_LOD0.glb",
+          "turnaroundSources": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/_protected-fit/glock17/sources.json",
+          "role": "six read-only orthographic axes for protected exact-fit evidence only; never counted as external photo refs or realism proof"
+        }
+      }
+    },
+    "weapon_mpx": {
+      "status": "PASSED",
+      "sourceIndexSha256": "cba4d55f9572ea0df117b3e8ca79f1c6dfc493dd7d457e7f4ee4744c1aa1f910",
+      "briefSha256": "065616b65191437f5ce501d3535d4619af6d2dff176f6a03435f00b9917af9e2",
+      "reviewers": [
+        "Luna (manual image review)",
+        "Sol (execution/runtime review pending)"
+      ],
+      "views": [
+        "right-side full profile, stock collapsed",
+        "right-side full profile, stock extended",
+        "opposing-side profile",
+        "receiver/magwell/action close-up on first side",
+        "receiver/control/trigger close-up on opposite side"
+      ],
+      "acceptedArtApproximations": [
+        "Use the auction lot as exact external silhouette target: 8-inch MPX SBR, 7.75-inch KeyMod handguard, three-position collapsible stock, 30-round magazine; generation/year remain unknown.",
+        "Keep catalog `ar_grip` key as the game-authored grip child; auction photos do not establish that it is the lot specimen OEM grip.",
+        "Do not bake optic or suppressor into default build; preserve catalog stock/handguard/magazine modularity.",
+        "The Densus Commons scene and identical TopWar CDN logo placeholders do not count toward photo coverage."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mpx/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/weapons/weapon_mpx.md",
+        "countedImages": [
+          "poulin_mpx8_sbr_01.jpg",
+          "poulin_mpx8_sbr_02.jpg",
+          "poulin_mpx8_sbr_03.jpg",
+          "poulin_mpx8_sbr_04.jpg",
+          "poulin_mpx8_sbr_05.jpg"
+        ],
+        "variant": "Current exact target: one MPX SBR auction lot, serial 62B040585, listed 9mm/8-inch barrel/7.75-inch KeyMod fore-end/three-position collapsible stock/factory 30-round mags; date/generation unspecified. Current game default remains `mpx_stock` + `mpx_guard` + `ar_grip` + `mpx_30`.",
+        "variantEvidenceUrls": [
+          "https://www.onlinehuntingauctions.com/SIG-SAUER-MPX-9MM-NFA-SHORT-BARRELED-RIFLE-SBR_i59095252",
+          "https://www.sigsauer.com/media/sigsauer/resources/2024_LE_CATALOG_DEL.pdf"
+        ]
+      }
+    },
+    "weapon_ak12": {
+      "status": "PASSED",
+      "sourceIndexSha256": "aa4f5e4bbfd39d4b93bab84e2debeaac7fa0b654f6c1cfaf12ca81642b10e8f2",
+      "briefSha256": "08f7a48426245ecb53bb074c264c978cbea4017190034fce1b7deafa608f6a66",
+      "reviewers": [
+        "Luna (manual source/image review)",
+        "Sol (execution/runtime review pending)"
+      ],
+      "views": [
+        "ARMY-2020 diagonal rear 3/4 showing base stock and buttpad",
+        "full right profile with visible 6П70 mark",
+        "full opposite-side profile of the same exhibit specimen",
+        "receiver and 1П87/1П90 mounted optics close-up",
+        "opposite receiver/action/selector detail"
+      ],
+      "acceptedArtApproximations": [
+        "Canonical external target remains AK-12 6П70 as shown at ARMY-2020; article captions describe the updated exhibition AK-12. Exact serial/production batch is unknown.",
+        "Use article images only for visible geometry; optics are removable context and not in game default. Default catalog furniture remains ak12_stock + ak12_guard + ak_grip + ak545_window_30 + ak12_brake.",
+        "No inference about hidden mounts, unseen surfaces, or exact material composition. Do not import photo pixels into runtime/public."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_ak12/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/weapons/weapon_ak12.md",
+        "countedImages": [
+          "pikabu_army2020_ak12_01.jpg",
+          "pikabu_army2020_ak12_02.jpg",
+          "pikabu_army2020_ak12_03.jpg",
+          "pikabu_army2020_ak12_04.jpg",
+          "pikabu_army2020_ak12_05.jpg"
+        ],
+        "variant": "Army-2020 2020 exhibition AK-12 6П70 photo-essay sample, 5.45x39 marking visible in source series; serial/batch unknown. Optics shown in some photos are excluded from default build.",
+        "variantEvidenceUrls": [
+          "https://pikabu.ru/story/kontsern_kalashnikov_na_armii2020_novyie_avtomatyi_fotoobzor_7736325",
+          "https://commons.wikimedia.org/wiki/File:Army-2020-302.JPG"
+        ],
+        "limitations": [
+          "The five Pикабу images are original author photographs; the article says reuse requires permission. Use as private reference only.",
+          "No top-down or muzzle/rear end-on views; detailed coverage is biased to both sides and upper receiver.",
+          "No runtime acceptance is implied by reference approval."
+        ]
+      }
+    },
+    "akmn": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c554213d04c743fd6e3b100fdc2526eb706b73e39cf0e87eca2f1f14cf880eb0",
+      "briefSha256": "fc4187aea9afc7d1a298fe0760d9cfde0470efc78c44693c59766b2692ad3560",
+      "reviewers": [
+        "Luna (manual image/source review)",
+        "Sol (execution/runtime review pending)"
+      ],
+      "views": [
+        "Real AKMN 6P1N with NSP-2 full side profile",
+        "CYMA AKMN real-wood airsoft replica full profile",
+        "CYMA replica wooden handguard/gas-tube detail",
+        "CYMA replica buttstock/buttplate detail",
+        "CYMA replica front-sight/muzzle detail",
+        "CYMA replica rear-sight/receiver detail"
+      ],
+      "acceptedArtApproximations": [
+        "The protected target remains the current `art/AKMN/exports/AKMN_World_LOD0.glb`; no base geometry replacement is authorized by this brief.",
+        "The single real AKMN photograph anchors visible side silhouette and large NSP-2 context; exact year/serial and small rail interfaces are not established.",
+        "Five CYMA airsoft photographs are secondary cues for broad AKM silhouette and wood appearance only; do not use them for real receiver/rail fit or hidden geometry.",
+        "The Polish AKMŁ / NSP-3 image is explicitly excluded as a different variant.",
+        "No project photos are counted as external realism proof; external images remain private reference-only, never runtime/public."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/akmn/sources.json",
+        "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/weapons/akmn.md",
+        "countedImages": [
+          "akmn_zonewar_exact.jpg",
+          "cyma_akmn_review_02.jpg",
+          "cyma_akmn_review_03.jpg",
+          "cyma_akmn_review_04.jpg",
+          "cyma_akmn_review_05.jpg",
+          "cyma_akmn_review_06.jpg"
+        ],
+        "variant": "Protected game AKMN target remains the current project GLB. External exact cue: one fixed-stock 7.62mm AKMN with NSP-2 shown by ZoneWar; CYMA review images are airsoft secondary silhouette/wood cues only.",
+        "variantEvidenceUrls": [
+          "https://zonawar.ru/rash_guns/rg_avtomat_akm_eng.html",
+          "https://armsweb.jp/report/1689.html"
+        ],
+        "limitations": [
+          "Only one real AKMN photograph, low resolution; no external opposite-side/top/end views.",
+          "CYMA images are airsoft replica photos and do not prove real AKMN mount/receiver fit.",
+          "Photographer/license not stated for real rifle or Arms Magazine photos; private reference-only.",
+          "Runtime acceptance is pending; preserve the existing base and validate each supported mod separately."
+        ]
+      }
+    },
+    "weapon_sks": {
+      "status": "PASSED",
+      "sourceIndexSha256": "7e72d1acbe5d79a8ad9d5eb2e72b4eeced88579fdf017725d72fb367b3f9856f",
+      "briefSha256": "7c7f16b0145d31088c509994710fc133fdfd984297d9a5272400b8d3c1b0c84e",
+      "reviewers": [
+        "Luna (manual source/image/brief review)"
+      ],
+      "views": [
+        "Legacy 01: полный собранный профиль",
+        "Legacy 04: верхний/задний 3/4",
+        "Legacy 05: передний узел снизу/сбоку",
+        "Legacy 06: задняя нижняя часть/приклад",
+        "Legacy 08: противоположный полный профиль",
+        "Legacy 09: ствольная коробка и цевьё в 3/4"
+      ],
+      "acceptedArtApproximations": [
+        "Не переносить конкретный год, производителя, серийные маркировки, лак или следы эксплуатации экземпляра 1951 года.",
+        "Складной штык показан как сложенный силуэтный элемент; отдельной анимации нет.",
+        "Строго торцевые muzzle/butt виды остаются ограничением; базовые внешние поверхности закрыты минимум пятью разными view classes."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_sks/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_sks.md",
+        "countedImages": [
+          "legacy_sks_1951_01.jpg",
+          "legacy_sks_1951_04.jpg",
+          "legacy_sks_1951_05.jpg",
+          "legacy_sks_1951_06.jpg",
+          "legacy_sks_1951_08.jpg",
+          "legacy_sks_1951_09.jpg"
+        ],
+        "variant": "Каталоговый SKS с деревянной сменной ложей `sks_stock` / `stock_sks_wood`; mount_sks отдельный. Коллекционный Tula 1951 — визуальный образец, не утверждение о партии/годе игрового оружия. Складной штык в default сложен.",
+        "variantEvidenceUrls": [
+          "https://legacy-collectibles.com/russian-sks-1951-mfg"
+        ]
+      }
+    },
+    "weapon_mosin9130": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9e3052f210b990e2590c2c541e6a17df03e026cb55125bedf17d3c0958793b64",
+      "briefSha256": "c220952a3b88f7fc06a2aee392a586c370dbc5ece355a2455eacda4acd42583f",
+      "reviewers": [
+        "Luna (manual source/image/brief review)"
+      ],
+      "views": [
+        "NRA 01: полный левый профиль",
+        "NRA 02: противоположный профиль",
+        "NRA 03: PE прицел/крепление крупно",
+        "NRA 04: альтернативный полный 3/4",
+        "NRA 05: ложа/коробка",
+        "NRA 06: окуляр и верх коробки"
+      ],
+      "acceptedArtApproximations": [
+        "Не переносить PE scope/mount и laminated-stock finish в базу.",
+        "Источник подтверждает один музейный sniper specimen, а не конкретный период/производителя игрового M1891/30.",
+        "Нет отдельного strict muzzle-end снимка; ориентация открытого штатного прицела — по игровому варианту и отдельным профильным фото, не по оптике."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mosin9130/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_mosin9130.md",
+        "countedImages": [
+          "nra_m91_30_sniper_01.jpg",
+          "nra_m91_30_sniper_02.jpg",
+          "nra_m91_30_sniper_03.jpg",
+          "nra_m91_30_sniper_04.jpg",
+          "nra_m91_30_sniper_05.jpg",
+          "nra_m91_30_sniper_06.jpg"
+        ],
+        "variant": "Игровой default M1891/30 с `mosin_stock` / `stock_mosin_wood`, без оптики. NRA specimen — M91/30 sniper с PE и laminated stock; кадры служат внешним контекстом узлов/силуэта. В каталоге только stock slot.",
+        "variantEvidenceUrls": [
+          "https://www.nramuseum.org/the-museum/the-galleries/wwii%2C-korea%2C-vietnam-and-beyond/case-63-world-war-ii-allies-and-japan/russian-mosin-nagant-m91-30-sniper-rifle.aspx"
+        ]
+      }
+    },
+    "weapon_mp5": {
+      "status": "PASSED",
+      "sourceIndexSha256": "4eaf172ac20638a719d010d527671c5887f2c5ea39fc028e0d52520aeccf0e7f",
+      "briefSha256": "d47c78d75b8bac4f0cfa5afc8372adf91391bb628d19c2327340727f23604ca7",
+      "reviewers": [
+        "Luna (manual source/image/brief review)"
+      ],
+      "views": [
+        "Morphy 01–10: две противоположные полноразмерные стороны плюс distinct детали селектора/trigger/magwell, receiver top/cocking tube/ejection port, stock junction/butt и маркировки"
+      ],
+      "acceptedArtApproximations": [
+        "Набор Morphy покрывает 8 distinct geometry/detail classes из 10 изображений; кадры не являются метрическим чертежом.",
+        "Не переносить штучные маркировки, номера и износ; selectors/pictographs — только если визуально читаемы в проектном масштабе.",
+        "Микрорельеф не добавлять геометрией; внешняя форма A2 фиксирована, MLI rail и MP5SD suppressor не входят в default."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mp5/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_mp5.md",
+        "countedImages": [
+          "morphy_a2_01.jpg",
+          "morphy_a2_02.jpg",
+          "morphy_a2_03.jpg",
+          "morphy_a2_04.jpg",
+          "morphy_a2_05.jpg",
+          "morphy_a2_06.jpg",
+          "morphy_a2_07.jpg",
+          "morphy_a2_08.jpg",
+          "morphy_a2_09.jpg",
+          "morphy_a2_10.jpg"
+        ],
+        "variant": "Точный target — catalog default MP5A2: `mp5_stock` (fixed), `mp5_guard` (standard horizontal forend), `mp5_30` (30-round curved magazine). Morphy lot 603069 identifies factory-original 1984 MP5A2 with fixed stock and standard forend. MLI/MP5SD images excluded from base.",
+        "variantEvidenceUrls": [
+          "https://auctions.morphyauctions.com/_n__superb_high_condition_four_position_selector_f-lot603069.aspx"
+        ]
+      }
+    },
+    "weapon_pm": {
+      "status": "PASSED",
+      "sourceIndexSha256": "4dbc27ca4ca503e8f89e5a693bcfb461ad55ad54c886638e2aaaf73a465d7a54",
+      "briefSha256": "115d145e89036f8ab5e784e4d7785aa36515b5d2814b9e809bd5f91733a9356c",
+      "reviewers": [
+        "Luna (manual source/image/brief review)"
+      ],
+      "views": [
+        "ZoneWar 03: левый полный профиль",
+        "04: правый полный профиль",
+        "07: разложенные внешние детали (контекст формы)",
+        "08: задний прицел/курок",
+        "10: muzzle/front angle",
+        "11: пятка рукояти/антабка",
+        "13: rear-axis sight view",
+        "15: противоположный 3/4 close-up"
+      ],
+      "acceptedArtApproximations": [
+        "Внешние фото подтверждают форму, но не все ревизии и материал конкретного каталожного экземпляра.",
+        "Не использовать кадры 18–19 с альтернативной мебелью для грипа.",
+        "Разобранный кадр используется как контекст внешних компонентов, а не как производственная инструкция или источник внутренней механики."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_pm/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_pm.md",
+        "countedImages": [
+          "zonwar_i-3.jpg",
+          "zonwar_i-4.jpg",
+          "zonwar_i-7.jpg",
+          "zonwar_i-8.jpg",
+          "zonwar_i-10.jpg",
+          "zonwar_i-11.jpg",
+          "zonwar_i-13.jpg",
+          "zonwar_i-15.jpg"
+        ],
+        "variant": "Стандартный игровой ПМ: `pm_grip` + `pm_8` по `DEFAULT_BUILDS` в `src/content/weapons.ts`; не ПММ, не поздняя модель с другой мебелью. Зонварская галерея подписана как Makarov PM photo review; поздняя мебель и схемы сборки не используются как авторитет default.",
+        "variantEvidenceUrls": [
+          "https://zonwar.ru/fotogalerej/PM/pm_menu.html"
+        ]
+      }
+    },
+    "weapon_m17": {
+      "status": "PASSED",
+      "sourceIndexSha256": "ab58d97c63891f061df879e0c935b152efd28b952271e5bc55471f6b7e56ea34",
+      "briefSha256": "35a508cfcd0cd50bf040739875302ad8efc2425f43c82d17915c24d1639e1e73",
+      "reviewers": [
+        "Luna (manual source/image/brief review)"
+      ],
+      "views": [
+        "K-Var 01: собранный 3/4 профиль",
+        "04: противоположная сторона/контрольные органы",
+        "05: переход рамка-затвор и органы управления",
+        "07: задний торец/прицельная группа",
+        "08: разнесённые внешние группы"
+      ],
+      "acceptedArtApproximations": [
+        "Фотографии подтверждают внешний M17-family и точные пять классов обзора; серийные номера, штучные аксессуары и маркировки не переносить.",
+        "Цвет coyote/tan трактовать как целевой игровой материал по brief; не считать оттенок калибровочной картой.",
+        "Отсутствует отдельный строго нижний ракурс, но для силуэта/рамки/узлов представлены бок, верхний 3/4, зад и разнесённые внешние группы."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_m17/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_m17.md",
+        "countedImages": [
+          "kvar_m17_01.jpg",
+          "kvar_m17_04.jpg",
+          "kvar_m17_05.jpg",
+          "kvar_m17_07.jpg",
+          "kvar_m17_08.jpg"
+        ],
+        "variant": "Каталоговый full-size SIG Sauer P320 M17 9×19, coyote/tan frame/slide; default `m17_grip` + `m17_17`. `m17_mount`/pistol_dot, light и `m17_21` остаются заменяемыми. K-Var review identifies civilian/service M17; RIAC кадр не используется как один из пяти из-за аксессуарного окружения.",
+        "variantEvidenceUrls": [
+          "https://blog.k-var.com/reviews/review-sig-p320-m17-civilian-model/"
+        ]
+      }
+    },
+    "weapon_g36k": {
+      "status": "PASSED",
+      "sourceIndexSha256": "090be855c2a42992579f779e7c515718744ae8657719f68831b27407c05ad239",
+      "briefSha256": "de0832d94b7822c58fa962bfe89ef7621d6b325d73f19f34fff2974985b234c5",
+      "reviewers": [
+        "Luna (manual source/image/brief review)"
+      ],
+      "views": [
+        "Switzer 1: полный правый профиль",
+        "3: receiver/action/control detail",
+        "4: полный противоположный профиль",
+        "5: receiver-stock joint and rear quarter",
+        "6: отдельная маркировка/control close view"
+      ],
+      "acceptedArtApproximations": [
+        "Auction listing confirms G36K family, but not factory military configuration; use only external shape cues and exact catalog parts.",
+        "No strict top/end views; five distinct photo classes cover opposing profiles, receiver controls and stock/receiver transition.",
+        "Не переносить markings/serial, exact sight reticle or civilian lot-specific fitments absent from catalog."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_g36k/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_g36k.md",
+        "countedImages": [
+          "switzers_g36k_1.jpg",
+          "switzers_g36k_3.jpg",
+          "switzers_g36k_4.jpg",
+          "switzers_g36k_5.jpg",
+          "switzers_g36k_6.jpg"
+        ],
+        "variant": "Точный игровой default закреплён в `src/content/arsenal-expansion.ts`: G36K с `g36_stock`, `g36_guard`, `g36_grip`, `g36_30`, `g36_muzzle`. Switzer lot identifies G36K 5.56×45 and supplies external views; particular civilian auction sight/markings are not default spec. H&K images are contextual only.",
+        "variantEvidenceUrls": [
+          "https://bid.switzersauction.com/HECKLER-KOCH-Model-G36K-Caliber-5-56MM-X-45_i58663930"
+        ]
+      }
+    },
+    "weapon_tt": {
+      "status": "PASSED",
+      "sourceIndexSha256": "43860144ae1fa3bcd70ab116c88d8bf82a1fed09c69ab3a04cb993cb6b0e1d63",
+      "briefSha256": "377b37286323a638ff3f243d86ae21761934e8e11977e71f85a0d190cee86eff",
+      "reviewers": [
+        "Luna (manual contact-sheet and source/brief review)"
+      ],
+      "views": [
+        "01: левый профиль с магазинами",
+        "02: задняя насечка затвора крупно",
+        "03: правая рамка/органы управления",
+        "04: передняя часть затвора и дуло",
+        "05: задний прицел/курок/спинка",
+        "06: противоположный профиль",
+        "07: накладка/пятка хвата",
+        "08: полный левый профиль"
+      ],
+      "acceptedArtApproximations": [
+        "Одна физическая единица с восьмью отдельными оригинальными кадрами; каталоговая стилизация сохраняет внешний силуэт без копирования номеров/владельческих знаков.",
+        "Права и фотограф не указаны; изображения остаются private reference-only и не переносятся в runtime.",
+        "Некоторые кадры являются деталями, не метрическими ортографическими видами; совместно они дают обе стороны и зад/перед/хват."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_tt/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_tt.md",
+        "countedImages": [
+          "icollector_tt33_1945_01.jpg",
+          "icollector_tt33_1945_02.jpg",
+          "icollector_tt33_1945_03.jpg",
+          "icollector_tt33_1945_04.jpg",
+          "icollector_tt33_1945_05.jpg",
+          "icollector_tt33_1945_06.jpg",
+          "icollector_tt33_1945_07.jpg",
+          "icollector_tt33_1945_08.jpg"
+        ],
+        "variant": "Каталоговый ТТ-33 с `tt_grip` + `tt_8` по `weapon-expansion.ts`; фото — конкретный Russian Tokarev TT-33 1945 auction lot, 8-shot, 4.5-inch barrel. Не переносить владельческие маркировки и игровую емкость/параметры сохранять.",
+        "variantEvidenceUrls": [
+          "https://www.icollector.com/Russian-Tokarev-Model-TT-33-7-62-Pistol_i46687496"
+        ]
+      }
+    },
+    "weapon_mp133": {
+      "status": "PASSED",
+      "sourceIndexSha256": "17ab3d0b00c9e82f560a36e727906c7bdc0b970620d258bd3a1e47239a13e948",
+      "briefSha256": "d942f54411c72e852a0aed2d323ade90f3b68e5f4e9284c9b3c3aadecb6e0ee5",
+      "reviewers": [
+        "Luna (manual contact-sheet and source/brief review)"
+      ],
+      "views": [
+        "01: полный левый профиль",
+        "02: цевьё/передняя трубка крупно",
+        "03: стык приклада, ресивера и спуска",
+        "04: полный противоположный профиль/окно выброса",
+        "05: профиль задней части с прикладом",
+        "06: передняя трубка, магазинная трубка и дульная зона"
+      ],
+      "acceptedArtApproximations": [
+        "Шесть кадров подтверждают обе стороны и отдельные зоны цевья/ресивера/приклада/трубок, но не дают строго торцевого вида.",
+        "Не переносить портированный muzzle cap, белую мушку, ремень, serial и следы лота.",
+        "Не подменять помповый МР-133 газоотводным МР-153; не менять project capacity/animation."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mp133/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_mp133.md",
+        "countedImages": [
+          "proxibid_mp133_160-1.jpg",
+          "proxibid_mp133_160-2.jpg",
+          "proxibid_mp133_160-3.jpg",
+          "proxibid_mp133_160-4.jpg",
+          "proxibid_mp133_160-5.jpg",
+          "proxibid_mp133_160-6.jpg"
+        ],
+        "variant": "Каталоговый МР-133: `sg_stock` + `sg_pump` (деревянный приклад и деревянное помповое цевьё) по project brief. Proxibid lot identifies Baikal MP-133 12-ga; портированный muzzle cap, белая мушка и ремень — особенности лота, не default.",
+        "variantEvidenceUrls": [
+          "https://www.proxibid.com/lotinformation/74808079/r-baikal-mp133-12-gauge-shotgun"
+        ]
+      }
+    },
+    "weapon_bren2": {
+      "status": "PASSED",
+      "sourceIndexSha256": "77380a8563481b762de45c1ea7342aa7bc14015e69412a331d5617dc76ac7b3c",
+      "briefSha256": "439bbcba66c63a242e2b948301754e316313e914f81e3e8034d5923bc7f0ddd1",
+      "reviewers": [
+        "Luna (manual contact-sheet and source/brief review)"
+      ],
+      "views": [
+        "01: full profile",
+        "02: opposite full profile, distinct source frame",
+        "03: upper receiver/optic-interface detail",
+        "04: receiver/trigger group detail",
+        "05: handguard/front group",
+        "06: opposite receiver markings/control detail"
+      ],
+      "acceptedArtApproximations": [
+        "Два opposite full-profile кадра плюс четыре разные детали дают 6 полезных недублированных изображений, но не шесть ортографических углов.",
+        "Использовать только silhouette/part cues, общие для CZ BREN 2; не переносить оптику, muzzle accessory, FDE/OD лимит-окраску и edition engraving в default.",
+        "Углы скрытых/underside поверхностей остаются low-poly художественным заполнением; не выдавать фотографии за технический чертёж."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_bren2/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_bren2.md",
+        "countedImages": [
+          "official_01.jpg",
+          "official_02.jpg",
+          "official_03.jpg",
+          "official_04.jpg",
+          "official_05.jpg",
+          "official_06.jpg"
+        ],
+        "variant": "Цель — CZ BREN 2 Ms 11″ 5.56×45 как внешняя форма для catalog `weapon_bren2`; default фиксирован в `arsenal-expansion.ts`: `bren_stock`, `bren_guard`, `bren_grip`, `ar556_30`, `bren_muzzle`, без оптики. Производитель указывает геометрическое соответствие select-fire BREN 2, но catalog не задаёт 11″. Limited FDE/OD edition finish/markings/logos не переносить.",
+        "variantEvidenceUrls": [
+          "https://www.czfirearms.com/news/cz-bren-2-ms-limited-edition-rifle-to-commemorate-the-25th-anniversary-of-the-czech-republics-accession-to-nato"
+        ]
+      }
+    },
+    "weapon_auga3": {
+      "status": "PASSED",
+      "sourceIndexSha256": "d0f9bb2027ebe877bd840555d43dbc2ae0de244ef3f995995a1ad9e454180d38",
+      "briefSha256": "8eb16579eae5fd1e7f9af8373fb4f6707aa2e6dc44d887d157e367deb1ebdf58",
+      "reviewers": [
+        "Luna (manual contact-sheet and source/brief review)"
+      ],
+      "views": [
+        "MII 01: передний верхний узел в oblique",
+        "02: полный левый профиль",
+        "03: top/forward product detail",
+        "04: полный правый профиль",
+        "05: передний 3/4",
+        "06: задний/stock 3/4"
+      ],
+      "acceptedArtApproximations": [
+        "Шесть проверенных отдельных Steyr manufacturer JPG охватывают оба боковых профиля, передний/задний 3/4 и верхнюю переднюю зону; не считать дубликатные PNG.",
+        "Базовый default именно stock/guard/mag listed in brief; не смешивать MII с 9×19/.300 BLK, padded stock или иной ёмкостью магазина.",
+        "Один локальный кадр оказался blank white и не засчитан. Чистый торец ствольного среза не представлен отдельно."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_auga3/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_auga3.md",
+        "countedImages": [
+          "steyr_auga3_mii_01.jpg",
+          "steyr_auga3_mii_02.jpg",
+          "steyr_auga3_mii_03.jpg",
+          "steyr_auga3_mii_04.jpg",
+          "steyr_auga3_mii_05.jpg",
+          "steyr_auga3_mii_06.jpg"
+        ],
+        "variant": "Каталоговый default зафиксирован brief как Steyr AUG A3 MII 17.492.3, 5.56×45: `aug_stock/stock_aug`, `aug_guard/guard_aug`, `aug_30/mag_aug`, `aug_muzzle/muzzle_brake`, без установленной optic. Это явный modeling target внутри семейного имени каталога, не claim о том, что catalog ранее фиксировал MII. Фото 07 blank excluded; PNG exports not additional views.",
+        "variantEvidenceUrls": [
+          "https://www.steyr-arms.com/en/downloads/?catid=503"
+        ]
+      }
+    },
+    "weapon_benellim4": {
+      "status": "PASSED",
+      "sourceIndexSha256": "27c4014fdd2dcaf54d1569aed75c9daaf99a39ec82b6e81f02bb2515291ab33a",
+      "briefSha256": "7510be23f5947ac24a11bb8421770835f2f4b762d8eab6ac741b461ff8a3bea4",
+      "reviewers": [
+        "Luna (manual contact-sheet and source/brief review)"
+      ],
+      "views": [
+        "RIAC 01–06: six original full-weapon profiles and opposing 3/4/front/rear views; common body/action/barrel/receiver/handguard/sight cues",
+        "Shell Tactical isolated OEM 70085 adjustable stock: right profile",
+        "Shell Tactical stock installed close views: left/rear and opposite side receiver-stock interface"
+      ],
+      "acceptedArtApproximations": [
+        "Не заменять default регулируемый stock на fixed stock из RIAC lot; отдельный stock module опирается на exact OEM product gallery.",
+        "RIAC photos establish shared receiver/action/barrel/handguard, not exact adjustable-stock assembly.",
+        "Do not copy H2O finish, lot marks or accessories; select only the six weapon frames and three stock-specific frames above."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_benellim4/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_benellim4.md",
+        "countedImages": [
+          "riac_01.jpg",
+          "riac_02.jpg",
+          "riac_03.jpg",
+          "riac_04.jpg",
+          "riac_05.jpg",
+          "riac_06.jpg",
+          "Benelli-M4-Collapsible-Stock-Right.jpg",
+          "Benelli-M4-Collapsible-Stock-On-Left-H2O.jpg",
+          "Benelli-M4-Collapsible-Stock-On-Right.jpg"
+        ],
+        "variant": "Каталоговый default — регулируемый `stock_benelli` + `guard_benelli`, трубчатая подача без отдельного detachable mag. RIAC lot 645 — fixed stock: использовать только общие body/action/barrel/receiver/handguard/sight geometry, не его stock. Отдельные Shell Tactical images идентифицируют Benelli OEM collapsible stock part 70085 и его интерфейс; H2O finish — только contextual, не default.",
+        "variantEvidenceUrls": [
+          "https://www.rockislandauction.com/detail/2068/645/benelli-m4-semiautomatic-shotgun-with-box",
+          "https://shelltactical.com/products/benelli-m4-collapsible-stock-70085"
+        ]
+      }
+    },
+    "weapon_mcxspearlt": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c54584af3c3bc0573d60037e129ebc8adf783791047c76721f42fc99fbac787c",
+      "briefSha256": "8484021020957339d9b838e4548387aaff7a0b941ec5e1b3284bb92a48211ccc",
+      "reviewers": [
+        "Luna (manual contact-sheet and source/brief review)"
+      ],
+      "views": [
+        "Guns.com 01: family comparison image including Spear LT SBR and legacy MCX",
+        "02: left 3/4 tan Spear LT display build",
+        "03: opposing/right 3/4 of same display configuration",
+        "04: top rail/optic/control/handguard detail",
+        "05: manufacturer-family profiles; lower frame is 5.56 carbine with straight magazine"
+      ],
+      "acceptedArtApproximations": [
+        "Target is catalog 5.56 carbine with long guard, folding skeleton stock and straight 30-round mag; SBR/suppressor/optic and 7.62 curved-mag frames are family context only.",
+        "Five locally saved original frames are distinct source images, though 02/03 depict the same accessory-fitted display build from opposite quarters.",
+        "No clean muzzle-end, stock-end or underside view; preserve those as review gaps, do not infer hidden dimensions from accessories."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mcxspearlt/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_mcxspearlt.md",
+        "countedImages": [
+          "gunscom_mcx_spear_lt_01.jpg",
+          "gunscom_mcx_spear_lt_02.jpg",
+          "gunscom_mcx_spear_lt_03.jpg",
+          "gunscom_mcx_spear_lt_04.jpg",
+          "gunscom_mcx_spear_lt_05.jpg"
+        ],
+        "variant": "5.56×45 MCX Spear LT carbine, catalog default modules fixed in Luna brief; manufacturer profile 05 provides 5.56/straight-mag target cue.",
+        "variantEvidenceUrls": [
+          "https://www.guns.com/news/2023/02/13/sig-sauer-mcx-spear-lt-review"
+        ]
+      }
+    },
+    "weapon_aks74u": {
+      "status": "PASSED",
+      "sourceIndexSha256": "cb97856e83560e86682a7f693e2eaba893b1e88f911acc734b21c554f5c82e90",
+      "briefSha256": "8fad26c9bd763d04922242749467b31ca3ca45352d16caeb604c5b55875b33a4",
+      "reviewers": [
+        "Luna (manual image, duplicate, variant and catalog review)"
+      ],
+      "views": [
+        "V-Museum 01: AKS-74U full side profile, extended frame stock/wood guard/30-round magazine/muzzle device",
+        "V-Museum 02: opposite-side folded-stock shape reference (not target default pose)",
+        "V-Museum 04: separate top/front oblique with receiver, mag and front assembly",
+        "Prime Portal 03: oblique receiver/handguard/mag close view",
+        "Prime Portal 06: paired front-end/muzzle/sight and magazine/receiver view",
+        "Prime Portal 08: opposite-side receiver, stock joint, grip and magazine well detail"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze target as catalog AKS-74U: aksu_stock + aksu_guard + ak_grip + ak545_30 + aksu_muzzle; aksu_mount is optional and absent from default.",
+        "Use external object imagery for standard AKS-74U only; production subrevision, exact serial markings and minor wood variation are unknown.",
+        "Folded-stock photo is supplementary silhouette evidence; game default stays extended and no fold animation is inferred.",
+        "Six manually selected distinct compositions cover silhouette and key nodes; close details and a two-weapon comparison are not orthographic full-object views.",
+        "Prime Portal/V-Museum rights are not confirmed for redistribution; all downloaded references are private-only and excluded from runtime/public."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_aks74u/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_aks74u.md",
+        "countedImages": [
+          "v_museum_aks74u_01.jpg",
+          "v_museum_aks74u_02.jpg",
+          "v_museum_aks74u_04.jpg",
+          "primeportal_aks74u_03.jpg",
+          "primeportal_aks74u_06.jpg",
+          "primeportal_aks74u_08.jpg"
+        ],
+        "variant": "Catalog AKS-74U default set with aksu_stock, aksu_guard, ak_grip, ak545_30, aksu_muzzle; aksu_mount optional.",
+        "variantEvidenceUrls": [
+          "https://v-museum.org/pl/museum/weapons-xxi/bron-dluga-karabiny-i-karabinki/subkarabinek-aks-74u",
+          "https://www.primeportal.net/armory/roman_stepanov/aks-74u/"
+        ]
+      }
+    },
+    "weapon_ak103": {
+      "status": "PASSED",
+      "sourceIndexSha256": "7969bd3a908187264a78b4c3afee6015495cc604f3fc2f78040fc1e205d8643d",
+      "briefSha256": "d2d082ac3409a0e8b9cc5d2b0bd0eac080d262dd17b688c596b3fa9b66ee4755",
+      "reviewers": [
+        "Luna (manual photo and catalog-build audit)"
+      ],
+      "views": [
+        "Museum context: diagonal full-object AK103 frame with non-target accessories; silhouette only",
+        "Museum detail: 100-series handguard, gas block, cleaning rod and brake",
+        "Museum detail: stock/receiver junction and polymer contours",
+        "Moscow Arms Museum field image AK103: independent object context with human occlusion",
+        "Moscow Arms Museum field image AK103: distinct aimed side view; subrevision unspecified"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze catalog build: ak_stock + ak_poly + ak_grip + ak762_30 + ak_brake.",
+        "Keep catalog stock as extended solid polymer, no fold joint; this is catalog-compatible art target, not universal production AK103 claim.",
+        "Use accessory-equipped field images only for broad AK103 silhouette/material cues; do not transfer optics, laser/light, foregrip, launcher, sling or alternate magazines.",
+        "AK103 subrevision and exact project-default whole-gun photograph remain unverified; no barrel-end-on or clean top view. These gaps do not block exterior shape authoring against the catalog build.",
+        "All external photos remain private reference-only and are excluded from runtime/public."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_ak103/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_ak103.md",
+        "countedImages": [
+          "museum_ak103_cover.jpg",
+          "museum_ak103_muzzle_02.jpeg",
+          "museum_ak103_foldedstock_01.jpeg",
+          "context_ak103_02.jpg",
+          "context_ak103_06.jpg"
+        ],
+        "variant": "Catalog AK-103: ak_stock + ak_poly + ak_grip + ak762_30 + ak_brake; extended solid black polymer stock, no default accessories.",
+        "variantEvidenceUrls": [
+          "https://moscowarmsmuseum.ru/collections/assault-rifles/ak103"
+        ]
+      }
+    },
+    "weapon_hk416a5": {
+      "status": "PASSED",
+      "sourceIndexSha256": "5a5ebf3dfc0fc5112468ff273e58e62024157d26e3d28c02f29fc9b76e493bd0",
+      "briefSha256": "dbfe96750b3556b1f8d75bd366decb24f0861a9e5132f2e5d0da0c5b518275d0",
+      "reviewers": [
+        "Luna (manual image/source/brief review)"
+      ],
+      "views": [
+        "01_199966063.png — Dutch-service A5-LB labeled full profile; Commons illustration/render; exact barrel subtype unspecified.",
+        "02_199966064.png — complementary opposite full profile and side-specific surfaces; same subtype caveat.",
+        "hk_official_03.png — H&K official 14.5-inch A5 profile; chosen length anchor.",
+        "20240527har0002.jpg — isolated Dutch BSB HK416 A5 full side photo; accessory setup differs.",
+        "20240527har0032-header.jpg — distinct real full-rifle 3/4 photo; receiver/handguard depth visible."
+      ],
+      "acceptedArtApproximations": [
+        "Frozen target is 14.5-inch A5 body/barrel proportions with current catalog defaults ar_crane + hk416_guard + ar_grip + ar556_30 + ar_brake. Catalog does not encode barrel length.",
+        "HK slimline/field stock and optics, suppressor, laser/light, grip and drum magazine seen in sources are excluded or context-only; current project part IDs remain authoritative.",
+        "Commons profiles provide rendered silhouette context only; the LB labels do not prove exact equivalence to selected 14.5-inch build."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_hk416a5/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_hk416a5.md",
+        "countedImages": [
+          "01_199966063.png",
+          "02_199966064.png",
+          "hk_official_03.png",
+          "20240527har0002.jpg",
+          "20240527har0032-header.jpg"
+        ],
+        "sourceIndexSha256": "5a5ebf3dfc0fc5112468ff273e58e62024157d26e3d28c02f29fc9b76e493bd0",
+        "briefSha256": "dbfe96750b3556b1f8d75bd366decb24f0861a9e5132f2e5d0da0c5b518275d0",
+        "variant": "HK416 A5 14.5-inch body/barrel target; exact project assembly keys frozen in source and brief."
+      }
+    },
+    "weapon_m14": {
+      "status": "PASSED",
+      "sourceIndexSha256": "2d25fcedcbb3055b73eaf8344691c4e8a06208f2d3f127ee21d8dcce5a91f7f8",
+      "briefSha256": "1dca70eb688d610defd61f7df180b8099e7b939e4acaae3ce2e88c0b1b6e7773",
+      "reviewers": [
+        "Luna (manual image/source variant review)",
+        "Luna (catalog build and Blender brief review)"
+      ],
+      "views": [
+        "Armémuseum M14 full side profile (source image 01)",
+        "Armémuseum presentation M14 full side profile (different physical exposure/specimen, image 02)",
+        "USMC collection-storage M14 full profile (2025 capture)",
+        "Forgotten Weapons overhead receiver/stock/magazine close composition",
+        "Smithsonian Springfield Armory M14 receiver/wood/sight close composition"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze project target to service-form wooden-stock M14: m14_stock + m14_guard + m14_20 + m14_muzzle; no optic/mount in default. Catalog does not identify serial, wood species or exact lot, so apply one restrained generic service finish.",
+        "No dedicated exact underside or hidden-furniture orthographic; use conservative authored shapes in unseen areas. The transparent Armémuseum derivative is excluded as duplicate."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_m14/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_m14.md",
+        "countedImages": [
+          "01_17854879.jpg",
+          "02_17885989.jpg",
+          "usmc_m14_display_2025.jpg",
+          "forgottenweapons_receiver_detail.png",
+          "smithsonian_m14_receiver.jpg"
+        ],
+        "variant": "Freeze project target to service-form wooden-stock M14: m14_stock + m14_guard + m14_20 + m14_muzzle; no optic/mount in default. Catalog does not identify serial, wood species or exact lot, so apply one restrained generic service finish."
+      }
+    },
+    "weapon_m9a3": {
+      "status": "PASSED",
+      "sourceIndexSha256": "7bf35a660a66038be4445fa3e9b2b99a0194faaac1fa49dc1807fad7db9fb0c6",
+      "briefSha256": "0751bca2aaa418cdf9d32a1cf157a77a926b60ce12adb3fe9a29fa2643dd3a08",
+      "reviewers": [
+        "Luna (manual source/image/brief review)"
+      ],
+      "views": [
+        "beretta_m9a3_black_RH.png — official right-side profile.",
+        "beretta_m9a3_black_LH.png — official left-side profile.",
+        "beretta_m9a3_black_LHaf.png — official left 3/4.",
+        "beretta_m9a3_black_RHaf.png — official right 3/4.",
+        "beretta_m9a3_official_fde_main.webp — distinct official FDE full-pistol near-profile detail/material composition; not claimed as new camera direction."
+      ],
+      "acceptedArtApproximations": [
+        "Freeze weapon_m9a3 with catalog m9_grip + m9_17; FDE is the project finish.",
+        "Black gallery is exact M9A3 geometry but not finish; FDE official frame anchors color and grip/slide/rail material separation.",
+        "Do not count generic M9 Commons image or transfer its geometry to M9A3. Optional light remains a separate attachment."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_m9a3/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_m9a3.md",
+        "countedImages": [
+          "beretta_m9a3_black_RH.png",
+          "beretta_m9a3_black_LH.png",
+          "beretta_m9a3_black_LHaf.png",
+          "beretta_m9a3_black_RHaf.png",
+          "beretta_m9a3_official_fde_main.webp"
+        ],
+        "sourceIndexSha256": "7bf35a660a66038be4445fa3e9b2b99a0194faaac1fa49dc1807fad7db9fb0c6",
+        "briefSha256": "0751bca2aaa418cdf9d32a1cf157a77a926b60ce12adb3fe9a29fa2643dd3a08",
+        "variant": "Exact Beretta M9A3 geometry, catalog m9_grip/m9_17, project FDE finish."
+      }
+    },
+    "weapon_mp153": {
+      "status": "PASSED",
+      "sourceIndexSha256": "68e9ffe45884162c51d82ff4cc53b0be231bbe6e737e06c9c96736a08770aeef",
+      "briefSha256": "4375ab9769adab684fe369533f0f80e85461f43d2481003f989a7db38d68e6ad",
+      "reviewers": [
+        "Luna (manual image, model identity and catalog target review)"
+      ],
+      "views": [
+        "OHA 01: complete profile, synthetic furniture/vent-rib/receiver",
+        "OHA 02: opposite complete profile",
+        "OHA 03: receiver-to-stock/fore-end junction close view",
+        "OHA 04: vent-rib barrel/front-end detail",
+        "OHA 05: ejection port/action and fore-end",
+        "OHA 06: buttstock/trigger/receiver detail"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze catalog build to stock sg_rubber + handguard mp153_guard.",
+        "Use black molded synthetic-stock MP-153 as visual target; sg_rubber remains the game part ID and does not imply exact material formulation.",
+        "Use 28-inch-class vent-rib barrel proportions from the specific auction listing as an art choice; barrel length/chamber are not represented in gameplay catalog data.",
+        "Six independent auction photos support silhouette and details; listing page is HTTP 410, direct original CDN images were retrieved and SHA-indexed.",
+        "All photos are private reference-only; WeaponLand mixed-gallery images are supplemental only."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mp153/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_mp153.md",
+        "countedImages": [
+          "auction_mp153_01.jpg",
+          "auction_mp153_02.jpg",
+          "auction_mp153_03.jpg",
+          "auction_mp153_04.jpg",
+          "auction_mp153_05.jpg",
+          "auction_mp153_06.jpg"
+        ],
+        "variant": "Baikal MP-153 12ga black synthetic; catalog default sg_rubber + mp153_guard; 28-inch-class vent-rib art target.",
+        "variantEvidenceUrls": [
+          "https://www.onlinehuntingauctions.com/item.aspx?i=54374688&mobile=0"
+        ]
+      }
+    },
+    "weapon_mp443": {
+      "status": "PASSED",
+      "sourceIndexSha256": "073b6ae24aee231ab46c0b266f833b675f01c12eebb7766a0c902a6bbe52f569",
+      "briefSha256": "16a906d634703af93dd426bc9d9f2afa1a2891df64c0251b260823992d41ce92",
+      "reviewers": [
+        "Luna (manual image/source/brief review)"
+      ],
+      "views": [
+        "fa_psl_pya_m02.jpg — elevated 3/4 with magazine context.",
+        "fa_psl_pya_m03.jpg — rear sight/hammer geometry detail.",
+        "fa_psl_pya_m04.jpg — right profile with slide held rearward, distinct action state.",
+        "fa_psl_pya_v1.jpg — left 3/4.",
+        "vitaly-kuzmin-grach-07.jpg — credited exact-family rear grip/backstrap 3/4 detail."
+      ],
+      "acceptedArtApproximations": [
+        "Exact project build remains grach_grip + grach_18; gallery imagery does not alter magazine capacity.",
+        "The new image adds a rear grip/backstrap detail composition, not a fifth orthographic direction.",
+        "m01 near-duplicate and operator context are excluded from the count."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mp443/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_mp443.md",
+        "countedImages": [
+          "fa_psl_pya_m02.jpg",
+          "fa_psl_pya_m03.jpg",
+          "fa_psl_pya_m04.jpg",
+          "fa_psl_pya_v1.jpg",
+          "vitaly-kuzmin-grach-07.jpg"
+        ],
+        "sourceIndexSha256": "073b6ae24aee231ab46c0b266f833b675f01c12eebb7766a0c902a6bbe52f569",
+        "briefSha256": "16a906d634703af93dd426bc9d9f2afa1a2891df64c0251b260823992d41ce92",
+        "variant": "Yarygin PYa / MP-443 Grach family; exact catalog build grach_grip + grach_18."
+      }
+    },
+    "weapon_pp1901": {
+      "status": "PASSED",
+      "sourceIndexSha256": "31b43fa0cb3a8eee63db53c33f5dac85acd72c8851ba9c853fafe6950898b6a5",
+      "briefSha256": "5fbe4319fa167812ac5cba050f500ac8d7e3b2aed3d36a668b25dbadc2de3607",
+      "reviewers": [
+        "Luna (manual image/source variant review)",
+        "Luna (catalog build and Blender brief review)"
+      ],
+      "views": [
+        "Vitaly 351-01 full 3/4 baseline PP-19-01",
+        "Vitaly 351-02 full profile baseline PP-19-01",
+        "Vitaly 351-05 elevated/reverse receiver/stock/forend view",
+        "Vitaly 351-07 opposite oblique with stock/controls",
+        "Vitaly 351-10 elevated opposing three-quarter baseline view"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze target to stock_triangle + guard_mini_poly + ak_grip + vityaz_30; no SN rails, PT-1 stock, front grip or default optic.",
+        "No exact orthographic underside/rear internal detail. Detail from Vityaz-SN is not applied to base."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_pp1901/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_pp1901.md",
+        "countedImages": [
+          "vitaly_351_01.jpg",
+          "vitaly_351_02.jpg",
+          "vitaly_351_05.jpg",
+          "vitaly_351_07.jpg",
+          "vitaly_351_10.jpg"
+        ],
+        "variant": "Freeze target to stock_triangle + guard_mini_poly + ak_grip + vityaz_30; no SN rails, PT-1 stock, front grip or default optic."
+      }
+    },
+    "weapon_pp91": {
+      "status": "PASSED",
+      "sourceIndexSha256": "52f933b056829869e92cf8f6c3256d0137c13d36319522a22b53be623598d89b",
+      "briefSha256": "93a0f695c838b7fde0519ac75a2b4a8c135bd866d7f26b61fd1bd0dd7acfa73a",
+      "reviewers": [
+        "Luna (manual image and variant review)"
+      ],
+      "views": [
+        "KardeN 02: clean side profile, extended wire stock and 20-round mag",
+        "KardeN 03: upper/front oblique showing top cover, sight line, grip and mag interface",
+        "KardeN 04: opposite-side oblique of stock, muzzle and receiver proportions",
+        "KardeN 05: stock hinge and rear receiver detail",
+        "KardeN 06: receiver controls, grip and magazine well detail",
+        "KardeN 07: opposite-side profile and charging-handle side",
+        "KardeN 09: close three-quarter of controls/trigger area and installed magazine"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze catalog target as PP-91 Kedr with kedr_stock + kedr_grip + kedr_20; do not substitute PP-91-01/Kedr-B revisions or make kedr_30 default.",
+        "Gate is met by seven distinct useful original compositions collectively showing both sides, upper oblique, stock hinge, grip, receiver controls and magazine fit; these are not seven orthographic views.",
+        "Exact production date/revision and strict muzzle-end/butt-end underside views are not established; artist must not invent variant-specific engraving or hidden details.",
+        "Gallery author is unverified despite KardeN watermark; images are private visual references only and are not production/runtime assets."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_pp91/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_pp91.md",
+        "countedImages": [
+          "karden_kedr_02.jpg",
+          "karden_kedr_03.jpg",
+          "karden_kedr_04.jpg",
+          "karden_kedr_05.jpg",
+          "karden_kedr_06.jpg",
+          "karden_kedr_07.jpg",
+          "karden_kedr_09.jpg"
+        ],
+        "variant": "Catalog PP-91 Kedr, stock_wire_kedr + grip_kedr + mag_kedr_short / kedr_20 (20-round default).",
+        "variantEvidenceUrls": [
+          "https://zonwar.ru/fotogalerej/Kedr/kedr_menu.html",
+          "https://zonwar.ru/fotogalerej/Kedr/kedr_r2.html",
+          "https://zonwar.ru/fotogalerej/Kedr/kedr_r7.html",
+          "https://zonwar.ru/fotogalerej/Kedr/kedr_r5.html",
+          "https://zonwar.ru/fotogalerej/Kedr/kedr_r6.html"
+        ]
+      }
+    },
+    "weapon_rem870": {
+      "status": "PASSED",
+      "sourceIndexSha256": "6567f058319c1420fbcba9794447c55aa5a09704de1fa0d3131ae6b1717c069e",
+      "briefSha256": "36dc8e655db7a0c9c4aa8de93e68a6f752a83501405abbc226d05f8fcf4360e9",
+      "reviewers": [
+        "Luna (manual image, variant and catalog review)"
+      ],
+      "views": [
+        "Old Express 01: full-object oblique with 18.5-inch profile and wood stock/pump",
+        "Old Express 02: independent overhead full-object composition",
+        "Old Express 03: elevated opposite-side full-object composition",
+        "RIAC 01: full side profile, auction Super Magnum; receiver-family context only",
+        "RIAC 02: opposite-side full profile; receiver/action context only",
+        "RIAC 04: rear 3/4; stock/action junction context only"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze catalog target to stock 870_wood + handguard 870_pump; mount sg empty by default.",
+        "Use older Remington 870 Express 18.5-inch IC/37.5-inch OAL/12.75-inch shortened LOP as chosen visual archetype; catalog six-shell capacity remains game data, not a verified source property.",
+        "RIAC Super Magnum photos support receiver/action and rear junction only; exclude their 27-inch vent-rib barrel, 3.5-inch chamber and laminate stock from target.",
+        "No exact factory subrevision, chamber marking or manufacturing orthographic set is claimed. All photos remain private reference-only."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_rem870/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_rem870.md",
+        "countedImages": [
+          "oldexpress_01.jpg",
+          "oldexpress_02.jpg",
+          "oldexpress_03.jpg",
+          "riac_01.jpg",
+          "riac_02.jpg",
+          "riac_04.jpg"
+        ],
+        "variant": "Catalog Remington 870, stock 870_wood + handguard 870_pump; mount sg empty. Art archetype: older Express short riot setup, 18.5-inch IC barrel, 37.5-inch OAL, 12.75-inch shortened LOP.",
+        "variantEvidenceUrls": [
+          "https://www.rem870.com/2013/06/13/remington-870-old-school-riot-gun-project/",
+          "https://www.rockislandauction.com/detail/5033/1290/remington-model-870-super-magnum-slide-action-shotgun"
+        ]
+      }
+    },
+    "weapon_scarl": {
+      "status": "PASSED",
+      "sourceIndexSha256": "6592b787ccaf8d689b5fde894e6cc07c2c65fdd9706d3e0695069e3cd1faea10",
+      "briefSha256": "0605c333efc9b141f8972a621228b4a044b52e1bc26244aeaee1d494df49d698",
+      "reviewers": [
+        "Luna (manual image/source variant review)",
+        "Luna (catalog build and Blender brief review)"
+      ],
+      "views": [
+        "Official FN SCAR-L Mk2 STD black full profile (selected 14-inch target)",
+        "FN CQC folded-stock product profile (stock-state context only)",
+        "Arms Magazine Web FN-licensed replica full three-quarter",
+        "Arms Magazine Web distinct muzzle/front sight close-up",
+        "Arms Magazine Web top/side handguard rail close-up",
+        "Arms Magazine Web receiver controls/stock-junction close-up",
+        "Arms Magazine Web adjustable buttstock close-up"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze target to SCAR-L Mk2 STD black, 14-inch barrel, stock deployed, catalog scar_stock + scar_guard + ar_grip + ar556_30 + scar_brake. No optic/foregrip/light/suppressor in default.",
+        "Arms Magazine Web detail set is a FN-licensed airsoft replica; use only exterior shape/seam cues, not real dimensions, internals, markings or material proof. Exact sterile rear/underside target photographs are absent; flag these faces as approximation."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_scarl/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_scarl.md",
+        "countedImages": [
+          "weapon_scarl-1.png",
+          "fn_scarl_mk2_stock_folded.png",
+          "armsweb_scarl_mk2_oblique.jpg",
+          "armsweb_scarl_muzzle_detail.jpg",
+          "armsweb_scarl_front_rail_detail.jpg",
+          "armsweb_scarl_receiver_detail.jpg",
+          "armsweb_scarl_stock_detail.jpg"
+        ],
+        "variant": "Freeze target to SCAR-L Mk2 STD black, 14-inch barrel, stock deployed, catalog scar_stock + scar_guard + ar_grip + ar556_30 + scar_brake. No optic/foregrip/light/suppressor in default."
+      }
+    },
+    "weapon_scorpion": {
+      "status": "PASSED",
+      "sourceIndexSha256": "5f3a65d1184ff68623a130b534d7cb3250354502da124f2390b38bbe95d1fa83",
+      "briefSha256": "a976a6ba6b751f0e755f2fc30a2219b9c4cbf1b49c5050a8e4dcd4fc6957ef21",
+      "reviewers": [
+        "Luna (manual image and variant review)"
+      ],
+      "views": [
+        "CZ 20071: full left profile and stock extended",
+        "CZ 20073: opposite full profile, ejection side and controls",
+        "CZ 20081: full rear-side three-quarter",
+        "Official detail 01: receiver/upper rail and front interface",
+        "Official detail 02: receiver operation/stock interface"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze game default as stock + short guard + grip + 30-round magazine; optional long guard, 20-round mag and suppressor remain separate.",
+        "Gate passes on five distinct original image compositions collectively showing the entire A1 silhouette and important rail/receiver/stock nodes; do not claim five orthographic whole-object views.",
+        "No strict muzzle-end, stock-end or underside view. Three Armadni page images retained as unverified/possible replica context and excluded from acceptance.",
+        "Manufacturer images are copyrighted private references; never include pixels in production/runtime/public assets."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_scorpion/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_scorpion.md",
+        "countedImages": [
+          "cz_a1_20071.png",
+          "cz_a1_20073.png",
+          "cz_a1_20081.png",
+          "official_01.png",
+          "official_02.png"
+        ],
+        "variant": "CZ SCORPION EVO 3 A1 full-size product set; game default scorpion_stock + scorpion_guard + scorpion_grip + scorpion_30; no optic/can.",
+        "variantEvidenceUrls": [
+          "https://www.czfirearms.com/en-us/mle-products/submachine-guns/cz-scorpion-evo-3-a1"
+        ]
+      }
+    },
+    "weapon_sv98": {
+      "status": "PASSED",
+      "sourceIndexSha256": "cad192ddcb32b0316718051960010bae295b19be6a128e0fa02df1c473482e08",
+      "briefSha256": "69c00295c4f60d5e64f71f49fb9d51a3c28ade51b41f4724eb84d7cbdf516c15",
+      "reviewers": [
+        "Luna (manual image/source variant review)",
+        "Luna (catalog build and Blender brief review)"
+      ],
+      "views": [
+        "Eight Maksimov distinct close-up compositions: optic base/upper, bolt/ejection, receiver, muzzle/bipod, stock adjustment and front sight/barrel",
+        "Guns.club assembled oblique full rifle with removable optic, bipod and muzzle item",
+        "IMFDB separate assembled full profile with removable optic and bipod"
+      ],
+      "acceptedArtApproximations": [
+        "Freeze catalog target to sv98_stock + sv98_10; no optic or muzzle accessory in default. Whole-object photos are accessory-fitted examples and only support overall stock/barrel/action proportions.",
+        "Exact unoccluded underside and clean opposite-side action view are absent; keep hidden faces conservative and do not claim exact subvariant."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_sv98/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_sv98.md",
+        "countedImages": [
+          "maksimov_16.jpg",
+          "maksimov_18.jpg",
+          "maksimov_22.jpg",
+          "maksimov_24.jpg",
+          "maksimov_29.jpg",
+          "maksimov_30.jpg",
+          "maksimov_33.jpg",
+          "maksimov_42.jpg",
+          "gunsclub_sv98_oblique.png",
+          "imfdb_sv98_profile.jpg"
+        ],
+        "variant": "Freeze catalog target to sv98_stock + sv98_10; no optic or muzzle accessory in default. Whole-object photos are accessory-fitted examples and only support overall stock/barrel/action proportions."
+      }
+    },
+    "weapon_svd": {
+      "status": "PASSED",
+      "sourceIndexSha256": "72bc88c2c74cb5c2b14392290341b92d772e952c73d3b586ffc1c7c4c375e238",
+      "briefSha256": "0de6de7eda9dcac768868658d6075b2da2edd1a09ec3fdcece198589f3272eab",
+      "reviewers": [
+        "Luna (manual source/image/variant/brief review)"
+      ],
+      "views": [
+        "riac_01.jpg — 1983 Izhevsk SVD full left-side profile with PSO-style optic and magazine.",
+        "riac_02.jpg — same exact lot opposite-side full profile.",
+        "riac_03.jpg — right receiver/magwell/trigger-guard/stock detail.",
+        "riac_04.jpg — left receiver and optic-rail detail.",
+        "proxibid_izhevsk_svd_fullview.jpg — independent exact SVD-labeled, elevated right/rear 3/4 closeup of PSO, receiver and magwell; unique detail, not a whole-rifle view."
+      ],
+      "acceptedArtApproximations": [
+        "Default game assembly is svd_stock + svd_guard + svd_10; no optic by default; optional scope6 remains modular.",
+        "RIAC 1983 specimen anchors stock/receiver; Proxibid confirms an independent SVD optic/receiver detail but not that it is the same year/revision.",
+        "Tiger images excluded; Commons profile without magazine/optic is silhouette-only context. Hidden underside/end surfaces use project sockets and conservative artistic approximation."
+      ],
+      "evidence": {
+        "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_svd/sources.json",
+        "brief": "art/overhaul/briefs/weapons/weapon_svd.md",
+        "countedImages": [
+          "riac_01.jpg",
+          "riac_02.jpg",
+          "riac_03.jpg",
+          "riac_04.jpg",
+          "proxibid_izhevsk_svd_fullview.jpg"
+        ],
+        "sourceIndexSha256": "72bc88c2c74cb5c2b14392290341b92d772e952c73d3b586ffc1c7c4c375e238",
+        "briefSha256": "0de6de7eda9dcac768868658d6075b2da2edd1a09ec3fdcece198589f3272eab",
+        "variant": "Izhevsk Arsenal SVD body; catalog default svd_stock + svd_guard + svd_10; optional scope6 kept separate."
+      }
+    }
+  },
+  "updatedAt": "2026-10-18"
+}

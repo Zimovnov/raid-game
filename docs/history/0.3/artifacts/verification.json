@@ -1,0 +1,71 @@
+{
+  "executedAtUTC": "2026-09-25T13:39:47.866719+00:00",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "node": "v22.16.0",
+  "commands": [
+    {
+      "name": "verify",
+      "command": "npm run verify",
+      "exitCode": 0,
+      "status": "PASS",
+      "elapsedSeconds": 19.823,
+      "log": "artifacts/current/release-verify.log",
+      "tests": [
+        "185"
+      ]
+    },
+    {
+      "name": "routes",
+      "command": "node tools/audit-routes.mjs",
+      "exitCode": 0,
+      "status": "PASS",
+      "elapsedSeconds": 12.748,
+      "log": "artifacts/current/release-routes.log"
+    },
+    {
+      "name": "ui",
+      "command": "npm run test:ui",
+      "exitCode": 0,
+      "status": "PASS",
+      "elapsedSeconds": 4.201,
+      "log": "artifacts/current/release-ui.log"
+    },
+    {
+      "name": "native",
+      "command": "npm run test:render",
+      "exitCode": 0,
+      "status": "PASS",
+      "elapsedSeconds": 7.297,
+      "log": "artifacts/current/release-native.log"
+    },
+    {
+      "name": "browser",
+      "command": "npm run test:e2e",
+      "exitCode": 2,
+      "status": "BLOCKED",
+      "elapsedSeconds": 1.373,
+      "log": "artifacts/current/release-browser.log"
+    },
+    {
+      "name": "packaging",
+      "command": "npm run test:packaging",
+      "exitCode": 0,
+      "status": "PASS",
+      "elapsedSeconds": 1.169,
+      "log": "artifacts/current/release-packaging.log"
+    },
+    {
+      "name": "rtc",
+      "command": "npm run test:rtc",
+      "exitCode": 2,
+      "status": "BLOCKED",
+      "elapsedSeconds": 17.814,
+      "log": "artifacts/current/release-rtc.log"
+    }
+  ],
+  "scope": "Distinct scopes: Node logic, controller routes, isolated DOM, native GLES, attempted full browser/RTC, local packaging. No physical-device or different-network acceptance.",
+  "buildHash": "6b9f529f582085f67481b8577de67217affab37ee6306666e12373602005efcf",
+  "build": "0.3.0-6b9f529f582085f6",
+  "summary": "Available checks PASS; full browser and RTC BLOCKED; physical devices/Internet NOT RUN."
+}

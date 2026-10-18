@@ -1,0 +1,198 @@
+{
+  "updatedAt": "2026-10-18T07:29:39.804823+00:00",
+  "goal": "Full overhaul acceptance incomplete; current stage published at user request",
+  "phase": "CURRENT_STAGE_DEPLOYED_USER_REQUESTED_WRAP_UP",
+  "modelingGate": "OPEN — all333 per-object references and briefs approved",
+  "backup": "/Users/vladimir/Projects/raid-game-art-backups/20261018T031603Z",
+  "protectedFileCheck": {
+    "status": "PASSED",
+    "checkedAt": "2026-10-18T06:11:43.458787+00:00",
+    "checked": 156,
+    "changed": []
+  },
+  "completedEngineering": [
+    "Patch domain optional Character.patches, profile schema3 preserved",
+    "Server BLOB storage, raster normalization, authenticated API, equipped-only lobby sharing",
+    "Offline IndexedDB upgrade, patch library, portable profile export/import",
+    "Wardrobe controls and rendered shoulder patch meshes",
+    "AccountStore.backup now returns completion Promise",
+    "Imported GLB triangle picking support",
+    "Actual installed weapon tree presentation (no default-build replacement)",
+    "Nearest visible GLB/fallback thin-instance picking",
+    "Optional metre-frame weapon GLB placement using authoritative sockets, legacy normalized path preserved; generic browser fixture verified scale and invalid asset fallback. All target asset registries now connected.",
+    "Rigid character GLB layers: complete manifest/LOD/joint/material role validation, atomic fallback, dynamic skin/fabric variants, shared texture cache and FP/TP IDs; empty target registry.",
+    "Renderer grounds loaded metre GLBs by validated polygon group bounds; unloaded/failed assets retain procedural grounding."
+  ],
+  "verification": {
+    "lastFullVerify": {
+      "status": "PASSED",
+      "tests": 486,
+      "command": "RAID_TEST_CONCURRENCY=2 npm run verify",
+      "log": "artifacts/overhaul-verify-bounds.log",
+      "note": "Includes authored bounds validation, composition and selected-magazine grounding; no target art accepted."
+    },
+    "browserOffline": {
+      "upload": "PASSED",
+      "bothShouldersSelection": "PASSED",
+      "newCharacterSave": "PASSED",
+      "reload": "PASSED",
+      "portableExport": "PASSED",
+      "freshOriginImport": "PASSED",
+      "visualCloseup": "PASSED — both shoulders, upright and not mirrored",
+      "onlineBrowser": "PASSED upload/selection/save; peer raid appearance NOT RUN to completion",
+      "v1ToV2Upgrade": "PASSED — old source IDB v1 profile created in browser, same-origin new source opened v2, schema3 exported payload remained identical; new patch upload/selection/save succeeded."
+    },
+    "targeted": {
+      "patches": {
+        "status": "PASSED",
+        "tests": 5
+      },
+      "modelTreeAndPicking": {
+        "status": "PASSED",
+        "tests": 7
+      },
+      "assetFramesAndModels": {
+        "status": "PASSED",
+        "tests": 10
+      }
+    },
+    "browserWeapons": {
+      "actualSelectedStock": "PASSED",
+      "actualSelectedHandguard": "PASSED",
+      "nestedOpticRendering": "PASSED — existing geometry has visible mounting gap, not accepted as final art",
+      "pickHandguardAndNestedOptic": "PASSED after React hit-layer fix and hardware-scaling correction",
+      "resources": "No browser warn/error captured"
+    },
+    "blenderBevelFixture": {
+      "status": "PASSED",
+      "report": "artifacts/overhaul-meshkit/bevel-audit-fixed.json",
+      "roundtrip": "PASSED",
+      "scope": "Generic rigid detail fixture; initial collapsed UV failure retained in bevel-audit.json. No target art acceptance."
+    },
+    "baselineWeaponFrames": {
+      "status": "CAPTURED_AND_REVIEWED",
+      "count": 36,
+      "index": "art/overhaul/baseline-weapon-captures.json",
+      "scope": "Original default workshop assemblies, not new assets"
+    },
+    "metreFrameBrowser": {
+      "status": "PASSED",
+      "report": "artifacts/overhaul-meshkit/metre-frame-browser.json",
+      "errorsTested": [
+        "missing group",
+        "unknown coordinate frame"
+      ],
+      "scope": "Neutral engineering fixture only; target weapon art/ADS/fit not yet accepted",
+      "sharedGeometry": {
+        "status": "PASSED",
+        "instances": 2,
+        "drawCalls": 1,
+        "slots": [
+          "optic",
+          "mount.optic"
+        ],
+        "report": "artifacts/overhaul-meshkit/shared-slots-browser.json",
+        "mouseSelection": "Both instances selected their own slot in actual browser"
+      }
+    },
+    "characterPipeline": {
+      "status": "PASSED",
+      "tests": 5,
+      "blenderRoundtrip": "PASSED — UV/normals, 20 neutral meshes,5joints,2roles,2LODs",
+      "browser": "PASSED — two fabrics, shared batching, walk/crouch/death pose, FP, whole-actor LOD1, missingLOD/wrongJoint atomic fallback",
+      "folder": "artifacts/overhaul-character-fixture",
+      "scope": "Neutral engineering fixture only, no target apparel/body/face acceptance.",
+      "disposal": "PASSED — actual browser scene.dispose left 0 meshes, 0 materials, 0 textures; browser-disposed.json"
+    },
+    "lootBounds": {
+      "status": "PASSED",
+      "tests": 3,
+      "browser": "PASSED — actual neutral GLB vertex bottom Y=0, missing group and invalid bounds use grounded fallback, valid mode recovers",
+      "blender": "PASSED — LOD0 polygon bounds in game axes",
+      "folder": "artifacts/overhaul-meshkit",
+      "scope": "Neutral fixture; new weapon fit still pending."
+    }
+  },
+  "pending": [
+    "Actual mesh-derived icons",
+    "Complete compatibility/visual fit matrix for 202 attachments",
+    "Complete ADS/reload/world/drop acceptance on all new assemblies",
+    "Matched CPU/FPS/memory comparison",
+    "Remaining headwear combinations and full gear fit matrix",
+    "Actual online raid peer patch rendering and long gameplay sessions"
+  ],
+  "referenceAcceptance": {
+    "status": "PASSED",
+    "objects": 333,
+    "audit": "art/overhaul/reference-audit.json",
+    "checkedAt": "2026-10-18T06:35:45.594626+00:00"
+  },
+  "additionalDeliverables": [
+    {
+      "status": "PASSED_CURRENT_STAGE",
+      "path": "/Users/vladimir/Downloads/RAID_GAME_Final_Weapon_Photos",
+      "scope": "36 complete default runtime assemblies,6studio views each; full gameplay/compatibility acceptance incomplete"
+    }
+  ],
+  "artProduction": {
+    "attachmentsRoot": {
+      "created": 102,
+      "structural": "PASSED",
+      "visual": "PARTIAL — protected Glock/AK fit and default assemblies inspected",
+      "manifest": "art/overhaul/attachment_sources/manifest.json"
+    },
+    "attachmentsSecondary": {
+      "created": 100,
+      "structural": "PASSED",
+      "visual": "PARTIAL — defaults inspected,sevenLOD1brakes and AUGgap fixed",
+      "manifest": "art/overhaul/secondary_attachment_sources/manifest.json"
+    },
+    "weapons": {
+      "created": 33,
+      "structural": "PASSED",
+      "visual": "Default assembled views PASSED; gameplay matrix incomplete"
+    },
+    "characters": {
+      "created": 45,
+      "structural": "PASSED",
+      "visual": "All45loaded,majorposes/FPchecked; fullgearfitincomplete"
+    },
+    "fabrics": {
+      "created": 49,
+      "new": 29,
+      "structural": "PASSED",
+      "visual": "Tiles and two new fabrics in built wardrobe checked"
+    }
+  },
+  "currentBuild": "0.6.0-f9dfd475c2a22398",
+  "currentStage": {
+    "weapons": 33,
+    "attachments": 202,
+    "characterLayers": 45,
+    "fabrics": 49,
+    "newFabrics": 29,
+    "verify": {
+      "status": "PASSED",
+      "tests": 489
+    },
+    "protectedFiles": {
+      "status": "PASSED",
+      "count": 156
+    },
+    "deployment": "PASSED",
+    "photoGallery": {
+      "status": "PASSED",
+      "weapons": 36,
+      "images": 216,
+      "path": "/Users/vladimir/Downloads/RAID_GAME_Final_Weapon_Photos"
+    }
+  },
+  "remaining": [
+    "Actual mesh-derived icons",
+    "Complete compatibility/visual fit matrix for 202 attachments",
+    "Complete ADS/reload/world/drop acceptance on all new assemblies",
+    "Matched CPU/FPS/memory comparison",
+    "Remaining headwear combinations and full gear fit matrix",
+    "Actual online raid peer patch rendering and long gameplay sessions"
+  ]
+}

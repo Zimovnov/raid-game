@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/fore_slim.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "grip__fore_slim": {
+      "0": {
+        "triangles": 84,
+        "vertices": 162,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03200000151991844,
+            -0.06701398640871048,
+            -0.06439550966024399
+          ],
+          "max": [
+            0.03200000151991844,
+            0.09000001847743988,
+            0.08100000768899918
+          ]
+        }
+      },
+      "1": {
+        "triangles": 48,
+        "vertices": 84,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03200000151991844,
+            -0.06800001114606857,
+            -0.06499999761581421
+          ],
+          "max": [
+            0.03200000151991844,
+            0.09000001847743988,
+            0.08100000768899918
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_slim-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "grip__fore_slim": {
+      "min": [
+        -0.03200000151991844,
+        -0.06701398640871048,
+        -0.06439550966024399
+      ],
+      "max": [
+        0.03200000151991844,
+        0.09000001847743988,
+        0.08100000768899918
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03200000151991844,
+      -0.08100001513957977,
+      -0.06800001859664917
+    ],
+    "max": [
+      0.03200000151991844,
+      0.0650000125169754,
+      0.09000001847743988
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

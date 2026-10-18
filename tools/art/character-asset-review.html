@@ -1,0 +1,42 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>RAID — проверка рига GLB</title>
+<style>body{margin:0;background:#202624;color:#eee;font:14px system-ui}canvas{width:100vw;height:100vh;display:block}aside{position:absolute;top:12px;left:12px;background:#111e;padding:12px;max-width:330px}label,output{display:block;margin:8px 0}pre{font-size:11px;max-height:40vh;overflow:auto}</style>
+<canvas id="scene"></canvas><aside><strong>Нейтральные рамки — проверка загрузчика, не новые модели одежды</strong><label>Слой <select id="asset" aria-label="Проверка слоя"><option value="valid">Корректный GLB</option><option value="missing">Отсутствует LOD1</option><option value="joint">Неверный сустав</option></select></label><label>Поза <select id="pose" aria-label="Поза"><option value="idle">Стоя</option><option value="walk">Ходьба</option><option value="crouch">Присед</option><option value="dead">Смерть</option><option value="fp">Первое лицо</option><option value="far">Дальний LOD</option></select></label><label>Материалы <select id="palette" aria-label="Материалы"><option value="different">Разная ткань</option><option value="same">Одинаковая ткань</option></select></label><button id="dispose">Освободить тестовую сцену</button><output id="status">Загрузка</output><pre id="report"></pre></aside>
+<script type="module">
+import {Renderer} from '/src/rendering/renderer.ts';
+import {MODEL_ASSETS} from '/src/content/model-assets.ts';
+import {CHARACTER_MODEL_ASSETS} from '/src/content/character-model-assets.ts';
+import {characterAppearanceModel} from '/src/rendering/apparel.ts';
+import {handsModel} from '/src/rendering/weapon-animation.ts';
+import {defaultAppearance} from '/src/content/apparel.ts';
+import {createWeapon} from '/src/domain/items.ts';
+import {model} from '/src/rendering/math.ts';
+const renderer=new Renderer(document.getElementById('scene'),'babylon'),bridge=renderer.bridge;
+const joints=['torso','upperL','upperR','foreL','foreR'];
+for(const [id,file] of [['valid','rigid-layer'],['missing','missing-lod'],['joint','wrong-joint']]) MODEL_ASSETS['character_fixture_'+id]={url:'/artifacts/overhaul-character-fixture/'+file+'.glb',frame:'meters',groups:joints.map(j=>'probe_'+j),character:{layer:'jacket',groups:Object.fromEntries(joints.map(j=>['probe_'+j,{joint:j,roles:['fabric','trim']}]))}};
+const a=defaultAppearance('BEAR'),b=defaultAppearance('BEAR'),gun=createWeapon('weapon_ak74m',false);
+const actors=[{name:'Fixture A',faction:'BEAR',face:0,outfit:0,appearance:a},{name:'Fixture B',faction:'BEAR',face:0,outfit:0,appearance:b}];
+let frame=0,running=true;
+document.getElementById("dispose").onclick=()=>{running=false;renderer.dispose();const report={scope:"Neutral engineering fixture disposal",disposed:bridge.scene.isDisposed,meshes:bridge.scene.meshes.length,materials:bridge.scene.materials.length,textures:bridge.scene.textures.length};const output=document.getElementById("report");output.dataset.report=JSON.stringify(report);output.textContent=JSON.stringify(report,null,2);document.getElementById("status").textContent="Сцена освобождена";};
+function draw(){
+ if(!running)return;
+ frame++;
+ const mode=document.getElementById('asset').value,pose=document.getElementById('pose').value,id='character_fixture_'+mode,same=document.getElementById('palette').value==='same';
+ CHARACTER_MODEL_ASSETS[a.jacket]={asset:id,layer:'jacket'};
+ a.jacketCamo='multicam';b.jacketCamo=same?'multicam':'olive';
+ const fp=pose==='fp',far=pose==='far',dead=pose==='dead',crouch=pose==='crouch';
+ const moving=pose==='walk'?.7:0,time=pose==='walk'?.83:0;
+ const dynamic=fp?handsModel(gun,{reload:.45,mode:'swap'},0,0,a).map(part=>({part,parent:model()})):actors.flatMap((actor,i)=>characterAppearanceModel(actor,time,moving,dead,crouch).map(part=>({part,parent:model([i===0?-.5:.5,0,0])})));
+ const eye=fp?[.6,.2,-.45]:far?[0,1,-20]:[2.3,1.7,-3.4],target=fp?[0,-.15,.25]:[0,.9,0];
+ bridge.begin(eye,target,43,[.12,.15,.14],'high');bridge.render([],dynamic,far);
+ const meshes=bridge.scene.meshes.filter(m=>m.isVisible&&m.metadata?.raidAsset===id);
+ const fallbackJacketInstances=bridge.scene.meshes.filter(m=>m.isVisible&&!m.metadata?.raidAsset).reduce((n,m)=>n+(m.metadata?.raidSlots||[]).filter(s=>s.startsWith('jacket:')).length,0);
+ const materialStates=meshes.map(m=>({group:m.metadata.raidGroup,role:m.metadata.raidMaterialRole,instances:m.thinInstanceCount,texture:m.material?.albedoTexture?.url||null,color:m.material?.albedoColor?.asArray(),name:m.name}));
+ const errors=[...bridge.models.errors].filter(([key])=>key===id);
+ const report={scope:'Neutral engineering fixture only; no target art acceptance.',frame,mode,pose,same,importedMeshes:meshes.length,importedInstances:meshes.reduce((n,m)=>n+m.thinInstanceCount,0),fallbackJacketInstances,errors,materialStates,metrics:bridge.metrics};
+ const output=document.getElementById('report');output.dataset.report=JSON.stringify(report);
+ output.textContent=JSON.stringify({...report,materialStates:undefined,fabrics:[...new Set(materialStates.map(m=>m.texture).filter(Boolean))],lods:[...new Set(materialStates.map(m=>m.name.split('-').pop().split(':')[0]))]},null,2);
+ document.getElementById('status').textContent=errors.length?'Весь слой оставлен процедурным':meshes.length?'GLB загружен, процедурный слой скрыт':'Загрузка GLB';
+ requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+</script>

@@ -1,0 +1,2858 @@
+{
+  "glock_17": {
+    "url": "/assets/art-overhaul/attachments/glock_17.glb?v=c6190d75ed99",
+    "groups": [
+      "magazine__glock_17"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__glock_17": {
+        "min": [
+          -0.020250000059604645,
+          0.06000000238418579,
+          -0.049499984830617905
+        ],
+        "max": [
+          0.020250000059604645,
+          0.17800001800060272,
+          0.04150001332163811
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/glock_17.blend",
+    "sha256": "c6190d75ed99fc7bacbac85a286c9051b06f9b83244098db592c031bbe0ff00b",
+    "triangles": {
+      "0": 216,
+      "1": 88
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "glock_33": {
+    "url": "/assets/art-overhaul/attachments/glock_33.glb?v=15645cbffd70",
+    "groups": [
+      "magazine__glock_33"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__glock_33": {
+        "min": [
+          -0.020250000059604645,
+          -0.07500001788139343,
+          -0.049499984830617905
+        ],
+        "max": [
+          0.020250000059604645,
+          0.17800001800060272,
+          0.06983999907970428
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/glock_33.blend",
+    "sha256": "15645cbffd7093236eaf36db37245fea74945cef107539a6f88aa0d339474028",
+    "triangles": {
+      "0": 336,
+      "1": 88
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak545_30": {
+    "url": "/assets/art-overhaul/attachments/ak545_30.glb?v=a851be1b7b9c",
+    "groups": [
+      "magazine__ak545_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ak545_30": {
+        "min": [
+          -0.03500000014901161,
+          -0.15000002086162567,
+          -0.0975000336766243
+        ],
+        "max": [
+          0.03500000014901161,
+          0.18300001323223114,
+          0.04700002074241638
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak545_30.blend",
+    "sha256": "a851be1b7b9ccabd713dc0ea765af01ae700d1168be5458dff63dd2df6107f5d",
+    "triangles": {
+      "0": 956,
+      "1": 148
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak762_30": {
+    "url": "/assets/art-overhaul/attachments/ak762_30.glb?v=638c02325cbb",
+    "groups": [
+      "magazine__ak762_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ak762_30": {
+        "min": [
+          -0.03500000014901161,
+          -0.15000002086162567,
+          -0.13250002264976501
+        ],
+        "max": [
+          0.03500000014901161,
+          0.18300001323223114,
+          0.04700002074241638
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak762_30.blend",
+    "sha256": "638c02325cbba8305b3776efc779741c682814c1106bba133bf0a52792baa89b",
+    "triangles": {
+      "0": 956,
+      "1": 148
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "aksu_stock": {
+    "url": "/assets/art-overhaul/attachments/aksu_stock.glb?v=df050420e6af",
+    "groups": [
+      "stock__aksu_stock"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "stock__aksu_stock": {
+        "min": [
+          -0.03999999910593033,
+          -0.15558797121047974,
+          -0.1900000274181366
+        ],
+        "max": [
+          0.048500001430511475,
+          0.053645458072423935,
+          0.23200002312660217
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_stock.blend",
+    "sha256": "df050420e6afac38013fbf498826ebf5f00beff495c80abda24ff0c73f2c4a78",
+    "triangles": {
+      "0": 252,
+      "1": 48
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "aksu_guard": {
+    "url": "/assets/art-overhaul/attachments/aksu_guard.glb?v=e1116c4fe6d9",
+    "groups": [
+      "handguard__aksu_guard"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__aksu_guard": {
+        "min": [
+          -0.05649999901652336,
+          -0.0650000125169754,
+          -0.09300000965595245
+        ],
+        "max": [
+          0.05649999901652336,
+          0.07400001585483551,
+          0.09300003200769424
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_guard.blend",
+    "sha256": "e1116c4fe6d90fb8aaf8fea61cf11c9f2a2dadf7c1816b2cd4d780e3259d9cb7",
+    "triangles": {
+      "0": 308,
+      "1": 248
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "aksu_rail": {
+    "url": "/assets/art-overhaul/attachments/aksu_rail.glb?v=4d529639d1cc",
+    "groups": [
+      "handguard__aksu_rail"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__aksu_rail": {
+        "min": [
+          -0.0560000017285347,
+          -0.06100001931190491,
+          -0.09300001710653305
+        ],
+        "max": [
+          0.0559999980032444,
+          0.08600001782178879,
+          0.09300001710653305
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_rail.blend",
+    "sha256": "4d529639d1ccc279e94d23481c9f18e1c07a83576adec656e0a75d33d2758268",
+    "triangles": {
+      "0": 880,
+      "1": 496
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "aksu_mount": {
+    "url": "/assets/art-overhaul/attachments/aksu_mount.glb?v=243f676dc87e",
+    "groups": [
+      "mount__aksu_mount"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "mount__aksu_mount": {
+        "min": [
+          -0.04600000008940697,
+          -0.005000006407499313,
+          -0.0625
+        ],
+        "max": [
+          0.04600000008940697,
+          0.05800001323223114,
+          0.0625000149011612
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_mount.blend",
+    "sha256": "243f676dc87e174f7ec2dc27a2758d2a93bd7917d4164ec7826c230120d052f3",
+    "triangles": {
+      "0": 232,
+      "1": 136
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "aksu_muzzle": {
+    "url": "/assets/art-overhaul/attachments/aksu_muzzle.glb?v=13f8bc27c612",
+    "groups": [
+      "muzzle__aksu_muzzle"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "muzzle__aksu_muzzle": {
+        "min": [
+          -0.028999999165534973,
+          -0.028999991714954376,
+          -0.09700001776218414
+        ],
+        "max": [
+          0.028999999165534973,
+          0.029000014066696167,
+          0.018000002950429916
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_muzzle.blend",
+    "sha256": "13f8bc27c612fdd8a0f15c4de31fa2f4a331ad3b73aad472c29b19565af99431",
+    "triangles": {
+      "0": 312,
+      "1": 152
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_cheek": {
+    "url": "/assets/art-overhaul/attachments/ak_cheek.glb?v=0b68418e78d9",
+    "groups": [
+      "stock__ak_cheek"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "stock__ak_cheek": {
+        "min": [
+          -0.048500001430511475,
+          -0.15558797121047974,
+          -0.1900000274181366
+        ],
+        "max": [
+          0.048500001430511475,
+          0.11990489065647125,
+          0.23200002312660217
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_cheek.blend",
+    "sha256": "0b68418e78d96d3d9ed752ec54a401c159114a416df3bef1a0e41ffd87f8bc5f",
+    "triangles": {
+      "0": 428,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_vent": {
+    "url": "/assets/art-overhaul/attachments/ak_vent.glb?v=8b4f6f90c914",
+    "groups": [
+      "handguard__ak_vent"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__ak_vent": {
+        "min": [
+          -0.0560000017285347,
+          -0.061000026762485504,
+          -0.1430000364780426
+        ],
+        "max": [
+          0.0559999980032444,
+          0.07300003618001938,
+          0.1430000364780426
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_vent.blend",
+    "sha256": "8b4f6f90c91448d26316323bc19e01439a9e530d8a980d61defa503c7f443109",
+    "triangles": {
+      "0": 760,
+      "1": 376
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_palm": {
+    "url": "/assets/art-overhaul/attachments/ak_palm.glb?v=49f9c29c587d",
+    "groups": [
+      "pistolgrip__ak_palm"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__ak_palm": {
+        "min": [
+          -0.0364999994635582,
+          -0.15092459321022034,
+          -0.04900000989437103
+        ],
+        "max": [
+          0.0364999994635582,
+          0.06894447654485703,
+          0.06499999761581421
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_palm.blend",
+    "sha256": "49f9c29c587da4b4262ce463471c0a00dbb553879719f0f464ba1786e54a708d",
+    "triangles": {
+      "0": 176,
+      "1": 32
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak762_20": {
+    "url": "/assets/art-overhaul/attachments/ak762_20.glb?v=b43d46b660b3",
+    "groups": [
+      "magazine__ak762_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ak762_20": {
+        "min": [
+          -0.03500000014901161,
+          -0.0950000062584877,
+          -0.13250002264976501
+        ],
+        "max": [
+          0.03500000014901161,
+          0.18300001323223114,
+          0.04700002074241638
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak762_20.blend",
+    "sha256": "b43d46b660b30e07641e281021f7ddf2b2a9ebcab848ab2aa583cd44bd513925",
+    "triangles": {
+      "0": 956,
+      "1": 148
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_ported": {
+    "url": "/assets/art-overhaul/attachments/ak_ported.glb?v=a5db6a09b05d",
+    "groups": [
+      "muzzle__ak_ported"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "muzzle__ak_ported": {
+        "min": [
+          -0.024000000208616257,
+          -0.024000003933906555,
+          -0.09900002181529999
+        ],
+        "max": [
+          0.024000000208616257,
+          0.024000026285648346,
+          0.030000003054738045
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_ported.blend",
+    "sha256": "a5db6a09b05dec6a039c91e045cf5a3c3791e726307054e6ce69e1c2ae17cd1b",
+    "triangles": {
+      "0": 500,
+      "1": 276
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_stock": {
+    "url": "/assets/art-overhaul/attachments/ak_stock.glb?v=52a9292b63bd",
+    "groups": [
+      "stock__ak_stock"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "stock__ak_stock": {
+        "min": [
+          -0.048500001430511475,
+          -0.15558797121047974,
+          -0.1900000274181366
+        ],
+        "max": [
+          0.048500001430511475,
+          0.07185735553503036,
+          0.23200002312660217
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_stock.blend",
+    "sha256": "52a9292b63bdbf3e1808d20f440c858d283dc6e0e643751287c4e09dab5952bd",
+    "triangles": {
+      "0": 300,
+      "1": 60
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_wood_stock": {
+    "url": "/assets/art-overhaul/attachments/ak_wood_stock.glb?v=d744fd819a06",
+    "groups": [
+      "stock__ak_wood_stock"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "stock__ak_wood_stock": {
+        "min": [
+          -0.048500001430511475,
+          -0.15558797121047974,
+          -0.1900000274181366
+        ],
+        "max": [
+          0.048500001430511475,
+          0.07185735553503036,
+          0.23200002312660217
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_wood_stock.blend",
+    "sha256": "d744fd819a061847583f8120174a49e41a4fed7cb4c5ebdda7625cde24826d2d",
+    "triangles": {
+      "0": 276,
+      "1": 60
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_skeleton": {
+    "url": "/assets/art-overhaul/attachments/ak_skeleton.glb?v=55f77a5484ff",
+    "groups": [
+      "stock__ak_skeleton"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "stock__ak_skeleton": {
+        "min": [
+          -0.048500001430511475,
+          -0.15558797121047974,
+          -0.1900000274181366
+        ],
+        "max": [
+          0.048500001430511475,
+          0.07400001585483551,
+          0.23200002312660217
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_skeleton.blend",
+    "sha256": "55f77a5484ff1aeb69c872b7e4edaf8ba3cce736a571a339be5505359e792f3a",
+    "triangles": {
+      "0": 372,
+      "1": 88
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_poly": {
+    "url": "/assets/art-overhaul/attachments/ak_poly.glb?v=e7d09d4b7bcd",
+    "groups": [
+      "handguard__ak_poly"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__ak_poly": {
+        "min": [
+          -0.05649999901652336,
+          -0.065000019967556,
+          -0.14300000667572021
+        ],
+        "max": [
+          0.05649999901652336,
+          0.07400002330541611,
+          0.1430000364780426
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_poly.blend",
+    "sha256": "e7d09d4b7bcd862b653d8d9e5ad137cc2c4ca4895b02a21bce41eb146292ca3d",
+    "triangles": {
+      "0": 332,
+      "1": 248
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_wood": {
+    "url": "/assets/art-overhaul/attachments/ak_wood.glb?v=922165bc86ef",
+    "groups": [
+      "handguard__ak_wood"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__ak_wood": {
+        "min": [
+          -0.05649999901652336,
+          -0.065000019967556,
+          -0.14300000667572021
+        ],
+        "max": [
+          0.05649999901652336,
+          0.07400002330541611,
+          0.1430000364780426
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_wood.blend",
+    "sha256": "922165bc86ef53c04533bc098a7cec749d8fbb372d6867e8137fcf932bf6c991",
+    "triangles": {
+      "0": 308,
+      "1": 248
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_rail": {
+    "url": "/assets/art-overhaul/attachments/ak_rail.glb?v=f14d3bc0d42f",
+    "groups": [
+      "handguard__ak_rail"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__ak_rail": {
+        "min": [
+          -0.0560000017285347,
+          -0.061000026762485504,
+          -0.1430000364780426
+        ],
+        "max": [
+          0.0559999980032444,
+          0.08600002527236938,
+          0.1430000364780426
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_rail.blend",
+    "sha256": "f14d3bc0d42f4d4db0eb6a9d67e02c8cd6b11bb1b96fafe218abad11aa18be65",
+    "triangles": {
+      "0": 940,
+      "1": 556
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_grip": {
+    "url": "/assets/art-overhaul/attachments/ak_grip.glb?v=0722d9804b19",
+    "groups": [
+      "pistolgrip__ak_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__ak_grip": {
+        "min": [
+          -0.03350000083446503,
+          -0.14091314375400543,
+          -0.05100001394748688
+        ],
+        "max": [
+          0.03350000083446503,
+          0.06887716799974442,
+          0.042811937630176544
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_grip.blend",
+    "sha256": "0722d9804b19f3c9378370f33481a8b449f339b498fe37af9d2a74a164bc0fda",
+    "triangles": {
+      "0": 152,
+      "1": 20
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_ergo": {
+    "url": "/assets/art-overhaul/attachments/ak_ergo.glb?v=65efadac4c60",
+    "groups": [
+      "pistolgrip__ak_ergo"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__ak_ergo": {
+        "min": [
+          -0.03350000083446503,
+          -0.142637699842453,
+          -0.050000011920928955
+        ],
+        "max": [
+          0.03350000083446503,
+          0.06796877086162567,
+          0.05499999597668648
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_ergo.blend",
+    "sha256": "65efadac4c604fc7186f10fabc5f1b097efee544a21c7bdad602f989fdf55c42",
+    "triangles": {
+      "0": 176,
+      "1": 32
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_mount": {
+    "url": "/assets/art-overhaul/attachments/ak_mount.glb?v=483e64fad9bd",
+    "groups": [
+      "mount__ak_mount"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "mount__ak_mount": {
+        "min": [
+          -0.08900000154972076,
+          -0.12700003385543823,
+          -0.11750000715255737
+        ],
+        "max": [
+          0.045499999076128006,
+          0.05800002068281174,
+          0.11750002205371857
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_mount.blend",
+    "sha256": "483e64fad9bd77c7dd5eebd2e6414fd94e88eac86f13f993aef992d7bc754a18",
+    "triangles": {
+      "0": 308,
+      "1": 224
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak545_45": {
+    "url": "/assets/art-overhaul/attachments/ak545_45.glb?v=0087776c105e",
+    "groups": [
+      "magazine__ak545_45"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ak545_45": {
+        "min": [
+          -0.03500000014901161,
+          -0.24000002443790436,
+          -0.0975000411272049
+        ],
+        "max": [
+          0.03500000014901161,
+          0.18300001323223114,
+          0.04700002074241638
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak545_45.blend",
+    "sha256": "0087776c105eccf10e9f410cfef36943b11a58799741834c82c2613f434c53d9",
+    "triangles": {
+      "0": 956,
+      "1": 148
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_brake": {
+    "url": "/assets/art-overhaul/attachments/ak_brake.glb?v=fd9420f8fac8",
+    "groups": [
+      "muzzle__ak_brake"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "muzzle__ak_brake": {
+        "min": [
+          -0.024000000208616257,
+          -0.024000003933906555,
+          -0.09900002181529999
+        ],
+        "max": [
+          0.024000000208616257,
+          0.024000026285648346,
+          0.030000003054738045
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_brake.blend",
+    "sha256": "fd9420f8fac89edc8029d2f5742bdf78c009aa2a3bf370d7df5f05e12753fd65",
+    "triangles": {
+      "0": 500,
+      "1": 276
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak_suppressor": {
+    "url": "/assets/art-overhaul/attachments/ak_suppressor.glb?v=4f5b4416f49f",
+    "groups": [
+      "muzzle__ak_suppressor"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "muzzle__ak_suppressor": {
+        "min": [
+          -0.03328000009059906,
+          -0.03328000009059906,
+          -0.2720000147819519
+        ],
+        "max": [
+          0.03328000009059906,
+          0.03328000754117966,
+          0.018000004813075066
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_suppressor.blend",
+    "sha256": "4f5b4416f49f6a4e14eb82281f91f478997b1b7e1207b988cdce1539d0bdb665",
+    "triangles": {
+      "0": 524,
+      "1": 168
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak12_stock": {
+    "url": "/assets/art-overhaul/attachments/ak12_stock.glb?v=e16166a05bef",
+    "groups": [
+      "stock__ak12_stock"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "stock__ak12_stock": {
+        "min": [
+          -0.048500001430511475,
+          -0.15558797121047974,
+          -0.1900000274181366
+        ],
+        "max": [
+          0.048500001430511475,
+          0.07500002533197403,
+          0.23200002312660217
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_stock.blend",
+    "sha256": "e16166a05bef56fb87d875c3317ec0b11e4684bee53ccd290fae471bebaff0c9",
+    "triangles": {
+      "0": 372,
+      "1": 88
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak12_cheek": {
+    "url": "/assets/art-overhaul/attachments/ak12_cheek.glb?v=cbed353541dd",
+    "groups": [
+      "stock__ak12_cheek"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "stock__ak12_cheek": {
+        "min": [
+          -0.048500001430511475,
+          -0.15558797121047974,
+          -0.1900000274181366
+        ],
+        "max": [
+          0.048500001430511475,
+          0.11990489065647125,
+          0.23200002312660217
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_cheek.blend",
+    "sha256": "cbed353541dd906dc4292c664063388c71b9daeebe8591e294ed72cd23ac779f",
+    "triangles": {
+      "0": 428,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak12_guard": {
+    "url": "/assets/art-overhaul/attachments/ak12_guard.glb?v=b1549f5877f3",
+    "groups": [
+      "handguard__ak12_guard"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__ak12_guard": {
+        "min": [
+          -0.0560000017285347,
+          -0.0610000304877758,
+          -0.15800003707408905
+        ],
+        "max": [
+          0.0559999980032444,
+          0.08600002527236938,
+          0.15800003707408905
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_guard.blend",
+    "sha256": "b1549f5877f3a0ee6ed6840b1db7159f5951f1fba82e67a7994c0b435aaaf967",
+    "triangles": {
+      "0": 960,
+      "1": 576
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak12_guard_long": {
+    "url": "/assets/art-overhaul/attachments/ak12_guard_long.glb?v=8212bfcf1fa9",
+    "groups": [
+      "handguard__ak12_guard_long"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "handguard__ak12_guard_long": {
+        "min": [
+          -0.0560000017285347,
+          -0.0610000379383564,
+          -0.21800005435943604
+        ],
+        "max": [
+          0.0559999980032444,
+          0.08600003272294998,
+          0.21800005435943604
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_guard_long.blend",
+    "sha256": "8212bfcf1fa950b738fdf337786b12dd4f98885a5fc9fd45da0aa60bbef1f09d",
+    "triangles": {
+      "0": 1232,
+      "1": 720
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak12_brake": {
+    "url": "/assets/art-overhaul/attachments/ak12_brake.glb?v=5104af67b582",
+    "groups": [
+      "muzzle__ak12_brake"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "muzzle__ak12_brake": {
+        "min": [
+          -0.024000000208616257,
+          -0.024000003933906555,
+          -0.12400001287460327
+        ],
+        "max": [
+          0.024000000208616257,
+          0.024000031873583794,
+          0.030000003054738045
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_brake.blend",
+    "sha256": "5104af67b582d82498b26f372c5bddaec144c7ef1373597083eeb6a139a7133e",
+    "triangles": {
+      "0": 628,
+      "1": 340
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak12_can": {
+    "url": "/assets/art-overhaul/attachments/ak12_can.glb?v=f3c5898667cc",
+    "groups": [
+      "muzzle__ak12_can"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "muzzle__ak12_can": {
+        "min": [
+          -0.03328000009059906,
+          -0.03328000009059906,
+          -0.2720000147819519
+        ],
+        "max": [
+          0.03328000009059906,
+          0.03328000754117966,
+          0.018000004813075066
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_can.blend",
+    "sha256": "f3c5898667cced82ecefae1c1e901da3b28ce8232636fc7fd22a739d270eda82",
+    "triangles": {
+      "0": 524,
+      "1": 168
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ak545_window_30": {
+    "url": "/assets/art-overhaul/attachments/ak545_window_30.glb?v=866427406a5a",
+    "groups": [
+      "magazine__ak545_window_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ak545_window_30": {
+        "min": [
+          -0.03580000251531601,
+          -0.15000002086162567,
+          -0.0975000336766243
+        ],
+        "max": [
+          0.03580000251531601,
+          0.18300001323223114,
+          0.04700002074241638
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak545_window_30.blend",
+    "sha256": "866427406a5a22a9feadc4b9957a0f597139f4f231a6849e4ec00c06454af17c",
+    "triangles": {
+      "0": 1012,
+      "1": 148
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ar556_20": {
+    "url": "/assets/art-overhaul/attachments/ar556_20.glb?v=12fdc1a16ea2",
+    "groups": [
+      "magazine__ar556_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ar556_20": {
+        "min": [
+          -0.03629999980330467,
+          -0.0390000082552433,
+          -0.05768001079559326
+        ],
+        "max": [
+          0.03629999980330467,
+          0.18000002205371857,
+          0.046000026166439056
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ar556_20.blend",
+    "sha256": "12fdc1a16ea25beb95b41ac7d25bd20d5a38484447cd6e4e4eea3daf2d98c634",
+    "triangles": {
+      "0": 800,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ar556_30": {
+    "url": "/assets/art-overhaul/attachments/ar556_30.glb?v=f08a15dde3a1",
+    "groups": [
+      "magazine__ar556_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ar556_30": {
+        "min": [
+          -0.03629999980330467,
+          -0.1340000182390213,
+          -0.08468002080917358
+        ],
+        "max": [
+          0.03629999980330467,
+          0.18000002205371857,
+          0.046000026166439056
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ar556_30.blend",
+    "sha256": "f08a15dde3a15b3e5815a1116b47b58c93fec08e9f2702277a54a286a76b825c",
+    "triangles": {
+      "0": 800,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ar556_60": {
+    "url": "/assets/art-overhaul/attachments/ar556_60.glb?v=955f07abedc0",
+    "groups": [
+      "magazine__ar556_60"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__ar556_60": {
+        "min": [
+          -0.06300000101327896,
+          -0.1290000081062317,
+          -0.09900001436471939
+        ],
+        "max": [
+          0.06300000101327896,
+          0.18000003695487976,
+          0.09900001436471939
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ar556_60.blend",
+    "sha256": "955f07abedc062263f85f1199ee05949b9ebbaae84a70e16691d72b83ef9aa0b",
+    "triangles": {
+      "0": 256,
+      "1": 160
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "aug_30": {
+    "url": "/assets/art-overhaul/attachments/aug_30.glb?v=df7c315b90d5",
+    "groups": [
+      "magazine__aug_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__aug_30": {
+        "min": [
+          -0.037950001657009125,
+          -0.12400001287460327,
+          -0.08430001884698868
+        ],
+        "max": [
+          0.037950001657009125,
+          0.17000001668930054,
+          0.04750002920627594
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aug_30.blend",
+    "sha256": "df7c315b90d568dd4b17c60ae68fa93a54130eafbc85d5e0008a2fc67f8e9f3b",
+    "triangles": {
+      "0": 1112,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "aug_42": {
+    "url": "/assets/art-overhaul/attachments/aug_42.glb?v=52e7f77fa755",
+    "groups": [
+      "magazine__aug_42"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__aug_42": {
+        "min": [
+          -0.037950001657009125,
+          -0.21400003135204315,
+          -0.09630004316568375
+        ],
+        "max": [
+          0.037950001657009125,
+          0.17000001668930054,
+          0.04750002920627594
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aug_42.blend",
+    "sha256": "52e7f77fa75517e38616cf09a6a9b636d711554344c9448e8fcb9a57d7018a74",
+    "triangles": {
+      "0": 1112,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "g36_20": {
+    "url": "/assets/art-overhaul/attachments/g36_20.glb?v=3d04ffb28363",
+    "groups": [
+      "magazine__g36_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__g36_20": {
+        "min": [
+          -0.04650000110268593,
+          -0.07900001108646393,
+          -0.07900001853704453
+        ],
+        "max": [
+          0.04649999737739563,
+          0.17000001668930054,
+          0.05000003054738045
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/g36_20.blend",
+    "sha256": "3d04ffb28363f1017a1064d5401737f11884dd7c96a858e31908dfa2302d1029",
+    "triangles": {
+      "0": 848,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "g36_30": {
+    "url": "/assets/art-overhaul/attachments/g36_30.glb?v=5deaef87ce60",
+    "groups": [
+      "magazine__g36_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__g36_30": {
+        "min": [
+          -0.04650000110268593,
+          -0.15400001406669617,
+          -0.09000003337860107
+        ],
+        "max": [
+          0.04649999737739563,
+          0.17000001668930054,
+          0.05000003054738045
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/g36_30.blend",
+    "sha256": "5deaef87ce6047e21f8d9f75b87fbddae271f137bf857e798f44401c3e1d1c16",
+    "triangles": {
+      "0": 848,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "grach_18": {
+    "url": "/assets/art-overhaul/attachments/grach_18.glb?v=eafbf38f9439",
+    "groups": [
+      "magazine__grach_18"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__grach_18": {
+        "min": [
+          -0.028049999848008156,
+          -0.11400002241134644,
+          -0.016499986872076988
+        ],
+        "max": [
+          0.028049999848008156,
+          0.10500001162290573,
+          0.08325999230146408
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/grach_18.blend",
+    "sha256": "eafbf38f9439297ce578ba5c4a524c15666f79b090f3d994a9762245ca1df57c",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "kedr_20": {
+    "url": "/assets/art-overhaul/attachments/kedr_20.glb?v=56e160b0caae",
+    "groups": [
+      "magazine__kedr_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__kedr_20": {
+        "min": [
+          -0.025849999859929085,
+          -0.1340000182390213,
+          -0.030499979853630066
+        ],
+        "max": [
+          0.025849999859929085,
+          0.18000002205371857,
+          0.04493998736143112
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/kedr_20.blend",
+    "sha256": "56e160b0caae46c4312f382d7cb4bbba97a88184aa371a449d857a124500dce6",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "kedr_30": {
+    "url": "/assets/art-overhaul/attachments/kedr_30.glb?v=902427748894",
+    "groups": [
+      "magazine__kedr_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__kedr_30": {
+        "min": [
+          -0.025849999859929085,
+          -0.22400003671646118,
+          -0.030499979853630066
+        ],
+        "max": [
+          0.025849999859929085,
+          0.18000002205371857,
+          0.04893998056650162
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/kedr_30.blend",
+    "sha256": "9024277488947a007489d64bce9fd1b8aaee990eaa4637db10fd3907bcc31ae3",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m14_10": {
+    "url": "/assets/art-overhaul/attachments/m14_10.glb?v=39caf8e7d267",
+    "groups": [
+      "magazine__m14_10"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__m14_10": {
+        "min": [
+          -0.040150001645088196,
+          -0.08400001376867294,
+          -0.07356001436710358
+        ],
+        "max": [
+          0.040150001645088196,
+          0.14000003039836884,
+          0.05700002610683441
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m14_10.blend",
+    "sha256": "39caf8e7d2673f4dcc683725f1ca58d9659b2dac3469d236eb31c95eb75f72e4",
+    "triangles": {
+      "0": 800,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m14_20": {
+    "url": "/assets/art-overhaul/attachments/m14_20.glb?v=cd386d163618",
+    "groups": [
+      "magazine__m14_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__m14_20": {
+        "min": [
+          -0.040150001645088196,
+          -0.15900000929832458,
+          -0.08056002855300903
+        ],
+        "max": [
+          0.040150001645088196,
+          0.14000003039836884,
+          0.05700002610683441
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m14_20.blend",
+    "sha256": "cd386d163618d9c85aefd75c3121efe8f6bd265de64e126a515fbbcaa3f0cd6f",
+    "triangles": {
+      "0": 800,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m17_17": {
+    "url": "/assets/art-overhaul/attachments/m17_17.glb?v=81b88994b4ba",
+    "groups": [
+      "magazine__m17_17"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__m17_17": {
+        "min": [
+          -0.027499999850988388,
+          -0.11400002986192703,
+          -0.01699998788535595
+        ],
+        "max": [
+          0.027499999850988388,
+          0.10500001162290573,
+          0.08579999208450317
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m17_17.blend",
+    "sha256": "81b88994b4ba022819428b57bf99d4ef05df6a1a8e14c7321d6d62e6ce9bf0d7",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m17_21": {
+    "url": "/assets/art-overhaul/attachments/m17_21.glb?v=7fabb54e9b6d",
+    "groups": [
+      "magazine__m17_21"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__m17_21": {
+        "min": [
+          -0.027499999850988388,
+          -0.1690000295639038,
+          -0.01699998788535595
+        ],
+        "max": [
+          0.027499999850988388,
+          0.10500001162290573,
+          0.08579999208450317
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m17_21.blend",
+    "sha256": "7fabb54e9b6d0ede54373f7a9a1a9e385fa8ca37befd8de849248c0d0cf46e89",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m9_17": {
+    "url": "/assets/art-overhaul/attachments/m9_17.glb?v=d50c0d4b1ae3",
+    "groups": [
+      "magazine__m9_17"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__m9_17": {
+        "min": [
+          -0.026399999856948853,
+          -0.11400002241134644,
+          -0.01549998763948679
+        ],
+        "max": [
+          0.026399999856948853,
+          0.10500001162290573,
+          0.07917999476194382
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m9_17.blend",
+    "sha256": "d50c0d4b1ae3cb398f88c9511275e00439d1a5141953a72240c75eea156906a1",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m9_20": {
+    "url": "/assets/art-overhaul/attachments/m9_20.glb?v=69f4fb092681",
+    "groups": [
+      "magazine__m9_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__m9_20": {
+        "min": [
+          -0.026399999856948853,
+          -0.1640000343322754,
+          -0.01549998763948679
+        ],
+        "max": [
+          0.026399999856948853,
+          0.10500001162290573,
+          0.07917999476194382
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m9_20.blend",
+    "sha256": "69f4fb09268153a96326056a0652336925066fc55d4cfbaacaccbcf0f3e53a4f",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "mp5_15": {
+    "url": "/assets/art-overhaul/attachments/mp5_15.glb?v=87077bc11910",
+    "groups": [
+      "magazine__mp5_15"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__mp5_15": {
+        "min": [
+          -0.02694999985396862,
+          -0.0690000057220459,
+          -0.05710001662373543
+        ],
+        "max": [
+          0.02694999985396862,
+          0.18000002205371857,
+          0.032500024884939194
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/mp5_15.blend",
+    "sha256": "87077bc1191035e305e540e7d182497e03b6cb953dc068f36e1c5c255ccfbf1c",
+    "triangles": {
+      "0": 152,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "mp5_30": {
+    "url": "/assets/art-overhaul/attachments/mp5_30.glb?v=d0adf9aa5347",
+    "groups": [
+      "magazine__mp5_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__mp5_30": {
+        "min": [
+          -0.02694999985396862,
+          -0.18400001525878906,
+          -0.09210003167390823
+        ],
+        "max": [
+          0.02694999985396862,
+          0.18000002205371857,
+          0.032500024884939194
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/mp5_30.blend",
+    "sha256": "d0adf9aa5347faf54f5f602a907c03ea8c0cc3c2ee417efbac81c32618825fbc",
+    "triangles": {
+      "0": 152,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "mpx_20": {
+    "url": "/assets/art-overhaul/attachments/mpx_20.glb?v=b327cd6f2309",
+    "groups": [
+      "magazine__mpx_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__mpx_20": {
+        "min": [
+          -0.029999999329447746,
+          -0.08400000631809235,
+          -0.06334001570940018
+        ],
+        "max": [
+          0.029999999329447746,
+          0.17500001192092896,
+          0.03550002723932266
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/mpx_20.blend",
+    "sha256": "b327cd6f2309f2be4280187a860289a67f91062088c87012855a488456347da5",
+    "triangles": {
+      "0": 896,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "mpx_30": {
+    "url": "/assets/art-overhaul/attachments/mpx_30.glb?v=ab49e7131f66",
+    "groups": [
+      "magazine__mpx_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__mpx_30": {
+        "min": [
+          -0.029999999329447746,
+          -0.17400000989437103,
+          -0.07934003323316574
+        ],
+        "max": [
+          0.029999999329447746,
+          0.17500001192092896,
+          0.03550002723932266
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/mpx_30.blend",
+    "sha256": "ab49e7131f66ef74ce402223250c79678405c0c10fd6ee3d4a1ea7eb66f1e0ed",
+    "triangles": {
+      "0": 896,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "pm_8": {
+    "url": "/assets/art-overhaul/attachments/pm_8.glb?v=c102f68b43f6",
+    "groups": [
+      "magazine__pm_8"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__pm_8": {
+        "min": [
+          -0.021449999883770943,
+          -0.10900001972913742,
+          -0.011499987915158272
+        ],
+        "max": [
+          0.021449999883770943,
+          0.10000001639127731,
+          0.07485999166965485
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/pm_8.blend",
+    "sha256": "c102f68b43f60fe9f58758ac813927275c73fe9ea59c8947c28aba2c0af73d6d",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "saiga_5": {
+    "url": "/assets/art-overhaul/attachments/saiga_5.glb?v=4f2c2c1e6538",
+    "groups": [
+      "magazine__saiga_5"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__saiga_5": {
+        "min": [
+          -0.047850001603364944,
+          -0.09400001913309097,
+          -0.08966001868247986
+        ],
+        "max": [
+          0.047850001603364944,
+          0.18000003695487976,
+          0.06450002640485764
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/saiga_5.blend",
+    "sha256": "4f2c2c1e653845b2da11e1531dba470c58b071e8f80ca6fc5b82d0b6055c9992",
+    "triangles": {
+      "0": 800,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "saiga_8": {
+    "url": "/assets/art-overhaul/attachments/saiga_8.glb?v=d52e63185cd1",
+    "groups": [
+      "magazine__saiga_8"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__saiga_8": {
+        "min": [
+          -0.047850001603364944,
+          -0.20900003612041473,
+          -0.11066004633903503
+        ],
+        "max": [
+          0.047850001603364944,
+          0.18000003695487976,
+          0.06450002640485764
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/saiga_8.blend",
+    "sha256": "d52e63185cd11a7b799e8a60340bda0d507f76b03f973e04d19fe9d3cce3fb9a",
+    "triangles": {
+      "0": 896,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "scorpion_20": {
+    "url": "/assets/art-overhaul/attachments/scorpion_20.glb?v=fe8b048986ca",
+    "groups": [
+      "magazine__scorpion_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__scorpion_20": {
+        "min": [
+          -0.028750000521540642,
+          -0.09400001168251038,
+          -0.07680002599954605
+        ],
+        "max": [
+          0.028750000521540642,
+          0.17500001192092896,
+          0.0350000262260437
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/scorpion_20.blend",
+    "sha256": "fe8b048986cadb4c252a01ef4ab27ddc9ae880be4af398f431c290f6c61238d2",
+    "triangles": {
+      "0": 848,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "scorpion_30": {
+    "url": "/assets/art-overhaul/attachments/scorpion_30.glb?v=7d6e718237d3",
+    "groups": [
+      "magazine__scorpion_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__scorpion_30": {
+        "min": [
+          -0.028750000521540642,
+          -0.18400001525878906,
+          -0.09280002862215042
+        ],
+        "max": [
+          0.028750000521540642,
+          0.17500001192092896,
+          0.0350000262260437
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/scorpion_30.blend",
+    "sha256": "7d6e718237d384de78ce97ef9d992c7bb78c80859c5714c0771bdae39af4b542",
+    "triangles": {
+      "0": 848,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "sv98_10": {
+    "url": "/assets/art-overhaul/attachments/sv98_10.glb?v=6ae2c5ac2657",
+    "groups": [
+      "magazine__sv98_10"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__sv98_10": {
+        "min": [
+          -0.04235000163316727,
+          -0.08900001645088196,
+          -0.06848002225160599
+        ],
+        "max": [
+          0.04235000163316727,
+          0.14000003039836884,
+          0.05600002780556679
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/sv98_10.blend",
+    "sha256": "6ae2c5ac265746d8619c61a1ee3c3ded1a9584e880bc186b2cb895c27f75e072",
+    "triangles": {
+      "0": 1112,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "svd_10": {
+    "url": "/assets/art-overhaul/attachments/svd_10.glb?v=be67c5866971",
+    "groups": [
+      "magazine__svd_10"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__svd_10": {
+        "min": [
+          -0.04235000163316727,
+          -0.09900001436471939,
+          -0.10864003002643585
+        ],
+        "max": [
+          0.04235000163316727,
+          0.14000003039836884,
+          0.058000024408102036
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/svd_10.blend",
+    "sha256": "be67c58669719a1c369b05eaf189fb378902569aa8926fe67c3ee39b1103676d",
+    "triangles": {
+      "0": 200,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "tt_8": {
+    "url": "/assets/art-overhaul/attachments/tt_8.glb?v=7b511358a757",
+    "groups": [
+      "magazine__tt_8"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__tt_8": {
+        "min": [
+          -0.021449999883770943,
+          -0.11400002241134644,
+          -0.011999988928437233
+        ],
+        "max": [
+          0.021449999883770943,
+          0.10000001639127731,
+          0.08039999008178711
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/tt_8.blend",
+    "sha256": "7b511358a757f4dce98cc385fc34d9fb3774fdaa55604d2223f6f088d58a837b",
+    "triangles": {
+      "0": 272,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "val_10": {
+    "url": "/assets/art-overhaul/attachments/val_10.glb?v=7db40759d726",
+    "groups": [
+      "magazine__val_10"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__val_10": {
+        "min": [
+          -0.03739999979734421,
+          -0.0690000131726265,
+          -0.07970001548528671
+        ],
+        "max": [
+          0.03739999979734421,
+          0.1600000113248825,
+          0.052500028163194656
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/val_10.blend",
+    "sha256": "7db40759d726751f6ae0c9093622eb1c483281551a0bacf91cd2da5305ade6e1",
+    "triangles": {
+      "0": 800,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "val_20": {
+    "url": "/assets/art-overhaul/attachments/val_20.glb?v=66596f5a6adf",
+    "groups": [
+      "magazine__val_20"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__val_20": {
+        "min": [
+          -0.03739999979734421,
+          -0.1340000182390213,
+          -0.09470003098249435
+        ],
+        "max": [
+          0.03739999979734421,
+          0.1600000113248825,
+          0.052500028163194656
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/val_20.blend",
+    "sha256": "66596f5a6adf16904f4e7e6383ad877b4fbb8d0c4814c978b1f6fd13ec703085",
+    "triangles": {
+      "0": 896,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "val_30": {
+    "url": "/assets/art-overhaul/attachments/val_30.glb?v=38d194538eb5",
+    "groups": [
+      "magazine__val_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__val_30": {
+        "min": [
+          -0.03739999979734421,
+          -0.21400003135204315,
+          -0.11670004576444626
+        ],
+        "max": [
+          0.03739999979734421,
+          0.1600000113248825,
+          0.052500028163194656
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/val_30.blend",
+    "sha256": "38d194538eb59c15e6c3e0967fbefcd75a45b2749204835bfe4af487fb57e0fc",
+    "triangles": {
+      "0": 896,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "vityaz_30": {
+    "url": "/assets/art-overhaul/attachments/vityaz_30.glb?v=4469afe3551b",
+    "groups": [
+      "magazine__vityaz_30"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "magazine__vityaz_30": {
+        "min": [
+          -0.02694999985396862,
+          -0.1990000307559967,
+          -0.06864003837108612
+        ],
+        "max": [
+          0.02694999985396862,
+          0.18000002205371857,
+          0.033000025898218155
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/vityaz_30.blend",
+    "sha256": "4469afe3551b853b58281a2c61c00c1d62f87ea5a7f25d14570fdf831e9a39d4",
+    "triangles": {
+      "0": 152,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ar_grip": {
+    "url": "/assets/art-overhaul/attachments/ar_grip.glb?v=61bd05c08246",
+    "groups": [
+      "pistolgrip__ar_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__ar_grip": {
+        "min": [
+          -0.033399999141693115,
+          -0.14175726473331451,
+          -0.04400000348687172
+        ],
+        "max": [
+          0.03339999541640282,
+          0.06975125521421432,
+          0.05199999734759331
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ar_grip.blend",
+    "sha256": "61bd05c0824683e931422362fe125bc226128601cd6d9baa9ed4857d39c44034",
+    "triangles": {
+      "0": 120,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ar_ergo": {
+    "url": "/assets/art-overhaul/attachments/ar_ergo.glb?v=b6d8d80d0b45",
+    "groups": [
+      "pistolgrip__ar_ergo"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__ar_ergo": {
+        "min": [
+          -0.03539999946951866,
+          -0.1418280154466629,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.03539999574422836,
+          0.06975125521421432,
+          0.0689999908208847
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ar_ergo.blend",
+    "sha256": "b6d8d80d0b4530218852918690c75ca164074ae53e7009c8d185430a3cffcfc8",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "ar_wrapped": {
+    "url": "/assets/art-overhaul/attachments/ar_wrapped.glb?v=bb4cf3f936a5",
+    "groups": [
+      "pistolgrip__ar_wrapped"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__ar_wrapped": {
+        "min": [
+          -0.03440000116825104,
+          -0.1417834460735321,
+          -0.04400000348687172
+        ],
+        "max": [
+          0.03439999744296074,
+          0.06975125521421432,
+          0.07474055886268616
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ar_wrapped.blend",
+    "sha256": "bb4cf3f936a53c0f4161752194b216ddb7fb5fa80c988f477ac5d0ff1704db45",
+    "triangles": {
+      "0": 260,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "bren_grip": {
+    "url": "/assets/art-overhaul/attachments/bren_grip.glb?v=c743dda1582d",
+    "groups": [
+      "pistolgrip__bren_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__bren_grip": {
+        "min": [
+          -0.036900002509355545,
+          -0.13681186735630035,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.03689999878406525,
+          0.06975125521421432,
+          0.06400000303983688
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/bren_grip.blend",
+    "sha256": "c743dda1582d69ae979bae4637dc79d89eba0f44c50448ad8759ade03faf3be3",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "g36_grip": {
+    "url": "/assets/art-overhaul/attachments/g36_grip.glb?v=fdc7510bdd4e",
+    "groups": [
+      "pistolgrip__g36_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__g36_grip": {
+        "min": [
+          -0.036400001496076584,
+          -0.1510000079870224,
+          -0.03800000995397568
+        ],
+        "max": [
+          0.036399997770786285,
+          0.07000001519918442,
+          0.03198830410838127
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/g36_grip.blend",
+    "sha256": "fdc7510bdd4e66e54e6d86647a15605290fa7753ba367d1da278996dbfb8fe2f",
+    "triangles": {
+      "0": 92,
+      "1": 52
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "grach_grip": {
+    "url": "/assets/art-overhaul/attachments/grach_grip.glb?v=99a2b37e4ae4",
+    "groups": [
+      "pistolgrip__grach_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__grach_grip": {
+        "min": [
+          -0.04240000247955322,
+          -0.13880065083503723,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.042399998754262924,
+          0.06975125521421432,
+          0.060999996960163116
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/grach_grip.blend",
+    "sha256": "99a2b37e4ae46b70ebd21f30e9ab38549ebf53cc0d6399393eb30260d5e4d77a",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "kedr_grip": {
+    "url": "/assets/art-overhaul/attachments/kedr_grip.glb?v=2863e53b083a",
+    "groups": [
+      "pistolgrip__kedr_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__kedr_grip": {
+        "min": [
+          -0.0284000001847744,
+          -0.13700000941753387,
+          -0.03800000995397568
+        ],
+        "max": [
+          0.0284000001847744,
+          0.07000001519918442,
+          0.03198748826980591
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/kedr_grip.blend",
+    "sha256": "2863e53b083a91b3fa326d5d9b44901c67524825f87382ad1b3942d50f28b815",
+    "triangles": {
+      "0": 92,
+      "1": 52
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m17_grip": {
+    "url": "/assets/art-overhaul/attachments/m17_grip.glb?v=b7fad176843c",
+    "groups": [
+      "pistolgrip__m17_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__m17_grip": {
+        "min": [
+          -0.036900002509355545,
+          -0.14000001549720764,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.03689999878406525,
+          0.06975125521421432,
+          0.0793936550617218
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m17_grip.blend",
+    "sha256": "b7fad176843c47652e83d6818b65854cbc1a297909d02f59da2300138a0ae5dc",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m17_grip_slim": {
+    "url": "/assets/art-overhaul/attachments/m17_grip_slim.glb?v=ed076e3bbfaa",
+    "groups": [
+      "pistolgrip__m17_grip_slim"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__m17_grip_slim": {
+        "min": [
+          -0.03240000084042549,
+          -0.13980065286159515,
+          -0.04400000348687172
+        ],
+        "max": [
+          0.03239999711513519,
+          0.06975125521421432,
+          0.04899999499320984
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m17_grip_slim.blend",
+    "sha256": "ed076e3bbfaa6be0395f14deab92ff6336d6e4cf3720fd5cfd2c1ffa9f1442bf",
+    "triangles": {
+      "0": 116,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m9_grip": {
+    "url": "/assets/art-overhaul/attachments/m9_grip.glb?v=0e605027b496",
+    "groups": [
+      "pistolgrip__m9_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__m9_grip": {
+        "min": [
+          -0.03749999776482582,
+          -0.13480454683303833,
+          -0.04400000348687172
+        ],
+        "max": [
+          0.03750000149011612,
+          0.06975125521421432,
+          0.06199999526143074
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m9_grip.blend",
+    "sha256": "0e605027b496aa7e9ce39ef4a66959bf00fb06828ea85397a90090ccd5e36811",
+    "triangles": {
+      "0": 232,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "m9_rubber": {
+    "url": "/assets/art-overhaul/attachments/m9_rubber.glb?v=4b4ad4c19d20",
+    "groups": [
+      "pistolgrip__m9_rubber"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__m9_rubber": {
+        "min": [
+          -0.039400000125169754,
+          -0.13481533527374268,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.039399996399879456,
+          0.06975125521421432,
+          0.06499999761581421
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m9_rubber.blend",
+    "sha256": "4b4ad4c19d2067364962ef1c4b35a51a31b7c063923383010d3084aae43f2ba9",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "pm_grip": {
+    "url": "/assets/art-overhaul/attachments/pm_grip.glb?v=80cc60d1ac70",
+    "groups": [
+      "pistolgrip__pm_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__pm_grip": {
+        "min": [
+          -0.03240000084042549,
+          -0.13200001418590546,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.03240000084042549,
+          0.06975125521421432,
+          0.07434921711683273
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/pm_grip.blend",
+    "sha256": "80cc60d1ac70bded2fc74c40ea9d38cec1e0aa53e6b7e0ecdb325e7ede4a9aec",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "pm_rubber": {
+    "url": "/assets/art-overhaul/attachments/pm_rubber.glb?v=fa95a2f212c9",
+    "groups": [
+      "pistolgrip__pm_rubber"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__pm_rubber": {
+        "min": [
+          -0.03539999946951866,
+          -0.13482801616191864,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.03539999574422836,
+          0.06975125521421432,
+          0.0689999982714653
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/pm_rubber.blend",
+    "sha256": "fa95a2f212c9aae68d6bc98a05c08b650d951f4fddae8da30f703ba153acc4cf",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "scorpion_grip": {
+    "url": "/assets/art-overhaul/attachments/scorpion_grip.glb?v=0fba08315b41",
+    "groups": [
+      "pistolgrip__scorpion_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__scorpion_grip": {
+        "min": [
+          -0.03440000116825104,
+          -0.14777368307113647,
+          -0.04400000348687172
+        ],
+        "max": [
+          0.03439999744296074,
+          0.06975125521421432,
+          0.05499999597668648
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/scorpion_grip.blend",
+    "sha256": "0fba08315b413d27816924bdabc3325cea36d9b8b12340dfdeb501a78abc2405",
+    "triangles": {
+      "0": 120,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "tt_grip": {
+    "url": "/assets/art-overhaul/attachments/tt_grip.glb?v=361077cb24ec",
+    "groups": [
+      "pistolgrip__tt_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__tt_grip": {
+        "min": [
+          -0.03349999710917473,
+          -0.14674493670463562,
+          -0.04400000348687172
+        ],
+        "max": [
+          0.03350000083446503,
+          0.06975125521421432,
+          0.04999999701976776
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/tt_grip.blend",
+    "sha256": "361077cb24ecfa20de4d782dfca320bc9557d32ed72f187aed30d2e274e8476c",
+    "triangles": {
+      "0": 232,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "val_ergo": {
+    "url": "/assets/art-overhaul/attachments/val_ergo.glb?v=bdf5b9a4b2be",
+    "groups": [
+      "pistolgrip__val_ergo"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__val_ergo": {
+        "min": [
+          -0.03739999979734421,
+          -0.1438337117433548,
+          -0.04500000923871994
+        ],
+        "max": [
+          0.03739999607205391,
+          0.06975125521421432,
+          0.07099999487400055
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/val_ergo.blend",
+    "sha256": "bdf5b9a4b2be5bca311a4c33b1e7936a0ad5ce4e13b878b50929cca62b0b9181",
+    "triangles": {
+      "0": 252,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "val_grip": {
+    "url": "/assets/art-overhaul/attachments/val_grip.glb?v=eec92596d371",
+    "groups": [
+      "pistolgrip__val_grip"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "pistolgrip__val_grip": {
+        "min": [
+          -0.033900000154972076,
+          -0.1397736817598343,
+          -0.04400000348687172
+        ],
+        "max": [
+          0.03389999642968178,
+          0.06975125521421432,
+          0.05499999597668648
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/val_grip.blend",
+    "sha256": "eec92596d371d157679f8d02cf3633e2cc5b86c7f6254490a13f55c5c05b9fd4",
+    "triangles": {
+      "0": 120,
+      "1": 64
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "red_dot": {
+    "url": "/assets/art-overhaul/attachments/red_dot.glb?v=7451826b40da",
+    "groups": [
+      "optic__red_dot"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__red_dot": {
+        "min": [
+          -0.03832000121474266,
+          -0.012000004760921001,
+          -0.02199999988079071
+        ],
+        "max": [
+          0.044999998062849045,
+          0.0950000137090683,
+          0.024000009521842003
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/red_dot.blend",
+    "sha256": "7451826b40dae0adc0c7f98de455840c8726740fe9e59fd775ab16d0f087724d",
+    "triangles": {
+      "0": 208,
+      "1": 88
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "holo": {
+    "url": "/assets/art-overhaul/attachments/holo.glb?v=43ead037df57",
+    "groups": [
+      "optic__holo"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__holo": {
+        "min": [
+          -0.04560000076889992,
+          -0.01200000662356615,
+          -0.06300000846385956
+        ],
+        "max": [
+          0.04560000076889992,
+          0.0950000137090683,
+          0.036580007523298264
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/holo.blend",
+    "sha256": "43ead037df5778ba8d2e7c7bc28a968ef1a126d66aa91d2b6a9b2895321a0129",
+    "triangles": {
+      "0": 224,
+      "1": 104
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "pistol_dot": {
+    "url": "/assets/art-overhaul/attachments/pistol_dot.glb?v=238710273114",
+    "groups": [
+      "optic__pistol_dot"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__pistol_dot": {
+        "min": [
+          -0.030000001192092896,
+          -0.012000004760921001,
+          -0.02900000289082527
+        ],
+        "max": [
+          0.030000001192092896,
+          0.0950000211596489,
+          0.029000017791986465
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/pistol_dot.blend",
+    "sha256": "238710273114c17988f56657e2bbd630578009967107665bc3813f640e68e4ee",
+    "triangles": {
+      "0": 284,
+      "1": 172
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "dot_tube": {
+    "url": "/assets/art-overhaul/attachments/dot_tube.glb?v=a28889eeb4a5",
+    "groups": [
+      "optic__dot_tube"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__dot_tube": {
+        "min": [
+          -0.04560000076889992,
+          -0.012000007554888725,
+          -0.06749999523162842
+        ],
+        "max": [
+          0.04560000076889992,
+          0.11100001633167267,
+          0.0675000324845314
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/dot_tube.blend",
+    "sha256": "a28889eeb4a5f11bed67c81ca90897a41565ace86c15573d4dd5a49f00b669ed",
+    "triangles": {
+      "0": 204,
+      "1": 132
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "prism2": {
+    "url": "/assets/art-overhaul/attachments/prism2.glb?v=f601bed9d914",
+    "groups": [
+      "optic__prism2"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__prism2": {
+        "min": [
+          -0.04560000076889992,
+          -0.012000009417533875,
+          -0.09000000357627869
+        ],
+        "max": [
+          0.04560000076889992,
+          0.11600001156330109,
+          0.09000003337860107
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/prism2.blend",
+    "sha256": "f601bed9d9143c8348c0adc15d9af4f5a2edc80531411edaa051bc03088db3e6",
+    "triangles": {
+      "0": 248,
+      "1": 144
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "scope3_compact": {
+    "url": "/assets/art-overhaul/attachments/scope3_compact.glb?v=acf87d737bc4",
+    "groups": [
+      "optic__scope3_compact"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__scope3_compact": {
+        "min": [
+          -0.04560000076889992,
+          -0.012000011280179024,
+          -0.11000000685453415
+        ],
+        "max": [
+          0.04560000076889992,
+          0.11600001156330109,
+          0.11000003665685654
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/scope3_compact.blend",
+    "sha256": "acf87d737bc414166f63baf02e363f66d818a05fd6d2f2d60c6e80bf90a9561c",
+    "triangles": {
+      "0": 248,
+      "1": 144
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "scope4": {
+    "url": "/assets/art-overhaul/attachments/scope4.glb?v=72c09dc77f0b",
+    "groups": [
+      "optic__scope4"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__scope4": {
+        "min": [
+          -0.04560000076889992,
+          -0.012000014074146748,
+          -0.16300000250339508
+        ],
+        "max": [
+          0.04560000076889992,
+          0.10300001502037048,
+          0.15000003576278687
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/scope4.blend",
+    "sha256": "72c09dc77f0bc644b38b6b05a65d0722ad9952af3d7e21b0414ff1d1185543eb",
+    "triangles": {
+      "0": 676,
+      "1": 412
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "scope6": {
+    "url": "/assets/art-overhaul/attachments/scope6.glb?v=6e906558c794",
+    "groups": [
+      "optic__scope6"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "optic__scope6": {
+        "min": [
+          -0.04560000076889992,
+          -0.012000019662082195,
+          -0.21675002574920654
+        ],
+        "max": [
+          0.04560000076889992,
+          0.10300001502037048,
+          0.21250005066394806
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/scope6.blend",
+    "sha256": "6e906558c794f61d0c48f8946a2fa34720ddd04f7ec0cf65163893c6e5e45d5c",
+    "triangles": {
+      "0": 676,
+      "1": 412
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "fore_angled": {
+    "url": "/assets/art-overhaul/attachments/fore_angled.glb?v=dfff393c71c0",
+    "groups": [
+      "grip__fore_angled"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "grip__fore_angled": {
+        "min": [
+          -0.03200000151991844,
+          -0.09436755627393723,
+          -0.06439550966024399
+        ],
+        "max": [
+          0.03200000151991844,
+          0.09000001847743988,
+          0.08100000768899918
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_angled.blend",
+    "sha256": "dfff393c71c0f900689506ac912006666ceb34aaa6066aab14a1bb436a070c51",
+    "triangles": {
+      "0": 88,
+      "1": 48
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "fore_bail": {
+    "url": "/assets/art-overhaul/attachments/fore_bail.glb?v=3110fdf7d570",
+    "groups": [
+      "grip__fore_bail"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "grip__fore_bail": {
+        "min": [
+          -0.03200000151991844,
+          -0.09200002253055573,
+          -0.06461026519536972
+        ],
+        "max": [
+          0.03200000151991844,
+          0.09000001847743988,
+          0.08800001442432404
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_bail.blend",
+    "sha256": "3110fdf7d570a09f4f5cfafc5719af8a740b44f6a9d07c76ac460d717bf35ff5",
+    "triangles": {
+      "0": 124,
+      "1": 60
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "fore_slim": {
+    "url": "/assets/art-overhaul/attachments/fore_slim.glb?v=b76666a9a281",
+    "groups": [
+      "grip__fore_slim"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "grip__fore_slim": {
+        "min": [
+          -0.03200000151991844,
+          -0.06701398640871048,
+          -0.06439550966024399
+        ],
+        "max": [
+          0.03200000151991844,
+          0.09000001847743988,
+          0.08100000768899918
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_slim.blend",
+    "sha256": "b76666a9a281a8d4fdcc7459a8742c8d5639ad506d8648d26fc50eea4b03e462",
+    "triangles": {
+      "0": 84,
+      "1": 48
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "fore_stop": {
+    "url": "/assets/art-overhaul/attachments/fore_stop.glb?v=ad6d49589630",
+    "groups": [
+      "grip__fore_stop"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "grip__fore_stop": {
+        "min": [
+          -0.03200000151991844,
+          -0.013790632598102093,
+          -0.044999998062849045
+        ],
+        "max": [
+          0.03200000151991844,
+          0.09000001847743988,
+          0.04500001668930054
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_stop.blend",
+    "sha256": "ad6d49589630fa1b094403f56114ee6504f86acfc0b718f5eb29790af5d4c18e",
+    "triangles": {
+      "0": 88,
+      "1": 48
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "fore_stub": {
+    "url": "/assets/art-overhaul/attachments/fore_stub.glb?v=1f5877d5217d",
+    "groups": [
+      "grip__fore_stub"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "grip__fore_stub": {
+        "min": [
+          -0.03200000151991844,
+          -0.0390000082552433,
+          -0.044999998062849045
+        ],
+        "max": [
+          0.03200000151991844,
+          0.09000001847743988,
+          0.04500001668930054
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_stub.blend",
+    "sha256": "1f5877d5217d0ef777731b258e26a37459c33c8883ca2429e9198cdff44122d9",
+    "triangles": {
+      "0": 268,
+      "1": 100
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "fore_vertical": {
+    "url": "/assets/art-overhaul/attachments/fore_vertical.glb?v=84a6e04a1a02",
+    "groups": [
+      "grip__fore_vertical"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "grip__fore_vertical": {
+        "min": [
+          -0.03200000151991844,
+          -0.11400002241134644,
+          -0.044999998062849045
+        ],
+        "max": [
+          0.03200000151991844,
+          0.09000001847743988,
+          0.04500001668930054
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_vertical.blend",
+    "sha256": "84a6e04a1a02f78d90432a90b6fa3922c3f4025ee8d8388b97eb6eaa53e4860e",
+    "triangles": {
+      "0": 268,
+      "1": 100
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "flashlight": {
+    "url": "/assets/art-overhaul/attachments/flashlight.glb?v=e84a65dab5ed",
+    "groups": [
+      "light__flashlight"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "light__flashlight": {
+        "min": [
+          -0.06200000271201134,
+          -0.025999989360570908,
+          -0.09190000593662262
+        ],
+        "max": [
+          0.026000000536441803,
+          0.026000022888183594,
+          0.06536000967025757
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/flashlight.blend",
+    "sha256": "e84a65dab5ed54737e003308f5b73061c4314b84b1d24b24d16e5f1778f0172a",
+    "triangles": {
+      "0": 464,
+      "1": 132
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "light_compact": {
+    "url": "/assets/art-overhaul/attachments/light_compact.glb?v=b51900286d3c",
+    "groups": [
+      "light__light_compact"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "light__light_compact": {
+        "min": [
+          -0.06200000271201134,
+          -0.025999994948506355,
+          -0.06715000420808792
+        ],
+        "max": [
+          0.026000000536441803,
+          0.026000017300248146,
+          0.044460006058216095
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/light_compact.blend",
+    "sha256": "b51900286d3c56052e16e79dee089bae978dc661935ea47a0555a24b01754d94",
+    "triangles": {
+      "0": 464,
+      "1": 132
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "pistol_light": {
+    "url": "/assets/art-overhaul/attachments/pistol_light.glb?v=f703ca4ae36e",
+    "groups": [
+      "light__pistol_light"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "light__pistol_light": {
+        "min": [
+          -0.03150000050663948,
+          -0.03299999237060547,
+          -0.06310000270605087
+        ],
+        "max": [
+          0.03150000050663948,
+          0.053000014275312424,
+          0.04104000702500343
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/pistol_light.blend",
+    "sha256": "f703ca4ae36e3c1fee9108ba5fd60642e61bacef43a87315139031bb551fb4b6",
+    "triangles": {
+      "0": 480,
+      "1": 148
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "wide_light": {
+    "url": "/assets/art-overhaul/attachments/wide_light.glb?v=6edc390346bd",
+    "groups": [
+      "light__wide_light"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "light__wide_light": {
+        "min": [
+          -0.06200000271201134,
+          -0.03499998897314072,
+          -0.09190001338720322
+        ],
+        "max": [
+          0.03500000014901161,
+          0.0350000225007534,
+          0.06536000967025757
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/wide_light.blend",
+    "sha256": "6edc390346bd6ecc85447dff16ab134b089decdaef0abb1d101ecebcbed68712",
+    "triangles": {
+      "0": 464,
+      "1": 132
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "laser": {
+    "url": "/assets/art-overhaul/attachments/laser.glb?v=1a3f9bc51488",
+    "groups": [
+      "laser__laser"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "laser__laser": {
+        "min": [
+          -0.02850000001490116,
+          -0.025000015273690224,
+          -0.049000002443790436
+        ],
+        "max": [
+          0.05700000002980232,
+          0.023499999195337296,
+          0.04150000587105751
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/laser.blend",
+    "sha256": "1a3f9bc514888a4c1425101df57fac0c34f0d9a5c5db6539edff2c6331f75b09",
+    "triangles": {
+      "0": 152,
+      "1": 120
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  },
+  "laser_dual": {
+    "url": "/assets/art-overhaul/attachments/laser_dual.glb?v=ddacc7c38848",
+    "groups": [
+      "laser__laser_dual"
+    ],
+    "frame": "meters",
+    "groupBounds": {
+      "laser__laser_dual": {
+        "min": [
+          -0.041999999433755875,
+          -0.025000018998980522,
+          -0.06050000339746475
+        ],
+        "max": [
+          0.05700000002980232,
+          0.023499999195337296,
+          0.053000010550022125
+        ]
+      }
+    },
+    "source": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/laser_dual.blend",
+    "sha256": "ddacc7c388481591c5851b6f0f152aafd5f3626c221a786da793a54515737462",
+    "triangles": {
+      "0": 248,
+      "1": 184
+    },
+    "status": "STRUCTURAL_PASS_AWAITING_VISUAL_FIT"
+  }
+}

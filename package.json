@@ -1,0 +1,49 @@
+{
+  "name": "reid",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Рейд — low-poly extraction FPS с серверным кооперативом и офлайн-режимом",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "serve:online": "node server/start.mjs",
+    "start": "node server/start.mjs",
+    "preview": "node tools/serve.mjs",
+    "serve:offline": "node tools/serve.mjs --open",
+    "build": "node tools/update-assets.mjs && node tools/prebuild.mjs && tsc && node tools/build.mjs && npm run build:web",
+    "build:web": "vite build && node tools/build-web.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "node tools/lint.mjs",
+    "test": "npm run build && node tools/run-tests.mjs",
+    "test:integration": "npm run build && node --test tests/server.test.mjs tests/protocol.test.mjs",
+    "test:e2e": "python3 tools/e2e.py",
+    "validate:content": "npm run build && node tools/validate-content.mjs",
+    "verify": "npm run typecheck && npm run lint && npm run build && node tools/run-tests.mjs && node tools/validate-content.mjs",
+    "test:ui": "node tools/test-bundle.mjs && python3 tools/ui-test.py",
+    "test:rtc": "node tools/test-bundle.mjs && python3 tools/rtc-test.py",
+    "test:render": "node tools/render-fixtures.mjs && python3 tools/native-render.py",
+    "test:packaging": "python3 tools/packaging-test.py"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/ws": "^8.18.2",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "file:vendor/typescript-5.8.3.tgz",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.30.0",
+    "@babylonjs/loaders": "9.30.0",
+    "better-sqlite3": "^13.0.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "0.35.5",
+    "ws": "^8.22.0"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/head_balaclava.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "head_balaclava_head": {
+      "0": {
+        "triangles": 238,
+        "vertices": 464,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth",
+          "RAID_seam"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.15199999511241913,
+            -0.23199999332427979,
+            -0.15600000321865082
+          ],
+          "max": [
+            0.15199999511241913,
+            0.16500000655651093,
+            0.13500000536441803
+          ]
+        }
+      },
+      "1": {
+        "triangles": 130,
+        "vertices": 260,
+        "objects": 2,
+        "materials": [
+          "RAID_cloth",
+          "RAID_seam"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.1444000005722046,
+            -0.23199999332427979,
+            -0.15600000321865082
+          ],
+          "max": [
+            0.1444000005722046,
+            0.16500000655651093,
+            0.13500000536441803
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "seam_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "cloth_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/head_balaclava.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "head_balaclava_head": {
+      "min": [
+        -0.15199999511241913,
+        -0.23199999332427979,
+        -0.15600000321865082
+      ],
+      "max": [
+        0.15199999511241913,
+        0.16500000655651093,
+        0.13500000536441803
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.15199999511241913,
+      -0.13500000536441803,
+      -0.23199999332427979
+    ],
+    "max": [
+      0.15199999511241913,
+      0.15600000321865082,
+      0.16500000655651093
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/sks_synthetic.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__sks_synthetic": {
+      "0": {
+        "triangles": 532,
+        "vertices": 1012,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05249999836087227,
+            -0.19474749267101288,
+            -0.9000000953674316
+          ],
+          "max": [
+            0.05249999836087227,
+            0.07000002264976501,
+            0.2670000195503235
+          ]
+        }
+      },
+      "1": {
+        "triangles": 220,
+        "vertices": 422,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_rubber.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05249999836087227,
+            -0.19500000774860382,
+            -0.9000000953674316
+          ],
+          "max": [
+            0.05249999836087227,
+            0.07000002264976501,
+            0.26600000262260437
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/sks_synthetic-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__sks_synthetic": {
+      "min": [
+        -0.05249999836087227,
+        -0.19474749267101288,
+        -0.9000000953674316
+      ],
+      "max": [
+        0.05249999836087227,
+        0.07000002264976501,
+        0.2670000195503235
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05249999836087227,
+      -0.2670000195503235,
+      -0.1950000524520874
+    ],
+    "max": [
+      0.05249999836087227,
+      0.9000000953674316,
+      0.07000012695789337
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

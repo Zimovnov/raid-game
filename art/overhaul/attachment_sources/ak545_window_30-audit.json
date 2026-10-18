@@ -1,0 +1,127 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/ak545_window_30.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "magazine__ak545_window_30": {
+      "0": {
+        "triangles": 1012,
+        "vertices": 1772,
+        "objects": 3,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007",
+          "RAID_Original_Attachment_window.005"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03580000251531601,
+            -0.15000002086162567,
+            -0.0975000336766243
+          ],
+          "max": [
+            0.03580000251531601,
+            0.18300001323223114,
+            0.04700002074241638
+          ]
+        }
+      },
+      "1": {
+        "triangles": 148,
+        "vertices": 268,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03449999913573265,
+            -0.15000002086162567,
+            -0.0975000336766243
+          ],
+          "max": [
+            0.03449999913573265,
+            0.18300001323223114,
+            0.04700002074241638
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "window-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak545_window_30-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "magazine__ak545_window_30": {
+      "min": [
+        -0.03580000251531601,
+        -0.15000002086162567,
+        -0.0975000336766243
+      ],
+      "max": [
+        0.03580000251531601,
+        0.18300001323223114,
+        0.04700002074241638
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03580000251531601,
+      -0.04700002074241638,
+      -0.15000002086162567
+    ],
+    "max": [
+      0.03580000251531601,
+      0.0975000336766243,
+      0.18300002813339233
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

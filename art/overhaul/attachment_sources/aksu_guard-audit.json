@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/aksu_guard.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__aksu_guard": {
+      "0": {
+        "triangles": 308,
+        "vertices": 536,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_steel.007",
+          "RAID_Original_Attachment_wood.006"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05649999901652336,
+            -0.0650000125169754,
+            -0.09300000965595245
+          ],
+          "max": [
+            0.05649999901652336,
+            0.07400001585483551,
+            0.09300003200769424
+          ]
+        }
+      },
+      "1": {
+        "triangles": 248,
+        "vertices": 416,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_steel.007",
+          "RAID_Original_Attachment_wood.006"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05649999901652336,
+            -0.06300000101327896,
+            -0.09300000965595245
+          ],
+          "max": [
+            0.05649999901652336,
+            0.07400001585483551,
+            0.09300003200769424
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "wood-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_guard-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__aksu_guard": {
+      "min": [
+        -0.05649999901652336,
+        -0.0650000125169754,
+        -0.09300000965595245
+      ],
+      "max": [
+        0.05649999901652336,
+        0.07400001585483551,
+        0.09300003200769424
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05649999901652336,
+      -0.09300003200769424,
+      -0.065000019967556
+    ],
+    "max": [
+      0.05649999901652336,
+      0.09300000965595245,
+      0.07400002330541611
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

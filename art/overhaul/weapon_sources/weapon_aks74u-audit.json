@@ -1,0 +1,181 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/weapons/weapon_aks74u.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "action": {
+      "0": {
+        "triangles": 124,
+        "vertices": 260,
+        "objects": 1,
+        "materials": [
+          "RAID original weapon atlas.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        }
+      },
+      "1": {
+        "triangles": 44,
+        "vertices": 88,
+        "objects": 1,
+        "materials": [
+          "RAID original weapon atlas.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        }
+      }
+    },
+    "body": {
+      "0": {
+        "triangles": 1508,
+        "vertices": 3086,
+        "objects": 1,
+        "materials": [
+          "RAID original weapon atlas.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04430999979376793,
+            -0.12300000339746475,
+            -0.49000000953674316
+          ],
+          "max": [
+            0.04650000110268593,
+            0.16769886016845703,
+            0.2029999941587448
+          ]
+        }
+      },
+      "1": {
+        "triangles": 504,
+        "vertices": 992,
+        "objects": 1,
+        "materials": [
+          "RAID original weapon atlas.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.043310001492500305,
+            -0.12300000339746475,
+            -0.49000000953674316
+          ],
+          "max": [
+            0.04650000110268593,
+            0.1679999977350235,
+            0.2029999941587448
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "weapon-orm-atlas.001",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "weapon-surface-atlas.001",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/weapon_sources/roundtrip/weapon_aks74u.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "action": {
+      "min": [
+        0.030499998480081558,
+        0.03350000083446503,
+        -0.07199999690055847
+      ],
+      "max": [
+        0.09549999982118607,
+        0.060499999672174454,
+        0.019999999552965164
+      ]
+    },
+    "body": {
+      "min": [
+        -0.04430999979376793,
+        -0.12300000339746475,
+        -0.49000000953674316
+      ],
+      "max": [
+        0.04650000110268593,
+        0.16769886016845703,
+        0.2029999941587448
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.04430999979376793,
+      -0.2029999941587448,
+      -0.12300000339746475
+    ],
+    "max": [
+      0.09549999982118607,
+      0.49000000953674316,
+      0.1679999977350235
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

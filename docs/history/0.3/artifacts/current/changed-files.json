@@ -1,0 +1,165 @@
+{
+  "sourceArchiveSha256": "fe14977a9fe013617c0dce874ff6a00f8baf0bc9ecc8aa45bac0e90fedd5e04d",
+  "files": [
+    {
+      "path": "src/audio/audio.ts",
+      "kind": "modified",
+      "sha256": "f9ed238a77db56f7896eb516f939e46d11d09bad5e84db293cbfd40aca82f52b"
+    },
+    {
+      "path": "src/content/catalog.ts",
+      "kind": "modified",
+      "sha256": "95104b5746ca66394107247c99a238772055036b9f0713261846126d4018c9c9"
+    },
+    {
+      "path": "src/content/maps.ts",
+      "kind": "modified",
+      "sha256": "2b5cb104f46e17edb1fcb1c105a73a5db051648e51df167d8cf03a4b8f3a8fda"
+    },
+    {
+      "path": "src/content/version.ts",
+      "kind": "modified",
+      "sha256": "af5aa21ae27d12b94cfb2ae998d542b097a88a54fa0fc6ad37160bb1cfb900c4"
+    },
+    {
+      "path": "src/domain/ammunition.ts",
+      "kind": "modified",
+      "sha256": "848cdc3c56a56981d72fb6e5acb5890b57b534c7e8db8ffe6fe80c018b49b393"
+    },
+    {
+      "path": "src/domain/items.ts",
+      "kind": "modified",
+      "sha256": "2072ca94c51811011a7cb043f9ef4cba28cd156ccd1d32cbd77bcb940095b175"
+    },
+    {
+      "path": "src/domain/migration.ts",
+      "kind": "modified",
+      "sha256": "37e1c604611db4ff2aec85d018ace48a9df35cc6757b73c995054436a499f84a"
+    },
+    {
+      "path": "src/domain/profile.ts",
+      "kind": "modified",
+      "sha256": "d5df42d5761a1324f03c071d1f0fba326512f81e6cde0e30f9d7f7f8ff9db624"
+    },
+    {
+      "path": "src/domain/types.ts",
+      "kind": "modified",
+      "sha256": "64ed2973df0c8cf7ea3ac0e4b47627f9851cc79095ba9f8e4d59d049b6df4b82"
+    },
+    {
+      "path": "src/domain/util.ts",
+      "kind": "modified",
+      "sha256": "b7ae067c4f3622e4ee4671fa31fff07f0393d997a3509ee8e219d51ae69edef7"
+    },
+    {
+      "path": "src/domain/weapon-pose.ts",
+      "kind": "modified",
+      "sha256": "d4dee3d3c1244cf6b9a698b2bb208123bc4e7c75a3408b27eaa2df0689af549e"
+    },
+    {
+      "path": "src/main.ts",
+      "kind": "modified",
+      "sha256": "4713f05c7859422a276acf96c7ffdd04739175759210b538f5997699be3df3a3"
+    },
+    {
+      "path": "src/persistence/store.ts",
+      "kind": "modified",
+      "sha256": "1bf25487ae2facf4af71637e6cca0ac06adb901b9b352622e9a4138f656c43ba"
+    },
+    {
+      "path": "src/rendering/models.ts",
+      "kind": "modified",
+      "sha256": "cb6b17cbb232123aa411a9a77c78d68cb6b1311453f647f411989322a28b95b3"
+    },
+    {
+      "path": "src/rendering/picking.ts",
+      "kind": "added",
+      "sha256": "394d2cae7e3c9e3325e4a5218e6e01d0606b4a4e5d02404a3acb25af2fbe9ba0"
+    },
+    {
+      "path": "src/rendering/renderer.ts",
+      "kind": "modified",
+      "sha256": "0d24766ef40768f1911ba1517afd062f45595371defd358e7a646a4ec621b29a"
+    },
+    {
+      "path": "src/rendering/weapon-animation.ts",
+      "kind": "added",
+      "sha256": "576a037e2e3d49b4b9864debecb4f284766ef38a1d5598098a183f7ed8880dae"
+    },
+    {
+      "path": "src/simulation/collision.ts",
+      "kind": "modified",
+      "sha256": "14c00537cf296d7101e043ddbea495c55395e3cede6a218cf2070c806f9049b8"
+    },
+    {
+      "path": "src/simulation/world.ts",
+      "kind": "modified",
+      "sha256": "d1f23494fbc13efa7afc52907eb60de4062f27ce5262a6b3d07c8ec9d748d729"
+    },
+    {
+      "path": "src/ui/helpers.ts",
+      "kind": "modified",
+      "sha256": "953145391a14f671aa5bc4ea25bdfdeabf4c465caf5e3b3e3ad1e88fd540f8f1"
+    },
+    {
+      "path": "src/ui/input.ts",
+      "kind": "modified",
+      "sha256": "935e6eb6efd6dbb275b4f449769b8cb2db0f3225778c181c6e9890fb001b81b9"
+    },
+    {
+      "path": "src/ui/views.ts",
+      "kind": "modified",
+      "sha256": "d5a49beaefcbc8aed9c6a979ce331ba26a74ec0d7c3f8292d57c3f800919ff87"
+    },
+    {
+      "path": "tests/ammunition.test.mjs",
+      "kind": "modified",
+      "sha256": "c175641ddf371192905586beec0de7abe2868408e0eb6b3601c8d583f7c776fb"
+    },
+    {
+      "path": "tests/domain.test.mjs",
+      "kind": "modified",
+      "sha256": "c1d4d5d1fdb1e0d1e62f3209db54603bede68d004349609a889a1df4c40de640"
+    },
+    {
+      "path": "tests/expansion.test.mjs",
+      "kind": "modified",
+      "sha256": "0ab1285f95f882504d6d81c635061f0bad94ee7fe4528ca0d1375b544babb8bb"
+    },
+    {
+      "path": "tests/fixtures/profile-v2-active.json",
+      "kind": "added",
+      "sha256": "c3dabf65ac7aa171b46e21ad9b49f2c9e43d42ed896a77038c2e77271af5b5a5"
+    },
+    {
+      "path": "tests/fixtures/profile-v2.json",
+      "kind": "added",
+      "sha256": "66e80ec09e0a52b9617be73452d4c8d17fe3a901712e61c59934a5b6c0e9cb28"
+    },
+    {
+      "path": "tests/gameplay.test.mjs",
+      "kind": "added",
+      "sha256": "9d28285deb6d798df61c347426bb820cd7b54df3f3a196faa0d82edbea6f0f07"
+    },
+    {
+      "path": "tests/simulation.test.mjs",
+      "kind": "modified",
+      "sha256": "f0003daf48ba5b8c87b99c7de69784dd9c3fc66df7c230206fff69c6850a1640"
+    },
+    {
+      "path": "tools/audit-routes.mjs",
+      "kind": "added",
+      "sha256": "d20253e69b74caa02f5790c67f691b0153b06605ff3d81a0f7c1f4fc4a260526"
+    },
+    {
+      "path": "tools/render-fixtures.mjs",
+      "kind": "modified",
+      "sha256": "a6edda6916418fbf43c82a8286b1c64a97c5293e78ed1f11667dda21129d56a8"
+    },
+    {
+      "path": "tools/validate-content.mjs",
+      "kind": "modified",
+      "sha256": "fc571301e11b7d03157f948cccd4e87fb0c9c61286a2f8f200ee05ec7a6a95b2"
+    }
+  ]
+}

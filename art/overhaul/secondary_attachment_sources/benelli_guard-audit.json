@@ -1,0 +1,116 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/benelli_guard.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__benelli_guard": {
+      "0": {
+        "triangles": 672,
+        "vertices": 1104,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.048503998667001724,
+            -0.050778020173311234,
+            -0.15000002086162567
+          ],
+          "max": [
+            0.050999999046325684,
+            0.025389017537236214,
+            0.1300000101327896
+          ]
+        }
+      },
+      "1": {
+        "triangles": 272,
+        "vertices": 604,
+        "objects": 1,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04776711389422417,
+            -0.050778016448020935,
+            -0.15008017420768738
+          ],
+          "max": [
+            0.04776711389422417,
+            0.025389017537236214,
+            0.1300000101327896
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/benelli_guard-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__benelli_guard": {
+      "min": [
+        -0.048503998667001724,
+        -0.050778020173311234,
+        -0.15000002086162567
+      ],
+      "max": [
+        0.050999999046325684,
+        0.025389017537236214,
+        0.1300000101327896
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.048503998667001724,
+      -0.1300000101327896,
+      -0.05077802762389183
+    ],
+    "max": [
+      0.050999999046325684,
+      0.15008017420768738,
+      0.02538902685046196
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

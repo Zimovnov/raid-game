@@ -1,0 +1,9 @@
+www.raid-game.ru {
+    redir https://raid-game.ru{uri} 308
+}
+
+raid-game.ru {
+    encode zstd gzip
+    header Strict-Transport-Security "max-age=15552000"
+    reverse_proxy 127.0.0.1:8081
+}

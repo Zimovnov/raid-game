@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/scorpion_guard.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__scorpion_guard": {
+      "0": {
+        "triangles": 720,
+        "vertices": 1188,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05400000140070915,
+            -0.07044002413749695,
+            -0.0950000211596489
+          ],
+          "max": [
+            0.057999998331069946,
+            0.06956001371145248,
+            0.1300000250339508
+          ]
+        }
+      },
+      "1": {
+        "triangles": 272,
+        "vertices": 524,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05400000140070915,
+            -0.07044002413749695,
+            -0.0950000211596489
+          ],
+          "max": [
+            0.05400000140070915,
+            0.06956001371145248,
+            0.1300000250339508
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/scorpion_guard-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__scorpion_guard": {
+      "min": [
+        -0.05400000140070915,
+        -0.07044002413749695,
+        -0.0950000211596489
+      ],
+      "max": [
+        0.057999998331069946,
+        0.06956001371145248,
+        0.1300000250339508
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05400000140070915,
+      -0.1300000250339508,
+      -0.07044002413749695
+    ],
+    "max": [
+      0.057999998331069946,
+      0.0950000211596489,
+      0.06956001371145248
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

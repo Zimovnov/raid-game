@@ -1,0 +1,625 @@
+{
+  "attachments/pm_grip": {
+    "status": "PASSED",
+    "sourceIndexSha256": "2243af0214d17f45f6b8368ff6e8f28e119ccbb4ea6ef1510b815be022b41637",
+    "briefSha256": "b104fa98466a1a39cf4403fba5101dbf79e1838257ec4b85e889780eca75a063",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Zonwar i-3 left full profile and i-4 opposite profile: panel silhouette and receiver seam are visible.",
+      "Zonwar i-11 heel/lanyard loop, i-14 opposing three-quarter and i-16 backstrap/rear junction: distinct detail directions; images individually reviewed."
+    ],
+    "acceptedArtApproximations": [
+      "Five exact Makarov PM family photographs anchor the shell; no aftermarket or variant grip treated as target."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/pm_grip.md",
+      "rights": "All listed images are reference-only except PM magazine Commons references explicitly marked CC0 1.0; no image is permitted as a runtime asset by this QA.",
+      "duplicates": "Active references are distinct local image files with distinct SHA-256 values; previously active unrelated Magpul grip/magwell photos are preserved under nonCountingReferences and do not count."
+    }
+  },
+  "attachments/tt_grip": {
+    "status": "PASSED",
+    "sourceIndexSha256": "2161a26d138bfe6c7319eb2095d2f9125be5acc83845bae0173901f3f7f10fb2",
+    "briefSha256": "0579582b405cabbafc5e08e9688175d4264da85b50bde105306d4f7b7f55465a",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "iCollector 1945 TT-33 set: frames 01/03/06 show opposite panel sides and fit; 05 rear/backstrap; 07 panel heel/fastener close-up. Distinct original photos reviewed individually."
+    ],
+    "acceptedArtApproximations": [
+      "All five images are a Soviet TT-33 dated 1945; brand logos/serials excluded from authored model."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/tt_grip.md",
+      "rights": "All listed images are reference-only except PM magazine Commons references explicitly marked CC0 1.0; no image is permitted as a runtime asset by this QA.",
+      "duplicates": "Active references are distinct local image files with distinct SHA-256 values; previously active unrelated Magpul grip/magwell photos are preserved under nonCountingReferences and do not count."
+    }
+  },
+  "attachments/grach_grip": {
+    "status": "PASSED",
+    "sourceIndexSha256": "9d54132bd12a55483f99deff35b38572be7b94c69cd929a52194c635fe8401e1",
+    "briefSha256": "6809d8b66992c5ef84af8b5a7d55814bcdf406edc231a0e51429a7728b42ebc7",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "MP-443 originals: weaponsystems m02 elevated three-quarter, m03 rear/backstrap, m04 opposite profile, v1 left three-quarter, Kuzmin 07 close rear three-quarter. All show target-family grip and were individually viewed."
+    ],
+    "acceptedArtApproximations": [
+      "Five images are MP-443/Yarygin PYa family, including opposed views and rear grip. Exact internal dimensions remain a modeling fit check."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/grach_grip.md",
+      "rights": "All listed images are reference-only except PM magazine Commons references explicitly marked CC0 1.0; no image is permitted as a runtime asset by this QA.",
+      "duplicates": "Active references are distinct local image files with distinct SHA-256 values; previously active unrelated Magpul grip/magwell photos are preserved under nonCountingReferences and do not count."
+    }
+  },
+  "attachments/pm_rubber": {
+    "status": "PASSED",
+    "sourceIndexSha256": "b7948b2f29ca9c98e804b48e870c8f65380fd788da067d3fc571d550a18b5f6c",
+    "briefSha256": "dda745d84426d8a626cba72ac0982fc0b903ca8fd96a1401904c85a3b772fff6",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "TALON PM gallery images 01 and 02 show different sides of their thin PM overlay; page text describes stick-on material under 0.5 mm. Zonwar i-3/i-4/i-11 constrain underlying PM grip silhouette and heel; all five images individually reviewed."
+    ],
+    "acceptedArtApproximations": [
+      "Author a thin textured overlay on the standard PM grip. TALON image is actual PM-product visual evidence, but the branded emblem/pattern and product image must not be copied."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/pm_rubber.md",
+      "rights": "All listed images are reference-only except PM magazine Commons references explicitly marked CC0 1.0; no image is permitted as a runtime asset by this QA.",
+      "duplicates": "Active references are distinct local image files with distinct SHA-256 values; previously active unrelated Magpul grip/magwell photos are preserved under nonCountingReferences and do not count."
+    }
+  },
+  "attachments/pm_8": {
+    "status": "PASSED",
+    "sourceIndexSha256": "20cb90c22909b449650874517b0e9ec41ec1b5bfb2780f7c679db1334bbe443b",
+    "briefSha256": "1c675b631c2d1e4fdd5d84698247c0d41dee66597532092bef4bca38afce45ba",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Commons CC0 PM magazine frames f001/f002/f003/f004/f006 visually checked: loaded oblique, rear spine, feed end, disassembly layout, opposite broad side/witness holes. Separate original files, not crops; labels checked against their file pages."
+    ],
+    "acceptedArtApproximations": [
+      "Author the standard PM 8-round pattern. CC0 Commons photos show multiple views plus disassembled spring/follower. Early 1953 and PMM comparison images are excluded from active target set."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_8/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/pm_8.md",
+      "rights": "All listed images are reference-only except PM magazine Commons references explicitly marked CC0 1.0; no image is permitted as a runtime asset by this QA.",
+      "duplicates": "Active references are distinct local image files with distinct SHA-256 values; previously active unrelated Magpul grip/magwell photos are preserved under nonCountingReferences and do not count."
+    }
+  },
+  "attachments/tt_8": {
+    "status": "PASSED",
+    "sourceIndexSha256": "430e9113e34f4ffcccbc84d57ef7b6d9afbbdce762f667f346dc6281e9d5c208",
+    "briefSha256": "a167efad97e9b649df2c1d9748f3842acee7ba871efabb183df30f99d27fd564",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "WhatACountry TT-33 8-round detached mag and Midway TT-pattern product photos visually checked for two useful broad-side examples. iCollector TT-33 frames 01/03/05 individually checked for installed magazine seating/height and base relationship. Five distinct original files, no crops."
+    ],
+    "acceptedArtApproximations": [
+      "Combine two detached retailer product images with installed Soviet TT-33 fit views. Retail photos are reference-only; do not infer precise hidden follower dimensions or copy markings."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_8/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/tt_8.md",
+      "rights": "All listed images are reference-only except PM magazine Commons references explicitly marked CC0 1.0; no image is permitted as a runtime asset by this QA.",
+      "duplicates": "Active references are distinct local image files with distinct SHA-256 values; previously active unrelated Magpul grip/magwell photos are preserved under nonCountingReferences and do not count."
+    }
+  },
+  "attachments/hk416_guard": {
+    "status": "PASSED",
+    "sourceIndexSha256": "45ba93ef13736c46f9855a7070a0ed45fb0731f87c4d2afe71de4a80e3c36209",
+    "briefSha256": "8d7d10a039658bc225c3d34fa1e7ac6c89af518f1ddf98b0c980e60c5286afda",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": "H&K official 14.5-inch profile, Commons Dutch-service opposite profile, and three distinct Dutch BSB 2024 photographs (isolated profile, tabletop oblique, shouldered context) were individually inspected. The context photos do not assert barrel/handguard length; official manufacturer image establishes the target-length cue.",
+    "acceptedArtApproximations": [
+      "Author a slim long HK416-style handguard from the manufacturer 14.5-inch outline; simplify hidden barrel-nut clamp underside because references do not expose it. Do not copy logos/markings or accessories."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/hk416_guard/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/hk416_guard.md",
+      "rights": "H&K manufacturer and Dutch Ministry imagery are private reference-only; Commons profile is CC BY-SA 4.0 and remains reference-only; no image is approved as runtime content.",
+      "duplicates": "Five active, distinct full original files per ID; no crop, mirror, recolor duplicate, or Magpul AR-15/M4 reference counts. Previous wrong Magpul assets are retained as nonCountingReferences."
+    }
+  },
+  "attachments/hk416_short": {
+    "status": "PASSED",
+    "sourceIndexSha256": "7531959c25c751904192340dfa3b9461828482680e62b7210dab62db3c147961",
+    "briefSha256": "3ce39a47fb412f0aa8a98dae3773c53b95300c27a389dc3b400c2f121d91b243",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": "H&K official 11-inch profile establishes short target proportions; official 14.5-inch profile is a length comparator only. Three distinct Dutch BSB photographs were individually inspected for mounted HKey surface, depth, front termination, fit, and field scale; their barrel/handguard subvariant is explicitly unknown.",
+    "acceptedArtApproximations": [
+      "Author a shortened HK416-style handguard using exact 11-inch manufacturer side profile; use the 14.5-inch view only to constrain length ratio. Hidden locking hardware/underside may be simplified; no exact BSB length is inferred."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/hk416_short/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/hk416_short.md",
+      "rights": "H&K manufacturer and Dutch Ministry imagery are private reference-only; Commons profile is CC BY-SA 4.0 and remains reference-only; no image is approved as runtime content.",
+      "duplicates": "Five active, distinct full original files per ID; no crop, mirror, recolor duplicate, or Magpul AR-15/M4 reference counts. Previous wrong Magpul assets are retained as nonCountingReferences."
+    }
+  },
+  "attachments/ar_stock": {
+    "status": "PASSED",
+    "sourceIndexSha256": "51913092ca82370f86c293114cef14093e58b7d3434f42267355e9c45814dcf3",
+    "briefSha256": "0d2195434493663cb17b50542b2c8718e702413cb4df4cc5b131b3cab695b703",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Индивидуально просмотрены выбранные product images; выбраны разные модели/формы, а не перекраски одного ракурса.",
+      "Отклонённые позиции просмотрены по сюжету/типу компонента; ложные foregrip, fixed/precision stocks и цветовой дубль MOE не считаются."
+    ],
+    "acceptedArtApproximations": [
+      "Оригинальная нейтральная форма RAID GAME; конкретный SKU, логотип, точная размерность и закрытые интерфейсные детали не воспроизводятся."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_stock.md",
+      "rights": "Все активные изображения Magpul reference-only; в runtime и распространяемые сборки не копировать.",
+      "duplicates": "Пять активных изображений имеют разные локальные файлы и SHA; неподходящие и избыточные изображения сохранены в nonCountingReferences с причиной."
+    }
+  },
+  "attachments/ar_grip": {
+    "status": "PASSED",
+    "sourceIndexSha256": "323c95a26cbf819f0dc81c1e8c33f9a977409bab50ca2429ce3c9652f51ac545",
+    "briefSha256": "0976d13c9a5c044cbddc0421ee7905a4ac189a3bfa41e523fbdfdcd2df1d1b7f",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Индивидуально просмотрены выбранные product images; выбраны разные модели/формы, а не перекраски одного ракурса.",
+      "Отклонённые позиции просмотрены по сюжету/типу компонента; ложные foregrip, fixed/precision stocks и цветовой дубль MOE не считаются."
+    ],
+    "acceptedArtApproximations": [
+      "Оригинальная нейтральная форма RAID GAME; конкретный SKU, логотип, точная размерность и закрытые интерфейсные детали не воспроизводятся."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_grip/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_grip.md",
+      "rights": "Все активные изображения Magpul reference-only; в runtime и распространяемые сборки не копировать.",
+      "duplicates": "Пять активных изображений имеют разные локальные файлы и SHA; неподходящие и избыточные изображения сохранены в nonCountingReferences с причиной."
+    }
+  },
+  "attachments/ar_crane": {
+    "status": "PASSED",
+    "sourceIndexSha256": "3a9fc758784d75635041c5ac0d5dc762dc91d56b60013098df523ed1f5b03afe",
+    "briefSha256": "e519e7a654a91d9ddc9df83b9409270204fade9db6da0f87651e5c67e6f7ccdc",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Визуально проверены: Primary Arms left/right profile, T.REX ARMS distinct rear 3/4 close view, separately installed T.REX context, B5 Systems manual exterior callout drawing.",
+      "Midwest retail profile признан близким дублем Primary Arms 00 и переведён в nonCountingReferences."
+    ],
+    "acceptedArtApproximations": [
+      "Оригинальная широкая щека/закрытые боковые панели хранения и игровая посадка, без заявления точной копии B5/Crane SKU.",
+      "Пятый источник — manufacturer line drawing, полезен для внешней деталировки; он не трактуется как фотографический ракурс."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_crane.md",
+      "rights": "Все активные источники reference-only; права runtime/redistribution не установлены.",
+      "duplicates": "5 active: opposing side profiles, distinct rear 3/4 product view, mounted context, and a manufacturer external detail drawing. Midwest duplicate left profile is non-counting; all old Magpul refs remain non-counting."
+    }
+  },
+  "attachments/ar_compact": {
+    "status": "PASSED",
+    "sourceIndexSha256": "248d572039490be7f13347d6686a5346d658a8fe270c87ce47ab9855d4ea8704",
+    "briefSha256": "b9980f75c03ac849debb25b6da239af1efdd7f565834c93accd15178027071fa",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Пять выбранных product images просмотрены; это разные stock designs, все дают читаемую боковую геометрию, не colour-only дубль.",
+      "Fixed, precision, storage-heavy и commercial-spec variants исключены из активного целевого набора."
+    ],
+    "acceptedArtApproximations": [
+      "Авторский низкопрофильный компактный профиль для игрового интерфейса; точная модель и крепёж не выводятся из референсов."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_compact.md",
+      "rights": "Все активные изображения reference-only; использовать только как внутренний визуальный ориентир.",
+      "duplicates": "5 различных local files / SHA; нерелевантные stock variants сохранены в nonCountingReferences с причиной."
+    }
+  },
+  "attachments/ar_precision": {
+    "status": "PASSED",
+    "sourceIndexSha256": "8ef19f2708608639872fbc8468b78813e87e72fed6aeb0308b30301c6cae1f10",
+    "briefSha256": "04e89da1a5d2ad8c1d3bbe7149b7adaeef64169f9f4e29eb595fbed5cbb17029",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Пять локальных фото просмотрены: два изолированных регулируемых приклада и три разные full precision-rifle внешности, приклад различим.",
+      "Нерелевантные loose buttpad и обычные carbine stock перенесены в nonCountingReferences."
+    ],
+    "acceptedArtApproximations": [
+      "Авторская регулируемая щека/затыльник под AR gameplay interface; точная конструкция любого стороннего SKU не копируется.",
+      "Три full rifle views дают только форму/масштаб и не считаются доказательством AR посадки."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_precision.md",
+      "rights": "Все фотографии reference-only; права на runtime/распространение не установлены.",
+      "duplicates": "5 различных локальных файлов и SHA; контрастные и неподходящие stock types исключены из active set."
+    }
+  },
+  "attachments/ar_wire": {
+    "status": "PASSED",
+    "sourceIndexSha256": "a47b41815f108b4c50da02e5cc014a5c5219c9964492be6dde5d0e0300fd3461",
+    "briefSha256": "1453f41e8b72da6b61846df10b3ef1dc02fc310999c8eca329c1430af4d644a1",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Визуально проверены пять локальных кадров: профиль, два обlique направления, крупный rear stock detail и отдельно установленная M231-style сборка.",
+      "Не относящийся к stock кадр 3399 и почти тот же кадр arforum_1158 не считаются; Magpul stock refs исключены."
+    ],
+    "acceptedArtApproximations": [
+      "Игровой AR fit адаптируется к текущему интерфейсу самостоятельно; реальный M231 stock не объявляется взаимозаменяемым.",
+      "Архивное форумное фото — атрибутированный M231-style контекст, точная модель/производитель не подтверждены."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_wire.md",
+      "rights": "Все изображения reference-only; использование в runtime/redistribution не разрешено подтверждёнными правами.",
+      "duplicates": "Пять активных source images имеют разные локальные hashes и представляют разные ракурсы/контекст. Отброшены близкий кадр того же forum post и крупный receiver-only кадр."
+    }
+  },
+  "attachments/ar_ergo": {
+    "status": "PASSED",
+    "sourceIndexSha256": "8478eedcbdff841c91cc0e6e46033162b54f980e217bbac8f6ba6407249689f2",
+    "briefSha256": "9777816497740e96ffd9cc40e361da5d96cc95b5e9c4e941f1a9d2c8f7ed76b3",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Визуально проверены три боковые продуктовые формы (SVG/MVG/RVG) и два фронтальных источника (BCM, TangoDown); все пять относятся к вертикальным передним рукояткам.",
+      "AFG angled foregrip и pistol grips исключены как нерелевантные target classes."
+    ],
+    "acceptedArtApproximations": [
+      "Собственная нейтральная vertical-grip форма с одним игровым rail mount, не копировать разные несовместимые mount details вместе."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_ergo/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_ergo.md",
+      "rights": "Все активные изображения reference-only; без подтверждённых runtime/redistribution rights.",
+      "duplicates": "5 distinct local image hashes; прежние неправильные active sources перенесены в nonCountingReferences."
+    }
+  },
+  "attachments/ar_wrapped": {
+    "status": "PASSED",
+    "sourceIndexSha256": "0d56f8e0547c3cd32b856d97412b8f3a6615306ff40285fb82fe470643379d94",
+    "briefSha256": "d5cca9dfdcffae7908872f911c91baffcfef2fcc7f0314aabea23ea02d46c1a8",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Проверены пять локальных фото с фактически установленными wrap/skin: тканевая намотка, Cordura panels, textured grip skins на разных базовых контурах.",
+      "Старые bare pistol grips / forward grips не считаются: они не показывают обмотку."
+    ],
+    "acceptedArtApproximations": [
+      "Авторский сдержанный материал/шов без воспроизведения камуфляжного принта или узнаваемой фирменной раскладки.",
+      "Не заявлять fit одного wrap на все формы grip."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wrapped/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/ar_wrapped.md",
+      "rights": "Все активные материалы reference-only; использование в игре/redistribution не разрешено.",
+      "duplicates": "5 разных локальных файлов и SHA, каждая запись показывает тип обмотки/базу или отдельный материал; старый нерелевантный набор перенесён в nonCountingReferences."
+    }
+  },
+  "attachments/pistol_dot": {
+    "status": "PASSED",
+    "sourceIndexSha256": "e45354e31b0b53ee103642cb4d603f92a32db008afa8299dcb6b50cbbab5748a",
+    "briefSha256": "8c198b04b03c885bf09853678ca841f7a1f8df7640f838940b9bcbda739cde86",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Официальная Aimpoint Acro P-2 gallery: пять скачанных разных ракурсов (front-left 3/4, обе боковые стороны, фронт/торец, сверху); отдельно визуально отсеяны старые Micro T-2 refs как wrong shape."
+    ],
+    "acceptedArtApproximations": [
+      "Оригинальный generic закрытый низкопрофильный коллиматор; внешний корпус вдохновлён классом Acro без лого/маркировки и без обещания бренд-совместимости.",
+      "Крепёжная контактная площадка приспосабливается к проектному pistol-optic socket; базовый Glock Gen4 не получает неподтверждённый MOS cut."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pistol_dot/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/pistol_dot.md",
+      "rights": "Официальная товарная галерея, copyright Aimpoint; внутренние визуальные refs, runtime redistribution не подтверждена.",
+      "duplicates": "Активны пять разных файлов из семи изображений официальной галереи; Micro T-2 и warranty graphic перенесены/не использованы."
+    }
+  },
+  "attachments/holo": {
+    "status": "PASSED",
+    "sourceIndexSha256": "efebe08267ed88432e9de69219ee33ebc21a0a897dbc942dbef7d44d956ba42c",
+    "briefSha256": "18cc5aeca04f98cb48435840d81834721ace5d9a8fa32a8f8b2926c2c6217c79",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Визуально проверены шесть официальных EOTECH XPS2 product-gallery кадров: боковые стороны с разными органами управления, оба торца окна, 3/4 и верх/батарейный участок.",
+      "Два дополнительных кадра оставлены в nonCountingReferences, не используются как обязательный distinct count."
+    ],
+    "acceptedArtApproximations": [
+      "Оригинальный generic закрытооконный голографический коллиматор по силуэту XPS2, без копии маркировки, логотипов, предупреждений и без обещания фирменного mount compatibility."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/holo/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/holo.md",
+      "rights": "Официальная EOTECH галерея, proprietary imagery; внутренний visual reference only, runtime redistribution не подтверждена.",
+      "duplicates": "Шесть active разных gallery views; сверхкомплект перенесён в nonCountingReferences."
+    }
+  },
+  "attachments/red_dot": {
+    "status": "PASSED",
+    "sourceIndexSha256": "3a9180d842206cdeb3d407b8a06ba05ca3825107d44a844d681970171928c944",
+    "briefSha256": "f978e84e4af8748d8a544616ba742515c3b986e12c83e75acc900467f1834e93",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Holosun official gallery manually inspected: five distinct angles covering front/side/opposite side/window opening/3-4 and controls.",
+      "Former Aimpoint Micro T-2 closed-tube images excluded from target and preserved as nonCountingReferences."
+    ],
+    "acceptedArtApproximations": [
+      "Original small open-emitter reflex silhouette only; no copy of Holosun marks/solar panel/footprint details."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/red_dot/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/red_dot.md",
+      "rights": "Holosun copyrighted product imagery, visual reference only; no runtime redistribution permission found.",
+      "duplicates": "Five different official gallery frames selected; closed tube T-2 removed from active refs."
+    }
+  },
+  "attachments/dot_tube": {
+    "status": "PASSED",
+    "sourceIndexSha256": "9a86450d7125111c1d3e58821652f04a6aadfbdedd4596f3e11759655ae31f9e",
+    "briefSha256": "a0825a7be4bdcbe16f231d7685cd0e70d64d79e74e8abbc49f998b8c0f61edca",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Официальные Micro T-2 кадры 1–4 просмотрены: три четверти и две боковые стороны, видны цилиндрический tube, крышки, регуляторы и основание.",
+      "Официальный H-2 кадр просмотрен и принят только как Micro family form analogy; гарантийный графический лист исключён."
+    ],
+    "acceptedArtApproximations": [
+      "Оригинальная tube-type форма без фирменных маркировок/брендовой посадки; H-2 — аналогический источник, не замена T-2 конструкции."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/dot_tube/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/dot_tube.md",
+      "rights": "Aimpoint proprietary gallery, internal references only; redistribution right not established.",
+      "duplicates": "Пять активных фотографий, четыре T-2 угла и один H-2 family analogy; warranty image excluded."
+    }
+  },
+  "attachments/prism2": {
+    "status": "PASSED",
+    "sourceIndexSha256": "932626d5b4e4563bf4cb7aa8a2005136a79d373db64100eb07942bf5e66e8cf9",
+    "briefSha256": "ffff33629b96f64e5fa40c354880fbf2be0e800eb183e6b832be4ae8251a7dcd",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Five non-duplicate GLx 2X photos inspected individually: overhead turret topology; two opposing 3/4 angles; side profile; mounted rifle context.",
+      "Old Trijicon TA31 photos excluded from active refs because 4x32 silhouette does not satisfy compact 2x category."
+    ],
+    "acceptedArtApproximations": [
+      "Original generic compact 2x prism form, using GLx 2x only for form family; no brand text, SKU dimensions or proprietary reticle.",
+      "Mounted-context photo only supports rail relationship, not isolated modeling."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/prism2/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/prism2.md",
+      "rights": "Images from editorial/retail pages, internal reference-only; no runtime redistribution permission claimed.",
+      "duplicates": "Five selected images are distinct files/angles; prior TA31 set preserved as nonCountingReferences."
+    }
+  },
+  "attachments/scope3_compact": {
+    "status": "PASSED",
+    "sourceIndexSha256": "499030bd6cd7c245910713adcaf93cedaaea6c0a0dfc75fe7a1f12f4a60cfbb7",
+    "briefSha256": "d4747b5daf7fadb683fb7f1abce0035e856185a326391442afbec17cdc3f690c",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Пять официальных Trijicon TA33 3x30 углов визуально осмотрены: 315°, 270°, 225°, 135°, 90°. Галерея показывает обе стороны, objective/ocular ends, top fiber channel, side control и base.",
+      "Старый TA31 набор (4x32 class) вынесен в nonCountingReferences."
+    ],
+    "acceptedArtApproximations": [
+      "Оригинальный generic compact 3x prism по классу TA33 без товарных логотипов/текста, точного reticle/BDC и фирменного Q-LOC interface.",
+      "Верхний fiber rod может быть визуально упрощён до закрытого узкого декоративного канала; не требуется воспроизводить реальную систему подсветки."
+    ],
+    "evidence": {
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scope3_compact/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/scope3_compact.md",
+      "rights": "Официальная Trijicon галерея; proprietary, visual reference only, runtime redistribution not licensed.",
+      "duplicates": "Пять разных gallery rotations, без crop/recolor duplicates; прежний 4x ACOG набор не активен."
+    }
+  },
+  "attachments/pistol_light": {
+    "status": "PASSED",
+    "sourceIndexSha256": "5a68deb1927f60e995792614f7b8a7394914e79a361d19c64bee566509acf8c5",
+    "briefSha256": "1b5776ae36bb7f508f25bd43c2233a0280421d25f953ce89285fa7bcbd3b5bf2",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Reviewed TLR-7X solo body, battery detail, switch options, and two installed host contexts; all five distinct images show relevant light shape or scale.",
+      "No physical Glock/SIG compatibility assertion; Glock frame remains unrelated context only."
+    ],
+    "acceptedArtApproximations": [
+      "Original low-poly model; no copied logos, trademarks, or source pixels.",
+      "All source imagery is internal reference-only; no runtime reuse or license claim."
+    ],
+    "evidence": {
+      "activeRefCount": 5,
+      "allRefsDownloaded": true,
+      "visualReview": "manually viewed active images; rejected previous duplicated/mismatched sets moved to nonCountingReferences",
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pistol_light/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/pistol_light.md"
+    }
+  },
+  "attachments/wide_light": {
+    "status": "PASSED",
+    "sourceIndexSha256": "3bfc7aba6d67f9d6cdea1b4d23d5e9ab7221c86be2d5c89e73d9984b432cc09d",
+    "briefSha256": "498f74e34a08a95e63fd802d9f3236737ff219b0ba778ac31a26cb15258df14a",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Reviewed HP-X Pro profile, rail-mounted context from different directions, rear control and broad head; category distinction from HL-X and 1L-X is visible.",
+      "Color variants do not establish separate geometry; active set counts only shape/use views."
+    ],
+    "acceptedArtApproximations": [
+      "Original low-poly model; no copied logos, trademarks, or source pixels.",
+      "All source imagery is internal reference-only; no runtime reuse or license claim."
+    ],
+    "evidence": {
+      "activeRefCount": 5,
+      "allRefsDownloaded": true,
+      "visualReview": "manually viewed active images; rejected previous duplicated/mismatched sets moved to nonCountingReferences",
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/wide_light/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/wide_light.md"
+    }
+  },
+  "attachments/flashlight": {
+    "status": "PASSED",
+    "sourceIndexSha256": "377f5761ffe9a70434672f0a2daa249375fd744fe86bce8a653610f4a1bdca36",
+    "briefSha256": "4510d035446e9d950365ffb3efbaae3eff46b4ff7313ede40439d355cdb2e10e",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Reviewed five HL-X images: two solo orientation/profile views, two distinct mounted contexts, one real-world use context.",
+      "Previous cross-category duplicates were moved out of active references."
+    ],
+    "acceptedArtApproximations": [
+      "Original low-poly model; no copied logos, trademarks, or source pixels.",
+      "All source imagery is internal reference-only; no runtime reuse or license claim."
+    ],
+    "evidence": {
+      "activeRefCount": 5,
+      "allRefsDownloaded": true,
+      "visualReview": "manually viewed active images; rejected previous duplicated/mismatched sets moved to nonCountingReferences",
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/flashlight/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/flashlight.md"
+    }
+  },
+  "attachments/light_compact": {
+    "status": "PASSED",
+    "sourceIndexSha256": "889cbab238bb66ac7482b1ba12934a79f1beb59634483688655214ecc05841c9",
+    "briefSha256": "c636f5f113c48ebc8eed18b73e8fb48d9dff3ce038540289cf5db7221c045d83",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Reviewed five 1L-X views: product three-quarter, rail-side context, opposite product angle, side silhouette, cap detail.",
+      "Use solely as compact archetype; no mounting compatibility claim."
+    ],
+    "acceptedArtApproximations": [
+      "Original low-poly model; no copied logos, trademarks, or source pixels.",
+      "All source imagery is internal reference-only; no runtime reuse or license claim."
+    ],
+    "evidence": {
+      "activeRefCount": 5,
+      "allRefsDownloaded": true,
+      "visualReview": "manually viewed active images; rejected previous duplicated/mismatched sets moved to nonCountingReferences",
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/light_compact/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/light_compact.md"
+    }
+  },
+  "attachments/laser": {
+    "status": "PASSED",
+    "sourceIndexSha256": "2dabeea96f813f6a1e14e7b397ea73ddda0257945cc17e06f6b47c5e033c7fca",
+    "briefSha256": "a7b6bffca9bc8e195261b3d159969804897fa8b2f8a842d374952fb01de5e3eb",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Reviewed five retailer image files labeled LS117G; they show distinguishable opposite/control/top/clamp aspects.",
+      "Specification/model identity relies on publisher product labels; artwork uses generic single-emitter geometry and does not claim manufacturer authenticity."
+    ],
+    "acceptedArtApproximations": [
+      "Original low-poly model; no copied logos, trademarks, or source pixels.",
+      "All source imagery is internal reference-only; no runtime reuse or license claim."
+    ],
+    "evidence": {
+      "activeRefCount": 5,
+      "allRefsDownloaded": true,
+      "visualReview": "manually viewed active images; rejected previous duplicated/mismatched sets moved to nonCountingReferences",
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/laser/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/laser.md"
+    }
+  },
+  "attachments/laser_dual": {
+    "status": "PASSED",
+    "sourceIndexSha256": "1141d44f7b98a8563422ba7125adf0b49b175f14a68ef84139489e2399d5522e",
+    "briefSha256": "979b7d8f0b9dcd89f15a32509ad2c1daced8c1487ce330b3a12f161af14f56be",
+    "reviewers": [
+      "completion_audit"
+    ],
+    "reviewedAt": "2026-10-17",
+    "views": [
+      "Reviewed two manufacturer DBAL-A3 directions and three distinct T.REX views (apertures/controls, underside clamp, installed context).",
+      "The commercial model serves as dual-aperture form reference only; technical capabilities and markings are not copied."
+    ],
+    "acceptedArtApproximations": [
+      "Original low-poly model; no copied logos, trademarks, or source pixels.",
+      "All source imagery is internal reference-only; no runtime reuse or license claim."
+    ],
+    "evidence": {
+      "activeRefCount": 5,
+      "allRefsDownloaded": true,
+      "visualReview": "manually viewed active images; rejected previous duplicated/mismatched sets moved to nonCountingReferences",
+      "sourceIndex": "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/laser_dual/sources.json",
+      "brief": "/Users/vladimir/Projects/raid-game/art/overhaul/briefs/attachments/laser_dual.md"
+    }
+  }
+}

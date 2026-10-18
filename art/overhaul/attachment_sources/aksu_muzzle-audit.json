@@ -1,0 +1,108 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/aksu_muzzle.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "muzzle__aksu_muzzle": {
+      "0": {
+        "triangles": 312,
+        "vertices": 512,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.028999999165534973,
+            -0.028999991714954376,
+            -0.09700001776218414
+          ],
+          "max": [
+            0.028999999165534973,
+            0.029000014066696167,
+            0.018000002950429916
+          ]
+        }
+      },
+      "1": {
+        "triangles": 152,
+        "vertices": 256,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.028999999165534973,
+            -0.028999991714954376,
+            -0.09700001776218414
+          ],
+          "max": [
+            0.028999999165534973,
+            0.029000014066696167,
+            0.018000002950429916
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/aksu_muzzle-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "muzzle__aksu_muzzle": {
+      "min": [
+        -0.028999999165534973,
+        -0.028999991714954376,
+        -0.09700001776218414
+      ],
+      "max": [
+        0.028999999165534973,
+        0.029000014066696167,
+        0.018000002950429916
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.028999999165534973,
+      -0.018000004813075066,
+      -0.02900000475347042
+    ],
+    "max": [
+      0.028999999165534973,
+      0.09700002521276474,
+      0.029000015929341316
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

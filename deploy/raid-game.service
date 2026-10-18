@@ -1,0 +1,24 @@
+[Unit]
+Description=RAID GAME authoritative PvE server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=raidgame
+Group=raidgame
+WorkingDirectory=/opt/raid-game/current
+EnvironmentFile=/etc/raid-game/server.env
+ExecStart=/usr/bin/node /opt/raid-game/current/server/start.mjs
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/raid-game
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,116 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/mp5_guard.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__mp5_guard": {
+      "0": {
+        "triangles": 220,
+        "vertices": 396,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001",
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05425000190734863,
+            -0.0533200241625309,
+            -0.09000001847743988
+          ],
+          "max": [
+            0.05649999901652336,
+            0.0266600139439106,
+            0.1300000101327896
+          ]
+        }
+      },
+      "1": {
+        "triangles": 108,
+        "vertices": 196,
+        "objects": 1,
+        "materials": [
+          "RAID_Secondary_Original_polymer.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.051702406257390976,
+            -0.0533200241625309,
+            -0.09000001847743988
+          ],
+          "max": [
+            0.051702406257390976,
+            0.0266600139439106,
+            0.1300000101327896
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/mp5_guard-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__mp5_guard": {
+      "min": [
+        -0.05425000190734863,
+        -0.0533200241625309,
+        -0.09000001847743988
+      ],
+      "max": [
+        0.05649999901652336,
+        0.0266600139439106,
+        0.1300000101327896
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05425000190734863,
+      -0.1300000101327896,
+      -0.0533200278878212
+    ],
+    "max": [
+      0.05649999901652336,
+      0.09000001847743988,
+      0.026660015806555748
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

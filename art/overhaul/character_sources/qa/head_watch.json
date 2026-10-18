@@ -1,0 +1,153 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/characters/head_watch.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "head_watch_head": {
+      "0": {
+        "triangles": 152,
+        "vertices": 288,
+        "objects": 2,
+        "materials": [
+          "RAID_knit",
+          "RAID_seam"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.14900000393390656,
+            0.054999999701976776,
+            -0.1379999965429306
+          ],
+          "max": [
+            0.14900000393390656,
+            0.2029999941587448,
+            0.13899999856948853
+          ]
+        }
+      },
+      "1": {
+        "triangles": 92,
+        "vertices": 180,
+        "objects": 2,
+        "materials": [
+          "RAID_knit",
+          "RAID_seam"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.14345000684261322,
+            0.054999999701976776,
+            -0.1379999965429306
+          ],
+          "max": [
+            0.14345000684261322,
+            0.2029999941587448,
+            0.13899999856948853
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "knit_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_color",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "knit_normal",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "knit_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "seam_orm",
+      "size": [
+        128,
+        128
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/character_sources/qa/roundtrip/head_watch.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "head_watch_head": {
+      "min": [
+        -0.14900000393390656,
+        0.054999999701976776,
+        -0.1379999965429306
+      ],
+      "max": [
+        0.14900000393390656,
+        0.2029999941587448,
+        0.13899999856948853
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.14900000393390656,
+      -0.13899999856948853,
+      0.054999999701976776
+    ],
+    "max": [
+      0.14900000393390656,
+      0.1379999965429306,
+      0.2029999941587448
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

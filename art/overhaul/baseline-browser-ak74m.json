@@ -1,0 +1,165 @@
+{
+  "status": "MEASURED",
+  "recordedAt": "2026-10-18T04:38:43.545Z",
+  "scope": "Production renderer in this controlled browser tab. CPU measures synchronous submission only; RAF timing includes browser scheduling and throttling. Not a multiplayer or gameplay acceptance.",
+  "weapon": "weapon_ak74m",
+  "installedBuild": {
+    "id": "6f2683cc-4539-4926-b81e-6c6337d4aab4",
+    "def": "weapon_ak74m",
+    "qty": 1,
+    "condition": 100,
+    "rounds": 0,
+    "children": {
+      "stock": {
+        "id": "2a408a71-e985-443e-a450-5ffdca0a3f09",
+        "def": "ak_stock",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      },
+      "handguard": {
+        "id": "0a71a228-c919-480a-86eb-0bb1449728e2",
+        "def": "ak_poly",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      },
+      "pistolgrip": {
+        "id": "459094e5-e72d-4bd0-9b7c-0e2a61aa8848",
+        "def": "ak_grip",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      },
+      "magazine": {
+        "id": "9d1a5af7-a9e9-476c-9773-a1d151dfabbf",
+        "def": "ak545_30",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 29,
+        "children": {}
+      },
+      "muzzle": {
+        "id": "0b27236a-2e83-43df-a841-bf73d44765bd",
+        "def": "ak_brake",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      }
+    },
+    "chamber": 1
+  },
+  "view": "workshop",
+  "action": "idle",
+  "actionProgress": 0,
+  "character": null,
+  "bodyPose": "idle",
+  "bodyTime": 0.48,
+  "camera": {
+    "orbit": {
+      "yaw": 2.7,
+      "pitch": 0.15,
+      "distance": 1.35
+    },
+    "fov": 43
+  },
+  "seed": 51,
+  "resolution": {
+    "css": [
+      1280,
+      720
+    ],
+    "pixels": [
+      1792,
+      1008
+    ],
+    "dpr": 2
+  },
+  "gpuFrameMs": "unavailable — no timer-query measurement",
+  "jsHeap": {
+    "used": 155731133,
+    "total": 202821901,
+    "limit": 4395630592
+  },
+  "glMemory": "unavailable",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:18264/assets/field-kit-051/weapon_ak_common.glb?v=c49567f00e6a",
+      "transferBytes": 300,
+      "decodedBodyBytes": 3351708,
+      "status": 200
+    }
+  ],
+  "runs": [
+    {
+      "frames": 601,
+      "cpuSubmitMs": {
+        "median": 2.5,
+        "p95": 3.3999999910593033
+      },
+      "rafIntervalMs": {
+        "median": 16.69999999999891,
+        "p95": 17.600000000000364
+      },
+      "observedRafHz": 59.998602362008214,
+      "metrics": {
+        "drawCalls": 16,
+        "triangles": 4144,
+        "instances": 19,
+        "textures": 0
+      },
+      "sceneMeshes": 148,
+      "materials": 15,
+      "textures": 5,
+      "assetErrors": []
+    },
+    {
+      "frames": 600,
+      "cpuSubmitMs": {
+        "median": 2,
+        "p95": 3.4000000059604645
+      },
+      "rafIntervalMs": {
+        "median": 16.700000000000728,
+        "p95": 17.599999999998545
+      },
+      "observedRafHz": 59.99820005399838,
+      "metrics": {
+        "drawCalls": 16,
+        "triangles": 4144,
+        "instances": 19,
+        "textures": 0
+      },
+      "sceneMeshes": 148,
+      "materials": 15,
+      "textures": 5,
+      "assetErrors": []
+    },
+    {
+      "frames": 601,
+      "cpuSubmitMs": {
+        "median": 2.3999999910593033,
+        "p95": 3.2000000029802322
+      },
+      "rafIntervalMs": {
+        "median": 16.69999999999709,
+        "p95": 17.599999999998545
+      },
+      "observedRafHz": 60.003993610223645,
+      "metrics": {
+        "drawCalls": 16,
+        "triangles": 4144,
+        "instances": 19,
+        "textures": 0
+      },
+      "sceneMeshes": 148,
+      "materials": 15,
+      "textures": 5,
+      "assetErrors": []
+    }
+  ]
+}

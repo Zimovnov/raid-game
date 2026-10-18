@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/sks_stock.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__sks_stock": {
+      "0": {
+        "triangles": 376,
+        "vertices": 718,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_steel.001",
+          "RAID_Secondary_Original_wood.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05050000175833702,
+            -0.15918223559856415,
+            -0.9000000953674316
+          ],
+          "max": [
+            0.05050000175833702,
+            0.05800000950694084,
+            0.2620001435279846
+          ]
+        }
+      },
+      "1": {
+        "triangles": 188,
+        "vertices": 330,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_steel.001",
+          "RAID_Secondary_Original_wood.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05050000175833702,
+            -0.1600000411272049,
+            -0.9000000953674316
+          ],
+          "max": [
+            0.05050000175833702,
+            0.05800000950694084,
+            0.26100000739097595
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "wood-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/sks_stock-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__sks_stock": {
+      "min": [
+        -0.05050000175833702,
+        -0.15918223559856415,
+        -0.9000000953674316
+      ],
+      "max": [
+        0.05050000175833702,
+        0.05800000950694084,
+        0.2620001435279846
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05050000175833702,
+      -0.2620001435279846,
+      -0.1600000411272049
+    ],
+    "max": [
+      0.05050000175833702,
+      0.9000000953674316,
+      0.058000124990940094
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

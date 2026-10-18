@@ -1,0 +1,1526 @@
+{
+  "status": "PASSED",
+  "scope": "33 original body/action exterior shells only. Structural checks are not assembled art, IK, ADS, FPS or gameplay acceptance. Detachable modules are a separate production package.",
+  "platformCount": 33,
+  "runtimeGLBBytes": 24575984,
+  "assets": [
+    {
+      "id": "weapon_aks74u",
+      "shape": "aksu",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1632,
+        "1": 548
+      },
+      "glbBytes": 733184,
+      "glbSha256": "b28827b3b54ec48258a9087dbb12df20737ea79a06576eba80839d9bb30a5277",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_aks74u.blend",
+      "briefSha256": "8fad26c9bd763d04922242749467b31ca3ca45352d16caeb604c5b55875b33a4",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04430999979376793,
+            -0.12300000339746475,
+            -0.49000000953674316
+          ],
+          "max": [
+            0.04650000110268593,
+            0.16769886016845703,
+            0.2029999941587448
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_ak103",
+      "shape": "ak103",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1660,
+        "1": 576
+      },
+      "glbBytes": 736588,
+      "glbSha256": "09d17b2bd07668c4665a87f0a9ec62e163b06bc27121064176d798d7d325ae1e",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_ak103.blend",
+      "briefSha256": "d2d082ac3409a0e8b9cc5d2b0bd0eac080d262dd17b688c596b3fa9b66ee4755",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04430999979376793,
+            -0.12300000339746475,
+            -0.800000011920929
+          ],
+          "max": [
+            0.04650000110268593,
+            0.16769887506961823,
+            0.2630000114440918
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_hk416a5",
+      "shape": "hk416",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2412,
+        "1": 800
+      },
+      "glbBytes": 806328,
+      "glbSha256": "d14f32f0393a23c54a99b47e8a0cf9be49c6d475bbb3365527b0459fff531fcd",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_hk416a5.blend",
+      "briefSha256": "dbfe96750b3556b1f8d75bd366decb24f0861a9e5132f2e5d0da0c5b518275d0",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.061500001698732376,
+            0.03799999877810478,
+            -0.03700000047683716
+          ],
+          "max": [
+            0.061500001698732376,
+            0.09399999678134918,
+            0.26350000500679016
+          ]
+        },
+        "body": {
+          "min": [
+            -0.0494999997317791,
+            -0.13500000536441803,
+            -0.8299999833106995
+          ],
+          "max": [
+            0.0754999965429306,
+            0.16769886016845703,
+            0.3050000071525574
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_pp1901",
+      "shape": "vityaz",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1808,
+        "1": 596
+      },
+      "glbBytes": 750144,
+      "glbSha256": "4b19196cb392f8b95483823573ea607955705006aa79004a8f921d58823fdc4a",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_pp1901.blend",
+      "briefSha256": "5fbe4319fa167812ac5cba050f500ac8d7e3b2aed3d36a668b25dbadc2de3607",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04430999979376793,
+            -0.13494610786437988,
+            -0.550000011920929
+          ],
+          "max": [
+            0.04650000110268593,
+            0.16769886016845703,
+            0.22300000488758087
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_pp91",
+      "shape": "kedr",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1540,
+        "1": 432
+      },
+      "glbBytes": 718168,
+      "glbSha256": "33973036d1afb0d31b5221567c58aa68b0b63fa1ec2c1c5e390269683b600e53",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_pp91.blend",
+      "briefSha256": "93a0f695c838b7fde0519ac75a2b4a8c135bd866d7f26b61fd1bd0dd7acfa73a",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.09549999982118607,
+            0.027499999850988388,
+            -0.02800000086426735
+          ],
+          "max": [
+            -0.030499998480081558,
+            0.054499998688697815,
+            0.06400000303983688
+          ]
+        },
+        "body": {
+          "min": [
+            -0.03500000014901161,
+            -0.09399999678134918,
+            -0.23499999940395355
+          ],
+          "max": [
+            0.03500000014901161,
+            0.11769887059926987,
+            0.12999999523162842
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_tt",
+      "shape": "tt",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1112,
+        "1": 444
+      },
+      "glbBytes": 695256,
+      "glbSha256": "b02b2fac778eadeab7147cf9f88160d970d73b2f59692495502bbfba996691bf",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_tt.blend",
+      "briefSha256": "377b37286323a638ff3f243d86ae21761934e8e11977e71f85a0d190cee86eff",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.03319999948143959,
+            -0.008999999612569809,
+            -0.2269655168056488
+          ],
+          "max": [
+            0.03319999948143959,
+            0.08299999684095383,
+            0.10686696320772171
+          ]
+        },
+        "body": {
+          "min": [
+            -0.03248000144958496,
+            -0.25349897146224976,
+            -0.23499999940395355
+          ],
+          "max": [
+            0.02897999994456768,
+            0.04462861269712448,
+            0.15379220247268677
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_mp443",
+      "shape": "grach",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1152,
+        "1": 480
+      },
+      "glbBytes": 700652,
+      "glbSha256": "5893ef09e99e66c1e366c1ed7a8feb43dc96479246dcc9e98ad108ab730fa6ba",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_mp443.blend",
+      "briefSha256": "16a906d634703af93dd426bc9d9f2afa1a2891df64c0251b260823992d41ce92",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.03919999673962593,
+            -0.008999999612569809,
+            -0.20896610617637634
+          ],
+          "max": [
+            0.03919999673962593,
+            0.08399999886751175,
+            0.11586912721395493
+          ]
+        },
+        "body": {
+          "min": [
+            -0.03800000250339508,
+            -0.25349897146224976,
+            -0.21699999272823334
+          ],
+          "max": [
+            0.03449999913573265,
+            0.04462861269712448,
+            0.15379220247268677
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_sks",
+      "shape": "sks",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2000,
+        "1": 648
+      },
+      "glbBytes": 764600,
+      "glbSha256": "ce4b32a2e5a9a844e665f1589a51717d88349808f25e97e77c2badde758df89c",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_sks.blend",
+      "briefSha256": "7c7f16b0145d31088c509994710fc133fdfd984297d9a5272400b8d3c1b0c84e",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.026000000536441803,
+            0.019999999552965164,
+            -0.0430000014603138
+          ],
+          "max": [
+            0.10199999809265137,
+            0.07199999690055847,
+            0.13500000536441803
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04350000247359276,
+            -0.10400000214576721,
+            -0.8799999952316284
+          ],
+          "max": [
+            0.04350000247359276,
+            0.13099999725818634,
+            0.2199999988079071
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_mosin9130",
+      "shape": "mosin",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1784,
+        "1": 640
+      },
+      "glbBytes": 746812,
+      "glbSha256": "c5265154d9d8b9fd7445c28734108b317c35c814f6e7e0529c32f57d93bdc4f2",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_mosin9130.blend",
+      "briefSha256": "c220952a3b88f7fc06a2aee392a586c370dbc5ece355a2455eacda4acd42583f",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.026000000536441803,
+            0.013000000268220901,
+            -0.0430000014603138
+          ],
+          "max": [
+            0.11649999767541885,
+            0.07199999690055847,
+            0.13500000536441803
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04600000008940697,
+            -0.10400000214576721,
+            -1.0299999713897705
+          ],
+          "max": [
+            0.04600000008940697,
+            0.1290000081062317,
+            0.23999999463558197
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_svd",
+      "shape": "svd",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1812,
+        "1": 540
+      },
+      "glbBytes": 744196,
+      "glbSha256": "70a7e9ca010d232506311abe284069e4f9f6e73f7b43c9a7f6201579f849a420",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_svd.blend",
+      "briefSha256": "0de6de7eda9dcac768868658d6075b2da2edd1a09ec3fdcece198589f3272eab",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.026000000536441803,
+            0.019999999552965164,
+            -0.0430000014603138
+          ],
+          "max": [
+            0.10199999809265137,
+            0.07199999690055847,
+            0.13500000536441803
+          ]
+        },
+        "body": {
+          "min": [
+            -0.0495000034570694,
+            -0.10400000214576721,
+            -1.0099999904632568
+          ],
+          "max": [
+            0.04350000247359276,
+            0.14769887924194336,
+            0.23000000417232513
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_sv98",
+      "shape": "sv98",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1456,
+        "1": 456
+      },
+      "glbBytes": 709784,
+      "glbSha256": "b0d8b42370947792dd0ed3262bad9e999b3a47a316a4a20dc0ab573ea76eeea9",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_sv98.blend",
+      "briefSha256": "69c00295c4f60d5e64f71f49fb9d51a3c28ade51b41f4724eb84d7cbdf516c15",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.026000000536441803,
+            0.013000000268220901,
+            -0.0430000014603138
+          ],
+          "max": [
+            0.11649999767541885,
+            0.07199999690055847,
+            0.13500000536441803
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04750000312924385,
+            -0.10400000214576721,
+            -0.9900000095367432
+          ],
+          "max": [
+            0.04750000312924385,
+            0.12099999934434891,
+            0.25
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_mp153",
+      "shape": "mp153",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1244,
+        "1": 428
+      },
+      "glbBytes": 692364,
+      "glbSha256": "b156de8fc6516cd892d2cd1a9f6694ff1c0990d6f210af67eb5db64f4cbcaf40",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_mp153.blend",
+      "briefSha256": "4375ab9769adab684fe369533f0f80e85461f43d2481003f989a7db38d68e6ad",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.028999999165534973,
+            0.005499999970197678,
+            -0.06499999761581421
+          ],
+          "max": [
+            0.0820000022649765,
+            0.03449999913573265,
+            0.04699999839067459
+          ]
+        },
+        "body": {
+          "min": [
+            -0.052000001072883606,
+            -0.12099999934434891,
+            -0.8700000047683716
+          ],
+          "max": [
+            0.052000001072883606,
+            0.06499999761581421,
+            0.25999999046325684
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_saiga12k",
+      "shape": "saiga",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1836,
+        "1": 624
+      },
+      "glbBytes": 753556,
+      "glbSha256": "a169ef221b4973c96cb421d74ab05615885c8891c2a4caba08302701fa6cfec7",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_saiga12k.blend",
+      "briefSha256": "c81ed2b8cb41c52c4fd9051808bba4183af8cf6bd0e4c8c5575bf77a6ccaacb5",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        },
+        "body": {
+          "min": [
+            -0.05502000078558922,
+            -0.13494610786437988,
+            -0.6600000262260437
+          ],
+          "max": [
+            0.05700000002980232,
+            0.16769887506961823,
+            0.24300000071525574
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_m4a1",
+      "shape": "ar",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2404,
+        "1": 788
+      },
+      "glbBytes": 804672,
+      "glbSha256": "020675ca97c1d972e317c934dd5401b0b76b01f750c71a4170faf7c7a2d8c382",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_m4a1.blend",
+      "briefSha256": "3829c0ff4d993d70fa082ae3541e69bcf014b1b7c78d4bae8a9644616fc36def",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.061500001698732376,
+            0.03799999877810478,
+            -0.03700000047683716
+          ],
+          "max": [
+            0.061500001698732376,
+            0.09399999678134918,
+            0.26350000500679016
+          ]
+        },
+        "body": {
+          "min": [
+            -0.048500001430511475,
+            -0.13500000536441803,
+            -0.7599999904632568
+          ],
+          "max": [
+            0.07150000333786011,
+            0.16769887506961823,
+            0.3050000071525574
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_mp5",
+      "shape": "mp5",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1880,
+        "1": 580
+      },
+      "glbBytes": 752652,
+      "glbSha256": "a06f9ff1e6585da620d781c190f034334b34b722b9174635b92c93dca6e58583",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_mp5.blend",
+      "briefSha256": "d47c78d75b8bac4f0cfa5afc8372adf91391bb628d19c2327340727f23604ca7",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.09549999982118607,
+            0.057500001043081284,
+            -0.3160000145435333
+          ],
+          "max": [
+            -0.030499998480081558,
+            0.08449999988079071,
+            -0.2240000069141388
+          ]
+        },
+        "body": {
+          "min": [
+            -0.03999999910593033,
+            -0.13994182646274567,
+            -0.5300000309944153
+          ],
+          "max": [
+            0.03999999910593033,
+            0.17900000512599945,
+            0.25999999046325684
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_pm",
+      "shape": "pm",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1192,
+        "1": 476
+      },
+      "glbBytes": 703104,
+      "glbSha256": "d01539b78b03fbc6e4b5c342a71b5f329c0758d9e433931a3406dd7557d26c40",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_pm.blend",
+      "briefSha256": "115d145e89036f8ab5e784e4d7785aa36515b5d2814b9e809bd5f91733a9356c",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.04349999874830246,
+            -0.008999999612569809,
+            -0.18196363747119904
+          ],
+          "max": [
+            0.034199997782707214,
+            0.07999999821186066,
+            0.10885999351739883
+          ]
+        },
+        "body": {
+          "min": [
+            -0.033399999141693115,
+            -0.25349897146224976,
+            -0.1899999976158142
+          ],
+          "max": [
+            0.029899999499320984,
+            0.04462861269712448,
+            0.15379220247268677
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_mp133",
+      "shape": "shotgun",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1208,
+        "1": 408
+      },
+      "glbBytes": 688932,
+      "glbSha256": "bf1cee9c9dd938d12505b970b2443a36025b48c66d33c24e363d2aef54775d82",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_mp133.blend",
+      "briefSha256": "d942f54411c72e852a0aed2d323ade90f3b68e5f4e9284c9b3c3aadecb6e0ee5",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.028999999165534973,
+            0.005499999970197678,
+            -0.06499999761581421
+          ],
+          "max": [
+            0.04500000178813934,
+            0.03449999913573265,
+            0.04699999839067459
+          ]
+        },
+        "body": {
+          "min": [
+            -0.052000001072883606,
+            -0.12099999934434891,
+            -0.8799999952316284
+          ],
+          "max": [
+            0.052000001072883606,
+            0.06499999761581421,
+            0.25
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_ak12",
+      "shape": "ak12",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1908,
+        "1": 684
+      },
+      "glbBytes": 761768,
+      "glbSha256": "0f4f97063260bd4cc5c9b23ea5843409eeb485558f947250bcc884a877660fbb",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_ak12.blend",
+      "briefSha256": "08f7a48426245ecb53bb074c264c978cbea4017190034fce1b7deafa608f6a66",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04430999979376793,
+            -0.12300000339746475,
+            -0.7900000214576721
+          ],
+          "max": [
+            0.04650000110268593,
+            0.16769887506961823,
+            0.2529999911785126
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_rpk74m",
+      "shape": "rpk74",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1856,
+        "1": 660
+      },
+      "glbBytes": 755676,
+      "glbSha256": "ebcc89dd279dbc77e2f77cc5dca47be8342cd9eeff095d42f4f2d18f9c7fdb37",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_rpk74m.blend",
+      "briefSha256": "76e7766f1b0321b6d23455d5c7b193de51671a4f6c0afb0ff60a4a1f814534fb",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03350000083446503,
+            -0.07199999690055847
+          ],
+          "max": [
+            0.09549999982118607,
+            0.060499999672174454,
+            0.019999999552965164
+          ]
+        },
+        "body": {
+          "min": [
+            -0.047370001673698425,
+            -0.12300000339746475,
+            -1.0899999141693115
+          ],
+          "max": [
+            0.0494999997317791,
+            0.16769887506961823,
+            0.2930000126361847
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_asval",
+      "shape": "asval",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1800,
+        "1": 548
+      },
+      "glbBytes": 743060,
+      "glbSha256": "fad0ca0b79f662564d46982abcf8b790f47027a81ea017469977993696d4e23b",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_asval.blend",
+      "briefSha256": "72b5c777359852e83f3e9611fbebe5a06f991ff55a715a10f4e82af10928c9f9",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03150000050663948,
+            -0.052000001072883606
+          ],
+          "max": [
+            0.09549999982118607,
+            0.05849999934434891,
+            0.03999999910593033
+          ]
+        },
+        "body": {
+          "min": [
+            -0.0495000034570694,
+            -0.12099999934434891,
+            -0.800000011920929
+          ],
+          "max": [
+            0.04800000041723251,
+            0.15269887447357178,
+            0.2199999988079071
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_vss",
+      "shape": "vss",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1800,
+        "1": 548
+      },
+      "glbBytes": 743060,
+      "glbSha256": "603d1edd99fc02304bca260d0d6d6d5faf9dc72ae88d75a394d4ad2f7082b28f",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_vss.blend",
+      "briefSha256": "a471d89de549a4901240ef3da24971312cd5c191a86b225bac783b0d6933ca3d",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.03150000050663948,
+            -0.052000001072883606
+          ],
+          "max": [
+            0.09549999982118607,
+            0.05849999934434891,
+            0.03999999910593033
+          ]
+        },
+        "body": {
+          "min": [
+            -0.0495000034570694,
+            -0.12099999934434891,
+            -0.8600000143051147
+          ],
+          "max": [
+            0.04800000041723251,
+            0.15269887447357178,
+            0.2199999988079071
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_g36k",
+      "shape": "g36",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2064,
+        "1": 636
+      },
+      "glbBytes": 770344,
+      "glbSha256": "26d925cfe7f2ed46763102951bf2f149f610a4b648a62d6e86103ae5ef1d0afc",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_g36k.blend",
+      "briefSha256": "de0832d94b7822c58fa962bfe89ef7621d6b325d73f19f34fff2974985b234c5",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.030499998480081558,
+            0.04349999874830246,
+            -0.11599999666213989
+          ],
+          "max": [
+            0.09549999982118607,
+            0.07050000131130219,
+            -0.024000000208616257
+          ]
+        },
+        "body": {
+          "min": [
+            -0.05400000140070915,
+            -0.1379999965429306,
+            -0.7099999785423279
+          ],
+          "max": [
+            0.05400000140070915,
+            0.18669886887073517,
+            0.23999999463558197
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_scarl",
+      "shape": "scar",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2240,
+        "1": 728
+      },
+      "glbBytes": 788920,
+      "glbSha256": "239bb7b0aeed8826ef7c91b053a3517ecbe38d82289a2929b467a259f149991c",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_scarl.blend",
+      "briefSha256": "0605c333efc9b141f8972a621228b4a044b52e1bc26244aeaee1d494df49d698",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.09549999982118607,
+            0.04349999874830246,
+            -0.11599999666213989
+          ],
+          "max": [
+            -0.030499998480081558,
+            0.07050000131130219,
+            -0.024000000208616257
+          ]
+        },
+        "body": {
+          "min": [
+            -0.05249999836087227,
+            -0.1379999965429306,
+            -0.7699999809265137
+          ],
+          "max": [
+            0.05249999836087227,
+            0.18269886076450348,
+            0.2800000011920929
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_auga3",
+      "shape": "aug",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1640,
+        "1": 624
+      },
+      "glbBytes": 742448,
+      "glbSha256": "8ae1089abb8e97667aa10c477f8293554b302d93d6d3d48c28dd23f8d28f26b6",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_auga3.blend",
+      "briefSha256": "8eb16579eae5fd1e7f9af8373fb4f6707aa2e6dc44d887d157e367deb1ebdf58",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.09549999982118607,
+            0.051500000059604645,
+            -0.17599999904632568
+          ],
+          "max": [
+            -0.030499998480081558,
+            0.07850000262260437,
+            -0.08399999886751175
+          ]
+        },
+        "body": {
+          "min": [
+            -0.0625,
+            -0.2448841780424118,
+            -0.5600000023841858
+          ],
+          "max": [
+            0.04600000008940697,
+            0.16769886016845703,
+            0.28745555877685547
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_mcxspearlt",
+      "shape": "mcx",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2344,
+        "1": 752
+      },
+      "glbBytes": 799340,
+      "glbSha256": "80acde4aae77759e70880eacde1c0e10ff9b02ed64c63950199e72a9f1b400d2",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_mcxspearlt.blend",
+      "briefSha256": "8484021020957339d9b838e4548387aaff7a0b941ec5e1b3284bb92a48211ccc",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.061500001698732376,
+            0.03799999877810478,
+            -0.03700000047683716
+          ],
+          "max": [
+            0.061500001698732376,
+            0.09399999678134918,
+            0.2535000145435333
+          ]
+        },
+        "body": {
+          "min": [
+            -0.048500001430511475,
+            -0.13500000536441803,
+            -0.8299999833106995
+          ],
+          "max": [
+            0.0625,
+            0.16769886016845703,
+            0.24799999594688416
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_bren2",
+      "shape": "bren",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2204,
+        "1": 704
+      },
+      "glbBytes": 784564,
+      "glbSha256": "d9627741462d991c0bfd7a3203cdcde3aebee5c1fd90a1844e4c535ba9511a21",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_bren2.blend",
+      "briefSha256": "439bbcba66c63a242e2b948301754e316313e914f81e3e8034d5923bc7f0ddd1",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.09549999982118607,
+            0.04349999874830246,
+            -0.11599999666213989
+          ],
+          "max": [
+            -0.030499998480081558,
+            0.07050000131130219,
+            -0.024000000208616257
+          ]
+        },
+        "body": {
+          "min": [
+            -0.05000000074505806,
+            -0.1379999965429306,
+            -0.7200000286102295
+          ],
+          "max": [
+            0.05000000074505806,
+            0.17269885540008545,
+            0.25
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_scorpion",
+      "shape": "scorpion",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2152,
+        "1": 688
+      },
+      "glbBytes": 779912,
+      "glbSha256": "21957f7e4beeea85414cb312ecde833620d92d0fe8c388e35434fa6ab77c3c8f",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_scorpion.blend",
+      "briefSha256": "a976a6ba6b751f0e755f2fc30a2219b9c4cbf1b49c5050a8e4dcd4fc6957ef21",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.09549999982118607,
+            0.04349999874830246,
+            -0.11599999666213989
+          ],
+          "max": [
+            -0.030499998480081558,
+            0.07050000131130219,
+            -0.024000000208616257
+          ]
+        },
+        "body": {
+          "min": [
+            -0.052000001072883606,
+            -0.1379999965429306,
+            -0.4300000071525574
+          ],
+          "max": [
+            0.052000001072883606,
+            0.14769886434078217,
+            0.19569522142410278
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_mpx",
+      "shape": "mpx",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 2224,
+        "1": 692
+      },
+      "glbBytes": 786480,
+      "glbSha256": "4821733002c14f68c3982418e394d00cdd50114d76610f6663eb631396b23688",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_mpx.blend",
+      "briefSha256": "065616b65191437f5ce501d3535d4619af6d2dff176f6a03435f00b9917af9e2",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.061500001698732376,
+            0.03799999877810478,
+            -0.03700000047683716
+          ],
+          "max": [
+            0.061500001698732376,
+            0.09399999678134918,
+            0.17350000143051147
+          ]
+        },
+        "body": {
+          "min": [
+            -0.048500001430511475,
+            -0.13500000536441803,
+            -0.49000000953674316
+          ],
+          "max": [
+            0.0625,
+            0.15269885957241058,
+            0.1679999977350235
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_m9a3",
+      "shape": "m9a3",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1436,
+        "1": 556
+      },
+      "glbBytes": 728792,
+      "glbSha256": "cd44903a5c087e36501ecfb426d5ec42c7938ecadab1e9a430282ce00aa18e59",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_m9a3.blend",
+      "briefSha256": "0751bca2aaa418cdf9d32a1cf157a77a926b60ce12adb3fe9a29fa2643dd3a08",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.04749999940395355,
+            -0.008999999612569809,
+            -0.23350000381469727
+          ],
+          "max": [
+            0.03819999843835831,
+            0.0820000022649765,
+            0.11876912415027618
+          ]
+        },
+        "body": {
+          "min": [
+            -0.03708000108599663,
+            -0.25349897146224976,
+            -0.24199999868869781
+          ],
+          "max": [
+            0.033580001443624496,
+            0.04500000178813934,
+            0.15379220247268677
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_m17",
+      "shape": "m17",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1200,
+        "1": 512
+      },
+      "glbBytes": 707464,
+      "glbSha256": "ac227abff58192384118c50054becdd90216c5bc2437cfa23f35b73e97a4067d",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_m17.blend",
+      "briefSha256": "35a508cfcd0cd50bf040739875302ad8efc2425f43c82d17915c24d1639e1e73",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.040699999779462814,
+            -0.007000000216066837,
+            -0.20296721160411835
+          ],
+          "max": [
+            0.040699999779462814,
+            0.08799999952316284,
+            0.11487327516078949
+          ]
+        },
+        "body": {
+          "min": [
+            -0.03938000276684761,
+            -0.25349897146224976,
+            -0.210999995470047
+          ],
+          "max": [
+            0.03587999939918518,
+            0.04500000178813934,
+            0.15379220247268677
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_rem870",
+      "shape": "rem870",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1208,
+        "1": 408
+      },
+      "glbBytes": 688960,
+      "glbSha256": "02c385f267b94e78a893fd3a821d30a9ecfb52579438ec4b155f850427367237",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_rem870.blend",
+      "briefSha256": "36dc8e655db7a0c9c4aa8de93e68a6f752a83501405abbc226d05f8fcf4360e9",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.028999999165534973,
+            0.005499999970197678,
+            -0.06499999761581421
+          ],
+          "max": [
+            0.04500000178813934,
+            0.03449999913573265,
+            0.04699999839067459
+          ]
+        },
+        "body": {
+          "min": [
+            -0.052000001072883606,
+            -0.12099999934434891,
+            -0.8500000238418579
+          ],
+          "max": [
+            0.052000001072883606,
+            0.07850000262260437,
+            0.23999999463558197
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_benellim4",
+      "shape": "benelli",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1884,
+        "1": 660
+      },
+      "glbBytes": 754312,
+      "glbSha256": "be7a8be5f0b7942b58cbb2e4a60d28643757949cf94cf56f26955b3f27af895d",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_benellim4.blend",
+      "briefSha256": "7510be23f5947ac24a11bb8421770835f2f4b762d8eab6ac741b461ff8a3bea4",
+      "groupBounds": {
+        "action": {
+          "min": [
+            0.028999999165534973,
+            0.005499999970197678,
+            -0.06499999761581421
+          ],
+          "max": [
+            0.0820000022649765,
+            0.03449999913573265,
+            0.04699999839067459
+          ]
+        },
+        "body": {
+          "min": [
+            -0.052000001072883606,
+            -0.12099999934434891,
+            -0.8899999856948853
+          ],
+          "max": [
+            0.052000001072883606,
+            0.1340000033378601,
+            0.25999999046325684
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    },
+    {
+      "id": "weapon_m14",
+      "shape": "m14",
+      "structuralStatus": "PASSED",
+      "errors": [],
+      "triangles": {
+        "0": 1768,
+        "1": 528
+      },
+      "glbBytes": 739892,
+      "glbSha256": "4b36e8cd4ed1e835ede3e2ec9aa3288ea3311909a9e73cf65bc44657f9c948bc",
+      "sourceBlend": "art/overhaul/weapon_sources/weapon_m14.blend",
+      "briefSha256": "1dca70eb688d610defd61f7df180b8099e7b939e4acaae3ce2e88c0b1b6e7773",
+      "groupBounds": {
+        "action": {
+          "min": [
+            -0.026000000536441803,
+            0.019999999552965164,
+            -0.0430000014603138
+          ],
+          "max": [
+            0.10199999809265137,
+            0.07199999690055847,
+            0.13500000536441803
+          ]
+        },
+        "body": {
+          "min": [
+            -0.04350000247359276,
+            -0.10400000214576721,
+            -0.9800000190734863
+          ],
+          "max": [
+            0.04350000247359276,
+            0.1326988786458969,
+            0.24500000476837158
+          ]
+        }
+      },
+      "materialCount": 1,
+      "embeddedImages": 2,
+      "renderViewsPresent": 4,
+      "renderViewsNewerThanAsset": 4,
+      "runtimeStatus": "NOT RUN",
+      "artAcceptance": "PENDING_ASSEMBLED_REVIEW"
+    }
+  ]
+}

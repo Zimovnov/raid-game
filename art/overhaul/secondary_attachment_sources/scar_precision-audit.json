@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/scar_precision.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__scar_precision": {
+      "0": {
+        "triangles": 364,
+        "vertices": 698,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_tan.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04899999871850014,
+            -0.1650000512599945,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.0494999997317791,
+            0.13200002908706665,
+            0.2770000398159027
+          ]
+        }
+      },
+      "1": {
+        "triangles": 116,
+        "vertices": 192,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_rubber.001",
+          "RAID_Secondary_Original_tan.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04899999871850014,
+            -0.1650000512599945,
+            -0.1900000274181366
+          ],
+          "max": [
+            0.04899999871850014,
+            0.13200002908706665,
+            0.2759999930858612
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "rubber-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "tan-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/scar_precision-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__scar_precision": {
+      "min": [
+        -0.04899999871850014,
+        -0.1650000512599945,
+        -0.1900000274181366
+      ],
+      "max": [
+        0.0494999997317791,
+        0.13200002908706665,
+        0.2770000398159027
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.04899999871850014,
+      -0.2770000398159027,
+      -0.1650000512599945
+    ],
+    "max": [
+      0.0494999997317791,
+      0.1900000423192978,
+      0.13200004398822784
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,263 @@
+{
+  "schema": 2,
+  "id": "ec738e05-f68e-4a4a-b0aa-5a3271ae8ff7",
+  "revision": 2,
+  "character": {
+    "name": "Миграция тест",
+    "faction": "BEAR",
+    "face": 0,
+    "outfit": 0
+  },
+  "cash": 50000,
+  "stash": [
+    {
+      "id": "731f27a6-aa18-42f3-b113-406bc0c71c2f",
+      "def": "weapon_akm",
+      "qty": 1,
+      "condition": 100,
+      "rounds": 0,
+      "children": {
+        "stock": {
+          "id": "80b0f24e-e4b4-4240-93be-de26e10bc137",
+          "def": "ak_wood_stock",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        },
+        "handguard": {
+          "id": "4335f5aa-70b4-4f02-9f8d-99921cd00fd4",
+          "def": "ak_wood",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        },
+        "pistolgrip": {
+          "id": "cdc795cc-cb9f-4002-847e-43bf7e873112",
+          "def": "ak_grip",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        },
+        "magazine": {
+          "id": "93aa2d2d-4856-4880-963f-d15ff227ceb0",
+          "def": "ak762_30",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 30,
+          "children": {}
+        },
+        "muzzle": {
+          "id": "1e4594f6-460a-4f6d-ab1c-bc8331b5bcf9",
+          "def": "ak_brake",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        }
+      }
+    },
+    {
+      "id": "a63e41e4-1ede-4621-92ee-69e9062b2942",
+      "def": "ammo_5.45x39",
+      "qty": 90,
+      "condition": 100,
+      "rounds": 0,
+      "children": {}
+    },
+    {
+      "id": "3dc0eb69-4cae-44d4-99e7-c1f4ad69fc9d",
+      "def": "loot_medical_09",
+      "qty": 1,
+      "condition": 100,
+      "rounds": 0,
+      "children": {}
+    },
+    {
+      "id": "152a5461-4cf3-4422-a6c0-4c221f7cecef",
+      "def": "loot_food_drink_15",
+      "qty": 1,
+      "condition": 100,
+      "rounds": 0,
+      "children": {}
+    }
+  ],
+  "inbox": [],
+  "gear": {
+    "primary": null,
+    "secondary": null,
+    "armor": null,
+    "helmet": null,
+    "bag": [],
+    "safe": []
+  },
+  "quests": {},
+  "presets": [],
+  "journal": [],
+  "applied": [],
+  "transactions": [],
+  "pending": {
+    "raidId": "legacy-active-fixture",
+    "stage": "active",
+    "gear": {
+      "primary": {
+        "id": "506b9b8d-3534-4a9a-b156-b7fc33dd27e3",
+        "def": "weapon_ak74m",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {
+          "stock": {
+            "id": "77980e05-a964-4279-b030-98ad689efddf",
+            "def": "ak_stock",
+            "qty": 1,
+            "condition": 100,
+            "rounds": 0,
+            "children": {}
+          },
+          "handguard": {
+            "id": "1f1a62d9-adb2-4a3b-b64e-629cdd79b023",
+            "def": "ak_poly",
+            "qty": 1,
+            "condition": 100,
+            "rounds": 0,
+            "children": {}
+          },
+          "pistolgrip": {
+            "id": "b92967f1-27ba-4c21-8950-a1f07ffc19a1",
+            "def": "ak_grip",
+            "qty": 1,
+            "condition": 100,
+            "rounds": 0,
+            "children": {}
+          },
+          "magazine": {
+            "id": "7e42f3d7-ea91-402e-bac0-fc1de53aee0a",
+            "def": "ak545_30",
+            "qty": 1,
+            "condition": 100,
+            "rounds": 30,
+            "children": {}
+          },
+          "muzzle": {
+            "id": "78e3fe10-1862-4cb9-b436-7e70047a13be",
+            "def": "ak_brake",
+            "qty": 1,
+            "condition": 100,
+            "rounds": 0,
+            "children": {}
+          }
+        }
+      },
+      "secondary": {
+        "id": "e17a4013-c06b-410f-991b-0bac539891b3",
+        "def": "weapon_pm",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {
+          "pistolgrip": {
+            "id": "6991279e-ed48-4261-9617-93425ad678a7",
+            "def": "pm_grip",
+            "qty": 1,
+            "condition": 100,
+            "rounds": 0,
+            "children": {}
+          },
+          "magazine": {
+            "id": "3bcfdcbb-1444-4e96-bf8d-ba3d44137564",
+            "def": "pm_8",
+            "qty": 1,
+            "condition": 100,
+            "rounds": 8,
+            "children": {}
+          }
+        }
+      },
+      "armor": {
+        "id": "c1a6f052-7168-4a88-8a96-2b001622986c",
+        "def": "armor_light",
+        "qty": 1,
+        "condition": 100,
+        "rounds": 0,
+        "children": {}
+      },
+      "helmet": null,
+      "bag": [
+        {
+          "id": "182c60f9-894a-4626-840b-06902477b6d4",
+          "def": "ak545_30",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 30,
+          "children": {}
+        },
+        {
+          "id": "c9fb8110-0d91-4971-92fa-f84f412aa118",
+          "def": "ak545_30",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 30,
+          "children": {}
+        },
+        {
+          "id": "a65377cc-c387-4a1f-8672-4504dfdb020d",
+          "def": "pm_8",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 8,
+          "children": {}
+        },
+        {
+          "id": "623df99f-7df7-4108-8125-a7f662424025",
+          "def": "ammo_5.45x39",
+          "qty": 30,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        },
+        {
+          "id": "a587e3c2-3d1b-4a9f-9a2a-9fa7a88df38b",
+          "def": "ammo_9x18",
+          "qty": 24,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        },
+        {
+          "id": "a102a5a4-98f6-4a91-bfb7-a09731acc743",
+          "def": "loot_medical_09",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        },
+        {
+          "id": "44554eb4-f157-4b53-b0ca-18d08c8b1796",
+          "def": "loot_medical_01",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        },
+        {
+          "id": "dba68366-0ee3-4d34-9839-85a20c3836a0",
+          "def": "loot_food_drink_15",
+          "qty": 1,
+          "condition": 100,
+          "rounds": 0,
+          "children": {}
+        }
+      ],
+      "safe": []
+    },
+    "map": "factory"
+  },
+  "stats": {
+    "raids": 0,
+    "extracted": 0,
+    "kills": 0
+  }
+}

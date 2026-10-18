@@ -1,0 +1,24 @@
+{
+  "status": "PASSED",
+  "scope": "Seven repaired muzzle LOD1 oblique PNGs visually inspected; both projections regenerated. Earlier seven additional sampled modules reviewed. Not a complete visual review of all 100 LOD1 assets.",
+  "repairedIds": [
+    "ar_brake",
+    "aug_muzzle",
+    "bren_muzzle",
+    "g36_muzzle",
+    "m14_muzzle",
+    "mcx_muzzle",
+    "scar_brake"
+  ],
+  "rootCause": "Aggressive decimation of disconnected thin port walls produced stretched spikes despite valid normals and UVs.",
+  "fix": "Explicit LOD1 shapes with 88, 100 or 104 triangles; LOD0 retained.",
+  "remainingLimitations": [
+    "Far LOD ports merged into larger openings and circular cross sections reduced to facets.",
+    "Assembled runtime fit, LOD transition, ADS, reload/pump extremes, FPS and collision require parent integration QA."
+  ],
+  "logs": [
+    "lod1-brake-fix.log",
+    "render-lod1-brake-fix.log",
+    "render-lod0-brake-fix.log"
+  ]
+}

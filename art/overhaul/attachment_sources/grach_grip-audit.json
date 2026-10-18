@@ -1,0 +1,108 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/grach_grip.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "pistolgrip__grach_grip": {
+      "0": {
+        "triangles": 252,
+        "vertices": 524,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04240000247955322,
+            -0.13880065083503723,
+            -0.04500000923871994
+          ],
+          "max": [
+            0.042399998754262924,
+            0.06975125521421432,
+            0.060999996960163116
+          ]
+        }
+      },
+      "1": {
+        "triangles": 64,
+        "vertices": 114,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.04240000247955322,
+            -0.13900001347064972,
+            -0.04400000348687172
+          ],
+          "max": [
+            0.042399998754262924,
+            0.07000001519918442,
+            0.060999996960163116
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/grach_grip-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "pistolgrip__grach_grip": {
+      "min": [
+        -0.04240000247955322,
+        -0.13880065083503723,
+        -0.04500000923871994
+      ],
+      "max": [
+        0.042399998754262924,
+        0.06975125521421432,
+        0.060999996960163116
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.04240000247955322,
+      -0.06100001931190491,
+      -0.1390000283718109
+    ],
+    "max": [
+      0.042399998754262924,
+      0.045000024139881134,
+      0.07000001519918442
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

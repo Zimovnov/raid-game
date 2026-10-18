@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/fore_angled.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "grip__fore_angled": {
+      "0": {
+        "triangles": 88,
+        "vertices": 172,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03200000151991844,
+            -0.09436755627393723,
+            -0.06439550966024399
+          ],
+          "max": [
+            0.03200000151991844,
+            0.09000001847743988,
+            0.08100000768899918
+          ]
+        }
+      },
+      "1": {
+        "triangles": 48,
+        "vertices": 84,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.03200000151991844,
+            -0.0950000137090683,
+            -0.06499999761581421
+          ],
+          "max": [
+            0.03200000151991844,
+            0.09000001847743988,
+            0.08100000768899918
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/fore_angled-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "grip__fore_angled": {
+      "min": [
+        -0.03200000151991844,
+        -0.09436755627393723,
+        -0.06439550966024399
+      ],
+      "max": [
+        0.03200000151991844,
+        0.09000001847743988,
+        0.08100000768899918
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.03200000151991844,
+      -0.08100001513957977,
+      -0.0950000211596489
+    ],
+    "max": [
+      0.03200000151991844,
+      0.065000019967556,
+      0.09000001847743988
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,480 @@
+{
+  "scope": "Authoring AABB connectivity screen at 1.5mm tolerance. This can find separated parts but cannot prove actual surface contact; visual assembled review is still required. Action is screened separately from body; it may contain separate controlled parts.",
+  "assets": [
+    {
+      "id": "weapon_aks74u",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_ak103",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_hk416a5",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "visible bolt exterior"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "weapon_pp1901",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_pp91",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_tt",
+      "groups": {
+        "body": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "fixed barrel exterior",
+              "open barrel crown"
+            ]
+          ]
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_mp443",
+      "groups": {
+        "body": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "fixed barrel exterior",
+              "open barrel crown"
+            ]
+          ]
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_sks",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_mosin9130",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_svd",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_sv98",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_mp153",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_saiga12k",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_m4a1",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "visible bolt exterior"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "weapon_mp5",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_pm",
+      "groups": {
+        "body": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "fixed barrel exterior",
+              "open barrel crown"
+            ]
+          ]
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_mp133",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_ak12",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_rpk74m",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_asval",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_vss",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_g36k",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_scarl",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_auga3",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_mcxspearlt",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "visible bolt exterior"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "weapon_bren2",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_scorpion",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_mpx",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "visible bolt exterior"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "weapon_m9a3",
+      "groups": {
+        "body": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "fixed barrel exterior",
+              "open barrel crown"
+            ]
+          ]
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_m17",
+      "groups": {
+        "body": {
+          "components": 2,
+          "detachedCandidates": [
+            [
+              "fixed barrel exterior",
+              "open barrel crown"
+            ]
+          ]
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_rem870",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_benellim4",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    },
+    {
+      "id": "weapon_m14",
+      "groups": {
+        "body": {
+          "components": 1,
+          "detachedCandidates": []
+        },
+        "action": {
+          "components": 1,
+          "detachedCandidates": []
+        }
+      }
+    }
+  ],
+  "interpretation": {
+    "externalSupport": "No disconnected sight ears, fixed sight pedestals, selector levers, bipod clamps, trigger housings, fore-stock bands or integral suppressor necks remain in this conservative authoring screen.",
+    "expectedGaps": "Pistol body has an exterior fixed barrel separated from the frame, enclosed by the independently animated slide. AR-family action includes separate visible bolt and rear charging-handle surfaces; no hidden linkage or internal mechanism is authored.",
+    "limitation": "AABB intersection is screening only; inspect real assembled geometry and animation in the production renderer."
+  }
+}

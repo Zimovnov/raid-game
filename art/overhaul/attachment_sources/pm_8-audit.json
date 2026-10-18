@@ -1,0 +1,118 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/pm_8.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "magazine__pm_8": {
+      "0": {
+        "triangles": 272,
+        "vertices": 460,
+        "objects": 3,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.021449999883770943,
+            -0.10900001972913742,
+            -0.011499987915158272
+          ],
+          "max": [
+            0.021449999883770943,
+            0.10000001639127731,
+            0.07485999166965485
+          ]
+        }
+      },
+      "1": {
+        "triangles": 104,
+        "vertices": 172,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.021449999883770943,
+            -0.10900001972913742,
+            -0.011499987915158272
+          ],
+          "max": [
+            0.021449999883770943,
+            0.10000001639127731,
+            0.07485999166965485
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/pm_8-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "magazine__pm_8": {
+      "min": [
+        -0.021449999883770943,
+        -0.10900001972913742,
+        -0.011499987915158272
+      ],
+      "max": [
+        0.021449999883770943,
+        0.10000001639127731,
+        0.07485999166965485
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.021449999883770943,
+      -0.07485999166965485,
+      -0.10900001972913742
+    ],
+    "max": [
+      0.021449999883770943,
+      0.011500013992190361,
+      0.10000001639127731
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

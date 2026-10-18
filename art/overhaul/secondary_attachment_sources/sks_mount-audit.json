@@ -1,0 +1,106 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/sks_mount.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "mount__sks_mount": {
+      "0": {
+        "triangles": 276,
+        "vertices": 504,
+        "objects": 1,
+        "materials": [
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0364999994635582,
+            -0.02800002321600914,
+            -0.14250001311302185
+          ],
+          "max": [
+            0.0364999994635582,
+            0.058000024408102036,
+            0.14250001311302185
+          ]
+        }
+      },
+      "1": {
+        "triangles": 76,
+        "vertices": 144,
+        "objects": 1,
+        "materials": [
+          "RAID_Secondary_Original_steel.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0364999994635582,
+            -0.02800002321600914,
+            -0.14250001311302185
+          ],
+          "max": [
+            0.0364999994635582,
+            0.05800002068281174,
+            0.14250001311302185
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/sks_mount-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "mount__sks_mount": {
+      "min": [
+        -0.0364999994635582,
+        -0.02800002321600914,
+        -0.14250001311302185
+      ],
+      "max": [
+        0.0364999994635582,
+        0.058000024408102036,
+        0.14250001311302185
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.0364999994635582,
+      -0.14250002801418304,
+      -0.02800002321600914
+    ],
+    "max": [
+      0.0364999994635582,
+      0.14250001311302185,
+      0.058000024408102036
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

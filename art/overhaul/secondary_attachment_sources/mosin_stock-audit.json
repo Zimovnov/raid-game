@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments-secondary/mosin_stock.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "stock__mosin_stock": {
+      "0": {
+        "triangles": 404,
+        "vertices": 758,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_steel.001",
+          "RAID_Secondary_Original_wood.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.050999999046325684,
+            -0.15918223559856415,
+            -1.1600000858306885
+          ],
+          "max": [
+            0.050999999046325684,
+            0.05800000950694084,
+            0.26200008392333984
+          ]
+        }
+      },
+      "1": {
+        "triangles": 216,
+        "vertices": 370,
+        "objects": 2,
+        "materials": [
+          "RAID_Secondary_Original_steel.001",
+          "RAID_Secondary_Original_wood.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.050999999046325684,
+            -0.1600000411272049,
+            -1.1600000858306885
+          ],
+          "max": [
+            0.050999999046325684,
+            0.05800000950694084,
+            0.26100000739097595
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "wood-base",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/secondary_attachment_sources/mosin_stock-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "stock__mosin_stock": {
+      "min": [
+        -0.050999999046325684,
+        -0.15918223559856415,
+        -1.1600000858306885
+      ],
+      "max": [
+        0.050999999046325684,
+        0.05800000950694084,
+        0.26200008392333984
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.050999999046325684,
+      -0.26200008392333984,
+      -0.1600000411272049
+    ],
+    "max": [
+      0.050999999046325684,
+      1.1600000858306885,
+      0.05800016224384308
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

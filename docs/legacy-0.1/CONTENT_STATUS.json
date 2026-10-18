@@ -1,0 +1,892 @@
+{
+  "weapons": [
+    {
+      "id": "weapon_ak74m",
+      "name": "АК-74М",
+      "ammo": "5.45x39",
+      "geometry": "own-stylized-procedural",
+      "realVariantVerification": "NOT COMPLETED",
+      "browserVisualTest": "NOT RUN"
+    },
+    {
+      "id": "weapon_akm",
+      "name": "АКМ",
+      "ammo": "7.62x39",
+      "geometry": "own-stylized-procedural",
+      "realVariantVerification": "NOT COMPLETED",
+      "browserVisualTest": "NOT RUN"
+    },
+    {
+      "id": "weapon_m4a1",
+      "name": "M4A1",
+      "ammo": "5.56x45",
+      "geometry": "own-stylized-procedural",
+      "realVariantVerification": "NOT COMPLETED",
+      "browserVisualTest": "NOT RUN"
+    },
+    {
+      "id": "weapon_mp5",
+      "name": "HK MP5",
+      "ammo": "9x19",
+      "geometry": "own-stylized-procedural",
+      "realVariantVerification": "NOT COMPLETED",
+      "browserVisualTest": "NOT RUN"
+    },
+    {
+      "id": "weapon_pm",
+      "name": "ПМ",
+      "ammo": "9x18",
+      "geometry": "own-stylized-procedural",
+      "realVariantVerification": "NOT COMPLETED",
+      "browserVisualTest": "NOT RUN"
+    },
+    {
+      "id": "weapon_mp133",
+      "name": "МР-133",
+      "ammo": "12gauge",
+      "geometry": "own-stylized-procedural",
+      "realVariantVerification": "NOT COMPLETED",
+      "browserVisualTest": "NOT RUN"
+    }
+  ],
+  "modules": [
+    {
+      "id": "ak_stock",
+      "name": "Полимерный приклад",
+      "shape": "stock_solid",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_wood_stock",
+      "name": "Деревянный приклад",
+      "shape": "stock_wood",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_skeleton",
+      "name": "Рамочный приклад",
+      "shape": "stock_skeleton",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_stock",
+      "name": "Телескопический приклад",
+      "shape": "stock_telescopic",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_compact",
+      "name": "Компактный приклад",
+      "shape": "stock_compact",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_precision",
+      "name": "Приклад с щекой",
+      "shape": "stock_precision",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "mp5_stock",
+      "name": "Приклад MP5",
+      "shape": "stock_solid",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "sg_stock",
+      "name": "Охотничий приклад",
+      "shape": "stock_wood",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_poly",
+      "name": "Полимерное цевьё",
+      "shape": "guard_poly",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_wood",
+      "name": "Деревянное цевьё",
+      "shape": "guard_wood",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_rail",
+      "name": "Рельсовое цевьё",
+      "shape": "guard_rail",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_poly",
+      "name": "Ребристое цевьё",
+      "shape": "guard_round",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_short",
+      "name": "Короткое рельсовое цевьё",
+      "shape": "guard_short",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_long",
+      "name": "Длинное рельсовое цевьё",
+      "shape": "guard_long",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "mp5_guard",
+      "name": "Цевьё MP5",
+      "shape": "guard_poly",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "mp5_rail",
+      "name": "Цевьё MP5 с планками",
+      "shape": "guard_rail",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "sg_pump",
+      "name": "Деревянное помповое цевьё",
+      "shape": "guard_pump_wood",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_grip",
+      "name": "Простая рукоятка АК",
+      "shape": "grip_plain",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_ergo",
+      "name": "Рукоятка с упором",
+      "shape": "grip_ergo",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_grip",
+      "name": "Простая рукоятка AR",
+      "shape": "grip_plain",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_ergo",
+      "name": "Вертикальная рукоятка AR",
+      "shape": "grip_vertical",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "pm_grip",
+      "name": "Бакелитовые накладки",
+      "shape": "grip_wood",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "pm_rubber",
+      "name": "Резиновые накладки",
+      "shape": "grip_rubber",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_mount",
+      "name": "Боковой кронштейн",
+      "shape": "mount_side",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "mp5_mount",
+      "name": "Мостик MP5",
+      "shape": "mount_bridge",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "sg_mount",
+      "name": "Планка ствольной коробки",
+      "shape": "mount_flat",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "red_dot",
+      "name": "Открытый коллиматор",
+      "shape": "optic_open",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "holo",
+      "name": "Голографический прицел",
+      "shape": "optic_holo",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "scope4",
+      "name": "Компактная оптика ×4",
+      "shape": "optic_scope",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "fore_vertical",
+      "name": "Вертикальная передняя рукоятка",
+      "shape": "fore_vertical",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "fore_angled",
+      "name": "Угловая передняя рукоятка",
+      "shape": "fore_angled",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "fore_stop",
+      "name": "Небольшой упор",
+      "shape": "fore_stop",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "flashlight",
+      "name": "Оружейный фонарь",
+      "shape": "light",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "laser",
+      "name": "Лазерный указатель",
+      "shape": "laser",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak545_30",
+      "name": "Магазин 5,45 · 30",
+      "shape": "mag_curved",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak545_45",
+      "name": "Магазин 5,45 · 45",
+      "shape": "mag_long",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak762_30",
+      "name": "Магазин 7,62 · 30",
+      "shape": "mag_banana",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar556_30",
+      "name": "Магазин 5,56 · 30",
+      "shape": "mag_straight",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar556_60",
+      "name": "Барабан 5,56 · 60",
+      "shape": "mag_drum",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "mp5_30",
+      "name": "Магазин 9×19 · 30",
+      "shape": "mag_smg",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "pm_8",
+      "name": "Магазин 9×18 · 8",
+      "shape": "mag_pistol",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_brake",
+      "name": "Компенсатор АК",
+      "shape": "muzzle_brake",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ak_suppressor",
+      "name": "Глушитель АК (игровой)",
+      "shape": "muzzle_suppressor",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_brake",
+      "name": "Компенсатор AR",
+      "shape": "muzzle_brake",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "ar_suppressor",
+      "name": "Глушитель AR (игровой)",
+      "shape": "muzzle_suppressor",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    },
+    {
+      "id": "smg_suppressor",
+      "name": "Глушитель MP5 (игровой)",
+      "shape": "muzzle_suppressor",
+      "evidenceStatus": "original virtual game module; no claim of real manufacturer compatibility",
+      "compatibilityStatus": "PASS: installable in game graph",
+      "modelStatus": "procedural recipe included",
+      "testStatus": "domain PASS; individual browser visual review NOT RUN"
+    }
+  ],
+  "loot": [
+    {
+      "id": "loot_food_drink_01",
+      "name": "Банка тушёнки",
+      "shape": "tin",
+      "function": "energy"
+    },
+    {
+      "id": "loot_food_drink_02",
+      "name": "Рыбные консервы",
+      "shape": "tin",
+      "function": "energy"
+    },
+    {
+      "id": "loot_food_drink_03",
+      "name": "Пакет гречки",
+      "shape": "packet",
+      "function": "energy"
+    },
+    {
+      "id": "loot_food_drink_10",
+      "name": "Банка сгущёнки",
+      "shape": "tin",
+      "function": "energy"
+    },
+    {
+      "id": "loot_food_drink_11",
+      "name": "Плитка шоколада",
+      "shape": "packet",
+      "function": "energy"
+    },
+    {
+      "id": "loot_food_drink_15",
+      "name": "Бутылка воды",
+      "shape": "bottle",
+      "function": "energy"
+    },
+    {
+      "id": "loot_food_drink_16",
+      "name": "Минеральная вода",
+      "shape": "bottle",
+      "function": "energy"
+    },
+    {
+      "id": "loot_food_drink_17",
+      "name": "Яблочный сок",
+      "shape": "carton",
+      "function": "energy"
+    },
+    {
+      "id": "loot_medical_01",
+      "name": "Бинт",
+      "shape": "bandage",
+      "function": "bandage"
+    },
+    {
+      "id": "loot_medical_02",
+      "name": "Стерильный бинт",
+      "shape": "bandage",
+      "function": "bandage"
+    },
+    {
+      "id": "loot_medical_03",
+      "name": "Бактерицидный пластырь",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_medical_08",
+      "name": "Индивидуальный перевязочный пакет",
+      "shape": "bandage",
+      "function": "bandage"
+    },
+    {
+      "id": "loot_medical_09",
+      "name": "Аптечка первой помощи",
+      "shape": "medkit",
+      "function": "heal"
+    },
+    {
+      "id": "loot_medical_10",
+      "name": "Автомобильная аптечка",
+      "shape": "medkit",
+      "function": "heal"
+    },
+    {
+      "id": "loot_hand_tools_01",
+      "name": "Плоская отвёртка",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_hand_tools_02",
+      "name": "Крестовая отвёртка",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_hand_tools_03",
+      "name": "Пассатижи",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_hand_tools_05",
+      "name": "Разводной ключ",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_hand_tools_09",
+      "name": "Молоток",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_hand_tools_14",
+      "name": "Рулетка",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_hand_tools_16",
+      "name": "Штангенциркуль",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_hand_tools_19",
+      "name": "Мультитул",
+      "shape": "tool",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_building_material_01",
+      "name": "Коробка гвоздей",
+      "shape": "coil",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_building_material_02",
+      "name": "Коробка саморезов",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_building_material_07",
+      "name": "Изолента",
+      "shape": "coil",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_building_material_08",
+      "name": "Армированный скотч",
+      "shape": "coil",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_building_material_11",
+      "name": "Моток верёвки",
+      "shape": "coil",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_01",
+      "name": "Печатная плата",
+      "shape": "electronics",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_02",
+      "name": "Процессор",
+      "shape": "cpu",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_03",
+      "name": "Оперативная память",
+      "shape": "electronics",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_04",
+      "name": "Видеокарта",
+      "shape": "gpu",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_05",
+      "name": "SSD-накопитель",
+      "shape": "electronics",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_09",
+      "name": "Wi-Fi-роутер",
+      "shape": "electronics",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_16",
+      "name": "Мультиметр",
+      "shape": "electronics",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_electronics_19",
+      "name": "USB-флешка",
+      "shape": "electronics",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_industrial_01",
+      "name": "Подшипник",
+      "shape": "coil",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_industrial_03",
+      "name": "Электродвигатель",
+      "shape": "motor",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_industrial_05",
+      "name": "Промышленное реле",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_industrial_09",
+      "name": "Датчик температуры",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_industrial_10",
+      "name": "Датчик давления",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_industrial_12",
+      "name": "Медный кабель",
+      "shape": "coil",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_valuables_01",
+      "name": "Серебряное кольцо",
+      "shape": "ring",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_valuables_02",
+      "name": "Золотое кольцо",
+      "shape": "ring",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_valuables_05",
+      "name": "Наручные механические часы",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_valuables_07",
+      "name": "Коллекционная монета",
+      "shape": "ring",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_valuables_17",
+      "name": "Редкая виниловая пластинка",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_household_01",
+      "name": "Мыло",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_household_14",
+      "name": "Термос",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_household_15",
+      "name": "Эмалированная кружка",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_household_17",
+      "name": "Спички",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_household_20",
+      "name": "Набор батареек AA",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_documents_01",
+      "name": "Служебная записная книжка",
+      "shape": "book",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_documents_02",
+      "name": "Журнал поставок",
+      "shape": "book",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_documents_09",
+      "name": "Журнал дежурств",
+      "shape": "book",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_factory_special_01",
+      "name": "Книга рецептур",
+      "shape": "book",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_factory_special_02",
+      "name": "Позолоченный сувенирный пельмень",
+      "shape": "dumpling",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_factory_special_03",
+      "name": "Журнал контроля партии",
+      "shape": "book",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_factory_special_06",
+      "name": "Металлическая форма для пельменей",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_factory_special_09",
+      "name": "Пищевой термощуп",
+      "shape": "packet",
+      "function": "sell / quest"
+    },
+    {
+      "id": "loot_factory_special_10",
+      "name": "Коробка замороженных пельменей",
+      "shape": "packet",
+      "function": "sell / quest"
+    }
+  ],
+  "maps": [
+    {
+      "id": "factory",
+      "name": "Пельменный завод Буянова",
+      "size": [
+        124,
+        106
+      ],
+      "lootPoints": 30,
+      "botSpawnPoints": 6,
+      "exits": 2,
+      "status": "compact playable geometry/simulation; full spec art/detail NOT COMPLETE; browser playthrough NOT RUN"
+    },
+    {
+      "id": "city",
+      "name": "Обводный квартал",
+      "size": [
+        144,
+        132
+      ],
+      "lootPoints": 30,
+      "botSpawnPoints": 6,
+      "exits": 2,
+      "status": "compact playable geometry/simulation; full spec art/detail NOT COMPLETE; browser playthrough NOT RUN"
+    },
+    {
+      "id": "village",
+      "name": "Дачный посёлок",
+      "size": [
+        158,
+        144
+      ],
+      "lootPoints": 30,
+      "botSpawnPoints": 6,
+      "exits": 2,
+      "status": "compact playable geometry/simulation; full spec art/detail NOT COMPLETE; browser playthrough NOT RUN"
+    },
+    {
+      "id": "park",
+      "name": "Сосновый парк",
+      "size": [
+        172,
+        154
+      ],
+      "lootPoints": 30,
+      "botSpawnPoints": 6,
+      "exits": 2,
+      "status": "compact playable geometry/simulation; full spec art/detail NOT COMPLETE; browser playthrough NOT RUN"
+    },
+    {
+      "id": "mall",
+      "name": "Торговый центр",
+      "size": [
+        120,
+        108
+      ],
+      "lootPoints": 30,
+      "botSpawnPoints": 6,
+      "exits": 2,
+      "status": "compact playable geometry/simulation; full spec art/detail NOT COMPLETE; browser playthrough NOT RUN"
+    }
+  ]
+}

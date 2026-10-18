@@ -1,0 +1,33 @@
+{
+  "title": "Glock 17 Gen4 — visual game asset",
+  "creator": "Created for the RAID GAME project through Blender MCP",
+  "source": "Original geometry and procedural materials, visually reconstructed from user-provided image-1.png, image-2.png, image-3.png",
+  "third_party_asset_downloads": false,
+  "reference_license": "Not supplied; references are source guidance, not game texture pixels",
+  "reference_url": "https://eu.glock.com/en/products/pistols/g17-gen4",
+  "license": "Original project asset; subject to project LICENSE; no rights in third-party trademarks or supplied reference images are asserted",
+  "required_attribution": "No third-party model/texture asset attribution; supplied references retained for review",
+  "modifications": "Profile/loft construction; molded-frame remesh; local silhouette simplification; UV atlas; tangent normal/ORM bake; static glTF export",
+  "files": {
+    "Glock17_Gen4_Master.blend": {
+      "bytes": 26701438,
+      "sha256": "3f9641b855de29e649318b3df0711b9225e61f21689dc18c6881690aed65f759"
+    },
+    "Glock17_Gen4_LOD0.glb": {
+      "bytes": 8571668,
+      "sha256": "e0764dedcd9529a87060d5fae0a5c1536a6cf79e1bbf8e7e113d52c059837639"
+    },
+    "textures/G17_BaseColor.png": {
+      "bytes": 359761,
+      "sha256": "8a223656dca7a268834f99c57dd254c7820a8c2c481852686dc8f9d246a47cad"
+    },
+    "textures/G17_Normal.png": {
+      "bytes": 2574757,
+      "sha256": "5fcef298bec453597deebd711e8bde71277e38d164fbe2f4846ec33911064d6d"
+    },
+    "textures/G17_ORM.png": {
+      "bytes": 2945084,
+      "sha256": "11f96469968d21e0d590cbe6997cc81dae1bbf64684f7e1ced6e277198f5fd06"
+    }
+  }
+}

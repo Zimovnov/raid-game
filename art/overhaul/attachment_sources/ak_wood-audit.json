@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/ak_wood.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__ak_wood": {
+      "0": {
+        "triangles": 308,
+        "vertices": 536,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_steel.007",
+          "RAID_Original_Attachment_wood.006"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05649999901652336,
+            -0.065000019967556,
+            -0.14300000667572021
+          ],
+          "max": [
+            0.05649999901652336,
+            0.07400002330541611,
+            0.1430000364780426
+          ]
+        }
+      },
+      "1": {
+        "triangles": 248,
+        "vertices": 416,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_steel.007",
+          "RAID_Original_Attachment_wood.006"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.05649999901652336,
+            -0.06299999356269836,
+            -0.14300000667572021
+          ],
+          "max": [
+            0.05649999901652336,
+            0.07400002330541611,
+            0.1430000364780426
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "wood-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak_wood-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__ak_wood": {
+      "min": [
+        -0.05649999901652336,
+        -0.065000019967556,
+        -0.14300000667572021
+      ],
+      "max": [
+        0.05649999901652336,
+        0.07400002330541611,
+        0.1430000364780426
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.05649999901652336,
+      -0.1430000364780426,
+      -0.0650000274181366
+    ],
+    "max": [
+      0.05649999901652336,
+      0.14300000667572021,
+      0.0740000307559967
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

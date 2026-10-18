@@ -1,0 +1,118 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/m9_20.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "magazine__m9_20": {
+      "0": {
+        "triangles": 272,
+        "vertices": 460,
+        "objects": 3,
+        "materials": [
+          "RAID_Original_Attachment_inset.006",
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.026399999856948853,
+            -0.1640000343322754,
+            -0.01549998763948679
+          ],
+          "max": [
+            0.026399999856948853,
+            0.10500001162290573,
+            0.07917999476194382
+          ]
+        }
+      },
+      "1": {
+        "triangles": 104,
+        "vertices": 172,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.026399999856948853,
+            -0.1640000343322754,
+            -0.01549998763948679
+          ],
+          "max": [
+            0.026399999856948853,
+            0.10500001162290573,
+            0.07917999476194382
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/m9_20-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "magazine__m9_20": {
+      "min": [
+        -0.026399999856948853,
+        -0.1640000343322754,
+        -0.01549998763948679
+      ],
+      "max": [
+        0.026399999856948853,
+        0.10500001162290573,
+        0.07917999476194382
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.026399999856948853,
+      -0.07917999476194382,
+      -0.1640000343322754
+    ],
+    "max": [
+      0.026399999856948853,
+      0.015500019304454327,
+      0.10500001162290573
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

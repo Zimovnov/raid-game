@@ -1,0 +1,2037 @@
+{
+  "reviewer": "completion_audit",
+  "reviewedAt": "2026-10-17",
+  "scope": "Reference and brief QA only; no runtime models or textures approved by this file.",
+  "decisions": {
+    "characters/face_00": {
+      "status": "PASSED",
+      "sourceIndexSha256": "805f376d3d323e435471d79391d0dd94ad3176f92d4756c79ab9af41fb6117d9",
+      "briefSha256": "2ad18522d9d64a5ccbd85ea328782f09aeb0f09fed008bccd68473e7517db9fa",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front construction",
+        "profile proportions",
+        "head-plane study",
+        "surface and skeletal lateral head"
+      ],
+      "acceptedArtApproximations": [
+        "Stylized low-poly face combines schematic proportions and generic lateral anatomy; no source identity is copied."
+      ],
+      "evidence": [
+        "5 distinct active images, SHA-256 checked",
+        "duplicate frontal diagram excluded from active coverage",
+        "brief specifies short faceted chin and angular topology",
+        "OJP page-62 lateral schematic visually inspected"
+      ]
+    },
+    "characters/face_01": {
+      "status": "PASSED",
+      "sourceIndexSha256": "e909e5b124debc4587ee523ce50d308db55712f27ab3c264d18be69b4939bf19",
+      "briefSha256": "49467cf0822e34a90118ed63b308a79b482fa6dc823dd0ab99c57386a1162532",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front proportions",
+        "side/proportion diagrams",
+        "head-shape comparison"
+      ],
+      "acceptedArtApproximations": [
+        "Original elongated silhouette and tapered lower third are composed from generic studies."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "character contact sheet visually reviewed",
+        "slot brief has a distinct forehead, temple, jaw and chin recipe"
+      ]
+    },
+    "characters/face_02": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c0e4c8614671f55f0768b698a3ed52a3cc16a0efc83399649157b51cff8e6005",
+      "briefSha256": "fc43bb5b491a9c5fa71a56473ea205745a7d8f2ae7097251c6c93c90fc493b49",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front facial bones",
+        "jaw profile",
+        "full lateral skull with nasal bridge, zygomatic arch, ramus and chin depth"
+      ],
+      "acceptedArtApproximations": [
+        "Gray's Anatomy side plate is a skeletal guide only; soft tissue, nose cartilage and final profile remain original modeling choices."
+      ],
+      "evidence": [
+        "6 present images with 6 distinct source hashes",
+        "new 500x463 public-domain Gray's Anatomy plate visually inspected",
+        "profile gap identified by root is addressed with a clear lateral bone study",
+        "contact sheet and silhouette brief reviewed"
+      ]
+    },
+    "characters/face_03": {
+      "status": "PASSED",
+      "sourceIndexSha256": "184c5bc1a9d9ddbb0e9e08374993e9bdcbd2c4b5705cca711833ae26fbb91961",
+      "briefSha256": "46af1a78ec5fe10ec35269b0e634baa5741b891149d9f4ca56973eced48898f9",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front facial planes",
+        "profile/shape studies",
+        "jaw and cheek anatomy"
+      ],
+      "acceptedArtApproximations": [
+        "Short broad oval with full cheek planes and shallow jaw angle is a generic original design."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief supplies distinct lower-face silhouette"
+      ]
+    },
+    "characters/face_04": {
+      "status": "PASSED",
+      "sourceIndexSha256": "4e9a952fdd0e6872e7fe300bb58ebc5ff7a477cabad9ed81c2e2e5655202bbef",
+      "briefSha256": "e2775a3a528255260842f26b417a0b702181bb64ae29dccc6eed16166da4e671",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front skull/cheek planes",
+        "lateral zygomatic and jaw anatomy",
+        "nose feature studies"
+      ],
+      "acceptedArtApproximations": [
+        "High cheekbones taper to a narrower jaw; exact soft tissue is an original design decision."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief distinguishes cheek width from jaw width"
+      ]
+    },
+    "characters/face_05": {
+      "status": "PASSED",
+      "sourceIndexSha256": "25effafa210e5150e3f1b0d8846689175a95b171565a574190aefa2121bc7f22",
+      "briefSha256": "28106342003506251e40b78d25df0120befed259f36afc0cbefb75cc6bf43ec4",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front cheek/nose studies",
+        "profile nose construction",
+        "facial feature landmarks"
+      ],
+      "acceptedArtApproximations": [
+        "Broad zygomatic shelves and a rounded nose tip are stylized without ethnic labeling or identity matching."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief separates nose and cheek silhouette"
+      ]
+    },
+    "characters/face_06": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c4b40351eca270068924d623d219ee944baa4b9697ae9d39ce89a86ef6e33ee6",
+      "briefSha256": "69a01579c541c682f96b6b870d7ae14474687eaf4ea7e0049df54499901da3d3",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "frontal nasal anatomy",
+        "side nasal/head construction",
+        "forehead and chin proportions"
+      ],
+      "acceptedArtApproximations": [
+        "Narrow high forehead and elongated midface/chin are an original synthesis from schematic anatomy."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief sets the jaw narrower than cheek width"
+      ]
+    },
+    "characters/face_07": {
+      "status": "PASSED",
+      "sourceIndexSha256": "560607f1d5aa0e067ed0fc00d39edf2b1182daad89b36421e970aab7877cbe76",
+      "briefSha256": "d75fbca8bbed9a7b3fd31de548e73ecd89e5f63b82f7850903bcbf88d730870a",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front and multi-angle facial feature collage",
+        "brow and orbit anatomy",
+        "nose bridge"
+      ],
+      "acceptedArtApproximations": [
+        "Moderate broad chin and pronounced supraorbital planes; photo collage is feature reference only, not one identity."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief specifies brow, orbit and chin silhouette"
+      ]
+    },
+    "characters/face_08": {
+      "status": "PASSED",
+      "sourceIndexSha256": "f5c5afbbd1bf3bd1d1c5dfa0be0ea0589556536796123889e24cf4c300a30723",
+      "briefSha256": "063a426630570c0dbd3e2f3dc302ffb64b5a1571d4acfa8757a8d34aa466123e",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front eye feature studies",
+        "profile/eyelid anatomy",
+        "head and eye anatomy"
+      ],
+      "acceptedArtApproximations": [
+        "Upper-lid silhouette and compact rounded-flat chin are low-poly shape choices; no makeup/eyelashes."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; two eye diagrams are distinct drawings, not duplicate crops",
+        "brief sets a restrained non-cosmetic treatment"
+      ]
+    },
+    "characters/face_09": {
+      "status": "PASSED",
+      "sourceIndexSha256": "480713854b8a8c0efab67382e78bbaa631c9d570ec473437770235c806fcf1d3",
+      "briefSha256": "4fa2fb1912f81619f7205fd6ee090de0735bed1d6ad4b5ba4277b01d39759439",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front orbit landmarks",
+        "eye socket side/depth studies",
+        "cheek-to-jaw transition"
+      ],
+      "acceptedArtApproximations": [
+        "Deep-set eyes and high cheekbones are original stylized features assembled from separate anatomy references."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief separates orbital depth from face identity"
+      ]
+    },
+    "characters/face_10": {
+      "status": "PASSED",
+      "sourceIndexSha256": "a1d82647ce5a33f367961af8150ab12cc52d2a63a61ec2c2751a3dc8b46c552e",
+      "briefSha256": "beed5504b3981f70fd6510d193280cb34d134ff35b3bd2f583f16393914d35ba",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front skeletal anatomy",
+        "side zygomatic/masseter/jaw anatomy",
+        "facial muscle and neck landmarks"
+      ],
+      "acceptedArtApproximations": [
+        "Front-only new skull plate informs bone landmarks; soft-tissue form and age remain deliberately original."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief discloses that the new diagram is front-only"
+      ]
+    },
+    "characters/face_11": {
+      "status": "PASSED",
+      "sourceIndexSha256": "317f28660f2e1bc0c2111099348355f262186445b3cd109301f33008535124c0",
+      "briefSha256": "b8dc8e4e5b9f505d22b4f4ca30b426df2ae417c2c7c19924c4b8d787ecdc05ae",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front jaw asymmetry",
+        "paired angled/profile feature diagrams",
+        "ear and brow height"
+      ],
+      "acceptedArtApproximations": [
+        "Very subtle asymmetry is intentional, not a deformity; no reference identity is copied."
+      ],
+      "evidence": [
+        "5 present images with 5 distinct source hashes",
+        "contact sheet visually reviewed; no visible same-image duplicate",
+        "brief defines slight cheek/jaw and nose-axis variation"
+      ]
+    },
+    "apparel/jacket_g4": {
+      "status": "PASSED",
+      "sourceIndexSha256": "12efd4a42301d08651795f610a5b4a058feb9b4d6285570d4f9a6612afbf25b6",
+      "briefSha256": "af9c924d1377c528a975db2da3d6af5c1745224e2928fd07e4f52e6a8c4faaa8",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "official front and rear product views",
+        "reviewer worn front, three-quarter and side profile",
+        "rear-on-shirt seams, bicep-pocket zipper/cuff and jersey/ripstop details"
+      ],
+      "acceptedArtApproximations": [
+        "Stylized low-poly garment model may simplify hidden seams and tiny fastener details; colorways are material alternatives, not different cuts.",
+        "Reference images are internal research only and are not cleared for runtime texture use."
+      ],
+      "evidence": [
+        "10 present images with 10 distinct hashes",
+        "official Crye #02 confirmed rear by product gallery title/alt",
+        "review page identifies the G4 Combat Shirt and documents fit/raglan elbow pattern",
+        "profile and worn details visually inspected"
+      ]
+    },
+    "apparel/trousers_g4": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c040c67c81fbeecb67423d0d1c3dd03cb7fe74e2e3a843a2bb0680e8ad8707d6",
+      "briefSha256": "b24d45fe829a4a1393bd34fe14bf38d3335e7f05f2e99f407bb7ba352cc9db37",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "official product front and rear views",
+        "worn fit front, three-quarter/side and rear",
+        "cargo/knee/seat/waist adjustment detail"
+      ],
+      "acceptedArtApproximations": [
+        "Stylized low-poly garment model may simplify hidden seams and tiny fastener details; colorways are material alternatives, not different cuts.",
+        "Reference images are internal research only and are not cleared for runtime texture use."
+      ],
+      "evidence": [
+        "8 present images with 8 distinct hashes",
+        "official Crye #02 confirmed rear by product gallery title/alt",
+        "independent review explicitly identifies Crye G4 Combat Pants and discusses fit",
+        "front, side/three-quarter and back images visually inspected; no movement sequence"
+      ]
+    },
+    "characters/body": {
+      "status": "PASSED",
+      "sourceIndexSha256": "ef1b4b4293222b63a6249902e364d7bbb16c425d5f52c75cd13898c6ffa479aa",
+      "briefSha256": "1edb4fe042eae0551b45c83062004f939081fb70f13242ee71cb21b6bbbe4f1c",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "neutral front and rear silhouette",
+        "front and profile body outline",
+        "posterior surface anatomy",
+        "posterior muscle layering",
+        "anterior hip/thigh and knee anatomy"
+      ],
+      "acceptedArtApproximations": [
+        "Use an original generic low-poly build; references do not define one copied body or identity. Existing 13 joints stay unchanged."
+      ],
+      "evidence": [
+        "5 downloaded distinct images, SHA-256 checked; all visually inspected (SVG rendered separately)",
+        "CC0 silhouette chart, GFDL front/profile outline, and three Public Domain anatomy references have different roles",
+        "brief maps the form to the current 13 joint names and existing dimensions in src/rendering/apparel.ts",
+        "fully nude body images are anatomy references only; no face, identity or skin texture copied"
+      ]
+    },
+    "apparel/head_watch": {
+      "status": "PASSED",
+      "sourceIndexSha256": "d4228dde65e74638c2aea7d050797fb4015c24be3fe0a91118c38701db3967fb",
+      "briefSha256": "722db5f242431dace71b0f9772245615ece606080d25d941e6f5fcbd15589178",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front worn scale",
+        "front and three-quarter silhouette",
+        "cuff/rib-knit construction",
+        "crown and cuff detail"
+      ],
+      "acceptedArtApproximations": [
+        "No rear seam view; smooth knitted rear and top seam are a simple garment-side approximation."
+      ],
+      "evidence": [
+        "5 distinct active images, visually inspected as contact sheet and source cards",
+        "all images show a wool watch-cap silhouette; one worn head establishes scale",
+        "brief UV text corrected to cap parts; knit direction, crown and distance detail specified",
+        "rear seam not shown and no run-time fit asserted"
+      ]
+    },
+    "apparel/head_fleece": {
+      "status": "PASSED",
+      "sourceIndexSha256": "30e15c0da77aed5a56a15800967a0a651e354a41e7856005052d76a8780c1c58",
+      "briefSha256": "6042257be84c10a7f879157e463741e20fc3a4d0d8d1fd7af54a9f6578145e2c",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front and three-quarter fit",
+        "crown and edge seam",
+        "ear coverage",
+        "short fleece pile appearance"
+      ],
+      "acceptedArtApproximations": [
+        "Back seam not pictured; simple cap crown construction is inferred from visible seam family."
+      ],
+      "evidence": [
+        "5 distinct active images visually inspected; source roles show multiple fleece-cap examples",
+        "the approved direction is a generic close-fitting fleece watch cap, not exact brand model",
+        "brief UV instruction corrected to headwear panels and low-frequency pile detail",
+        "rear seam and helmet-overlap need runtime check"
+      ]
+    },
+    "apparel/gloves_leather": {
+      "status": "PASSED",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "pair/silhouette",
+        "palm/back distinction",
+        "finger articulation and seams",
+        "side/profile thickness",
+        "cuff and wrist closure"
+      ],
+      "acceptedArtApproximations": [
+        "Five unrelated commercial designs are construct/shape analogs, not one asserted issued model.",
+        "Grip deformation and sleeve fit are runtime checks; no source glove pixels or logos enter the game."
+      ],
+      "evidence": [
+        "Visually reviewed the full hand/foot contact sheet and checked all five source index entries. Five distinct image files show separate commercial models and useful palm/back/profile/cuff views; no obvious duplicate image.",
+        "Existing brief gives glove panel, leather roughness, finger separation, UV direction and open runtime grip/IK caveats."
+      ],
+      "sourceIndexSha256": "4b43f9ab61124f6ffae95ef53c37407102b144d6376f78fa3fc776d38d98731e",
+      "briefSha256": "c52084bb1b4f7e5b3ce0e1a52c830f9859d62b64a4f455cab17a4d9273ae69d8"
+    },
+    "apparel/boots_leather": {
+      "status": "PASSED",
+      "sourceIndexSha256": "5a0c0848e0058934e219c4016a3f5e26f8c30f23b558eb9a2b363b2efce5589f",
+      "briefSha256": "36f5eab79fdf9c1c403fdcf5e0616cb6e3b7bb8eb84395bb2858444e2a82eb24",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front/outer side",
+        "side and outsole",
+        "lace spacing",
+        "toe, shaft, heel and sole profile"
+      ],
+      "acceptedArtApproximations": [
+        "The five images span several black leather boot models; use a generic high combat boot shape and do not imply one exact issued SKU."
+      ],
+      "evidence": [
+        "5 distinct useful product views visually inspected; source cards note which are analogues",
+        "brief now separates leather upper, rear counter, lacing and rubber sole UV/material roles",
+        "rear and worn gait views are missing; heel shape and dynamic ankle fit remain art/runtime approximation"
+      ]
+    },
+    "apparel/boots_jungle": {
+      "status": "PASSED",
+      "sourceIndexSha256": "736efb33dccd3f5cd2e970e58f9d87d73c34d6b5420a6c8d3281413d1ab731e4",
+      "briefSha256": "6983acd0611833b5e1466022a9b1814b67e3fc18093160897e951671f73e6908",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "pair front/side",
+        "outsole tread",
+        "lace path and toe volume",
+        "leather/textile material break"
+      ],
+      "acceptedArtApproximations": [
+        "Five references show different jungle-boot models; use a generic leather-lower/textile-shaft type and combine no unique brand-specific feature."
+      ],
+      "evidence": [
+        "5 distinct relevant images visually inspected; all show jungle-boot type footwear with side/sole construction",
+        "brief describes leather, textile, laces and outsole separately and marks model variation",
+        "worn fit and movement not depicted; cuff-to-trouser fit needs runtime review"
+      ]
+    },
+    "camouflage/woodlatpat": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9c7fc9b0a31ff216aef2583689d1be048e2bb0f268fd13f13e2d24c912d2db1f",
+      "briefSha256": "abe31cea437036c68e482c0aaf57f4f94612c487f2d6a7fb5c7c4956e183d913",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "pattern swatch and fabric scale",
+        "multiple field-worn garments",
+        "rear/side field view at distance",
+        "colour grouping on sleeves and torso"
+      ],
+      "acceptedArtApproximations": [
+        "Create an original camouflage design inspired only by broad forest-concealment attributes; do not reproduce WoodLatPat repeat, symbols or hidden initials."
+      ],
+      "evidence": [
+        "5 active distinct files visually checked; ambiguous MultiLatPat-captained image quarantined and replaced by a separate official field photo",
+        "current official Latvia supply evidence recorded in modern-use-evidence.md; no adoption claim inferred from reseller material",
+        "brief now describes angular irregular shapes, palette, scale, UV and distance behavior while explicitly prohibiting exact trace",
+        "official sources confirm use but grant no rights to reproduce the pattern; only original neutral-labelled design can proceed"
+      ]
+    },
+    "camouflage/atacs_fg": {
+      "status": "PASSED",
+      "sourceIndexSha256": "5e1d4573dcb0d9f7e8da0a391f7a49845ac88a4623737d960b889f9063c17098",
+      "briefSha256": "e7d6ea3e4a1c6127d8f8fdf6ce3d47eceaa0a4eb2d0ead59316d64b02ec50515",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "field garments",
+        "pattern close-ups",
+        "swatch/texture"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct visually relevant images reviewed on camo contact sheet",
+        "official A-TACS catalogue currently lists FG family; deployment status is not claimed",
+        "brief specifies a green-dominant organic digital cluster family, not a trace"
+      ]
+    },
+    "camouflage/atacs_ix": {
+      "status": "PASSED",
+      "sourceIndexSha256": "55729e4e7418a28abc8e344afcb190e96910fe628b5387f4a6619d3dbec3dd2d",
+      "briefSha256": "065beeff188bc72bbc14a4e73092002e507550f228a03328f6fd13fdccb8064c",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "field garments",
+        "operator views",
+        "material swatch"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct relevant images reviewed on camo contact sheet",
+        "official A-TACS catalogue lists iX as current product family; this is not military-issue proof",
+        "brief distinguishes neutral transitional tones and fine irregular mottling, with original layout"
+      ]
+    },
+    "camouflage/bme": {
+      "status": "PASSED",
+      "sourceIndexSha256": "dc875cca60a0df1fa24087121099af5930ae02f0929308c84cf96514c79f58bc",
+      "briefSha256": "3dda088e5f3eb0bc88bb74f56c8fa95477ea3923a887b280f3b9a9940d266bcf",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "official field/rollout context",
+        "garment views",
+        "pattern close-up"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 visually relevant distinct active images reviewed",
+        "official French MOD evidence of rollout is in modern-use-evidence.md",
+        "brief specifies original multiscale mixed-color pattern and excludes direct reproduction"
+      ]
+    },
+    "camouflage/multicam": {
+      "status": "PASSED",
+      "sourceIndexSha256": "56c87984d50c78d030c84adbd4015263586b4547364aee14df3ca807fec08ed9",
+      "briefSha256": "c4726c5487da4cdab3ba3e1e1d414233372ee63c33c220acd5f346fbdec092db",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "issued/worn uniform",
+        "fabric swatch",
+        "garment construction"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct files visually reviewed; pattern scale and garment context are present",
+        "manufacturer current commercial family evidence is linked in modern-use-evidence.md; no unit-issue claim used for the art gate",
+        "brief sets a new original multiscale transitional composition, no direct repeat"
+      ]
+    },
+    "camouflage/multicam_black": {
+      "status": "PASSED",
+      "sourceIndexSha256": "dbca4d45bdfcd9ace7149ef722640dfdaf2e9baef17471395d6d063414d5f500",
+      "briefSha256": "13d048213f39fdb36df1c5a4abd413bdfaf3b5269fa0f8008c890397de62c72e",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "dark garment front/back",
+        "fabric swatch",
+        "uniform-scale print"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5+ distinct images visually reviewed, including uniform and material views",
+        "official current pattern/product catalogue evidence is linked in modern-use-evidence.md; no law-enforcement adoption claim beyond manufacturer statement",
+        "brief keeps dark olive/charcoal values while making original cluster composition"
+      ]
+    },
+    "camouflage/multicam_alpine": {
+      "status": "PASSED",
+      "sourceIndexSha256": "b5883b0cf96ced129037824dd8dabbd20e1b13f10fdb3d2ec28478d162867b0b",
+      "briefSha256": "4c2f1eb8b06773bae470b1fa1cead2d4aa2194898fba1b18b6514c53e7c3eba9",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "snow overgarment silhouette",
+        "pattern swatch",
+        "field context"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 active distinct images visually reviewed; quarantined duplicate is excluded",
+        "official manufacturer lists Alpine as current snow-application product; not a military issue assertion",
+        "brief keeps high-key snow values and original shapes; exact proprietary repeat not traced"
+      ]
+    },
+    "camouflage/m90": {
+      "status": "PASSED",
+      "sourceIndexSha256": "707f8ed6d5c22fa8fe7b35ec530bcc21f251e2fc60e7affaf3a11aec367be281",
+      "briefSha256": "1bd922d2ade696b4b1d811e5df91cad7dcfb7dc17b7e3436441960fb5b5e767b",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front garment and field scale",
+        "rear/side wear",
+        "distinctive angular swatch"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct relevant images visually reviewed, including wear and textile/garment close views",
+        "official 2026 Swedish Armed Forces source cites M90 pattern during Aurora 26; no scale/issue-rate claim",
+        "brief calls for angular original breakup without copying exact repeat"
+      ]
+    },
+    "camouflage/m05_winter": {
+      "status": "PASSED",
+      "sourceIndexSha256": "edda55057ad2b1372dd26d4933edb2ce2bd94eda9b944a3a4a4b68eb0ecbd4b0",
+      "briefSha256": "30c0b02854d4f0ebd3fbe34090646506a2e01674caee7e7a65815b33fd780469",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "snow/field context",
+        "overgarment silhouettes",
+        "pattern and fabric views"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 active distinct images visually reviewed; winter overgarment forms and colour families are represented",
+        "current commercial-product evidence and limitations are linked in modern-use-evidence.md; no military issue claim",
+        "brief separates gray-green winter pattern from bright M05 snow"
+      ]
+    },
+    "camouflage/m05_snow": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8d239e5ad54e1520dbec9326d75d6d84d79772c64ab5fa2ace18a5811f12f0a5",
+      "briefSha256": "6d7a2f50421c23218b120d76bdf19eedf4809571d78043bfeda2e56abbb05f10",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "snow suit field views",
+        "snow terrain context",
+        "official pattern swatch"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 active distinct references visually reviewed; duplicated Varusteleka photo is quarantined and not counted",
+        "current commercial snow overgarment evidence is linked in modern-use-evidence.md; official current military issue remains unverified",
+        "brief specifies pale winter variant with original layout and clearly distinguishes M05 Winter"
+      ]
+    },
+    "camouflage/marpat_desert": {
+      "status": "PASSED",
+      "sourceIndexSha256": "66f82ed66fc66cc96f199cc7d0a0c47d850299d509520dfd306a06518675b9d9",
+      "briefSha256": "f299ae0ac8b910f648c1c72f6942c97b0f949acf3f2727130cd6a576e949f2b8",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "uniform front",
+        "field wear",
+        "digital print close-up"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct relevant images visually reviewed; product crops/garment and print appearance are represented",
+        "current USMC issue evidence is linked in modern-use-evidence.md",
+        "brief specifies original compact sand/brown stepped clusters, no direct MARPAT pixel map or insignia"
+      ]
+    },
+    "camouflage/marpat_woodland": {
+      "status": "PASSED",
+      "sourceIndexSha256": "1c12504b221963fc66b38c3228a79aa95ad3983c78555a48f719cecc4958dce2",
+      "briefSha256": "317e0f55e1bf4223e743b98339ccde4644f5fbdfbef44d3029147a950b6a10d9",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "uniform garment views",
+        "field/context view",
+        "digital print detail"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 visually relevant distinct images reviewed; close garment and swatch views show print scale",
+        "current USMC issue evidence is linked in modern-use-evidence.md",
+        "brief specifies an original woodland digital family and excludes USMC layout/insignia"
+      ]
+    },
+    "camouflage/nfp_green": {
+      "status": "PASSED",
+      "sourceIndexSha256": "94ab49c405dbfcb2f768cbab636c4c0e9efd4d6694966a6c5d78c70b366cfd22",
+      "briefSha256": "81e87ce7c8f2a741197f0d8368e79055b6b62ddd1d1f81264db5808df871b693",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "material swatches",
+        "uniform worn scale",
+        "official article context"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct source images visually reviewed; includes fabric/textile and worn uniform views",
+        "current NFP Green/DOKS evidence from Dutch MoD is linked in modern-use-evidence.md",
+        "brief sets layered green/brown-gray fragments, original topology"
+      ]
+    },
+    "camouflage/pixelado_boscoso": {
+      "status": "PASSED",
+      "sourceIndexSha256": "48bf1e0085a06137088463d98e6cd1083f80a8747fcb8020722ec4f8f8a342f1",
+      "briefSha256": "a39e8b1479fbec19de69a051524511dd81cdb0b56cec7ed73c717770eadf897b",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "woodland garment front",
+        "field-worn uniform",
+        "pattern scale/detail"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct relevant images visually reviewed; includes uniform/product and field context",
+        "current ENM 2025/26 official-kit evidence is linked in modern-use-evidence.md",
+        "brief specifies compact original stepped forest blocks; not a trace or a claim covering every Spanish service"
+      ]
+    },
+    "camouflage/flecktarn": {
+      "status": "PASSED",
+      "sourceIndexSha256": "fe05ceb740e2a94bda2383163991e15d2c16a02d3b95b1f4b42ce3908291691d",
+      "briefSha256": "04039d5e65d35e1e53d347d8f89b861c6af7de3f1afec4876378a95baa03f923",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "field-worn garments",
+        "front/side at body scale",
+        "dense irregular fleck appearance"
+      ],
+      "acceptedArtApproximations": [
+        "Produce original game camouflage only; pattern reference is not a runtime source file or reproduction license."
+      ],
+      "evidence": [
+        "5 distinct relevant garment images visually reviewed",
+        "2026 Bundeswehr uniform page confirms current Flecktarn use; no reproduction rights implied",
+        "brief distinguishes rounded multiscale flecks from pixels or broad woodland stripes"
+      ]
+    },
+    "camouflage/atacs_au": {
+      "status": "PASSED",
+      "sourceIndexSha256": "d580aa2d73fc298117f11192b0960cfd2b4223b101a8c542da9916c2e58cde91",
+      "briefSha256": "f59ad5dd6647f685d26d0bf2b67c40109bc1abc3923841f2253a5c626279c0d6",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "official AU pattern swatch",
+        "full field uniform",
+        "commercial garment context"
+      ],
+      "acceptedArtApproximations": [
+        "Original non-traced composition; official photo 07 is an AU/iX combination and is contextual rather than an exact swatch."
+      ],
+      "evidence": [
+        "Visually checked five active distinct files: Propper AU garment, Propper ACU A-TACS garment, two current manufacturer field photos and official AU swatch. Quarantined three non-AU FG/MOX images.",
+        "Current manufacturer catalog supports commercial pattern use; no military adoption claim is made."
+      ]
+    },
+    "camouflage/ocp": {
+      "status": "PASSED",
+      "sourceIndexSha256": "b51baa4a3ca75cea4dd5d10946ce659ae13c73fdb861c750be4a829f22c0ada2",
+      "briefSha256": "f15ee1bf0664638b363bede73bd40f2e05d1fb64305d1600984d86193e989737",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "full worn uniform front",
+        "current field uniform guidance",
+        "uniform/product photos"
+      ],
+      "acceptedArtApproximations": [
+        "Original multiscale tan/green/brown organic breakup; no exact protected-repeat tracing."
+      ],
+      "evidence": [
+        "Visually checked five active relevant files: four OCP-related garment/product references and a full worn uniform image. Quarantined the unrelated Pinterest woodland result.",
+        "Current Army uniform guidance supports OCP on the Army Combat Uniform; proprietary repeat is not copied."
+      ]
+    },
+    "camouflage/singapore_digital": {
+      "status": "PASSED",
+      "sourceIndexSha256": "51535d5141c1313b5f5a1b050458ab9b6d8edac76aa476b9bcade9213543fee6",
+      "briefSha256": "b32ac65bd700c655badae0ab0f0d3a2b58cefa13bdcc64cd6bff032a5021a28c",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "three official No.4 garment/field photos",
+        "mixed-force garment-scale context",
+        "current No.4 use"
+      ],
+      "acceptedArtApproximations": [
+        "Original green/olive digital pattern; photo similarity is not asserted as exact repeat identity."
+      ],
+      "evidence": [
+        "Visually reviewed the active No.4 images, including three separate official MINDEF 19 July 2025 photos; removed fictional, Malaysian blue digital, celebrity-story and unrelated images from the active index.",
+        "Additional mixed-force exercise photos are explicitly secondary fabric-scale references; attribution is limited to visible SAF uniforms. Current No.4 use is supported by current MINDEF evidence, not by an adoption claim inferred from images."
+      ]
+    },
+    "camouflage/m90k": {
+      "status": "PASSED",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Commercial M90K trousers front, rear, and crouched pose",
+        "Commercial M90K boonie worn on head",
+        "Commercial M90K field cap worn side view"
+      ],
+      "acceptedArtApproximations": [
+        "Create a new angular arid repeat; current product refs do not clear exact pattern reproduction.",
+        "Current evidence establishes commercial product availability only; no Swedish Armed Forces issue claim."
+      ],
+      "evidence": [
+        "Replaced unrelated, repeated, and mismatched images with five distinct current TAC-UP GEAR product photos; visually inspected each at full image size.",
+        "Three trouser images provide worn front/rear and crouch folds; boonie and cap provide different garment panel scales.",
+        "Brief states palette, angular island scale, UV continuity, pose checks, provenance boundary, and the no-copy/no-issue-claim limits."
+      ],
+      "sourceIndexSha256": "7dca11675385aa9e7dd41fc1f580231eaa1829145e3b4947297eef60b92e2dc8",
+      "briefSha256": "a7236a48bb9bf944e81b5087ac8dc8f33834f05ac584e1c5b3bf22ac4777fe1f"
+    },
+    "camouflage/mm14": {
+      "status": "PASSED",
+      "sourceIndexSha256": "10cdad7e5580c78fbf967d5cfffbb761dc21d0fb052133144233927f6eb7e827",
+      "briefSha256": "622d5679e689079d8e6d2cf48d586ec375157bfdf295ac1283a23722122a8592",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "uniform and product garment examples",
+        "official current equipment close-up",
+        "pixel scale and palette"
+      ],
+      "acceptedArtApproximations": [
+        "Original stepped green/olive/brown pixel clusters; do not reproduce MM-14 positions exactly."
+      ],
+      "evidence": [
+        "Visually reviewed five active references; removed the M25 article image and added the official Ukrainian Ministry of Defence 7 April 2026 close-up showing MM-14 on equipment.",
+        "Current-use claim is limited to MM-14 on equipment; it does not establish that this is the sole or universal uniform standard."
+      ]
+    },
+    "camouflage/digital_forest": {
+      "status": "PASSED",
+      "sourceIndexSha256": "b6bf39425800bd44ad0574b4ed4a92349b5604f1aaf4583ca4a48f18361fce62",
+      "briefSha256": "93812072148b36b5540ab597f798439dbbd70e19bde05dc4eb742b27620b0dad",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "fabric texture and drape",
+        "green digital woodland front/back uniform",
+        "full worn BDU front view",
+        "multiple non-identical pixel compositions"
+      ],
+      "acceptedArtApproximations": [
+        "Create a fully original game pattern; do not use source pixels, trademarks, uniforms or any identifiable repeat."
+      ],
+      "evidence": [
+        "Five distinct images visually reviewed and downloaded; two textiles and three different garment/product views.",
+        "References have different named digital patterns; they are analogies for authored general family, not one standard.",
+        "Brief defines its own green dominant palette, cluster scale and no-copy target."
+      ]
+    },
+    "camouflage/amcu": {
+      "status": "PASSED",
+      "sourceIndexSha256": "41b8dcc0f0255cc65a4ef50c05ba952c2084d96d860ea931307ac3ebf8aad1e8",
+      "briefSha256": "119c00aaf6550f42c32dd60aedc98b9199d9b7bf8ead32df3b5782ef9e74c6e5",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct AMCU garment/field images visually reviewed; garment and worn scales are represented. Official current-use source is in modern-use-evidence.md; art must remain an original composition."
+      ]
+    },
+    "camouflage/arid": {
+      "status": "PASSED",
+      "sourceIndexSha256": "fe2b5d63d4cfe1f5bd0f69bb60e1cb8e149e4ed635bfe209c4525c283418b664",
+      "briefSha256": "3ab7a8ce0a126829a5ef461234835d5fdb9954703cf3137906789afcd3d651c1",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct desert material/garment references reviewed; heterogeneous references are intentionally used only as generic desert palette and textile archetypes. The brief defines an original soft-edged arid composition and explicitly disclaims adoption."
+      ]
+    },
+    "camouflage/coyote": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8c9be4da7ab6b3b63a52d064eeb30d23fbc885cf04ba3474e2487813acb24747",
+      "briefSha256": "3df8ad37b23f94ddb10d532ebfddc7339801b99de99625e5e874d27738b32482",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct brown/coyote textile swatches reviewed; they cover color and weave only, not a named uniform. The solid-color brief is appropriately scoped."
+      ]
+    },
+    "camouflage/dcu": {
+      "status": "PASSED",
+      "sourceIndexSha256": "d5523396a95bcd312e37a96205551718b03b740e20881c8aa402d2f78ca00fa1",
+      "briefSha256": "86c4819d4e3917289c4208c7d222c89033630cbfb1cc111468dfdfa4eb2ba091",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct DCU references reviewed: official color/pattern table, garment, label/detail, and fabric close-up. The brief distinguishes the three-color desert family and claims no current issue status."
+      ]
+    },
+    "camouflage/digital_desert": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8520d1440d1a1bbab14b6eebbb13fe503ad91ee4812a5bb335cd9eb3c2cb1b95",
+      "briefSha256": "23eedbf7d858cd54e1a6daa2337c8443150f3c135c3f4beb561871e567c38747",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "digital desert print swatches",
+        "full garment front",
+        "fabric and body-scale pattern"
+      ],
+      "acceptedArtApproximations": [
+        "Original desert digital family based on multiscale tan/khaki block rhythm; no exact prototype trace."
+      ],
+      "evidence": [
+        "Visually reviewed six distinct useful refs: textile/print construction studies plus a full worn BDU showing garment-scale distribution.",
+        "This is an authored generic family; no unsupported national/service-use claim."
+      ]
+    },
+    "camouflage/emr": {
+      "status": "PASSED",
+      "sourceIndexSha256": "56a1c11aa9e3dd3f33a92445727ddaf09af6c5b2febca190cdf68a8d6b97bc24",
+      "briefSha256": "4437d3c7f406aa1d12ea76c743a1c2461a1d92ed475ace26f660ab2d3a6cc730",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct Digital Flora/EMR references visually reviewed: worn personnel, garment close-up, and material views. The brief specifies grouped green pixel islands and avoids copying source pixels."
+      ]
+    },
+    "camouflage/flora": {
+      "status": "PASSED",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "fabric/weave macro",
+        "sleeve pocket and shoulder seam",
+        "folded panel across sewing",
+        "worn field-scale silhouette",
+        "full jacket/trouser repeat scale"
+      ],
+      "acceptedArtApproximations": [
+        "Create a fully original muted brushstroke woodland family, not a traced VSR-98 repeat.",
+        "The worn field photo is dark and lower confidence, used only for distant scale; do not use it as a palette authority or claim modern issue."
+      ],
+      "evidence": [
+        "Visually inspected all five active images. Quarantined the fluorescent yellow-green image as a wrong family. Remaining images are relevant and provide distinct material, garment seam, fold, worn-scale and full-set views; two remain seller/listing contextual evidence, not authoritative provenance.",
+        "Rewrote brief with a coherent muted brush pattern target, explicit scale/UV/motion checks and rights/current-use boundary."
+      ],
+      "sourceIndexSha256": "d8d675212ccf4338d37f642d36ce4333f611fdadd871475adf45c2af743b99e5",
+      "briefSha256": "4e2ca8232d595b40b4d6f61e2e51e2c0bedba05871f6086881a24acf86e506b9"
+    },
+    "camouflage/foliage": {
+      "status": "PASSED",
+      "sourceIndexSha256": "7630918c994944c6ee6136b54d99d414a47e457c029ab1d8ccf0aec90befa885",
+      "briefSha256": "f379b8da02c89f88e82f835cffaebf73716cb3c9165069e01da552c261c38350",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct subdued foliage-green fabric/material views reviewed; solid-color target is unambiguous and no issued pattern is claimed."
+      ]
+    },
+    "camouflage/graphite": {
+      "status": "PASSED",
+      "sourceIndexSha256": "14d1233e1a723fdcd8fe282ed3abeabbf56573bdc801ef8d0d825c1a4d4d37cf",
+      "briefSha256": "79a7489e64841f402de45b93c9e16f2184fcef878a55056d28f08c5dbd53086d",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "charcoal textile close views",
+        "graphite work-shirt garment proxy",
+        "tactical shirt context"
+      ],
+      "acceptedArtApproximations": [
+        "Solid graphite textile, not camouflage; workwear is used only for material/color scale."
+      ],
+      "evidence": [
+        "Visually reviewed five active refs after quarantining the padded upholstery: three textile references and two garment references.",
+        "The silhouette remains governed by apparel briefs; no tactical construction inferred from the work shirt."
+      ]
+    },
+    "camouflage/jsdf_type_ii": {
+      "status": "PASSED",
+      "sourceIndexSha256": "5bbbffc748bc1666b0d9cf53ca2ac2423fe5ec34b9afcceb0066d6cfd52a0e7d",
+      "briefSha256": "74f0a71c853805669de45bf605ff2a762f1d8618efa9ffa5b7b3876f17367f2d",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct Type II uniform references visually reviewed, including front/back garment views, close construction, textile and worn personnel. 2025 procurement evidence is linked; pattern match should remain an original visual interpretation, not a copied repeat."
+      ]
+    },
+    "camouflage/khaki": {
+      "status": "PASSED",
+      "sourceIndexSha256": "90bb3fb56403bfff1be502116c9513791929244e4a5f6d37427b1921934d1270",
+      "briefSha256": "0e87fafc4e61bef8e7888686971830ee8d862f45960086714ed2b8f3c5c24d54",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "five distinct solid-khaki textile/garment refs",
+        "full field-shirt view",
+        "seams and cloth response"
+      ],
+      "acceptedArtApproximations": [
+        "Solid neutral khaki material; no pattern."
+      ],
+      "evidence": [
+        "Visually reviewed the active set; removed duplicate British Khaki swatch and replaced it with a distinct full cotton-ripstop field-shirt view.",
+        "Use separate apparel brief for game cut; no military issue claim."
+      ]
+    },
+    "camouflage/m05_woodland": {
+      "status": "PASSED",
+      "sourceIndexSha256": "75df665a6c470917ee4a7f989893c97628a1447a0db02dcfce1e8632126ce2d4",
+      "briefSha256": "25524f4cf747f37abfc0a331b5ae6794b0d800e671a523643618f2ee10e8bbfa",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "M05 RES trouser and jacket",
+        "pattern/material detail",
+        "full garment view"
+      ],
+      "acceptedArtApproximations": [
+        "Original non-traced M05-inspired forest composition; current use claim limited to commercial products/historical context."
+      ],
+      "evidence": [
+        "Visually reviewed five active unique files; one duplicate article image quarantined and separate M05 product jacket/garment source added.",
+        "Brief explicitly limits claims to commercial availability and historic pattern use; current universal official issue is unverified."
+      ]
+    },
+    "camouflage/navy": {
+      "status": "PASSED",
+      "sourceIndexSha256": "f1f9caafd675a3c618ad562b5f23ce7a03bf151362eaf13bd82b0f1ac9e670c5",
+      "briefSha256": "72e407aaaad6acc05e30fabbc53feefb8f9aae4b896929ba7d79b0b5fc2d7095",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "navy woven swatch",
+        "two product field shirts",
+        "separate cotton drill garment"
+      ],
+      "acceptedArtApproximations": "Solid navy cloth only; no pattern.",
+      "evidence": [
+        "Visually reviewed five active distinct references after quarantining two duplicate Etsy framings: navy fabric sample and four garment views.",
+        "Use apparel brief for game silhouette; no claims of service uniform."
+      ]
+    },
+    "camouflage/olive": {
+      "status": "PASSED",
+      "sourceIndexSha256": "a375bd8f2c8af8e0bf0b9425adefaeb7ff869833ad118ad76dd845a9d20c1fa7",
+      "briefSha256": "ae9afdceb834a2917e15012ea0537830516d712934f9d0c6824dd38dface1d16",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct olive/OD textile and garment examples reviewed; tonal palette and woven material are clear for the solid-color variant."
+      ]
+    },
+    "camouflage/partizan": {
+      "status": "PASSED",
+      "sourceIndexSha256": "1f6ef2fbcee831cc83fd46b15ea6ae037637c1596c4493b380bdb91b3a89e01f",
+      "briefSha256": "1a8c1479e961961df2dab09e4618c95649147083750e1620eae7461d949d4ee0",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct forest-worn and product garment references reviewed; they establish a coherent brown/olive irregular organic family and worn scale. Produce original shapes, not a source repeat."
+      ]
+    },
+    "camouflage/ranger_green": {
+      "status": "PASSED",
+      "sourceIndexSha256": "b2432bbae28dd88bcf2e256bcf40904f92d4e57af8f93175911769f1635347c3",
+      "briefSha256": "5b4b61b5953bd28fe1e9b7614ebb89608cf914f06a8a63f35c1a8fe18b602390",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct muted ranger-green textile and garment views reviewed, including material and full clothing; this solid-color target is distinct from the darker foliage-green variant."
+      ]
+    },
+    "camouflage/tropic": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9964b7bb6112e56a5f20dfed2e345ec7ad502bba93f20d4924c65476e1aa98f6",
+      "briefSha256": "eb4352d1f75eb93f154df8726f9e10838676650321a0e57d9e345528efc76f95",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct tropical/woodland garment archetypes visually reviewed, including field-worn clothing and a tropical ripstop detail. Per parent-approved scope this is a generic original tropical palette/shape family, not an exact national pattern."
+      ]
+    },
+    "camouflage/uk_mtp": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9b7ff71f30794f068d7f5e6634ca047d2c34a3769edeb59c7e8d2c6f24a43655",
+      "briefSha256": "fe840c44ee752df8576a05d177b79574a19855bd4c4b0aa9bf0c52647cd292de",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct MTP uniform/field views visually reviewed, with garment scale and field context. Official British Army clothing guidance is linked in modern-use-evidence.md; runtime texture must remain original."
+      ]
+    },
+    "camouflage/vegetato": {
+      "status": "PASSED",
+      "sourceIndexSha256": "282f12644b9162517a6f143ce73bc41c13d500a6cd3c02ec18f0dd7c19b3d438",
+      "briefSha256": "8cf686597e2efa0f8510fd5348d957d78d2615b4ea484fbf2f1730d112995641",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct Vegetato uniform and field views visually reviewed; current Italian Army and 2025 combat-shirt evidence is linked. Brief uses original multiscale shapes and does not trace protected pattern pixels."
+      ]
+    },
+    "camouflage/vegetato_desert": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9c5ad9b9606e0ca923429f059d72355673a30939885bd0d5860a607e33b23fd7",
+      "briefSha256": "8af6c4ea1e6a2b674d9f50289ab6a231ee42d15e2e98f63adb9eb6f089bd6753",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Contact sheet visually reviewed at original resolution",
+        "Pattern/material and garment relevance checked against item-specific brief"
+      ],
+      "acceptedArtApproximations": [
+        "All reference images are research-only; runtime camouflage must be an original composition with no logos, insignia, or traced repeat."
+      ],
+      "evidence": [
+        "Five distinct desert Vegetato garment/product views visually reviewed; cut and print scale are covered, and official current use is addressed at the Vegetato family level. Keep a distinct original sand palette/composition; no direct trace."
+      ]
+    },
+    "camouflage/winter": {
+      "status": "PASSED",
+      "sourceIndexSha256": "d28769fdfa835aec1f9a6ebdd73a6779874e5b8f681672164297438011cb3a76",
+      "briefSha256": "8ca04d87bb0d7678a06dd5002812e90d5e4934063ba68e7e709242eb5bab3848",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "winter field jacket",
+        "snow scene field clothing",
+        "snow-pattern jacket",
+        "full overwhite kit"
+      ],
+      "acceptedArtApproximations": "Original off-white/gray winter overlayer print; refs are varied archetypes and no exact repeat is copied.",
+      "evidence": [
+        "Visually reviewed five distinct active images after quarantining Pinterest misattribution and repeated Varusteleka image: product fieldwear, field scene, independent snow-pattern jacket and full white-out kit.",
+        "Brief defines one authored snow-overlayer pattern and makes no current national-issue claim."
+      ]
+    },
+    "camouflage/woodland": {
+      "status": "PASSED",
+      "sourceIndexSha256": "f3cab3ee46557819f353080b30318598e2a465dd226099537b69dec44a2ce431",
+      "briefSha256": "8425aa443d7b6bcabcdff7255d16788cdf8286d53ce3643329c0a1e16f5e12b5",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "fabric macro and print edge",
+        "jacket full front",
+        "jacket rear product view",
+        "worn rear drape in outdoor light",
+        "trouser front/side/rear panel composite"
+      ],
+      "acceptedArtApproximations": [
+        "All five active images are historical/commercial M81 garment references used only for broad woodland family, cloth scale and construction cues; create an original non-traced repeat.",
+        "No claim is made that the game pattern corresponds to a current military issue."
+      ],
+      "evidence": [
+        "All five active files were visually inspected individually and serve distinct functions; no mirrored/cropped duplicate is counted.",
+        "Quarantined the comparison collage, typography-heavy M81 poster, and label-only close-up because they do not provide distinct target/material/garment views.",
+        "Brief specifies independent four-value target composition, fabric character, panel distribution, UV scale and movement review."
+      ]
+    },
+    "camouflage/cadpat_tw": {
+      "status": "PASSED",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Current manufacturer shirt: front/three-quarter",
+        "Same shirt rear",
+        "Cuff macro for print scale",
+        "Canadian Rangers 2026 field photos: visible trousers",
+        "Historical TW garment/pattern field reference"
+      ],
+      "acceptedArtApproximations": [
+        "Use an original small-pixel green woodland layout; CADPAT is rights-controlled and must not be traced.",
+        "Modern current authorization/use is limited to Canadian Rangers trouser items evidenced by official dress instructions; no universal CAF issue claim."
+      ],
+      "evidence": [
+        "Visually reviewed all seven active images: three independent CPGear product views, three dated 2026 Ranger field photographs, and one historical TW field image. They provide product front/rear/macro, worn garments, and material scale; no duplicate crops were counted.",
+        "Modern-use-evidence.md cites current official CAF instructions naming T/W Ranger pants and windpants, plus current CPGear commercial product; 2026 Ranger photos are described only as visual corroboration.",
+        "Brief defines an original pattern direction and clearly prohibits copying protected CADPAT repeat or insignia."
+      ],
+      "sourceIndexSha256": "c6c366887929e6ba95f2adf206fe5641336b1ceb99b9496a74c462cdbc13928b",
+      "briefSha256": "a4e89493ec4c59b13ee24d4766931dc8e5afd3ea96a0b4719c599109c84afd29"
+    },
+    "camouflage/wolf_gray": {
+      "status": "PASSED",
+      "sourceIndexSha256": "042d8bff5d172125149b6c9964fd2d53e55a25345e48ab02f543f841c6b7c247",
+      "briefSha256": "ae0c76ea83299f77fe5b032e8d2b84956248c89298314cc40a3fa97cfabfac62",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "gray textile swatches",
+        "full combat shirt",
+        "solid field shirt"
+      ],
+      "acceptedArtApproximations": [
+        "Solid cool-neutral wolf gray; no camouflage print."
+      ],
+      "evidence": [
+        "Visually reviewed five active applicable refs after quarantining the mismatched wolf-brown fabric: two textile weights and three garment views including wolf-gray combat shirts.",
+        "Target is solid gray cloth only; no pattern/adoption claim."
+      ]
+    },
+    "camouflage/berezka": {
+      "status": "PASSED",
+      "sourceIndexSha256": "559a987b50cf1c936a747798b521bc862dca9e6affe1e92adfd4b08fccd69181",
+      "briefSha256": "d0c337406c68848518cdc3f23e47be8daa1ec8e89cd47ef83e56ee4e6472632b",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "hooded full coverall front",
+        "reverse garment panels",
+        "two-piece suit",
+        "second full-body drape",
+        "mesh/print material close-up"
+      ],
+      "acceptedArtApproximations": [
+        "KZS mesh macro informs only the mesh reference material; ordinary cloth remains woven.",
+        "All texture pixels and exact pattern topology are original; source set supports only historical visual cues."
+      ],
+      "evidence": [
+        "Museum history page states Soviet Berezka development for border troops in the 1970s; no current-use claim.",
+        "Visually reviewed four distinct garment images plus a close-up resolving weave and print scale.",
+        "Quarantined a repeated full-suit view to make room for the material macro; each active image supports a separate visual role."
+      ]
+    },
+    "camouflage/cadpat_mt": {
+      "status": "PASSED",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "Official field photos: full-body and mid-distance CADPAT MT in field folds",
+        "Official field photo: close crouched clothing/fold view",
+        "Official field photo: separate Arctic Forge driver-training group",
+        "Secondary field attribution cross-check"
+      ],
+      "acceptedArtApproximations": [
+        "Create a fully original five-value woodland/multi-terrain pattern; CADPAT is rights-controlled and no source pattern, exact cluster topology or maple motifs may be copied.",
+        "Do not claim full completion of CAF transition by 2026; modern-use evidence supports issuance/transition statements from 2024 only."
+      ],
+      "evidence": [
+        "Visually reviewed all five active files. Removed unverified commercial seller swatch; active set is one secondary field image plus four distinct U.S. Army official photographs, including a separate event and multiple distances/compositions.",
+        "Brief explicitly excludes reproduction of CADPAT and separates observed apparel folds from pattern-identity/right claims.",
+        "Primary-source modern-use evidence remains conservatively dated; full transition status is not asserted."
+      ],
+      "sourceIndexSha256": "e0faf95d56f3d5cd016a0e7f8e5d21c3f1a945f06e6d1441f678c41546c69c46",
+      "briefSha256": "abdbe58195701beb634fe49149e5839c2e9a965807387364e34ad7b00deff993"
+    },
+    "camouflage/tropentarn": {
+      "status": "PASSED",
+      "sourceIndexSha256": "0d68ac2dc5ec25a843da4eeea9b8df690a9e1df860514783891be85d04fa6733",
+      "briefSha256": "10c48efd24274d0c57dd1c5bed532333d52cb64ea39a0942c37b2fde0539b65d",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "historical distant group",
+        "field crouch",
+        "separate dated formation",
+        "commercial trouser front",
+        "commercial trouser rear",
+        "commercial fabric/pocket macro"
+      ],
+      "acceptedArtApproximations": [
+        "Commercial product images show a current sellable garment only; they do not establish current Bundeswehr issue.",
+        "The target pattern is an original 3-Farb-Flecktarn-inspired game print and must not trace official spot placement."
+      ],
+      "evidence": [
+        "Visually reviewed 3 distinct historical/field-scale images and 3 current commercial product images (front, back, close detail).",
+        "Removed two 200×113 scene images that contributed little usable garment or pattern detail.",
+        "Current availability is described as commercial; military issue is explicitly unconfirmed."
+      ]
+    },
+    "historical-context/cadpat_ar": {
+      "status": "CONTEXT",
+      "sourceIndexSha256": "842b52c234b427e028623b32e2d2947bb1ff880f800fa20f5a73594bceaf44f6",
+      "briefSha256": "52d13efec8a7d8358807110abf2923fa4693bd89459e3bb08b7ece23022a96f8",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "five distinct CADPAT AR garment/field photos",
+        "historical Afghanistan wear",
+        "pattern macro and garment-scale color"
+      ],
+      "acceptedArtApproximations": [
+        "Independent arid digital composition; do not trace protected CADPAT AR repeat."
+      ],
+      "evidence": [
+        "Исторические фотографии CADPAT AR сохранены как rejected/context вне нового списка моделей; основание — переход/вывод из эксплуатации не подтверждает современную актуальность.",
+        "Материалы доступны в camouflage/_review/rejected/cadpat_ar и brief camouflage/_rejected/cadpat_ar.md."
+      ]
+    },
+    "camouflage/multicam_arid": {
+      "status": "PASSED",
+      "sourceIndexSha256": "f1e1c12c5b94618ab11e39ddeef1e62e3634acd8f861b98971577e897e16576f",
+      "briefSha256": "1e487e6a7d370dbae3a5d2b11b9aef35c73bfe457b62f527009e6ef63211c272",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "official pattern surface",
+        "rocky desert field context",
+        "sandy field context",
+        "G3 field shirt",
+        "G3 field pants"
+      ],
+      "acceptedArtApproximations": [
+        "Create a fully original game pattern; do not use source pixels, trademarks, uniforms or any identifiable repeat."
+      ],
+      "evidence": [
+        "Five distinct downloaded images visually reviewed from MultiCam official pattern page and Crye Precision current product pages.",
+        "Current commercial MultiCam Arid product line is established; no military issue claim.",
+        "Brief defines independent game artwork and separates it from generic arid and historical CADPAT AR."
+      ]
+    },
+    "apparel/jacket_sumrak": {
+      "status": "PASSED",
+      "sourceIndexSha256": "516206b6ba3d0cbede999e17ae86bbecbe9353576bd13ca5ebc85566036fd5dc",
+      "briefSha256": "5e42f9763edb941452fbee30c5f0953ab2988f3bc8a686ec38bb3802d934f507",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front oversmock",
+        "three-quarter front and closure",
+        "hood-up face-cover relation",
+        "alternate light shell variant",
+        "rear hood/back/sleeve silhouette"
+      ],
+      "acceptedArtApproximations": [
+        "The light shell photo is a secondary silhouette/material reference; do not infer exact construction shared with the camouflage smock.",
+        "Use an original garment and pattern with no source logos, watermark, or traced camouflage."
+      ],
+      "evidence": [
+        "All five SSO gallery images were visually inspected individually.",
+        "Similarity candidates at Hamming distance 1–4 were manually inspected: 01/05 are front and rear; 03 is hood-up; 04 is a visually distinct tan shell. No pair is being rejected solely from the automated score.",
+        "Rewrote the item brief to resolve visible hood/veil, front pouch, waist, cuff and rear-panel features while marking uncertain construction explicitly."
+      ]
+    },
+    "apparel/jacket_kombat": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c1c7be4251379108c2f905b56cd5fcbd547a0328250d52e5a7e94d8429ff5145",
+      "briefSha256": "0cd0589ae462272060501f10ee50647037ab8bb36444d00a6eb2930423a96ef3",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front product silhouette",
+        "three-quarter sleeve/collar",
+        "upper-arm pocket and elbow-segment detail",
+        "rear three-quarter worn construction context"
+      ],
+      "acceptedArtApproximations": [
+        "Rear image is worn with harness that blocks lower back; use only visible garment outline and keep shirt back plain.",
+        "Exact brand-specific fabric, seam details and camouflage are not reproduced; product description informs generic material role."
+      ],
+      "evidence": [
+        "Visually inspected original five SSO Kombat photos and newly downloaded official-dealer rear three-quarter image.",
+        "New image fills rear/shoulder/back drape coverage, with its obstruction by external kit explicitly documented.",
+        "Official product page confirms combat shirt fit, Coolmax torso, ripstop/shoulder-sleeve material, raised collar, upper-arm pockets and segmented elbow protection; brief converts these into an original game-ready guide."
+      ]
+    },
+    "apparel/trousers_kombat": {
+      "status": "PASSED",
+      "sourceIndexSha256": "3f6709447c562305aef6e624849ea95ed9fe9d13fb9cb030dac386f271425582",
+      "briefSha256": "c3bd6e9e3560f8d49946594bbce5f49cfe3ec46dc32740f93ceca8bd146985ef",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "full garment views",
+        "rear/three-quarter seat view",
+        "cargo pocket layout",
+        "knee reinforcement and adjustment callouts",
+        "fabric and panel transitions"
+      ],
+      "acceptedArtApproximations": [
+        "Do not reproduce exact camouflage repeat or product branding.",
+        "Use visible functional zones as silhouette references; proprietary fabric/fastener details can be approximated."
+      ],
+      "evidence": [
+        "All five files were inspected individually; views provide distinct whole-trouser, rear/angle and construction-detail roles.",
+        "Brief now specifies pocket, knee, material and 13-joint deformation checks and states where exact proprietary construction is not required."
+      ]
+    },
+    "apparel/gloves_coyote": {
+      "status": "PASSED",
+      "sourceIndexSha256": "dd45557ad3b762e7e6b1fb6f42a5b8c52a4c15e3b24116844f8174df2614cd0a",
+      "briefSha256": "d924c6dabca08dce822570816dbe156b22215bde7ec52d5dac40ee8592e4033b",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "pair front/back",
+        "palm view",
+        "finger reinforcement",
+        "cuff closure",
+        "knuckle protection detail"
+      ],
+      "acceptedArtApproximations": [
+        "Several images show the same Direct Action model family; use front/palm/cuff angles as complementary construction evidence rather than separate designs.",
+        "Runtime brand marks and logo shapes are excluded."
+      ],
+      "evidence": [
+        "Visual contact sheet and source records confirm all five images are tactical gloves, with several useful front/back and palm/cuff angles.",
+        "Brief differentiates repeated product family views from independent designs and defines an original glove."
+      ]
+    },
+    "apparel/gloves_olive": {
+      "status": "PASSED",
+      "sourceIndexSha256": "0f327a549dc75bb690d8262c6f76383d648af27d5a1ff6b298098da9631e64bc",
+      "briefSha256": "5fc0cc8725fb3b37f793561d0832774d65da62ad2871f1987403b0dd83e38a23",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "palm/back pair",
+        "padded dorsal panels",
+        "finger articulation",
+        "wrist cuff",
+        "mixed low-profile and padded variants"
+      ],
+      "acceptedArtApproximations": [
+        "Choose one existing olive glove variant; do not merge incompatible product details.",
+        "Fit and grip must still be checked in runtime because images are product views."
+      ],
+      "evidence": [
+        "Contact sheet shows five relevant olive tactical glove products with distinct palm, finger, cuff and knuckle panel information.",
+        "Updated brief gives a coherent variant selection and notes the remaining runtime grip test."
+      ]
+    },
+    "apparel/gloves_fingerless": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c2d01fcf085be7863b1f24dfafe246ee0c8fd42d57d9333202128e999b386709",
+      "briefSha256": "84a8abbbe76480b3d111faf868f2ddc83bc5a4976c0d25260a0ce74560dd31fa",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "fingerless pair on contextual tabletop",
+        "palm/back panel pair",
+        "thumb gusset",
+        "reinforcement and ventilation holes",
+        "distinctive knuckle-protection comparison"
+      ],
+      "acceptedArtApproximations": [
+        "Use the unarmored short leather fingerless variant as the target; the hard-knuckle image is a comparison only.",
+        "Source 01 is relevant for object silhouette but its eBay item category is unrelated; do not rely on its context or attribution.",
+        "Worn grip and finger articulation remain runtime checks."
+      ],
+      "evidence": [
+        "Individually inspected source 01: the foreground object is clearly a pair of fingerless leather gloves; the unrelated eBay category and background are excluded from attribution/design claims.",
+        "Other product images show fingerless construction from front/back/palm and a distinct armored variant."
+      ]
+    },
+    "apparel/boots_hiking": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8e04dc208fc7786ffb491bc7fab3446f4258c4561e1ee51b75d8d7c5c2ab97a7",
+      "briefSha256": "15f14ea2812337f88ec9a918beeea9f634df564adbe62d307cf7f7f15b6e8870",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "side-profile boot",
+        "outsole tread",
+        "heel and toe overlays",
+        "worn/outdoor view",
+        "alternative shaft/collar form"
+      ],
+      "acceptedArtApproximations": [
+        "Several references depict the same model family; use them for complementary views, not separate designs.",
+        "Dynamic ground contact remains a runtime check."
+      ],
+      "evidence": [
+        "The contact sheet and individual source 01 show hiking boot forms rather than unrelated footwear.",
+        "References provide side silhouette, tread, collar and overlay information; brief corrects the prior low-boot direction to mid/high hiking boot."
+      ]
+    },
+    "apparel/head_patrol": {
+      "status": "PASSED",
+      "sourceIndexSha256": "57fbae018c636af54909dffa9e9560d8cf329b123ab071d11232a965a2111a4a",
+      "briefSha256": "c5558116fe8be2838c11c7fde94075509ab275b6e0b45c7784d91250ff675204",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front crown and short visor",
+        "olive cap product view",
+        "camouflage crown/panel example",
+        "rear strap detail",
+        "three-quarter cap fit"
+      ],
+      "acceptedArtApproximations": [
+        "Rear adjustment is simplified to a generic strap/tab; source photos do not establish one universal service pattern."
+      ],
+      "evidence": [
+        "Visually inspected all five images: each depicts a patrol/fatigue cap, with distinct crown, brim, side and adjustment information.",
+        "Replaced copied footwear UV boilerplate with cap-specific crown/visor UV and fit directions."
+      ]
+    },
+    "apparel/head_boonie": {
+      "status": "PASSED",
+      "sourceIndexSha256": "e90b6b7bccde5bd306ed9ad10e34cbc491f0b8a5645502e6a0a296396ca65937",
+      "briefSha256": "f44bb8dc92acdae4f16a61ec5e7d71d4d1380fb066cfdc3e723d41870a77d979",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "camouflage hat silhouette",
+        "black product view with chin cord",
+        "olive side profile",
+        "three-quarter brim view",
+        "stitching/brim macro"
+      ],
+      "acceptedArtApproximations": [
+        "Rear and worn fit are not directly represented; use a generic low-profile rear crown and validate on the head.",
+        "Omit brand tape and exact camouflage."
+      ],
+      "evidence": [
+        "Brief records exclusion of a true image duplicate and added a distinct brim/edge macro.",
+        "Active sources cover crown, brim, vents, cord, hem/edge stitching and side view; remaining rear/fit approximation is explicit."
+      ]
+    },
+    "apparel/head_balaclava": {
+      "status": "PASSED",
+      "sourceIndexSha256": "8694ba6e5d1266421f9fe8a637b528bc9f7207ddf6a9e0c92405107c9f5b59c2",
+      "briefSha256": "8d55fb0f3d2411c5b53b40bdf4945212c12d005e0d5a48afd5cd9e86512f87b6",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front opening/face panel",
+        "side fit on display head",
+        "worn under helmet",
+        "eye/face opening comparison",
+        "neck and shoulder fit in use"
+      ],
+      "acceptedArtApproximations": [
+        "Exact rear panel/seam is not shown; use a simple continuous stretch-fabric back.",
+        "The sources include distinct facewrap and full-face styles; select one construction instead of merging them."
+      ],
+      "evidence": [
+        "All five active images are relevant head coverings with front/profile/worn under-helmet views; no visual duplicate identified in contact sheet.",
+        "Brief documents variation boundaries and absence of rear panel evidence."
+      ]
+    },
+    "apparel/head_bandana": {
+      "status": "PASSED",
+      "sourceIndexSha256": "0df4e1d088e3b65e6b891a40235164dcf9bc7e0deabc4d2c652e8a53ea264a6c",
+      "briefSha256": "cb0881ac26a7050c640766883703f7eb2ced194cebb12554ed71671827515667",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front wrap edge",
+        "side ear coverage",
+        "rear knot and tails",
+        "plain green side/back",
+        "printed three-quarter fit"
+      ],
+      "acceptedArtApproximations": [
+        "Two images are related views of one wrap, counted as complementary angles.",
+        "Choose a simple generic tie and exclude source prints/branding."
+      ],
+      "evidence": [
+        "Contact sheet and source descriptions show actual headwraps, including rear knots/tails and side coverage; no irrelevant image found.",
+        "Replaced copied shoe UV instructions with crown/tie/tail-specific UV and motion details."
+      ]
+    },
+    "apparel/jacket_acu": {
+      "status": "PASSED",
+      "sourceIndexSha256": "3f0ae56cfb110f816ee221c0b79529885372f181061e68e1677a731e979f477e",
+      "briefSha256": "b6fc891d52361827953e2590a00ae31f6cade834b424c1a380231f1eb03cfe1f",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front worn coat",
+        "clean front product",
+        "second front product/camo variant",
+        "front placket and chest pockets",
+        "worn rear/back panel and sleeve seams"
+      ],
+      "acceptedArtApproximations": [
+        "MultiCam/OCP image variants are construction analogues only; do not copy their print or labels."
+      ],
+      "evidence": [
+        "Visually checked all five images; sources show real ACU coats, not unrelated clothing.",
+        "The set covers front, rear, collar, chest pockets, sleeve pockets and rear panel. Corrected the brief/source role for 04 (front) and 05 (rear)."
+      ]
+    },
+    "apparel/trousers_acu": {
+      "status": "PASSED",
+      "sourceIndexSha256": "89862a0b80384914e0e0b312d87cbd3b6e294f55b2d76784b4df54a87ca9c80e",
+      "briefSha256": "05e43ca07bc5b1951db8ca4d218d9bb1a155baf1aca83b9db51b9ad44752cb98",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "legacy ACU front",
+        "OCP/Multicam front product views",
+        "worn field front",
+        "official rear/seat view",
+        "cargo-pocket detail"
+      ],
+      "acceptedArtApproximations": [
+        "References span several ACU/OCP generations; select a coherent generic cut instead of merging all variants.",
+        "Removed A2CU flight-suit trouser analogue as unrelated; current commercial Propper image remains reference-only."
+      ],
+      "evidence": [
+        "Inspected 5 retained images and 2 new official Propper images: official back view and cargo-pocket close-up provide previously missing rear/detail evidence.",
+        "Removed the A2CU flight trouser source; all six retained active images are directly relevant ACU pants or their close construction/pattern variants.",
+        "Brief defines the generic cut and calls out rear, pocket, fabric, UV and motion behavior."
+      ]
+    },
+    "apparel/boots_desert": {
+      "status": "PASSED",
+      "sourceIndexSha256": "41dfdb7c943b6b9acb3c489aa0cd33ccc62f3d46c12d56988158b2c71517d896",
+      "briefSha256": "744482bd1621a7dada578508d86ad51966b5a53f327c74683b09df36c626dbe3",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front/side boot pair",
+        "outsole tread",
+        "worn outdoor context",
+        "alternate side profile",
+        "heel/toe pair view"
+      ],
+      "acceptedArtApproximations": [
+        "Several photos show the same Lowa Zephyr family; use as complementary angles, not separate game designs.",
+        "Exclude model logos and markings."
+      ],
+      "evidence": [
+        "Contact sheet and spot-checked source 01 confirm all five images show desert tactical boots; set includes product, outsole and worn context.",
+        "Brief identifies a generic mid/high desert boot and keeps the remaining pose/ground-contact check for runtime."
+      ]
+    },
+    "apparel/jacket_m65": {
+      "status": "PASSED",
+      "sourceIndexSha256": "213662938300fc488e1a0aa0841b633becd14ae53cef006557275c0bd3a0f4c7",
+      "briefSha256": "3dfe195f20edcbdec20266990b8834ac31d606adc45e82e762d0f49aba4c326e",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front silhouette",
+        "alternate closure/collar view",
+        "front/back variants composite",
+        "pocket/cuff detail collage",
+        "collar and lining material details"
+      ],
+      "acceptedArtApproximations": [
+        "Composite detail sheets count only for construction detail, not additional silhouette angles.",
+        "Use a simple unshown back and omit brand/label details."
+      ],
+      "evidence": [
+        "Visually reviewed all five files; they are field-jacket products or construction details.",
+        "The set resolves four-pocket front, collar, closure, cuffs and broad back panel sufficiently for an original M65-style game jacket."
+      ]
+    },
+    "apparel/trousers_afghanka": {
+      "status": "PASSED",
+      "sourceIndexSha256": "bfb1f5616813311f32aa9ab580e492c50cf2b364b13c6e47ed15ee2b3c000f10",
+      "briefSha256": "1490e82ddb07642521f8781e49ca7d0c9c786c2f06eee5d79c706f2006cc0181",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "worn side profile",
+        "historical uniform context",
+        "full front product view",
+        "second product/front form",
+        "rear product view"
+      ],
+      "acceptedArtApproximations": [
+        "Historical group image is context only; garment construction follows clear product views.",
+        "Use a plain back/leg layout and avoid invented hidden hardware."
+      ],
+      "evidence": [
+        "Contact sheet shows five relevant trouser images including worn profile and rear product view; none are merely color swatches.",
+        "Brief distinguishes historical context from construction references and covers relaxed cut, material, UV and movement."
+      ]
+    },
+    "apparel/jacket_fleece": {
+      "status": "PASSED",
+      "sourceIndexSha256": "6568d12cd3775627444338cb2761b174dabb43cde712c9a2f2f6218d0d32478c",
+      "briefSha256": "8027fc28ab498debbc45ed6f4ddea9074fa957b10a876190f35014688d7c728f",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front high-collar fleece",
+        "short fleece product view",
+        "reinforced panel variant",
+        "three-quarter body/cuff view",
+        "soft-shell/fleece material variant"
+      ],
+      "acceptedArtApproximations": [
+        "Choose one coherent catalog variant; do not merge every pocket/reinforcement option.",
+        "Back-panel construction remains a simple art approximation."
+      ],
+      "evidence": [
+        "Contact sheet shows five relevant fleece or fleece-lined jackets with distinct silhouettes/material cues; no unrelated object detected.",
+        "Brief defines an original mid-layer and explicitly bounds unsupported rear/hood/pocket variation."
+      ]
+    },
+    "apparel/jacket_bdu": {
+      "status": "PASSED",
+      "sourceIndexSha256": "3225a9ced765d528bf66794c574a9185d847eaba899ef69b48abe2fb9c8ebf92",
+      "briefSha256": "94592161087c940723d8c1a101578204236165d0672de294d02d51f9ebec4011",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "worn front BDU coat",
+        "flat front product pocket/collar view",
+        "full-body field-worn context",
+        "clean four-pocket front",
+        "worn rear three-quarter/back panel"
+      ],
+      "acceptedArtApproximations": [
+        "Front product images show related BDU coat variants; use them for pocket/collar detail, while the newly added rear photo closes the missing back-panel view.",
+        "Do not copy woodland repeat, logos, patches or wearer."
+      ],
+      "evidence": [
+        "Inspected all five active image files; each shows a BDU coat or field-worn use, with distinct front, back, pocket, or fit evidence.",
+        "Quarantined one redundant front product image; added direct rear view from a current Propper BDU 4-pocket product listing.",
+        "Brief now specifies back panel and four-pocket geometry without inferring unseen features."
+      ]
+    },
+    "apparel/trousers_bdu": {
+      "status": "PASSED",
+      "sourceIndexSha256": "c767a94b4ffbb9db2d61ffed7ab199cdba1cd7e1416828c2e9cf3a942bbdb765",
+      "briefSha256": "1e0f0a1961101c3e3b0e757f47e64eee455ad41bc3d0e8ca2fb79920ff8ea6f6",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "worn BDU field trousers",
+        "BDU product assortment for shared cut",
+        "front product cut",
+        "official woodland rear/seat view",
+        "official woodland side/worn view"
+      ],
+      "acceptedArtApproximations": [
+        "Source set spans color/fabric variants; select one coherent BDU cut and do not merge every pocket/closure feature.",
+        "No source pattern/logo/label pixels in runtime."
+      ],
+      "evidence": [
+        "Visually checked five retained images; added manufacturer-linked rear and side views resolving seat, cargo-pocket profile, leg silhouette and hem.",
+        "Quarantined two weaker/duplicative references: generic non-BDU cargo trousers and navy marketing panel.",
+        "Brief defines a coherent standard BDU cut and motion checks for seat, thigh, knee and hem."
+      ]
+    },
+    "apparel/jacket_afghanka": {
+      "status": "PASSED",
+      "sourceIndexSha256": "e6924f8db6fd60f149d5d893109f8c92ed76b7993ea46bad538764c12e034f0f",
+      "briefSha256": "03c0ac5e08a7ba579d2f36417677c6fee217bdbba5cd27f9cdc4caa37498882a",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front hanging/flat jacket variants",
+        "front pocket and collar construction",
+        "worn front silhouette",
+        "rear center seam/yoke and sleeve volume (winter variant analogue)"
+      ],
+      "acceptedArtApproximations": [
+        "Rear source shows a lined winter variant; use only general back/yoke/elbow construction, not lining/collar details.",
+        "Refs are reference-only; no exact logo, person, or camouflage is used."
+      ],
+      "evidence": [
+        "Six active images visually inspected, including newly added full-resolution rear Afghanka image.",
+        "The rear resolves the previous all-front gap; current brief explicitly separates summer target from winter-only source details and records uncertainty.",
+        "Images represent related Afghanka jackets but not a single fully documented configuration; use a coherent summer model and simplify unshown hidden construction."
+      ]
+    },
+    "apparel/jacket_softshell": {
+      "status": "PASSED",
+      "sourceIndexSha256": "bfa4cec129c6ed6b093f123eee4f4ee1ac0f34f0f74485c2989107ae479618c2",
+      "briefSha256": "2a13f6766d71cb6bc928fc0208302abdc0f5b7a0929997a712efa6d2cc67b31f",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front product silhouette",
+        "official rear-worn full back, yoke and collar",
+        "three-quarter/worn fit",
+        "sleeve, cuff and pocket details"
+      ],
+      "acceptedArtApproximations": [
+        "Use a coherent generic softshell design and omit UF PRO branding and proprietary construction details not visible in refs."
+      ],
+      "evidence": [
+        "All five active images inspected; official gallery image 02 is a rear-worn full view, not a promotional hat image.",
+        "Official product page describes softshell laminate, hood, pockets, vents and adjustability; visible photos support front/rear fit and detail.",
+        "No source images, logos, or branded texture enter runtime."
+      ]
+    },
+    "apparel/trousers_softshell": {
+      "status": "PASSED",
+      "sourceIndexSha256": "9b55b21b74dc4898195d60ba61ec34aada2aeef9c354d474d04dd8da6228b737",
+      "briefSha256": "1c7a01c6e68e30cbe055a75a2cb9e8473219032e97185248d49cd0bfcbafe9bc",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front product view",
+        "rear/product view",
+        "worn fit and leg silhouette",
+        "pocket/zipper close detail",
+        "alternate fabric/fit variant"
+      ],
+      "acceptedArtApproximations": [
+        "Images span multiple related P-40 iterations; select one coherent cut and do not combine incompatible knee/pocket revisions."
+      ],
+      "evidence": [
+        "Five active files visually inspected in contact sheet; views include front/back, close construction and worn fit.",
+        "Brief records P-40 as a design analogue and specifies material, UV zones, articulated knee and movement checks.",
+        "Hidden construction and runtime deformation are not visually verified at this reference gate."
+      ]
+    },
+    "apparel/trousers_sumrak": {
+      "status": "PASSED",
+      "sourceIndexSha256": "fb26bbc3970d58ff811eb930c6e2ad7c9391ed601f1fb8e3aba61a7c313d1d02",
+      "briefSha256": "b76e665f4e8b6787cbbb351665d08e35f6216ce4366f68f94f0ab1bff54db434",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "worn field context and drape",
+        "product full front/three-quarter trouser silhouette",
+        "standalone oblique rear/side trouser view with pocket/waist/hem",
+        "ankle gather and loose-fit context"
+      ],
+      "acceptedArtApproximations": [
+        "PROFARMY Sumrak-S9 photos are a different product variant and only a construction analogue; do not assert it matches the SSO cut.",
+        "Three field images have kit/vegetation occlusion and support scale/drape only; exact small details follow clear product view and official SSO description.",
+        "Night-vision photos without visible garment structure were moved to quarantine."
+      ],
+      "evidence": [
+        "All retained images visually inspected; 5 distinct useful active files combine readable product cut with worn field context.",
+        "Official SSO product description confirms loose trousers, two rear pockets, reinforcement and ankle adjustment; independent current retail product imagery of Sumrak-S9 clarifies the leg/waist silhouette.",
+        "Brief explicitly states the source families differ and separates direct evidence from construction analogy."
+      ]
+    },
+    "apparel/jacket_gorka": {
+      "status": "PASSED",
+      "sourceIndexSha256": "b527665c1f55daeec4b4403e1bb9cc87a744723ae06dc262a7b870680a516118",
+      "briefSha256": "c561a2f5aa75dd8a0e2621a8ed3d86ced774a54daf35ee610adc969da2513c4f",
+      "reviewers": [
+        "completion_audit (GPT-6 Luna): seven images inspected",
+        "root: item-specific brief reviewed"
+      ],
+      "views": [
+        "Front, both front-side views, crouched fit/detail, rear from explicitly identified close cut analogue"
+      ],
+      "acceptedArtApproximations": [
+        "Rear broad-panel layout from related Gorka-4; no assertion of exact same SKU",
+        "Unresolved fine seams and hardware simplified originally"
+      ],
+      "evidence": [
+        "Individual reference+brief approval only. Global modeling prerequisite remains closed."
+      ]
+    },
+    "apparel/trousers_gorka": {
+      "status": "PASSED",
+      "reviewers": [
+        "completion_audit"
+      ],
+      "views": [
+        "front worn target silhouette",
+        "rear target silhouette",
+        "rear 3/4 target fit",
+        "cross-vendor front/rear composite",
+        "cross-vendor full rear fit",
+        "cross-vendor trouser detail collage"
+      ],
+      "acceptedArtApproximations": [
+        "Use Arsenal Army paneling and palette as target; use BDU AIRSOFT only as Gorka-4 construction analogue for concealed seat/waist/pocket/lower-leg behavior. Do not claim its pocket flap, cuff, or waist system is the Arsenal variant.",
+        "Unknown internal seams and hidden fasteners remain original neutral art decisions."
+      ],
+      "evidence": [
+        "Visually inspected all 5 Arsenal images; retained 01/02/04 as distinct pants-relevant front/rear/rear-oblique views and moved near-repeat poses 03/05 out of counted set.",
+        "Downloaded and visually inspected 3 distinct BDU AIRSOFT Gorka-4 images: detail collage, full rear, and front/rear composite. They show useful seat, thigh, knee, and hem construction but are explicitly marked as other-vendor analog.",
+        "Current counted set is 6 unique files with front, back, rear-oblique, worn fit, and detail coverage. Images remain research-only."
+      ],
+      "sourceIndexSha256": "403c9ee9b94a3c0df3513cd2bfecfe9600ad8b6f142c7224cde86990e6163c48",
+      "briefSha256": "41d56bd0207ef54d42ec5a391df2a1940431d88316f745e2eb4970a779b1548a"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/field-kit-051/weapon_glock17.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "body": {
+      "0": {
+        "triangles": 12680,
+        "vertices": 20704,
+        "objects": 3,
+        "materials": [
+          "G17_AtlasPBR.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 4056,
+        "vertices": 7208,
+        "objects": 3,
+        "materials": [
+          "G17_AtlasPBR.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "action": {
+      "0": {
+        "triangles": 11620,
+        "vertices": 31503,
+        "objects": 3,
+        "materials": [
+          "G17_AtlasPBR.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 3717,
+        "vertices": 9112,
+        "objects": 3,
+        "materials": [
+          "G17_AtlasPBR.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    },
+    "magazine__glock_17": {
+      "0": {
+        "triangles": 488,
+        "vertices": 1310,
+        "objects": 1,
+        "materials": [
+          "G17_AtlasPBR.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      },
+      "1": {
+        "triangles": 156,
+        "vertices": 392,
+        "objects": 1,
+        "materials": [
+          "G17_AtlasPBR.001"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "G17_ORM",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "G17_Normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "G17_BaseColor",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/artifacts/overhaul-roundtrip/glock17.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.33125001192092896,
+      -0.7461201548576355,
+      -1.5291558504104614
+    ],
+    "max": [
+      0.33125001192092896,
+      0.7908658385276794,
+      2.0434999465942383
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/ak12_guard.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "handguard__ak12_guard": {
+      "0": {
+        "triangles": 960,
+        "vertices": 1800,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0560000017285347,
+            -0.0610000304877758,
+            -0.15800003707408905
+          ],
+          "max": [
+            0.0559999980032444,
+            0.08600002527236938,
+            0.15800003707408905
+          ]
+        }
+      },
+      "1": {
+        "triangles": 576,
+        "vertices": 936,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.0560000017285347,
+            -0.0610000304877758,
+            -0.15800003707408905
+          ],
+          "max": [
+            0.0559999980032444,
+            0.08600002527236938,
+            0.15800003707408905
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/ak12_guard-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "handguard__ak12_guard": {
+      "min": [
+        -0.0560000017285347,
+        -0.0610000304877758,
+        -0.15800003707408905
+      ],
+      "max": [
+        0.0559999980032444,
+        0.08600002527236938,
+        0.15800003707408905
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.0560000017285347,
+      -0.15800003707408905,
+      -0.0610000304877758
+    ],
+    "max": [
+      0.0559999980032444,
+      0.15800003707408905,
+      0.08600003272294998
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

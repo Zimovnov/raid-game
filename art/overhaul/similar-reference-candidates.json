@@ -1,0 +1,4196 @@
+{
+  "generatedAt": "2026-10-18T05:16:11.768Z",
+  "sourceAuditAt": "2026-10-18T05:13:59.122Z",
+  "scope": "Manual-review candidates only. No approval or source index is changed. A close hash can represent distinct symmetric sides; a distant hash does not prove uniqueness.",
+  "method": "64-bit horizontal difference hash; decoded once at max512px, original/trimmed and reflected comparison, threshold <=4 bits. Background trimming and mirror comparison are heuristics.",
+  "reviewCriteria": "Exclude resize/recompression/mirror/crop/background replacement of one shot from the five independent references. Count new visible sides or independently photographed details. Verify side-specific controls before rejecting a symmetric pair.",
+  "packages": [
+    {
+      "category": "weapons",
+      "id": "weapon_ak103",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_ak103/03_27373489.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_ak103/04_27373492.png"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_ak103/04_27373492.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_ak103/05_29916971.png"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_hk416a5",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_hk416a5/01_199966063.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_hk416a5/02_199966064.png"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_glock17",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_80pa_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_80pa_2.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_80pa_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_mcarbo.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_80pa_2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_mcarbo.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_80pa_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_weaponsworld.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_80pa_2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_weaponsworld.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_mcarbo.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_glock17/glock33_weaponsworld.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_mosin9130",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mosin9130/riac_3.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mosin9130/riac_4.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mosin9130/nra_m91_30_sniper_02.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mosin9130/nra_m91_30_sniper_04.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_mp5",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mp5/morphy_a2_03.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mp5/morphy_a2_04.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_mpx",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mpx/poulin_mpx8_sbr_02.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_mpx/poulin_mpx8_sbr_03.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_m9a3",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_m9a3/beretta_m9a3_black_RH.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_m9a3/beretta_m9a3_black_LH.png"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_rem870",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_rem870/riac_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_rem870/riac_02.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "weapons",
+      "id": "weapon_benellim4",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_benellim4/riac_02.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/weapons/weapon_benellim4/riac_03.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "aksu_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aksu_guard/images/zenitco-b10m-view-6.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aksu_guard/images/zenitco-b10m-view-7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "vityaz_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "vityaz_30",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_30/images/magazines_mag573-blk_magpul_pmag_30_ak_akm_gen_m3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/vityaz_30/images/magazines_mag572-blk_magpul_pmag_30_ak_akm_moe_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "kedr_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/kedr_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "tt_grip",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/tt_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "glock_17",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_17/images/magazines_mag546-blk_magpul_pmag_17_gl9_glock_g17_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_17/images/magazines_mag550-blk_magpul_pmag_15_gl9_glock_g19_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "glock_33",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-1.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-4.ashx"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-1.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-6.ashx"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-4.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-6.ashx"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-1.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-3.ashx"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-3.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-4.ashx"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-3.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-5.ashx"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-3.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-6.ashx"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/magazines_mag546-blk_magpul_pmag_17_gl9_glock_g17_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/magazines_mag550-blk_magpul_pmag_15_gl9_glock_g19_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-1.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-5.ashx"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-4.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-5.ashx"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-5.ashx",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/glock_33/images/glock-33-33rd-view-6.ashx"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "grach_grip",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/grach_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "sks_synthetic",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sks_synthetic/images/choate-sks-m4-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sks_synthetic/images/choate-sks-m4-view-2.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mosin_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mosin_stock/images/mosin-museum-2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mosin_stock/images/mosin-museum-4.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "svd_10",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/svd_10/images/awm-svd-mag-rel29835.005.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/svd_10/images/awm-svd-mag-rel29835.006.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "sv98_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag489-blk_magpul_bolt_action_magazine_well_700l_standard-hunter_700l_stock_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag569-blk_magpul_bolt_action_magazine_well_700l_magnum-hunter_700l_stock_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag997-blk_magpul_pro_700_fixed_stock-remington_700_short_action_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag802-blk_magpul_pro_700_folding_stock-remington_700_short_action_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag1391-blk_magpul_hunter_x-22_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag1421-blk_magpul_hunter_lite_stock_ruger_american_short_action_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag1354-blk_hunter_lite_stock_savage_axis_short_action_01.7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag548-blk_magpul_hunter_x-22_stock-ruger_10-22_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag760-blk_magpul_hunter_x-22_takedown_stock-ruger_10-22_takedown_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sv98_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mp153_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp153_guard/images/guards_mag496-blk_magpul_moe_m-lok_forend-remington_870_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp153_guard/images/guards_mag494-blk_magpul_moe_m-lok_forend-mossberg_590-590a1_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "saiga_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_guard/images/guards_mag496-blk_magpul_moe_m-lok_forend-remington_870_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_guard/images/guards_mag494-blk_magpul_moe_m-lok_forend-mossberg_590-590a1_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_guard/images/b10u-view-3.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_guard/images/b10u-view-4.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "saiga_rail",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_rail/images/guards_mag496-blk_magpul_moe_m-lok_forend-remington_870_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_rail/images/guards_mag494-blk_magpul_moe_m-lok_forend-mossberg_590-590a1_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_rail/images/b10u-view-3.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/saiga_rail/images/b10u-view-4.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar_crane",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_crane/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar_wire",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_wire/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "sg_rubber",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/sg_rubber/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak_vent",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_vent/images/b10u-view-3.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_vent/images/b10u-view-4.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak_palm",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_palm/images/grips_mag683-blk_magpul_moe_k2_ak_grip-ak47-ak74_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_palm/images/grips_mag682-blk_magpul_moe_sl_ak_grip-ak47-ak74_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_palm/images/caa-g47-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_palm/images/caa-g47-view-3.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_palm/images/caa-g47-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_palm/images/caa-g47-view-5.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "fore_bail",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/fore_bail/images/hera_cqr_gen1_02.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/fore_bail/images/hera_cqr_gen1_04.webp"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/fore_bail/images/hera_cqr_gen2_02.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/fore_bail/images/hera_cqr_gen2_04.webp"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "scope6",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scope6/images/01-strike-eagle-fl.jpeg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scope6/images/02-strike-eagle-fr.jpeg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scope6/images/03-strike-eagle-bl.jpeg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scope6/images/04-strike-eagle-br.jpeg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak762_20",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak762_20/images/magazines_mag573-blk_magpul_pmag_30_ak_akm_gen_m3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak762_20/images/magazines_mag572-blk_magpul_pmag_30_ak_akm_moe_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar556_20",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag560-odg_magpul_pmag_20_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag291-odg_magpul_pmag_20_lr_sr_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag561-blk_magpul_pmag_ranger_plate-ar_m4_gen_m3_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag564-blk_magpul_pmag_ranger_plate-lr_sr_gen_m3_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag559-odg_magpul_pmag_10_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag290-blk_magpul_pmag_10_lr_sr_gen_m3_01.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag560-odg_magpul_pmag_20_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag1182-blk_magpul_pmag_20_ar_300_b_01.1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag685-blk_magpul_pmag_impact_dust_cover_ar_m4_gen_m3_3_pack_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag687-blk_magpul_pmag_impact_dust_cover_lr_sr_gen_m3_3_pack_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag577-blk_magpul_pmag_25_m118_lr_sr_gen_m3_window_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag292-blk_magpul_pmag_25_lr_sr_gen_m3_window_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag561-blk_magpul_pmag_ranger_plate-ar_m4_gen_m3_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag212-blk_magpul_pmag_ranger_plate-ar_m4_gen_m2_moe_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag212-blk_magpul_pmag_ranger_plate-ar_m4_gen_m2_moe_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_20/images/magazines_mag564-blk_magpul_pmag_ranger_plate-lr_sr_gen_m3_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mp5_15",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_15/images/riflemags_mp5_15_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_15/images/riflemags_mp5_15_03.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_15/images/riflemags_mp5_15_02.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_15/images/hkparts_mp5_15_04.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_15/images/hkparts_mp5_15_04.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_15/images/hkparts_mp5_15_05.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar_compact",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_compact/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar_precision",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag489-blk_magpul_bolt_action_magazine_well_700l_standard-hunter_700l_stock_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag569-blk_magpul_bolt_action_magazine_well_700l_magnum-hunter_700l_stock_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag997-blk_magpul_pro_700_fixed_stock-remington_700_short_action_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag802-blk_magpul_pro_700_folding_stock-remington_700_short_action_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag1391-blk_magpul_hunter_x-22_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag1421-blk_magpul_hunter_lite_stock_ruger_american_short_action_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag1354-blk_hunter_lite_stock_savage_axis_short_action_01.7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag548-blk_magpul_hunter_x-22_stock-ruger_10-22_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag760-blk_magpul_hunter_x-22_takedown_stock-ruger_10-22_takedown_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar_precision/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mp5_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_stock/images/mp5-fold-stock-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_stock/images/mp5-fold-stock-view-5.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak_poly",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_poly/images/zenitco-b10m-view-6.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_poly/images/zenitco-b10m-view-7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak_rail",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_rail/images/zenitco-b10m-view-6.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_rail/images/zenitco-b10m-view-7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mp5_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_guard/images/mp5-handguard-frontgrip-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mp5_guard/images/mp5-handguard-frontgrip-view-2.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak_grip",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_grip/images/grips_mag683-blk_magpul_moe_k2_ak_grip-ak47-ak74_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_grip/images/grips_mag682-blk_magpul_moe_sl_ak_grip-ak47-ak74_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_grip/images/caa-g47-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_grip/images/caa-g47-view-3.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_grip/images/caa-g47-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_grip/images/caa-g47-view-5.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak_ergo",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ergo/images/grips_mag683-blk_magpul_moe_k2_ak_grip-ak47-ak74_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ergo/images/grips_mag682-blk_magpul_moe_sl_ak_grip-ak47-ak74_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ergo/images/caa-g47-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ergo/images/caa-g47-view-3.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ergo/images/caa-g47-view-1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak_ergo/images/caa-g47-view-5.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "pm_grip",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "pm_rubber",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/pm_rubber/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "holo",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/holo/images/xps2-view-6.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/holo/images/xps2-view-7.png"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "scope4",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scope4/images/03-acog-TA31RCO-M150CP_225-1453-1566312349.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scope4/images/05-acog-TA31RCO-M150CP_135-1455-1566312350.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak762_30",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak762_30/images/magazines_mag573-blk_magpul_pmag_30_ak_akm_gen_m3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak762_30/images/magazines_mag572-blk_magpul_pmag_30_ak_akm_moe_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar556_30",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag560-odg_magpul_pmag_20_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag291-odg_magpul_pmag_20_lr_sr_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag561-blk_magpul_pmag_ranger_plate-ar_m4_gen_m3_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag564-blk_magpul_pmag_ranger_plate-lr_sr_gen_m3_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag559-odg_magpul_pmag_10_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag290-blk_magpul_pmag_10_lr_sr_gen_m3_01.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag560-odg_magpul_pmag_20_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag1182-blk_magpul_pmag_20_ar_300_b_01.1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag685-blk_magpul_pmag_impact_dust_cover_ar_m4_gen_m3_3_pack_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag687-blk_magpul_pmag_impact_dust_cover_lr_sr_gen_m3_3_pack_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag577-blk_magpul_pmag_25_m118_lr_sr_gen_m3_window_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag292-blk_magpul_pmag_25_lr_sr_gen_m3_window_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag561-blk_magpul_pmag_ranger_plate-ar_m4_gen_m3_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag212-blk_magpul_pmag_ranger_plate-ar_m4_gen_m2_moe_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag212-blk_magpul_pmag_ranger_plate-ar_m4_gen_m2_moe_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_30/images/magazines_mag564-blk_magpul_pmag_ranger_plate-lr_sr_gen_m3_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ar556_60",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag560-odg_magpul_pmag_20_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag291-odg_magpul_pmag_20_lr_sr_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag561-blk_magpul_pmag_ranger_plate-ar_m4_gen_m3_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag564-blk_magpul_pmag_ranger_plate-lr_sr_gen_m3_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag557-mcb_magpul_pmag_30_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag559-odg_magpul_pmag_10_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag290-blk_magpul_pmag_10_lr_sr_gen_m3_01.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag570-blk_magpul_pmag_30_ar_m4_gen_m2_moe_window_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag556-mcb_magpul_pmag_30_ar_m4_gen_m3_window_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag560-odg_magpul_pmag_20_ar_m4_gen_m3_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag1182-blk_magpul_pmag_20_ar_300_b_01.1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag685-blk_magpul_pmag_impact_dust_cover_ar_m4_gen_m3_3_pack_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag687-blk_magpul_pmag_impact_dust_cover_lr_sr_gen_m3_3_pack_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag571-blk_magpul_pmag_30_ar_m4_gen_m2_moe_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag800-odg_magpul_pmag_30_ar_300_b_gen_m3_01.1_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag577-blk_magpul_pmag_25_m118_lr_sr_gen_m3_window_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag292-blk_magpul_pmag_25_lr_sr_gen_m3_window_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag561-blk_magpul_pmag_ranger_plate-ar_m4_gen_m3_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag212-blk_magpul_pmag_ranger_plate-ar_m4_gen_m2_moe_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag212-blk_magpul_pmag_ranger_plate-ar_m4_gen_m2_moe_3_pack_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ar556_60/images/magazines_mag564-blk_magpul_pmag_ranger_plate-lr_sr_gen_m3_3_pack_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak12_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_guard/images/zenitco-b10m-view-6.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_guard/images/zenitco-b10m-view-7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "ak12_guard_long",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_guard_long/images/zenitco-b10m-view-6.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/ak12_guard_long/images/zenitco-b10m-view-7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "rpk_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/rpk_guard/images/zenitco-b10m-view-6.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/rpk_guard/images/zenitco-b10m-view-7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "rpk_rail",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/rpk_rail/images/zenitco-b10m-view-6.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/rpk_rail/images/zenitco-b10m-view-7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "val_grip",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_grip/images/grips_mag683-blk_magpul_moe_k2_ak_grip-ak47-ak74_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_grip/images/grips_mag682-blk_magpul_moe_sl_ak_grip-ak47-ak74_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "val_ergo",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_ergo/images/grips_mag683-blk_magpul_moe_k2_ak_grip-ak47-ak74_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/val_ergo/images/grips_mag682-blk_magpul_moe_sl_ak_grip-ak47-ak74_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "g36_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "g36_adjust",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/g36_adjust/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "scar_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "scar_precision",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag489-blk_magpul_bolt_action_magazine_well_700l_standard-hunter_700l_stock_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag569-blk_magpul_bolt_action_magazine_well_700l_magnum-hunter_700l_stock_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag997-blk_magpul_pro_700_fixed_stock-remington_700_short_action_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag802-blk_magpul_pro_700_folding_stock-remington_700_short_action_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag1391-blk_magpul_hunter_x-22_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag1421-blk_magpul_hunter_lite_stock_ruger_american_short_action_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag1354-blk_hunter_lite_stock_savage_axis_short_action_01.7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag548-blk_magpul_hunter_x-22_stock-ruger_10-22_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag760-blk_magpul_hunter_x-22_takedown_stock-ruger_10-22_takedown_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scar_precision/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "aug_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "aug_stock_padded",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_stock_padded/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "aug_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_guard/images/STEYR-AUG-A3-SA_li.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_guard/images/STEYR-AUG-A3-SA_re.png"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_guard/images/STEYR-AUG-A3-SWAT-SA_li.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/aug_guard/images/STEYR-AUG-A3-SWAT-SA_re.png"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mcx_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mcx_compact",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mcx_compact/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "bren_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/bren_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "scorpion_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/scorpion_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mpx_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag1447-blk_magpul_dt-pr_carbine_stock_mil-spec_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag1435-blk_magpul_moe_pr_carbine_stock_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag1440-blk_magpul_moe_rl_carbine_stock_mil-spec_01.2.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag310-mcb_magpul_ctr_carbine_stock-mil-spec_01.1_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag400-blk_magpul_moe_carbine_stock_mil-spec_01.1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag401-blk_magpul_moe_carbine_stock-commercial-spec_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mpx_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_guard/images/poulin_mpx8_sbr_02.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_guard/images/poulin_mpx8_sbr_03.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mpx_guard_long",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_guard_long/images/poulin_mpx8_sbr_02.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_guard_long/images/poulin_mpx8_sbr_03.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "mpx_30",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_30/images/abprototype_mpx30_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/mpx_30/images/abprototype_mpx30_02.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": true
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m9_grip",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m9_rubber",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m9_rubber/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m17_grip",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m17_grip_slim",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag544-blk_magpul_moe_1911_grip_panels_tsp_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag524-blk_magpul_moe_1911_grip_panels_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1430-blk_magpul_ehg_sg9_grip_sig_p320_compact_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1395-blk_magpul_ehg_sg9_grip_sig_p320_full_size_manual_safety_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1431-blk_magpul_ehg_sg9_grip_sig_p320_compact_manual_safety_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag1364-blk_magpul_ehg_sg9_grip_sig_p320_full_size_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag932-blk_magpul_gl_enhanced_magazine_well_glock_17_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag940-blk_magpul_gl_enhanced_magazine_well_glock_19_gen3_01.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag908-blk_magpul_gl_enhanced_magazine_well_glock_17_gen3_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m17_grip_slim/images/grips_mag950-blk_magpul_gl_enhanced_magazine_well_glock_19_gen4_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "benelli_guard",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/benelli_guard/images/guards_mag496-blk_magpul_moe_m-lok_forend-remington_870_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/benelli_guard/images/guards_mag494-blk_magpul_moe_m-lok_forend-mossberg_590-590a1_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "benelli_rail",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/benelli_rail/images/guards_mag496-blk_magpul_moe_m-lok_forend-remington_870_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/benelli_rail/images/guards_mag494-blk_magpul_moe_m-lok_forend-mossberg_590-590a1_01_1.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m14_stock",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag489-blk_magpul_bolt_action_magazine_well_700l_standard-hunter_700l_stock_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag569-blk_magpul_bolt_action_magazine_well_700l_magnum-hunter_700l_stock_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag997-blk_magpul_pro_700_fixed_stock-remington_700_short_action_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag802-blk_magpul_pro_700_folding_stock-remington_700_short_action_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag1391-blk_magpul_hunter_x-22_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag1421-blk_magpul_hunter_lite_stock_ruger_american_short_action_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag1354-blk_hunter_lite_stock_savage_axis_short_action_01.7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag548-blk_magpul_hunter_x-22_stock-ruger_10-22_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag760-blk_magpul_hunter_x-22_takedown_stock-ruger_10-22_takedown_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_stock/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m14_chassis",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag489-blk_magpul_bolt_action_magazine_well_700l_standard-hunter_700l_stock_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag569-blk_magpul_bolt_action_magazine_well_700l_magnum-hunter_700l_stock_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag997-blk_magpul_pro_700_fixed_stock-remington_700_short_action_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag802-blk_magpul_pro_700_folding_stock-remington_700_short_action_01_1.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag1391-blk_magpul_hunter_x-22_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag1421-blk_magpul_hunter_lite_stock_ruger_american_short_action_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag1354-blk_hunter_lite_stock_savage_axis_short_action_01.7.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag548-blk_magpul_hunter_x-22_stock-ruger_10-22_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag760-blk_magpul_hunter_x-22_takedown_stock-ruger_10-22_takedown_01_1.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag1385-blk_magpul_prs_gen3_rubber_butt_pad_01.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_chassis/images/stocks_mag1386-blk_magpul_prs_lite_rubber_butt_pad_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m14_20",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_20/images/magazines_mag577-blk_magpul_pmag_25_m118_lr_sr_gen_m3_window_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_20/images/magazines_mag292-blk_magpul_pmag_25_lr_sr_gen_m3_window_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "attachments",
+      "id": "m14_10",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_10/images/magazines_mag577-blk_magpul_pmag_25_m118_lr_sr_gen_m3_window_01_1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/attachments/m14_10/images/magazines_mag292-blk_magpul_pmag_25_lr_sr_gen_m3_window_01.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "jacket_sumrak",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_01.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_05.webp"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_03.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_04.webp"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_02.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_03.webp"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_02.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_sumrak/sso_sumrak_04.webp"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "jacket_bdu",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_bdu/04_woodland_camouflage_bdu_tactical_military__0f97e8f4.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_bdu/05_coat_battle_dress_uniform_f6fbf806.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "jacket_acu",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_acu/01_propper_battle_rip_acu_coat_men_s_review_g_a6dd5079.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_acu/02_ocp_fr_acu_coat_9aac85ca.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_acu/01_propper_battle_rip_acu_coat_men_s_review_g_a6dd5079.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_acu/03_propper_ocp_acu_coat_battle_rip_b164726f.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_acu/02_ocp_fr_acu_coat_9aac85ca.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_acu/03_propper_ocp_acu_coat_battle_rip_b164726f.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "jacket_fleece",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_fleece/03_jacket_fleece_da291a21.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_fleece/04_jacket_fleece_a6901e48.jpg"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "jacket_softshell",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_softshell/01_jacket_softshell_e4a8466a.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/jacket_softshell/05_jacket_softshell_f48a9b6e.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "trousers_kombat",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_kombat/sso_trousers_kombat_02.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_kombat/sso_trousers_kombat_04.webp"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_kombat/sso_trousers_kombat_01.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_kombat/sso_trousers_kombat_02.webp"
+          ],
+          "hammingBits": 3,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_kombat/sso_trousers_kombat_01.webp",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_kombat/sso_trousers_kombat_04.webp"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "trousers_bdu",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_bdu/01_propper_bdu_trouser_button_fly_100_cotton_4351e0f1.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_bdu/05_new_propper_bdu_pants_trouser_military_pol_97d98c38.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "trousers_g4",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_g4/crye_g4_pants_03.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_g4/crye_g4_pants_05.png"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_g4/crye_g4_pants_04.png",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/trousers_g4/crye_g4_pants_05.png"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "gloves_coyote",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/gloves_coyote/02_gloves_coyote_9d922fae.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/gloves_coyote/04_gloves_coyote_90cfaf4f.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/gloves_coyote/02_gloves_coyote_9d922fae.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/gloves_coyote/05_gloves_coyote_441085d6.png"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/gloves_coyote/04_gloves_coyote_90cfaf4f.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/gloves_coyote/05_gloves_coyote_441085d6.png"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": true,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "boots_leather",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/boots_leather/02_boots_leather_0f581e49.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/boots_leather/05_boots_leather_e80c3986.png"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "apparel",
+      "id": "boots_hiking",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/boots_hiking/02_boots_hiking_7f0859a8.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/apparel/boots_hiking/04_boots_hiking_22a7f1ec.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "camouflage",
+      "id": "coyote",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/coyote/01_solid_coyote_brown_ripstop_poly_cotton_6_5_437d5f86.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/coyote/05_poly_cotton_ripstop_coyote_brown_mil_appar_dac721d2.jpg"
+          ],
+          "hammingBits": 2,
+          "leftTrimmed": false,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "camouflage",
+      "id": "ocp",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/ocp/02_design_changes_of_the_new_army_combat_unif_777e0d02.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/ocp/06_wikimedia_ocp_uniform.jpg"
+          ],
+          "hammingBits": 4,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "camouflage",
+      "id": "vegetato",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/vegetato/03_defcon_5_regular_army_uniform_italian_camo_0f1773c0.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/vegetato/04_mimetica_esercito_italiano_defcon_5_romano_98f0a2d3.jpg"
+          ],
+          "hammingBits": 0,
+          "leftTrimmed": true,
+          "rightTrimmed": true,
+          "mirroredComparison": false
+        },
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/vegetato/02_defcon5_mimetica_completa_italian_army_uni_c68de848.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/vegetato/04_mimetica_esercito_italiano_defcon_5_romano_98f0a2d3.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    },
+    {
+      "category": "camouflage",
+      "id": "wolf_gray",
+      "pairs": [
+        {
+          "files": [
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/wolf_gray/01_nyco_ripstop_wolf_gray_65_camo_fabric_depo_33f9f0e5.jpg",
+            "/Users/vladimir/Downloads/RAID_GAME_Art_Overhaul_References/camouflage/wolf_gray/02_nyco_extreme_wolf_gray_65_camo_fabric_depo_56962353.jpg"
+          ],
+          "hammingBits": 1,
+          "leftTrimmed": false,
+          "rightTrimmed": false,
+          "mirroredComparison": false
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

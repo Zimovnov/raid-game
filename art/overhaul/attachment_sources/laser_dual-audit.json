@@ -1,0 +1,117 @@
+{
+  "file": "/Users/vladimir/Projects/raid-game/public/assets/art-overhaul/attachments/laser_dual.glb",
+  "blenderVersion": "5.2.2 LTS",
+  "status": "PASSED",
+  "errors": [],
+  "groups": {
+    "laser__laser_dual": {
+      "0": {
+        "triangles": 248,
+        "vertices": 392,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.041999999433755875,
+            -0.025000018998980522,
+            -0.06050000339746475
+          ],
+          "max": [
+            0.05700000002980232,
+            0.023499999195337296,
+            0.053000010550022125
+          ]
+        }
+      },
+      "1": {
+        "triangles": 184,
+        "vertices": 296,
+        "objects": 2,
+        "materials": [
+          "RAID_Original_Attachment_polymer.007",
+          "RAID_Original_Attachment_steel.007"
+        ],
+        "uvLayers": [
+          "UVMap"
+        ],
+        "degenerateTriangles": 0,
+        "collapsedUVTriangles": 0,
+        "invalidNormals": 0,
+        "boundsGame": {
+          "min": [
+            -0.041999999433755875,
+            -0.025000018998980522,
+            -0.06050000339746475
+          ],
+          "max": [
+            0.05700000002980232,
+            0.023499999195337296,
+            0.053000010550022125
+          ]
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "name": "steel-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    },
+    {
+      "name": "polymer-grain",
+      "size": [
+        256,
+        256
+      ],
+      "packed": true,
+      "source": "FILE"
+    }
+  ],
+  "roundtrip": {
+    "file": "/Users/vladimir/Projects/raid-game/art/overhaul/attachment_sources/laser_dual-roundtrip.glb",
+    "status": "PASSED",
+    "groupsMatch": true,
+    "errors": []
+  },
+  "groupBounds": {
+    "laser__laser_dual": {
+      "min": [
+        -0.041999999433755875,
+        -0.025000018998980522,
+        -0.06050000339746475
+      ],
+      "max": [
+        0.05700000002980232,
+        0.023499999195337296,
+        0.053000010550022125
+      ]
+    }
+  },
+  "rawImportedBounds": {
+    "min": [
+      -0.041999999433755875,
+      -0.053000010550022125,
+      -0.025000018998980522
+    ],
+    "max": [
+      0.05700000002980232,
+      0.06050000712275505,
+      0.02350001037120819
+    ]
+  },
+  "scope": "Structural import only. Bounds are unassembled normalized groups. This does not verify runtime scale, art quality, animation, frame time or online gameplay."
+}

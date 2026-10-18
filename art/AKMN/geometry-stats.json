@@ -1,0 +1,18 @@
+{
+  "FP": {
+    "triangles": 25580,
+    "materials": 2
+  },
+  "World_LOD0": {
+    "triangles": 9975,
+    "materials": 2
+  },
+  "World_LOD1": {
+    "triangles": 4331,
+    "materials": 2
+  },
+  "World_LOD2": {
+    "triangles": 1915,
+    "materials": 2
+  }
+}
